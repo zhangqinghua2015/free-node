@@ -770,7 +770,9 @@ def convert_clash_url(clash_url):
 def save_clash_yaml(yaml_content, filename):
     """Save YAML content to a .yaml file."""
     path = Path.cwd() / f"{filename}.yaml"
-    path.write_text(yaml_content, encoding="utf-8")
+    now = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    content = yaml_content.rstrip("\n") + f"\n# updated: {now}\n"
+    path.write_text(content, encoding="utf-8")
     print(f"[SAVE] Saved to {path}")
     return path
 
