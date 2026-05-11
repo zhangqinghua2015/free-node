@@ -18,6 +18,7 @@ import re
 import sys
 import argparse
 import subprocess
+import datetime
 import tempfile
 import shutil
 from pathlib import Path
@@ -774,6 +775,34 @@ def save_clash_yaml(yaml_content, filename):
     return path
 
 
+def git_commit_and_push(filename):
+    """Commit the updated YAML file and push to remote."""
+    yaml_file = f"{filename}.yaml"
+    try:
+        subprocess.run(["git", "add", yaml_file], check=True, capture_output=True)
+        result = subprocess.run(
+            ["git", "diff", "--cached", "--quiet"], capture_output=True
+        )
+        if result.returncode == 0:
+            print("[GIT] No changes to commit")
+            return
+        today = datetime.date.today().isoformat()
+        msg = f"Update {yaml_file} [{today}]"
+        subprocess.run(["git", "commit", "-m", msg], check=True, capture_output=True)
+        print(f"[GIT] Committed: {msg}")
+        result = subprocess.run(
+            ["git", "push"], capture_output=True, text=True, timeout=30
+        )
+        if result.returncode == 0:
+            print("[GIT] Pushed to remote")
+        else:
+            print(f"[GIT] Push failed: {result.stderr.strip()}")
+    except subprocess.CalledProcessError as e:
+        print(f"[GIT] Error: {e.stderr.strip() if e.stderr else e}")
+    except subprocess.TimeoutExpired:
+        print("[GIT] Push timed out")
+
+
 def extract_clash_url(channel, data):
     """Extract Clash subscription URL from channel data.
 
@@ -870,6 +899,7 @@ def main():
                 if yaml_content:
                     save_name = channel or "clash"
                     save_clash_yaml(yaml_content, save_name)
+                    git_commit_and_push(save_name)
         else:
             print("password=")
             sys.exit(1)
