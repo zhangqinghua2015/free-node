@@ -737,8 +737,12 @@ def _merge_template(template, data):
 def convert_clash_url(clash_url):
     """Fetch subscription URL, parse proxies, merge into template, return YAML string."""
     print(f"[CONVERT] Fetching subscription: {clash_url}")
+    headers = {
+        "User-Agent": "clash-verge/v2.0.0",
+        "Accept": "*/*",
+    }
     try:
-        resp = requests.get(clash_url, timeout=30)
+        resp = requests.get(clash_url, timeout=30, headers=headers)
         resp.raise_for_status()
         content = resp.content.decode("utf-8", errors="replace")
     except Exception as e:
@@ -816,7 +820,7 @@ def extract_clash_url(channel, data):
     """
     if channel == "jcnode":
         links = data
-        return links.get("direct", {}).get("clash") or links.get("proxy", {}).get("clash")
+        return links.get("proxy", {}).get("clash") or links.get("direct", {}).get("clash")
 
     if channel == "QFZYFX":
         text = data
