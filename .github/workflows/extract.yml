@@ -1,0 +1,70 @@
+name: Extract YouTube Password
+
+on:
+  schedule:
+    # Run daily at 01:00 UTC (adjust as needed)
+    - cron: '0 1 * * *'
+  workflow_dispatch:      # Allows manual trigger
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install system dependencies
+        run: |
+          sudo apt update
+          sudo apt install -y --no-install-recommends \
+            ffmpeg \
+            tesseract-ocr \
+            tesseract-ocr-eng \
+            tesseract-ocr-chi-sim \
+            python3-pip
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Python dependencies
+        run: |
+          pip install --upgrade yt-dlp pytesseract Pillow requests
+          yt-dlp --version
+
+      - name: Restore cookies (optional)
+        env:
+          COOKIES_SECRET: ${{ secrets.YT_COOKIES }}
+        run: |
+          if [ -n "$COOKIES_SECRET" ]; then
+            echo "$COOKIES_SECRET" > cookies.txt
+          fi
+
+      - name: Run password extraction (hard‑subtitle OCR only)
+        id: extract
+        env:
+          # Optional: limit OCR to a known time segment (e.g., "120-180" for 2:00-3:00)
+          PASSWORD_SEGMENT: ""
+          # Optional: normalized ROI coordinate (x,y,w,h) e.g., "0.7,0.8,0.3,0.2"
+          OCR_REGION: ""
+        run: |
+          python main.py > output.txt
+          PASSWORD=$(grep -oP '^password=\K.*' output.txt)
+          echo "password=$PASSWORD" >> $GITHUB_OUTPUT
+          echo "$PASSWORD" > extracted_password.txt
+
+      - name: Upload extracted password as artifact (optional)
+        uses: actions/upload-artifact@v4
+        with:
+          name: extracted_password
+          path: extracted_password.txt
+
+      - name: Display password (for debugging, remove in production)
+        run: |
+          echo "Extracted password: ${{ steps.extract.outputs.password }}"
