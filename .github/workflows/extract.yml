@@ -1,9 +1,9 @@
 name: Extract YouTube Password
 
 on:
-  schedule:
+  # schedule:
     # Run daily at 01:00 UTC (adjust as needed)
-    - cron: '0 1 * * *'
+    # - cron: '0 1 * * *'
   workflow_dispatch:      # Allows manual trigger
 
 jobs:
