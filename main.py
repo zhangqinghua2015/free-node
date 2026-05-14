@@ -915,4 +915,11 @@ def main():
 
 
 if __name__ == "__main__":
+    result = subprocess.run(
+        ["git", "pull", "--ff-only"],
+        cwd=os.path.dirname(os.path.abspath(__file__)),
+        capture_output=True, text=True,
+    )
+    if result.returncode == 0 and "Already up to date" not in result.stdout:
+        os.execv(sys.executable, [sys.executable] + sys.argv)
     main()
