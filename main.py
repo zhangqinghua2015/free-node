@@ -820,7 +820,7 @@ def extract_clash_url(channel, data):
     """
     if channel == "jcnode":
         links = data
-        return links.get("proxy", {}).get("clash") or links.get("direct", {}).get("clash")
+        return links.get("direct", {}).get("clash") or links.get("proxy", {}).get("clash")
 
     if channel == "QFZYFX":
         text = data
