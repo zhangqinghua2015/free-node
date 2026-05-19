@@ -8932,4 +8932,4 @@ rules:
 - DOMAIN-SUFFIX,openai.com,🌍 国外媒体
 - GEOIP,CN,🎯 全球直连
 - MATCH,🐟 漏网之鱼
-# updated: 2026-05-18 09:50:21
+# updated: 2026-05-19 11:44:27
