@@ -64,4204 +64,2449 @@ tun:
   inet4-route-exclude-address:
   - 192.168.0.0/16
 proxies:
-- name: 青枫资源分享@QFZYFX ❓Other_11|2.6MB/s
-  server: 89.106.83.39
-  port: 443
-  type: vless
-  uuid: 629d2ccc-3a2a-4dd3-83d2-86b25fc8783e
-  tls: true
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  reality-opts:
-    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
-    short-id: '23'
-  servername: www.apple.com
-  client-fingerprint: chrome
-  network: tcp
-- name: 青枫资源分享@QFZYFX ❓Other_13|1.7MB/s
-  server: 146.59.230.8
-  port: 8443
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.v6.navy
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.111000.v6.navy
-- name: 青枫资源分享@QFZYFX ❓Other_16|2.5MB/s
-  server: 193.29.139.199
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: QCXDxuDlTTMD7jtgHUjIoj
-- name: 青枫资源分享@QFZYFX ❓Other_17|2.2MB/s
-  server: 104.17.72.206
-  port: 443
-  type: vless
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: 2026.hhhhh.eu.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /222.167.202.31:7443
-    headers:
-      Host: 2026.hhhhh.eu.org
-- name: 青枫资源分享@QFZYFX ❓Other_1|2.3MB/s
-  server: 45.80.108.191
+- type: trojan
+  server: tvhinet.lajichang.xyz
   port: 2096
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
+  password: e5c22f63-e473-496a-beff-fdc5655008c1
+  name: 台湾 07 (青枫资源分享@QFZYFX)
+  sni: bing.com
   skip-cert-verify: true
-  servername: sni.my111000.tech
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.my111000.tech
-- name: 青枫资源分享@QFZYFX ❓Other_23|2.2MB/s
-  server: 82.38.31.155
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 青枫资源分享@QFZYFX ❓Other_28|2.4MB/s
-  server: 212.183.88.231
+  udp: true
+- type: vless
+  server: srv163.towersflowerss.com
   port: 443
-  type: vless
-  uuid: 981fca81-5be1-41f8-ac9b-d138e8109943
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: babayaga-6i7.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?Telegram🇨🇳@WangCai2=
-    headers:
-      Host: babayaga-6i7.pages.dev
-- name: 青枫资源分享@QFZYFX ❓Other_30|2.2MB/s
-  server: 77.232.140.43
-  port: 443
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.111000.cc.cd
-- name: 青枫资源分享@QFZYFX ❓Other_33|2.7MB/s
-  server: 144.31.30.45
-  port: 443
-  type: vless
-  uuid: f53cb93c-9cd2-4952-9660-4b4ff4b74484
-  tls: true
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  reality-opts:
-    public-key: OsyBt6w9NBZdXMBcoZbfGsObubUakouoGhU2coBK_3o
-    short-id: 83fc923fab83
-  servername: max.ru
-  client-fingerprint: chrome
+  uuid: f1233103-f7a8-42f1-b003-26c6dd391229
   network: tcp
-- name: 青枫资源分享@QFZYFX ❓Other_3|1.2MB/s
-  server: 220.86.228.109
-  port: 32603
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.dns.army
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: sni.111000.dns.army
-- name: 青枫资源分享@QFZYFX ❓Other_4|1.1MB/s
-  server: 34.143.213.202
-  port: 443
-  type: vless
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: gogo.wknm.dpdns.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: gogo.wknm.dpdns.org
-- name: 青枫资源分享@QFZYFX ❓Other_5|2.4MB/s
-  server: r1.mizulina.top
-  port: 22231
-  type: vless
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-  tls: true
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  servername: r1.mizulina.top
-  client-fingerprint: edge
-  network: tcp
-- name: 青枫资源分享@QFZYFX ❓Other_6|2.5MB/s
-  server: 59.17.184.164
-  port: 27016
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.v6.army
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: sni.111000.v6.army
-- name: 青枫资源分享@QFZYFX ❓Other_7|2.2MB/s
-  server: 210.123.143.214
-  port: 18789
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.v6.army
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: sni.111000.v6.army
-- name: 青枫资源分享@QFZYFX ❓Other_8|2.0MB/s
-  server: 183.103.4.162
-  port: 16992
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.v6.army
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: sni.111000.v6.army
-- name: 青枫资源分享@QFZYFX 🇦🇹AT_1|2.3MB/s
-  server: 91.244.70.205
-  port: 443
-  type: vless
-  uuid: f2a806c6-f36b-4cd9-8bb6-7addb218ad2d
   tls: false
-  tfo: false
-  skip-cert-verify: true
+  name: 塞舌尔 01 (青枫资源分享@QFZYFX)
+- type: vmess
+  server: 95.163.176.173
+  port: 20972
+  uuid: 7c5a0840-0b56-4cc5-9eff-eb8f50abdb5d
+  alterId: '0'
   network: ws
-  ws-opts:
-    path: /
-- name: 青枫资源分享@QFZYFX 🇦🇺AU_1|1.6MB/s
-  server: 45.15.185.70
-  port: 990
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-- name: 青枫资源分享@QFZYFX 🇨🇦CA_1|2.3MB/s
-  server: 156.243.83.238
-  port: 2096
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.jpmj.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?Telegram🇨🇳@WangCai2=
-    headers:
-      Host: sni.jpmj.dev
-- name: 青枫资源分享@QFZYFX 🇨🇦CA_2|2.3MB/s
-  server: 188.114.99.243
-  port: 2096
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.indevs.in
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?Telegram@v2rayngzendegimamad=
-    headers:
-      Host: sni.111000.indevs.in
-- name: 青枫资源分享@QFZYFX 🇨🇭CH_1|2.9MB/s
-  server: 45.12.111.151
-  port: 443
-  type: vless
-  uuid: c7ba57bf-0418-4b66-89bb-d320b5cdd8e5
-  tls: true
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  reality-opts:
-    public-key: Z--Ieq3GtHx_Qtqj3NUyK5wY2foVBtlOkyzXqESeswU
-    short-id: 0c80cc39
-  servername: store.steampowered.com
-  client-fingerprint: chrome
-  network: tcp
-- name: 青枫资源分享@QFZYFX 🇩🇪DE_10|2.6MB/s
-  server: germany.pineappled.org
-  port: 443
-  type: vless
-  uuid: 629d2ccc-3a2a-4dd3-83d2-86b25fc8783e
-  tls: true
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  reality-opts:
-    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
-    short-id: '23'
-  servername: www.apple.com
-  client-fingerprint: chrome
-  network: tcp
-- name: 青枫资源分享@QFZYFX 🇩🇪DE_11|2.2MB/s
-  server: de.vpnbase.net
-  port: 80
-  type: vless
-  uuid: dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51
-  tls: false
-  tfo: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /http
-    headers:
-      Host: de.vpnbase.net
-- name: 青枫资源分享@QFZYFX 🇩🇪DE_12|3.2MB/s
-  server: 138.124.186.52
-  port: 443
-  type: vless
-  uuid: e346f220-4ca4-4f69-a66b-52e992b3b625
-  tls: true
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  reality-opts:
-    public-key: BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs
-  servername: www.fh-aachen.de
-  client-fingerprint: chrome
-  network: tcp
-- name: 青枫资源分享@QFZYFX 🇩🇪DE_18|1.3MB/s
-  server: 193.233.232.9
-  port: 443
-  type: vless
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: 3-2h8.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 3-2h8.pages.dev
-- name: 青枫资源分享@QFZYFX 🇩🇪DE_1|2.3MB/s
-  server: it-bridge.sbrf-cdn342.ru
-  port: 443
-  type: vless
-  uuid: 7bd29cac-f692-48a3-88d1-505f7e55f0d0
-  tls: true
-  alpn:
-  - http%2F1.1
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  servername: sub.sbrf-cdn342.ru
-  client-fingerprint: qq
-  network: tcp
-- name: 青枫资源分享@QFZYFX 🇩🇪DE_2|2.7MB/s
-  server: 35.156.76.43
-  port: 8443
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.latonyamadeline.ndjp.net
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?https://t.me/youtube@ZYFXS🇨🇳=
-    headers:
-      Host: sni.latonyamadeline.ndjp.net
-- name: 青枫资源分享@QFZYFX 🇩🇪DE_3|2.4MB/s
-  server: 138.124.59.215
-  port: 443
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.v6.rocks
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-    headers:
-      Host: sni.111000.v6.rocks
-- name: 青枫资源分享@QFZYFX 🇩🇪DE_4|1.5MB/s
-  server: 139.59.142.185
-  port: 443
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.latonyamadeline.ndjp.net
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?https://t.me/WangCai2🇨🇳=
-    headers:
-      Host: sni.latonyamadeline.ndjp.net
-- name: 青枫资源分享@QFZYFX 🇩🇪DE_5|2.1MB/s
-  server: 138.124.186.202
-  port: 443
-  type: vless
-  uuid: e346f220-4ca4-4f69-a66b-52e992b3b625
-  tls: true
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  reality-opts:
-    public-key: BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs
-  servername: www.fh-aachen.de
-  client-fingerprint: chrome
-  network: tcp
-- name: 青枫资源分享@QFZYFX 🇩🇪DE_6|2.4MB/s
-  server: 212.113.106.4
-  port: 443
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.v6.rocks
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: sni.111000.v6.rocks
-- name: 青枫资源分享@QFZYFX 🇩🇪DE_7|1.1MB/s
-  server: 57.129.47.78
-  port: 2053
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.indevs.in
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.111000.indevs.in
-- name: 青枫资源分享@QFZYFX 🇩🇪DE_8|2.3MB/s
-  server: 89.106.83.59
-  port: 443
-  type: vless
-  uuid: 629d2ccc-3a2a-4dd3-83d2-86b25fc8783e
-  tls: true
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  reality-opts:
-    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
-    short-id: '23'
-  servername: www.apple.com
-  client-fingerprint: chrome
-  network: tcp
-- name: 青枫资源分享@QFZYFX 🇩🇪DE_9|2.6MB/s
-  server: 89.106.83.54
-  port: 443
-  type: vless
-  uuid: 629d2ccc-3a2a-4dd3-83d2-86b25fc8783e
-  tls: true
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  reality-opts:
-    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
-    short-id: '23'
-  servername: www.apple.com
-  client-fingerprint: chrome
-  network: tcp
-- name: 青枫资源分享@QFZYFX 🇫🇮FI_1|1.3MB/s
-  server: 193.47.60.186
-  port: 28687
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: yKVMoB3AwiTEznpnoq2FYR
-- name: 青枫资源分享@QFZYFX 🇫🇷FR_1|1.5MB/s
-  server: 45.12.133.207
-  port: 443
-  type: vless
-  uuid: 1235d730-707c-4a11-8ce3-ebb17561564b
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  reality-opts:
-    public-key: 0T96I8dvAUF7BxhbwTp0PfFfy9AHFDsXXpwDnP0i224
-    short-id: 4dd1
-  servername: yahoo.com
-  client-fingerprint: chrome
-  network: tcp
-- name: 青枫资源分享@QFZYFX 🇫🇷FR_2|1.4MB/s
-  server: 54.37.51.238
-  port: 443
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.v6.navy
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.111000.v6.navy
-- name: 青枫资源分享@QFZYFX 🇫🇷FR_3|1.3MB/s
-  server: www.calmlunch.com
-  port: 443
-  type: trojan
-  password: humanity
-  sni: www.calmlunch.com
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-- name: 青枫资源分享@QFZYFX 🇫🇷FR_4|2.4MB/s
-  server: 89.106.95.193
-  port: 443
-  type: vless
-  uuid: 629d2ccc-3a2a-4dd3-83d2-86b25fc8783e
-  tls: true
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  reality-opts:
-    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
-    short-id: '23'
-  servername: www.apple.com
-  client-fingerprint: chrome
-  network: tcp
-- name: 青枫资源分享@QFZYFX 🇫🇷FR_5|1.1MB/s
-  server: 54.36.98.199
-  port: 2053
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.v6.navy
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.111000.v6.navy
-- name: 青枫资源分享@QFZYFX 🇫🇷FR_8|1.7MB/s
-  server: 104.18.13.149
-  port: 443
-  type: trojan
-  password: humanity
-  sni: www.calmloud.com
-  alpn:
-  - http%2F1.1
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmloud.com
-- name: 青枫资源分享@QFZYFX 🇬🇧GB_10|2.5MB/s
-  server: 109.120.132.142
-  port: 40617
-  type: vless
-  uuid: d8d05386-e381-40a4-bb63-715c208b3ed3
-  tls: false
-  tfo: false
-  skip-cert-verify: true
-  network: tcp
-- name: 青枫资源分享@QFZYFX 🇬🇧GB_11|2.4MB/s
-  server: 141.98.101.182
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 青枫资源分享@QFZYFX 🇬🇧GB_12|1.6MB/s
-  server: 152.233.28.198
-  port: 8443
-  type: vless
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-  tls: true
-  alpn:
-  - h2
-  tfo: false
-  skip-cert-verify: true
-  servername: uk1.fromblancwithlove.com
-  client-fingerprint: chrome
-  network: tcp
-- name: 青枫资源分享@QFZYFX 🇬🇧GB_13|1.4MB/s
-  server: 134.209.28.89
-  port: 2083
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.v6.rocks
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: sni.111000.v6.rocks
-- name: 青枫资源分享@QFZYFX 🇬🇧GB_14|2.0MB/s
-  server: 57.129.137.59
-  port: 443
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.v6.navy
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.111000.v6.navy
-- name: 青枫资源分享@QFZYFX 🇬🇧GB_15|1.2MB/s
-  server: 158.220.88.180
-  port: 8443
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.indevs.in
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.111000.indevs.in
-- name: 青枫资源分享@QFZYFX 🇬🇧GB_16|1.3MB/s
-  server: 149.102.132.186
-  port: 80
-  type: ss
-  cipher: aes-256-gcm
-  password: YhzqOeJsfuZ9rkkc
-- name: 青枫资源分享@QFZYFX 🇬🇧GB_19|2.1MB/s
-  server: 149.102.149.207
-  port: 443
-  type: ss
-  cipher: aes-256-gcm
-  password: umWwoQJEJGf74SLe
-- name: 青枫资源分享@QFZYFX 🇬🇧GB_1|1.4MB/s
-  server: 57.128.179.10
-  port: 8443
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.v6.navy
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.111000.v6.navy
-- name: 青枫资源分享@QFZYFX 🇬🇧GB_20|2.2MB/s
-  server: 57.129.137.49
-  port: 443
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.v6.navy
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.111000.v6.navy
-- name: 青枫资源分享@QFZYFX 🇬🇧GB_2|1.7MB/s
-  server: 79.141.171.133
-  port: 443
-  type: vless
-  uuid: 4c3fe585-ac09-41df-b284-888818888188
-  tls: true
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  reality-opts:
-    public-key: 0rtpNciTfV9TsoEc7Y8lS5LzBUzLppMnRY8bQC_bH3M
-    short-id: aabbccdd
-  servername: apple.com
-  client-fingerprint: chrome
-  network: tcp
-- name: 青枫资源分享@QFZYFX 🇬🇧GB_3|1.3MB/s
-  server: 57.128.177.22
-  port: 443
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.indevs.in
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.111000.indevs.in
-- name: 青枫资源分享@QFZYFX 🇬🇧GB_4|2.2MB/s
-  server: 138.68.153.223
-  port: 46576
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: idMvoewrSyLLvEvP03k9zR
-- name: 青枫资源分享@QFZYFX 🇬🇧GB_5|1.2MB/s
-  server: 57.128.177.176
-  port: 8443
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.v6.navy
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?telegram
-    headers:
-      Host: sni.111000.v6.navy
-- name: 青枫资源分享@QFZYFX 🇬🇧GB_6|2.1MB/s
-  server: 159.65.82.25
-  port: 2053
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.v6.rocks
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?https://t.me/WangCai2🇨🇳=
-    headers:
-      Host: sni.111000.v6.rocks
-- name: 青枫资源分享@QFZYFX 🇬🇧GB_7|1.3MB/s
-  server: 85.121.48.77
-  port: 443
-  type: vless
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: 3-7gj.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /socks5=gogo:gogo@185.184.70.120:50088
-    headers:
-      Host: 3-7gj.pages.dev
-- name: 青枫资源分享@QFZYFX 🇬🇧GB_9|2.1MB/s
-  server: uk1.fromblancwithlove.com
-  port: 8443
-  type: vless
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: uk1.fromblancwithlove.com
-  client-fingerprint: chrome
-  network: tcp
-- name: 青枫资源分享@QFZYFX 🇮🇳IN_1|1.8MB/s
-  server: 152.70.76.104
-  port: 46000
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.v6.navy
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: sni.111000.v6.navy
-- name: 青枫资源分享@QFZYFX 🇯🇵JP_1|4.2MB/s
-  server: 103.75.118.144
-  port: 2053
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.v6.army
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: sni.111000.v6.army
-- name: 青枫资源分享@QFZYFX 🇯🇵JP_2|3.3MB/s
-  server: 149.22.87.240
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 青枫资源分享@QFZYFX 🇯🇵JP_3|1.9MB/s
-  server: 149.22.87.204
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 青枫资源分享@QFZYFX 🇰🇷KR_1|2.5MB/s
-  server: 175.215.188.34
-  port: 26214
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.v6.army
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: sni.111000.v6.army
-- name: 青枫资源分享@QFZYFX 🇰🇷KR_2|1.3MB/s
-  server: 183.103.4.162
-  port: 10912
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.v6.army
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: sni.111000.v6.army
-- name: 青枫资源分享@QFZYFX 🇰🇷KR_3|2.1MB/s
-  server: 61.77.75.94
-  port: 10001
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.v6.army
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: sni.111000.v6.army
-- name: 青枫资源分享@QFZYFX 🇰🇷KR_4|1.5MB/s
-  server: 140.238.17.157
-  port: 443
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.v6.rocks
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-    headers:
-      Host: sni.111000.v6.rocks
-- name: 青枫资源分享@QFZYFX 🇱🇻LV_11|2.2MB/s
-  server: 74.49.214.43
-  port: 443
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.111000.cc.cd
-- name: 青枫资源分享@QFZYFX 🇱🇻LV_1|1.2MB/s
-  server: 222.113.237.204
-  port: 11371
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.dns.army
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: sni.111000.dns.army
-- name: 青枫资源分享@QFZYFX 🇱🇻LV_2|2.4MB/s
-  server: 121.158.68.235
-  port: 20000
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.v6.army
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: sni.111000.v6.army
-- name: 青枫资源分享@QFZYFX 🇱🇻LV_3|1.2MB/s
-  server: 167.68.5.191
-  port: 443
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.my111000.tech
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.my111000.tech
-- name: 青枫资源分享@QFZYFX 🇱🇻LV_4|3.0MB/s
-  server: 104.17.211.119
-  port: 443
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.v6.army
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?https://t.me/wangcai2🇨🇳=
-    headers:
-      Host: sni.111000.v6.army
-- name: 青枫资源分享@QFZYFX 🇱🇻LV_5|1.1MB/s
-  server: 46.183.217.204
-  port: 990
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-- name: 青枫资源分享@QFZYFX 🇱🇻LV_6|1.2MB/s
-  server: 45.80.108.191
-  port: 443
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.my111000.tech
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.my111000.tech
-- name: 青枫资源分享@QFZYFX 🇱🇻LV_9|2.2MB/s
-  server: 104.18.10.218
-  port: 443
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.v6.army
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?https://t.me/wangcai2🇨🇳=
-    headers:
-      Host: sni.111000.v6.army
-- name: 青枫资源分享@QFZYFX 🇲🇩MD_1|1.1MB/s
-  server: 193.135.174.135
-  port: 990
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-- name: 青枫资源分享@QFZYFX 🇳🇱NL_10|2.1MB/s
-  server: 188.226.180.209
-  port: 443
-  type: vless
-  uuid: bafacd98-136a-4530-838d-4e5c51838dac
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: juzi8186.qea.ccwu.cc
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /shows/register/juzibaipiao
-    headers:
-      Host: juzi8186.qea.ccwu.cc
-- name: 青枫资源分享@QFZYFX 🇳🇱NL_11|1.0MB/s
-  server: 89.110.108.128
-  port: 443
-  type: vless
-  uuid: bafacd98-136a-4530-838d-4e5c51838dac
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: juzi8186.qea.ccwu.cc
-  client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /thread/test/blogs/juzibaipiao?ed=2560
-    headers:
-      Host: juzi8186.qea.ccwu.cc
-- name: 青枫资源分享@QFZYFX 🇳🇱NL_12|2.2MB/s
-  server: 82.38.31.214
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 青枫资源分享@QFZYFX 🇳🇱NL_13|1.2MB/s
-  server: 193.42.110.120
-  port: 8443
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.v6.rocks
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?https://t.me/WangCai2🇨🇳=
-    headers:
-      Host: sni.111000.v6.rocks
-- name: 青枫资源分享@QFZYFX 🇳🇱NL_14|2.0MB/s
-  server: 193.29.139.143
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 1RWwXhwfAB5gAEozU4G2Pg
-- name: 青枫资源分享@QFZYFX 🇳🇱NL_15|1.3MB/s
-  server: 95.85.20.127
-  port: 2096
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.v6.army
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?https://t.me/WangCai2🇨🇳=
-    headers:
-      Host: sni.111000.v6.army
-- name: 青枫资源分享@QFZYFX 🇳🇱NL_16|2.1MB/s
-  server: 144.124.253.4
-  port: 8443
-  type: vless
-  uuid: 1cb91b20-49cc-59ff-8393-91808a4deede
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  reality-opts:
-    public-key: bVhVy1hZY_iw-sljlaeVbTBBa6SPvMm0Kg0tCC8CKHM
-    short-id: ffffffffff
-  servername: www.ozon.ru
-  client-fingerprint: chrome
-  network: tcp
-- name: 青枫资源分享@QFZYFX 🇳🇱NL_17|2.4MB/s
-  server: 51.158.206.103
-  port: 23576
-  type: vless
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  tls: true
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  servername: fuck.rkn
-  client-fingerprint: chrome
-  network: tcp
-- name: 青枫资源分享@QFZYFX 🇳🇱NL_18|2.6MB/s
-  server: 51.158.206.97
-  port: 23576
-  type: vless
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  tls: true
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  servername: fuck.rkn
-  client-fingerprint: chrome
-  network: tcp
-- name: 青枫资源分享@QFZYFX 🇳🇱NL_19|2.2MB/s
-  server: 212.34.142.191
-  port: 8443
-  type: vless
-  uuid: a5e746f7-328f-4b65-a65f-e2e2a4a5b1a9
-  tls: true
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  reality-opts:
-    public-key: wNcFqVd4_PkgJbfgJJeouSU6Pn_Swuce4q4Chw5T0hY
-    short-id: f7aa9e61197d3ac6
-  servername: tradingview.com
-  client-fingerprint: chrome
-  network: tcp
-- name: 青枫资源分享@QFZYFX 🇳🇱NL_20|2.0MB/s
-  server: 82.38.31.35
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 青枫资源分享@QFZYFX 🇳🇱NL_21|2.5MB/s
-  server: r1.mizulina.top
-  port: 22231
-  type: vless
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-  tls: true
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  servername: r1.mizulina.top
-  client-fingerprint: chrome
-  network: tcp
-- name: 青枫资源分享@QFZYFX 🇳🇱NL_22|1.7MB/s
-  server: 88.218.94.10
-  port: 443
-  type: vless
-  uuid: 7bd29cac-f692-48a3-88d1-505f7e55f0d0
-  tls: true
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  servername: sub.sbrf-cdn342.ru
-  client-fingerprint: chrome
-  network: tcp
-- name: 青枫资源分享@QFZYFX 🇳🇱NL_23|2.2MB/s
-  server: 82.38.31.189
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 青枫资源分享@QFZYFX 🇳🇱NL_24|1.2MB/s
-  server: 95.164.85.109
-  port: 59374
-  type: vless
-  uuid: bfc78cd8-5951-4803-8d6c-4cedef8cd420
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  reality-opts:
-    public-key: ZsswZuBV8bEGQWFrpShCilSytnDUj0kwHFhTSLXzOwc
-    short-id: d21e7c
-  servername: yahoo.com
-  client-fingerprint: chrome
-  network: tcp
-- name: 青枫资源分享@QFZYFX 🇳🇱NL_25|2.7MB/s
-  server: 95.164.3.121
-  port: 20089
-  type: vless
-  uuid: 4fe2b7d6-cdc0-44f3-8093-3a1fc92e8542
-  tls: false
-  tfo: false
-  skip-cert-verify: true
-  network: tcp
-- name: 青枫资源分享@QFZYFX 🇳🇱NL_26|2.0MB/s
-  server: 51.158.206.96
-  port: 23576
-  type: vless
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  tls: true
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  servername: fuck.rkn
-  client-fingerprint: chrome
-  network: tcp
-- name: 青枫资源分享@QFZYFX 🇳🇱NL_27|2.1MB/s
-  server: 82.38.31.103
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 青枫资源分享@QFZYFX 🇳🇱NL_28|2.3MB/s
-  server: 193.233.127.219
-  port: 443
-  type: vless
-  uuid: 6fd9f786-d974-49d0-b5c4-397678de69a2
-  tls: true
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  reality-opts:
-    public-key: BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs
-  servername: www.cybo.com
-  client-fingerprint: chrome
-  network: tcp
-- name: 青枫资源分享@QFZYFX 🇳🇱NL_2|2.4MB/s
-  server: 82.38.31.148
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 青枫资源分享@QFZYFX 🇳🇱NL_32|2.4MB/s
-  server: 82.38.31.218
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 青枫资源分享@QFZYFX 🇳🇱NL_35|2.2MB/s
-  server: 212.118.52.236
-  port: 8443
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.indevs.in
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?Telegram🇨🇳+@WangCai2=
-    headers:
-      Host: sni.111000.indevs.in
-- name: 青枫资源分享@QFZYFX 🇳🇱NL_36|2.5MB/s
-  server: 82.38.31.186
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 青枫资源分享@QFZYFX 🇳🇱NL_38|2.6MB/s
-  server: 82.38.31.217
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 青枫资源分享@QFZYFX 🇳🇱NL_39|2.6MB/s
-  server: nl-90w-c.southnetworks.cloud
-  port: 80
-  type: vless
-  uuid: e08f1ad7-0c60-446d-baec-08b3b69bb3d0
-  tls: false
-  tfo: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /getWorkerUpdates
-    headers:
-      Host: nl-90w-c.southnetworks.cloud
-- name: 青枫资源分享@QFZYFX 🇳🇱NL_3|2.5MB/s
-  server: 51.158.206.12
-  port: 23576
-  type: vless
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  tls: true
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  servername: fuck.rkn
-  client-fingerprint: chrome
-  network: tcp
-- name: 青枫资源分享@QFZYFX 🇳🇱NL_41|2.4MB/s
-  server: 82.38.31.199
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 青枫资源分享@QFZYFX 🇳🇱NL_42|2.4MB/s
-  server: 193.29.139.151
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 青枫资源分享@QFZYFX 🇳🇱NL_43|3.4MB/s
-  server: 146.103.102.82
-  port: 80
-  type: vless
-  uuid: e08f1ad7-0c60-446d-baec-08b3b69bb3d0
-  tls: false
-  tfo: false
-  skip-cert-verify: true
-  servername: nl-90w-c.southnetworks.cloud
-  network: ws
-  ws-opts:
-    path: /getWorkerUpdates
-    headers:
-      Host: nl-90w-c.southnetworks.cloud
-- name: 青枫资源分享@QFZYFX 🇳🇱NL_44|2.6MB/s
-  server: 193.29.139.217
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: QCXDxuDlTTMD7jtgHUjIoj
-- name: 青枫资源分享@QFZYFX 🇳🇱NL_46|3.4MB/s
-  server: 82.38.31.99
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 青枫资源分享@QFZYFX 🇳🇱NL_47|2.7MB/s
-  server: 82.38.31.190
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 青枫资源分享@QFZYFX 🇳🇱NL_48|2.1MB/s
-  server: 82.38.31.187
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 青枫资源分享@QFZYFX 🇳🇱NL_4|2.0MB/s
-  server: 193.29.139.235
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 青枫资源分享@QFZYFX 🇳🇱NL_50|2.3MB/s
-  server: 82.38.31.66
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 青枫资源分享@QFZYFX 🇳🇱NL_5|2.2MB/s
-  server: 185.214.74.210
-  port: 443
-  type: vless
-  uuid: 6fd9f786-d974-49d0-b5c4-397678de69a2
-  tls: true
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  reality-opts:
-    public-key: BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs
-  servername: www.cybo.com
-  client-fingerprint: chrome
-  network: tcp
-- name: 青枫资源分享@QFZYFX 🇳🇱NL_6|1.2MB/s
-  server: 51.158.206.86
-  port: 23576
-  type: vless
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  tls: true
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  servername: fuck.rkn
-  client-fingerprint: chrome
-  network: tcp
-- name: 青枫资源分享@QFZYFX 🇳🇱NL_7|1.8MB/s
-  server: 82.38.31.176
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 青枫资源分享@QFZYFX 🇳🇱NL_8|2.4MB/s
-  server: 82.38.31.101
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 青枫资源分享@QFZYFX 🇳🇱NL_9|2.2MB/s
-  server: 51.158.206.20
-  port: 23576
-  type: vless
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  tls: true
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  servername: fuck.rkn
-  client-fingerprint: chrome
-  network: tcp
-- name: 青枫资源分享@QFZYFX 🇳🇴NO_1|2.4MB/s
-  server: nv01.myxavpn.com
-  port: 443
-  type: vless
-  uuid: 6a09b684-1a73-4d4b-9dd7-7da5caf6cfd2
-  tls: true
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  reality-opts:
-    public-key: OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw
-    short-id: d67ec5a8fc40ebea
-  servername: nv01.myxavpn.com
-  client-fingerprint: chrome
-  network: tcp
-- name: 青枫资源分享@QFZYFX 🇴🇲OM_1|2.0MB/s
-  server: 38.180.11.15
-  port: 443
-  type: vless
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: 3-7v4.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /proxyip=ProxyIP.DE.owg.dpdns.org
-    headers:
-      Host: 3-7v4.pages.dev
-- name: 青枫资源分享@QFZYFX 🇵🇱PL_1|2.3MB/s
-  server: 45.140.204.119
-  port: 443
-  type: vless
-  uuid: 30143e07-b734-4bd6-867c-7daf4782cccb
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  reality-opts:
-    public-key: vl5WQd9UDA3DvLxPPS1yF9ivUipxkxoxhaBRHpnyLho
-    short-id: 67fb
-  servername: yahoo.com
-  client-fingerprint: chrome
-  network: tcp
-- name: 青枫资源分享@QFZYFX 🇸🇪SE_1|2.5MB/s
-  server: 109.120.132.6
-  port: 443
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.v6.navy
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?Telegram🇨🇳+@WangCai2=
-    headers:
-      Host: sni.111000.v6.navy
-- name: 青枫资源分享@QFZYFX 🇸🇬SG_2|3.4MB/s
-  server: 194.233.94.119
-  port: 80
-  type: ss
-  cipher: aes-256-gcm
-  password: 8t2xeemUtyui4zAv
-- name: 青枫资源分享@QFZYFX 🇸🇬SG_4|4.4MB/s
-  server: 139.59.107.148
-  port: 443
-  type: vless
-  uuid: bafacd98-136a-4530-838d-4e5c51838dac
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: juzi8186.qea.ccwu.cc
-  client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /ad/juzibaipiao?ed=2560
-    headers:
-      Host: juzi8186.qea.ccwu.cc
-- name: 青枫资源分享@QFZYFX 🇹🇷TR_1|2.1MB/s
-  server: 94.131.108.36
-  port: 443
-  type: vmess
-  uuid: 9855f1f0-a800-40d4-8b38-c7d3eb79302d
-  alterId: 0
+  name: 奥地利 02 (青枫资源分享@QFZYFX)
   cipher: auto
-  tls: false
-  skip-cert-verify: true
+- type: vmess
+  server: 95.163.176.173
+  port: 63210
+  uuid: 33553815-b239-4762-b251-ddc665317ac9
+  alterId: '0'
   network: ws
-  ws-opts:
-    path: /
-- name: 青枫资源分享@QFZYFX 🇹🇼TW_2|2.6MB/s
-  server: r3mrcg007117fb8.cybervena.com
-  port: 50099
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-- name: 青枫资源分享@QFZYFX 🇺🇸US_10|2.0MB/s
-  server: 104.18.33.45
-  port: 2096
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.indevs.in
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?Telegram🇨🇳@WangCai2=
-    headers:
-      Host: sni.111000.indevs.in
-- name: 青枫资源分享@QFZYFX 🇺🇸US_11|1.9MB/s
-  server: 137.184.218.169
-  port: 36925
-  type: vless
-  uuid: c9fd0fb1-8251-4106-b09a-f4b426736f67
-  tls: true
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  reality-opts:
-    public-key: lJ9INPpO4rdnm2Tek_yg0PGFyUrBB6MoKyvqt_Mfqm0
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  network: tcp
-- name: 青枫资源分享@QFZYFX 🇺🇸US_12|1.2MB/s
-  server: 135.84.73.96
-  port: 443
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.dynv6.net
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.111000.dynv6.net
-- name: 青枫资源分享@QFZYFX 🇺🇸US_13|1.1MB/s
-  server: 172.64.154.211
-  port: 2096
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.indevs.in
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.111000.indevs.in
-- name: 青枫资源分享@QFZYFX 🇺🇸US_14|1.1MB/s
-  server: 5.10.245.191
-  port: 443
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.my111000.tech
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /Telegram@WangCai2/
-    headers:
-      Host: sni.my111000.tech
-- name: 青枫资源分享@QFZYFX 🇺🇸US_15|1.8MB/s
-  server: 104.18.191.0
-  port: 443
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.latonyamadeline.ndjp.net
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?https://t.me/wangcai2🇨🇳=
-    headers:
-      Host: sni.latonyamadeline.ndjp.net
-- name: 青枫资源分享@QFZYFX 🇺🇸US_16|2.0MB/s
-  server: 66.94.125.178
-  port: 443
-  type: ss
-  cipher: aes-256-gcm
-  password: 14CLBaFBqwqxBJy6
-- name: 青枫资源分享@QFZYFX 🇺🇸US_17|1.1MB/s
-  server: 135.84.64.66
-  port: 443
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.dynv6.net
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?Telegram🇨🇳@WangCai2=
-    headers:
-      Host: sni.111000.dynv6.net
-- name: 青枫资源分享@QFZYFX 🇺🇸US_18|2.0MB/s
-  server: 45.142.120.231
-  port: 443
-  type: vless
-  uuid: 981fca81-5be1-41f8-ac9b-d138e8109943
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: babayaga-6i7.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?Telegram🇨🇳@WangCai2=
-    headers:
-      Host: babayaga-6i7.pages.dev
-- name: 青枫资源分享@QFZYFX 🇺🇸US_19|1.4MB/s
-  server: 192.200.160.19
-  port: 443
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.v6.navy
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.111000.v6.navy
-- name: 青枫资源分享@QFZYFX 🇺🇸US_1|1.5MB/s
-  server: 63.141.128.3
-  port: 443
-  type: vless
-  uuid: 8c4604ef-749c-4b56-adf1-7da405002a21
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: qyi.fqjd663.ggff.net
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: qyi.fqjd663.ggff.net
-- name: 青枫资源分享@QFZYFX 🇺🇸US_20|1.3MB/s
-  server: 15.204.97.195
-  port: 23576
-  type: vless
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  tls: true
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  servername: fuck.rkn
-  client-fingerprint: chrome
-  network: tcp
-- name: 青枫资源分享@QFZYFX 🇺🇸US_21|1.7MB/s
-  server: 162.159.36.20
-  port: 2096
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.jpmj.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?Telegram🇨🇳@WangCai2=
-    headers:
-      Host: sni.jpmj.dev
-- name: 青枫资源分享@QFZYFX 🇺🇸US_22|2.4MB/s
-  server: 108.181.57.93
-  port: 8388
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: RSo52SbxW40r
-- name: 青枫资源分享@QFZYFX 🇺🇸US_23|1.4MB/s
-  server: 199.34.230.66
-  port: 443
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.v6.navy
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.111000.v6.navy
-- name: 青枫资源分享@QFZYFX 🇺🇸US_24|1.6MB/s
-  server: 141.11.202.238
-  port: 2096
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.jpmj.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.jpmj.dev
-- name: 青枫资源分享@QFZYFX 🇺🇸US_25|1.1MB/s
-  server: 82.198.246.9
-  port: 180
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
+  name: 奥地利 03 (青枫资源分享@QFZYFX)
   cipher: auto
-  tls: false
-  skip-cert-verify: true
-- name: 青枫资源分享@QFZYFX 🇺🇸US_26|1.4MB/s
-  server: 104.18.13.149
-  port: 2087
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.v6.navy
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.111000.v6.navy
-- name: 青枫资源分享@QFZYFX 🇺🇸US_27|2.2MB/s
-  server: 209.102.207.120
-  port: 443
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.v6.navy
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.111000.v6.navy
-- name: 青枫资源分享@QFZYFX 🇺🇸US_28|1.6MB/s
-  server: 45.131.7.138
-  port: 443
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.indevs.in
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.111000.indevs.in
-- name: 青枫资源分享@QFZYFX 🇺🇸US_29|1.7MB/s
-  server: 45.85.119.191
-  port: 2096
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.my111000.tech
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.my111000.tech
-- name: 青枫资源分享@QFZYFX 🇺🇸US_2|1.1MB/s
-  server: jp.111000.cc.cd
-  port: 443
-  type: trojan
-  password: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  sni: sni.111000.dynv6.net
-  alpn:
-  - http%2F1.1
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?proxyip=ip.111000.de5.net:443
-    headers:
-      Host: sni.111000.dynv6.net
-- name: 青枫资源分享@QFZYFX 🇺🇸US_30|1.4MB/s
-  server: 104.18.13.149
-  port: 8443
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.dynv6.net
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?Telegram @v2rayngzendegimamad
-    headers:
-      Host: sni.111000.dynv6.net
-- name: 青枫资源分享@QFZYFX 🇺🇸US_31|2.0MB/s
-  server: 154.197.75.138
-  port: 2096
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.indevs.in
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?Telegram🇨🇳@WangCai2=
-    headers:
-      Host: sni.111000.indevs.in
-- name: 青枫资源分享@QFZYFX 🇺🇸US_32|2.5MB/s
-  server: 15.204.97.216
-  port: 23576
-  type: vless
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  tls: true
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  servername: fuck.rkn
-  client-fingerprint: chrome
-  network: tcp
-- name: 青枫资源分享@QFZYFX 🇺🇸US_33|2.6MB/s
-  server: 165.140.216.141
-  port: 443
-  type: vmess
-  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-- name: 青枫资源分享@QFZYFX 🇺🇸US_34|1.3MB/s
-  server: 154.194.12.238
-  port: 2096
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.jpmj.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.jpmj.dev
-- name: 青枫资源分享@QFZYFX 🇺🇸US_35|1.1MB/s
-  server: 31.43.179.191
-  port: 443
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.my111000.tech
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.my111000.tech
-- name: 青枫资源分享@QFZYFX 🇺🇸US_36|1.7MB/s
-  server: 172.64.145.202
-  port: 2083
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: newwk1.f1w.de5.net
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: newwk1.f1w.de5.net
-- name: 青枫资源分享@QFZYFX 🇺🇸US_37|2.0MB/s
-  server: 45.142.120.191
-  port: 2096
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.my111000.tech
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /Telegram🇨🇳@WangCai2/
-    headers:
-      Host: sni.my111000.tech
-- name: 青枫资源分享@QFZYFX 🇺🇸US_38|2.0MB/s
-  server: 149.28.255.6
-  port: 816
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: GyZ5Xo0ht41vYmW3H4
-- name: 青枫资源分享@QFZYFX 🇺🇸US_39|1.1MB/s
-  server: 160.153.1.238
-  port: 2096
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.jpmj.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.jpmj.dev
-- name: 青枫资源分享@QFZYFX 🇺🇸US_40|1.5MB/s
-  server: 194.36.55.138
-  port: 2096
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.indevs.in
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.111000.indevs.in
-- name: 青枫资源分享@QFZYFX 🇺🇸US_41|2.0MB/s
-  server: 45.80.111.7
-  port: 443
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.indevs.in
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.111000.indevs.in
-- name: 青枫资源分享@QFZYFX 🇺🇸US_42|2.4MB/s
-  server: 5.10.247.43
-  port: 443
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?https://t.me/wangcai2🇨🇳=
-    headers:
-      Host: sni.111000.cc.cd
-- name: 青枫资源分享@QFZYFX 🇺🇸US_45|1.9MB/s
-  server: 172.67.134.82
-  port: 443
-  type: vless
-  uuid: a73b8135-ec7a-4f70-bac6-81fbccad4515
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: labeller.neonime83.workers.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: labeller.neonime83.workers.dev
-- name: 青枫资源分享@QFZYFX 🇺🇸US_47|2.1MB/s
-  server: 162.159.33.40
-  port: 443
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.latonyamadeline.ndjp.net
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?https://t.me/wangcai2🇨🇳=
-    headers:
-      Host: sni.latonyamadeline.ndjp.net
-- name: 青枫资源分享@QFZYFX 🇺🇸US_48|1.1MB/s
-  server: 66.81.247.231
-  port: 443
-  type: vless
-  uuid: 981fca81-5be1-41f8-ac9b-d138e8109943
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: babayaga-6i7.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: babayaga-6i7.pages.dev
-- name: 青枫资源分享@QFZYFX 🇺🇸US_49|2.3MB/s
-  server: 45.80.110.231
-  port: 443
-  type: vless
-  uuid: 981fca81-5be1-41f8-ac9b-d138e8109943
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: babayaga-6i7.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?Telegram🇨🇳@WangCai2=
-    headers:
-      Host: babayaga-6i7.pages.dev
-- name: 青枫资源分享@QFZYFX 🇺🇸US_52|2.6MB/s
-  server: 199.34.228.67
-  port: 443
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.dynv6.net
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.111000.dynv6.net
-- name: 青枫资源分享@QFZYFX 🇺🇸US_53|2.7MB/s
-  server: 135.84.73.247
-  port: 443
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.dynv6.net
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.111000.dynv6.net
-- name: 青枫资源分享@QFZYFX 🇺🇸US_54|3.0MB/s
-  server: 62.146.171.57
-  port: 443
-  type: ss
-  cipher: aes-256-gcm
-  password: jd9FR12wprKPNJHg
-- name: 青枫资源分享@QFZYFX 🇺🇸US_55|2.7MB/s
-  server: 160.153.1.222
-  port: 443
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.indevs.in
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.111000.indevs.in
-- name: 青枫资源分享@QFZYFX 🇺🇸US_59|1.6MB/s
-  server: 172.64.149.209
-  port: 443
-  type: vless
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: 3-7v4.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 3-7v4.pages.dev
-- name: 青枫资源分享@QFZYFX 🇺🇸US_60|2.9MB/s
-  server: 156.146.38.170
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 青枫资源分享@QFZYFX 🇺🇸US_61|2.4MB/s
-  server: 91.193.58.247
-  port: 443
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.v6.rocks
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.111000.v6.rocks
-- name: 青枫资源分享@QFZYFX 🇺🇸US_63|1.8MB/s
-  server: 8.35.211.241
-  port: 443
-  type: vless
-  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: pagescm.freen11.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /friend
-    headers:
-      Host: pagescm.freen11.cc.cd
-- name: 青枫资源分享@QFZYFX 🇺🇸US_65|1.3MB/s
-  server: 172.64.155.209
-  port: 8443
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.dynv6.net
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?Telegram🇨🇳 @WangCai2
-    headers:
-      Host: sni.111000.dynv6.net
-- name: 青枫资源分享@QFZYFX 🇺🇸US_66|2.9MB/s
-  server: 14.102.229.231
-  port: 443
-  type: vless
-  uuid: 981fca81-5be1-41f8-ac9b-d138e8109943
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: babayaga-6i7.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?Telegram🇨🇳@WangCai2=
-    headers:
-      Host: babayaga-6i7.pages.dev
-- name: 青枫资源分享@QFZYFX 🇺🇸US_67|2.4MB/s
-  server: 164.38.155.138
-  port: 443
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.indevs.in
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.111000.indevs.in
-- name: 青枫资源分享@QFZYFX 🇺🇸US_68|2.4MB/s
-  server: 135.84.67.38
-  port: 443
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.dynv6.net
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.111000.dynv6.net
-- name: 青枫资源分享@QFZYFX 🇺🇸US_71|1.9MB/s
-  server: 162.159.17.189
-  port: 443
-  type: vless
-  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: juzi.qea.ccwu.cc
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: juzi.qea.ccwu.cc
-- name: 青枫资源分享@QFZYFX 🇺🇸US_73|2.5MB/s
-  server: 91.193.58.140
-  port: 443
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.v6.rocks
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?https://t.me/WangCai2🇨🇳=
-    headers:
-      Host: sni.111000.v6.rocks
-- name: 青枫资源分享@QFZYFX 🇺🇸US_79|2.3MB/s
-  server: 172.64.158.90
-  port: 443
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.latonyamadeline.ndjp.net
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?https://t.me/wangcai2🇨🇳=
-    headers:
-      Host: sni.latonyamadeline.ndjp.net
-- name: 青枫资源分享@QFZYFX 🇺🇸US_7|2.6MB/s
-  server: 164.38.155.138
-  port: 2096
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.indevs.in
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.111000.indevs.in
-- name: 青枫资源分享@QFZYFX 🇺🇸US_8|2.6MB/s
-  server: 82.198.246.233
-  port: 180
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-- name: 青枫资源分享@QFZYFX 🇺🇸US_9|2.4MB/s
-  server: 104.16.155.197
-  port: 443
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.v6.army
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?https://t.me/wangcai2🇨🇳=
-    headers:
-      Host: sni.111000.v6.army
-- name: 🇦🇪 阿联酋 01 (青枫资源分享@QFZYFX)
-  server: 91.206.71.50
-  port: 8880
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: false
-  tfo: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560&https://t.me/YouTube@小青科学网🇨🇳
-    headers:
-      Host: vms.lifetime15.workers.dev
-- name: 🇩🇪 德国 03 (青枫资源分享@QFZYFX)
+- type: vmess
   server: 82.198.246.37
   port: 180
-  type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
+  alterId: '0'
+  network: tcp
+  name: 德国 02 (青枫资源分享@QFZYFX)
   cipher: auto
-  tls: false
-  skip-cert-verify: true
-- name: 🇩🇪 德国 11 (青枫资源分享@QFZYFX)
+- type: ss
+  server: 5.175.219.248
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: 64NU1dhA4DdPMx4ZIC1DVc
+  name: 德国 03 (青枫资源分享@QFZYFX)
+- type: vmess
   server: 82.198.246.97
   port: 180
-  type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
+  alterId: '0'
+  network: tcp
+  name: 德国 04 (青枫资源分享@QFZYFX)
   cipher: auto
-  tls: false
-  skip-cert-verify: true
-- name: 🇩🇪 德国 12 (青枫资源分享@QFZYFX)
+- type: vmess
   server: 82.198.246.9
   port: 180
-  type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
+  alterId: '0'
+  network: tcp
+  name: 德国 05 (青枫资源分享@QFZYFX)
   cipher: auto
-  tls: false
-  skip-cert-verify: true
-- name: 🇩🇪 德国 14 (青枫资源分享@QFZYFX)
+- type: vmess
+  server: 82.198.246.250
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: '0'
+  network: tcp
+  name: 德国 11 (青枫资源分享@QFZYFX)
+  cipher: auto
+- type: vless
+  server: 89.23.108.19
+  port: 4433
+  uuid: 00000000-0000-4000-8000-000000000000
+  network: tcp
+  tls: true
+  servername: 49ax00d7kmg3ijp3vbkua090bws.majusti.dpdns.org
+  ws-opts:
+    path: /@Marisa_kristi#德国 12 (青枫资源分享@QFZYFX)
+    headers:
+      Host: 49ax00d7kmg3ijp3vbkua090bws.majusti.dpdns.org
+  name: 德国 12 (青枫资源分享@QFZYFX)
+- type: ss
+  server: 204.11.2.212
+  port: 1080
+  cipher: chacha20-ietf-poly1305
+  password: p8E60pOyD0_BhDVKthWcGA
+  name: 德国 13 (青枫资源分享@QFZYFX)
+- type: vmess
   server: 82.198.246.214
   port: 180
-  type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-- name: 🇩🇪 德国 15 (青枫资源分享@QFZYFX)
-  server: 82.198.246.233
-  port: 180
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-- name: 🇩🇪 德国 17 (青枫资源分享@QFZYFX)
-  server: e1-f55.pages.dev
-  port: 443
-  type: vless
-  uuid: 8b5acf77-2c2e-4eed-9ad1-be81851b99ea
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: e1-f55.pages.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: e1-f55.pages.dev
-- name: 🇫🇷 法国 14 (青枫资源分享@QFZYFX)
-  server: 194.226.169.189
-  port: 443
-  type: vless
-  uuid: 701bab46-9453-41e6-ad47-009aa3df47e9
-  tls: true
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  reality-opts:
-    public-key: 6eN2NciEaZis5J4muRRqpfLQ1OglI3A8lNSTmAGo6Do
-    short-id: 3c6fc84d
-  servername: stats.vk-portal.net
-  client-fingerprint: chrome
+  alterId: '0'
   network: tcp
-- name: 🇭🇰 香港 06 (青枫资源分享@QFZYFX)
-  server: 103.181.164.145
-  port: 54022
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 0
+  name: 德国 14 (青枫资源分享@QFZYFX)
   cipher: auto
+- type: vless
+  server: 213.179.69.128
+  port: 19128
+  uuid: 00000000-0000-4000-8000-000000000000
+  network: tcp
+  tls: true
+  servername: 49ax00d7kmg3ijp3vbkua090bws.majusti.dpdns.org
+  ws-opts:
+    path: /@Marisa_kristi#德国 23 (青枫资源分享@QFZYFX)
+    headers:
+      Host: 49ax00d7kmg3ijp3vbkua090bws.majusti.dpdns.org
+  name: 德国 23 (青枫资源分享@QFZYFX)
+- type: vless
+  server: 204.216.217.88
+  port: 8443
+  uuid: 85dbb96e-1cbe-4db1-97b8-6aa6880edfd5
+  network: tcp
   tls: false
-  skip-cert-verify: true
-- name: 🇭🇰 香港 41 (青枫资源分享@QFZYFX)
-  server: vpn3.rnmcnm.com
+  flow: xtls-rprx-vision
+  servername: www.airbnb.com
+  name: 意大利 01 (青枫资源分享@QFZYFX)
+- type: vless
+  server: 104.20.6.134
   port: 443
-  type: vless
-  uuid: c3d4e5f6-7890-1234-5678-90abcdef1234
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /ray
-    headers:
-      Host: vpn3.rnmcnm.com
-- name: 🇯🇵 日本 34 (青枫资源分享@QFZYFX)
-  server: 47.79.144.115
-  port: 40003
-  type: ss
-  cipher: aes-256-gcm
-  password: GTZI5AbjNAeWQG0oVNptvWJogHNKiiKA
-- name: 🇯🇵 日本 39 (青枫资源分享@QFZYFX)
-  server: 104.129.164.30
-  port: 8880
-  type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.v6.navy
+  ws-opts:
+    path: /#拉脱维亚 02 (青枫资源分享@QFZYFX)
+    headers:
+      Host: sni.111000.v6.navy
+  name: 拉脱维亚 02 (青枫资源分享@QFZYFX)
+- type: vless
+  server: 139.64.235.238
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.jpmj.dev
+  ws-opts:
+    path: /#拉脱维亚 05 (青枫资源分享@QFZYFX)
+    headers:
+      Host: sni.jpmj.dev
+  name: 拉脱维亚 05 (青枫资源分享@QFZYFX)
+- type: vmess
+  server: 66.42.51.223
+  port: 443
+  uuid: 3d33ac89-a1da-4e20-b3a4-9497ecfa9a72
+  alterId: '0'
+  network: ws
+  name: 新加坡 26 (青枫资源分享@QFZYFX)
+  cipher: auto
+- type: vless
+  server: pl194.mechvpn.online
+  port: 443
+  uuid: 6d916d55-fead-4ff3-a3a9-83e175ea8ad7
+  network: tcp
+  tls: true
+  flow: xtls-rprx-vision
+  servername: pl194.mechvpn.online
+  name: 波兰 02 (青枫资源分享@QFZYFX)
+- type: vmess
+  server: 38.207.177.134
+  port: 39742
+  uuid: 36cf6565-bc71-4f8c-9e30-a9cc6156e583
+  alterId: '0'
+  network: tcp
+  name: 美国 023 (青枫资源分享@QFZYFX)
+  cipher: auto
+- type: vless
+  server: 144.31.207.111
+  port: 443
+  uuid: 2001daf3-5c56-4bef-8ea6-8dd0493c5a4c
+  network: tcp
   tls: false
-  tfo: false
-  skip-cert-verify: true
+  flow: xtls-rprx-vision
+  servername: www.deepl.com
+  name: 美国 028 (青枫资源分享@QFZYFX)
+- type: vmess
+  server: 66.154.106.185
+  port: 48060
+  uuid: f60ecc88-d704-489c-e3b9-082805317e7b
+  alterId: '0'
   network: ws
-  ws-opts:
-    path: /?ed=2560&https://t.me/YouTube@小青科学网🇨🇳
-    headers:
-      Host: vms.lifetime40.workers.dev
-- name: 🇰🇷 韩国 008 (青枫资源分享@QFZYFX)
-  server: 220.79.9.247
-  port: 19222
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.dns.army
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.111000.dns.army
-- name: 🇰🇷 韩国 010 (青枫资源分享@QFZYFX)
-  server: 222.111.88.109
-  port: 32773
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.dns.army
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.111000.dns.army
-- name: 🇰🇷 韩国 015 (青枫资源分享@QFZYFX)
-  server: 222.113.237.204
-  port: 11371
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.dns.army
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.111000.dns.army
-- name: 🇰🇷 韩国 025 (青枫资源分享@QFZYFX)
-  server: 59.31.102.62
-  port: 25565
-  type: ss
-  cipher: none
-  password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    host: woshinidie-et3.pages.dev
-    path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    tls: true
-    mux: true
-    skip-cert-verify: true
-- name: 🇰🇷 韩国 042 (青枫资源分享@QFZYFX)
-  server: 220.86.228.109
-  port: 32603
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.dns.army
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.111000.dns.army
-- name: 🇰🇷 韩国 046 (青枫资源分享@QFZYFX)
-  server: 14.32.205.160
-  port: 10035
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.dns.army
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.111000.dns.army
-- name: 🇰🇷 韩国 067 (青枫资源分享@QFZYFX)
-  server: 220.124.181.251
-  port: 12300
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.dns.army
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.111000.dns.army
-- name: 🇰🇷 韩国 084 (青枫资源分享@QFZYFX)
-  server: 222.121.232.215
-  port: 22335
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.dns.army
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.111000.dns.army
-- name: 🇰🇷 韩国 118 (青枫资源分享@QFZYFX)
-  server: 222.104.226.216
-  port: 12000
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.dns.army
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.111000.dns.army
-- name: 🇰🇷 韩国 120 (青枫资源分享@QFZYFX)
-  server: 220.93.102.220
-  port: 10443
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.dns.army
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.111000.dns.army
-- name: 🇰🇷 韩国 134 (青枫资源分享@QFZYFX)
-  server: 211.194.210.183
-  port: 30047
-  type: ss
-  cipher: none
-  password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    host: woshinidie-et3.pages.dev
-    path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    tls: true
-    mux: true
-    skip-cert-verify: true
-- name: 🇱🇻 拉脱维亚 16 (青枫资源分享@QFZYFX)
-  server: 43.168.16.112
-  port: 443
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.dns.army
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.111000.dns.army
-- name: 🇳🇱 荷兰 03 (青枫资源分享@QFZYFX)
-  server: 193.178.172.225
-  port: 2053
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sni.111000.dns.army
-  network: ws
-  ws-opts:
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-    headers:
-      Host: sni.111000.dns.army
-- name: 🇸🇬 新加坡 34 (青枫资源分享@QFZYFX)
-  server: 43.160.207.175
-  port: 443
-  type: vless
-  uuid: 981fca81-5be1-41f8-ac9b-d138e8109943
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: babayaga-6i7.pages.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-    headers:
-      Host: babayaga-6i7.pages.dev
-- name: 🇸🇬 新加坡 48 (青枫资源分享@QFZYFX)
-  server: dnew.cc
-  port: 443
-  type: vless
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: 1-gjo.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 1-gjo.pages.dev
-- name: 🇸🇬 新加坡 51 (青枫资源分享@QFZYFX)
-  server: ip.sb
-  port: 443
-  type: vless
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: 3-7ny.pages.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 3-7ny.pages.dev
-- name: 🇸🇬 新加坡 53 (青枫资源分享@QFZYFX)
-  server: 34.143.213.202
-  port: 443
-  type: vless
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: gogo.wknm.dpdns.org
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: gogo.wknm.dpdns.org
-- name: 🇺🇸 美国 161 (青枫资源分享@QFZYFX)
+  name: 美国 164 (青枫资源分享@QFZYFX)
+  cipher: auto
+- type: ss
   server: hackney-latest-strike.freesocks.work
   port: 443
-  type: ss
   cipher: chacha20-ietf-poly1305
   password: XUMTygEM1jVYIvysXKqA5T
-- name: 🇺🇸 美国 162 (青枫资源分享@QFZYFX)
+  name: 美国 180 (青枫资源分享@QFZYFX)
+- type: ss
   server: tinkered-pennies-puppies.freesocks.work
   port: 443
-  type: ss
   cipher: chacha20-ietf-poly1305
   password: hbGrpfvNrJsUmKmPbR3iY2
-- name: 🇺🇸 美国 165 (青枫资源分享@QFZYFX)
-  server: r1.mizulina.top
-  port: 22231
-  type: vless
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-  tls: true
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  servername: r1.mizulina.top
-  client-fingerprint: edge
+  name: 美国 181 (青枫资源分享@QFZYFX)
+- type: vless
+  server: 31.130.129.33
+  port: 443
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
   network: tcp
+  tls: true
+  servername: 3-2ll.pages.dev
+  ws-opts:
+    path: /#荷兰 05 (青枫资源分享@QFZYFX)
+    headers:
+      Host: 3-2ll.pages.dev
+  name: 荷兰 05 (青枫资源分享@QFZYFX)
+- type: ss
+  server: series-a1.samanehha.co
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: W74XFALLLuw6m5IA
+  name: 通用 143 (青枫资源分享@QFZYFX)
+- type: vless
+  server: 14.102.229.231
+  port: 443
+  uuid: 981fca81-5be1-41f8-ac9b-d138e8109943
+  network: tcp
+  tls: true
+  servername: babayaga-6i7.pages.dev
+  ws-opts:
+    path: /
+    headers:
+      Host: babayaga-6i7.pages.dev
+  name: 青枫资源分享@QFZYFX ❓Other_10|1.0MB/s
+- type: vless
+  server: 135.84.67.72
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.v6.navy
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX ❓Other_11|2.6MB/s
+    headers:
+      Host: sni.111000.v6.navy
+  name: 青枫资源分享@QFZYFX ❓Other_11|2.6MB/s
+- type: vless
+  server: 45.40.154.191
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.my111000.tech
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX ❓Other_12|2.7MB/s
+    headers:
+      Host: sni.my111000.tech
+  name: 青枫资源分享@QFZYFX ❓Other_12|2.7MB/s
+- type: vless
+  server: 54.252.231.115
+  port: 55292
+  uuid: aca32055-db88-4634-b623-6429ddbb6c93
+  network: tcp
+  tls: false
+  flow: xtls-rprx-vision
+  servername: yahoo.com
+  name: 青枫资源分享@QFZYFX ❓Other_14|3.8MB/s
+- type: vless
+  server: 45.40.148.238
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.jpmj.dev
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX ❓Other_15|2.1MB/s
+    headers:
+      Host: sni.jpmj.dev
+  name: 青枫资源分享@QFZYFX ❓Other_15|2.1MB/s
+- type: trojan
+  server: 172.64.147.29
+  port: 443
+  password: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  name: 青枫资源分享@QFZYFX ❓Other_18|2.6MB/s
+  sni: sni.111000.dynv6.net
+  skip-cert-verify: true
+  udp: true
+- type: vless
+  server: 45.131.209.191
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.my111000.tech
+  ws-opts:
+    path: /Telegram🇨🇳@WangCai2/#青枫资源分享@QFZYFX ❓Other_19|2.9MB/s
+    headers:
+      Host: sni.my111000.tech
+  name: 青枫资源分享@QFZYFX ❓Other_19|2.9MB/s
+- type: vless
+  server: 45.131.5.138
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.indevs.in
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX ❓Other_1|1.6MB/s
+    headers:
+      Host: sni.111000.indevs.in
+  name: 青枫资源分享@QFZYFX ❓Other_1|1.6MB/s
+- type: vless
+  server: 94.232.247.168
+  port: 41360
+  uuid: e16a35ea-6715-4e75-9845-d20358bd0876
+  network: tcp
+  tls: false
+  servername: yahoo.com
+  name: 青枫资源分享@QFZYFX ❓Other_20|1.6MB/s
+- type: vless
+  server: 45.40.151.191
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.my111000.tech
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX ❓Other_22|2.2MB/s
+    headers:
+      Host: sni.my111000.tech
+  name: 青枫资源分享@QFZYFX ❓Other_22|2.2MB/s
+- type: vless
+  server: 46.101.254.53
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.latonyamadeline.ndjp.net
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX ❓Other_24|2.5MB/s
+    headers:
+      Host: sni.latonyamadeline.ndjp.net
+  name: 青枫资源分享@QFZYFX ❓Other_24|2.5MB/s
+- type: vless
+  server: 57.129.137.65
+  port: 8443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.v6.navy
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX ❓Other_27|2.2MB/s
+    headers:
+      Host: sni.111000.v6.navy
+  name: 青枫资源分享@QFZYFX ❓Other_27|2.2MB/s
+- type: vless
+  server: 167.68.11.138
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.indevs.in
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX ❓Other_28|2.6MB/s
+    headers:
+      Host: sni.111000.indevs.in
+  name: 青枫资源分享@QFZYFX ❓Other_28|2.6MB/s
+- type: vless
+  server: 90.156.255.198
+  port: 51114
+  uuid: 8b575b35-3c7c-42b0-ac80-2aa6b0d7717c
+  network: tcp
+  tls: false
+  servername: yahoo.com
+  name: 青枫资源分享@QFZYFX ❓Other_2|1.7MB/s
+- type: vless
+  server: 45.130.125.138
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.indevs.in
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX ❓Other_3|1.4MB/s
+    headers:
+      Host: sni.111000.indevs.in
+  name: 青枫资源分享@QFZYFX ❓Other_3|1.4MB/s
+- type: vless
+  server: 159.65.125.162
+  port: 2087
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.latonyamadeline.ndjp.net
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.latonyamadeline.ndjp.net
+  name: 青枫资源分享@QFZYFX ❓Other_5|2.3MB/s
+- type: vless
+  server: 45.80.108.191
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.my111000.tech
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX ❓Other_6|2.3MB/s
+    headers:
+      Host: sni.my111000.tech
+  name: 青枫资源分享@QFZYFX ❓Other_6|2.3MB/s
+- type: vless
+  server: 104.18.12.149
+  port: 2053
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.v6.navy
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX ❓Other_8|2.5MB/s
+    headers:
+      Host: sni.111000.v6.navy
+  name: 青枫资源分享@QFZYFX ❓Other_8|2.5MB/s
+- type: vless
+  server: 199.34.228.160
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.v6.navy
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX ❓Other_9|2.2MB/s
+    headers:
+      Host: sni.111000.v6.navy
+  name: 青枫资源分享@QFZYFX ❓Other_9|2.2MB/s
+- type: vless
+  server: 3.106.54.135
+  port: 57001
+  uuid: 30ac5a8b-5022-43c0-b0c2-11b9a98a986e
+  network: tcp
+  tls: false
+  flow: xtls-rprx-vision
+  servername: yahoo.com
+  name: 青枫资源分享@QFZYFX 🇦🇺AU_1|1.6MB/s
+- type: vless
+  server: 54.252.231.115
+  port: 55292
+  uuid: aca32055-db88-4634-b623-6429ddbb6c93
+  network: tcp
+  tls: false
+  flow: xtls-rprx-vision
+  servername: yahoo.com
+  name: 青枫资源分享@QFZYFX 🇦🇺AU_2|2.5MB/s
+- type: vless
+  server: 3.27.234.120
+  port: 51808
+  uuid: b64ced11-143e-4ded-a985-a8de25461061
+  network: tcp
+  tls: false
+  flow: xtls-rprx-vision
+  servername: yahoo.com
+  name: 青枫资源分享@QFZYFX 🇦🇺AU_3|1.3MB/s
+- type: vless
+  server: 45.120.179.89
+  port: 8443
+  uuid: e033ef6e-ab4b-47d4-a523-ff568d2c8dbb
+  network: tcp
+  tls: false
+  flow: xtls-rprx-vision
+  servername: tradingview.com
+  name: 青枫资源分享@QFZYFX 🇧🇪BE_1|2.4MB/s
+- type: vless
+  server: 35.182.252.92
+  port: 51072
+  uuid: b6b2c827-4ac1-4e2c-af28-dfa7edbfeb81
+  network: tcp
+  tls: false
+  flow: xtls-rprx-vision
+  servername: www.sony.com
+  name: 青枫资源分享@QFZYFX 🇨🇦CA_1|2.4MB/s
+- type: vless
+  server: 213.182.199.138
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.indevs.in
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.111000.indevs.in
+  name: 青枫资源分享@QFZYFX 🇨🇦CA_4|2.4MB/s
+- type: vless
+  server: adf.ly
+  port: 443
+  uuid: 1679af35-6dd6-4c09-ae3b-18f239217f3e
+  network: tcp
+  tls: true
+  servername: rAyAn-007.pArViN.DpDnS.OrG
+  ws-opts:
+    path: /
+    headers:
+      Host: rayan-007.parvin.dpdns.org
+  name: 青枫资源分享@QFZYFX 🇨🇦CA_5|2.8MB/s
+- type: vless
+  server: 45.142.120.231
+  port: 443
+  uuid: 981fca81-5be1-41f8-ac9b-d138e8109943
+  network: tcp
+  tls: true
+  servername: babayaga-6i7.pages.dev
+  ws-opts:
+    path: /
+    headers:
+      Host: babayaga-6i7.pages.dev
+  name: 青枫资源分享@QFZYFX 🇨🇦CA_6|1.3MB/s
+- type: vless
+  server: 160.153.1.216
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.dynv6.net
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX 🇨🇦CA_7|2.6MB/s
+    headers:
+      Host: sni.111000.dynv6.net
+  name: 青枫资源分享@QFZYFX 🇨🇦CA_7|2.6MB/s
+- type: vless
+  server: 138.124.32.78
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.latonyamadeline.ndjp.net
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX 🇩🇪DE_10|2.3MB/s
+    headers:
+      Host: sni.latonyamadeline.ndjp.net
+  name: 青枫资源分享@QFZYFX 🇩🇪DE_10|2.3MB/s
+- type: vless
+  server: 51.77.213.238
+  port: 8443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.dynv6.net
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX 🇩🇪DE_11|1.0MB/s
+    headers:
+      Host: sni.111000.dynv6.net
+  name: 青枫资源分享@QFZYFX 🇩🇪DE_11|1.0MB/s
+- type: vless
+  server: 57.129.63.149
+  port: 8443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.indevs.in
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.111000.indevs.in
+  name: 青枫资源分享@QFZYFX 🇩🇪DE_12|1.7MB/s
+- type: vless
+  server: 109.120.187.185
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.v6.rocks
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.111000.v6.rocks
+  name: 青枫资源分享@QFZYFX 🇩🇪DE_13|2.7MB/s
+- type: vless
+  server: 77.110.96.142
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.latonyamadeline.ndjp.net
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX 🇩🇪DE_14|2.2MB/s
+    headers:
+      Host: sni.latonyamadeline.ndjp.net
+  name: 青枫资源分享@QFZYFX 🇩🇪DE_14|2.2MB/s
+- type: vless
+  server: 62.60.245.69
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.latonyamadeline.ndjp.net
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX 🇩🇪DE_15|2.6MB/s
+    headers:
+      Host: sni.latonyamadeline.ndjp.net
+  name: 青枫资源分享@QFZYFX 🇩🇪DE_15|2.6MB/s
+- type: vless
+  server: 159.195.82.187
+  port: 9443
+  uuid: 4649d681-7f26-4959-a3f2-02eb8866230f
+  network: tcp
+  tls: false
+  flow: xtls-rprx-vision
+  servername: yahoo.com
+  name: 青枫资源分享@QFZYFX 🇩🇪DE_1|1.1MB/s
+- type: vless
+  server: 138.124.59.215
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.v6.rocks
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.111000.v6.rocks
+  name: 青枫资源分享@QFZYFX 🇩🇪DE_3|2.1MB/s
+- type: ss
+  server: 8.209.74.72
+  port: 20001
+  cipher: chacha20-ietf-poly1305
+  password: PWpjPo3tqhPN4yRZ
+  name: 青枫资源分享@QFZYFX 🇩🇪DE_4|2.3MB/s
+- type: vless
+  server: 194.226.169.189
+  port: 443
+  uuid: 701bab46-9453-41e6-ad47-009aa3df47e9
+  network: tcp
+  tls: false
+  flow: xtls-rprx-vision
+  servername: stats.vk-portal.net
+  name: 青枫资源分享@QFZYFX 🇩🇪DE_5|1.4MB/s
+- type: ss
+  server: 46.101.196.138
+  port: 23243
+  cipher: chacha20-ietf-poly1305
+  password: Q7cjiVD0oKNE2o9sUnZKQg
+  name: 青枫资源分享@QFZYFX 🇩🇪DE_9|2.5MB/s
+- type: vless
+  server: 150.241.101.128
+  port: 443
+  uuid: c8d1c6d3-388f-48fc-a8f0-ed90d955d096
+  network: tcp
+  tls: false
+  flow: xtls-rprx-vision
+  servername: www.google.com
+  name: 青枫资源分享@QFZYFX 🇪🇪EE_1|2.4MB/s
+- type: vless
+  server: 62.210.91.10
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  network: tcp
+  tls: false
+  flow: xtls-rprx-vision
+  servername: fuck.rkn
+  name: 青枫资源分享@QFZYFX 🇫🇷FR_4|2.8MB/s
+- type: vless
+  server: 193.233.133.55
+  port: 443
+  uuid: 2bfea3fd-6826-480c-917d-e3bc99b47a0f
+  network: tcp
+  tls: false
+  servername: yahoo.com
+  name: 青枫资源分享@QFZYFX 🇫🇷FR_6|2.5MB/s
+- type: vless
+  server: 89.106.95.193
+  port: 443
+  uuid: 629d2ccc-3a2a-4dd3-83d2-86b25fc8783e
+  network: tcp
+  tls: false
+  flow: xtls-rprx-vision
+  servername: www.apple.com
+  name: 青枫资源分享@QFZYFX 🇫🇷FR_7|2.6MB/s
+- type: vless
+  server: 57.128.180.80
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.v6.navy
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX 🇬🇧GB_10|2.4MB/s
+    headers:
+      Host: sni.111000.v6.navy
+  name: 青枫资源分享@QFZYFX 🇬🇧GB_10|2.4MB/s
+- type: vless
+  server: 57.128.179.45
+  port: 8443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.v6.navy
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX 🇬🇧GB_11|2.5MB/s
+    headers:
+      Host: sni.111000.v6.navy
+  name: 青枫资源分享@QFZYFX 🇬🇧GB_11|2.5MB/s
+- type: vless
+  server: 152.233.28.196
+  port: 8443
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+  network: tcp
+  tls: true
+  servername: uk1.fromblancwithlove.com
+  name: 青枫资源分享@QFZYFX 🇬🇧GB_12|2.7MB/s
+- type: ss
+  server: 138.68.153.223
+  port: 46576
+  cipher: chacha20-ietf-poly1305
+  password: idMvoewrSyLLvEvP03k9zR
+  name: 青枫资源分享@QFZYFX 🇬🇧GB_13|2.5MB/s
+- type: vless
+  server: 138.68.142.165
+  port: 2053
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.v6.rocks
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.111000.v6.rocks
+  name: 青枫资源分享@QFZYFX 🇬🇧GB_2|3.0MB/s
+- type: vless
+  server: 57.128.183.248
+  port: 8443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.v6.navy
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX 🇬🇧GB_3|1.8MB/s
+    headers:
+      Host: sni.111000.v6.navy
+  name: 青枫资源分享@QFZYFX 🇬🇧GB_3|1.8MB/s
+- type: vless
+  server: 57.129.137.87
+  port: 8443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.v6.navy
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX 🇬🇧GB_4|1.6MB/s
+    headers:
+      Host: sni.111000.v6.navy
+  name: 青枫资源分享@QFZYFX 🇬🇧GB_4|1.6MB/s
+- type: vless
+  server: 57.129.137.62
+  port: 8443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.indevs.in
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX 🇬🇧GB_6|2.0MB/s
+    headers:
+      Host: sni.111000.indevs.in
+  name: 青枫资源分享@QFZYFX 🇬🇧GB_6|2.0MB/s
+- type: vless
+  server: 85.121.48.77
+  port: 443
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  network: tcp
+  tls: true
+  servername: 3-7gj.pages.dev
+  ws-opts:
+    path: /socks5=gogo:gogo@185.184.70.120:50088#青枫资源分享@QFZYFX 🇬🇧GB_7|1.4MB/s
+    headers:
+      Host: 3-7gj.pages.dev
+  name: 青枫资源分享@QFZYFX 🇬🇧GB_7|1.4MB/s
+- type: vless
+  server: 152.233.28.198
+  port: 8443
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+  network: tcp
+  tls: true
+  servername: uk1.fromblancwithlove.com
+  name: 青枫资源分享@QFZYFX 🇬🇧GB_8|2.3MB/s
+- type: vless
+  server: 141.193.213.10
+  port: 443
+  uuid: 8c4604ef-749c-4b56-adf1-7da405002a21
+  network: tcp
+  tls: true
+  servername: qyi.fqjd663.ggff.net
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX 🇭🇰HK_1|1.0MB/s
+    headers:
+      Host: qyi.fqjd663.ggff.net
+  name: 青枫资源分享@QFZYFX 🇭🇰HK_1|1.0MB/s
+- type: vless
+  server: 216.24.57.1
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.v6.navy
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.111000.v6.navy
+  name: 青枫资源分享@QFZYFX 🇭🇰HK_2|2.6MB/s
+- type: vless
+  server: 108.165.216.138
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.indevs.in
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX 🇭🇰HK_3|2.2MB/s
+    headers:
+      Host: sni.111000.indevs.in
+  name: 青枫资源分享@QFZYFX 🇭🇰HK_3|2.2MB/s
+- type: vless
+  server: 95.164.44.237
+  port: 49790
+  uuid: 99210efd-1a49-4085-add3-d1d2e4fdd6c2
+  network: tcp
+  tls: false
+  servername: yahoo.com
+  name: 青枫资源分享@QFZYFX 🇮🇪IE_1|2.4MB/s
+- type: ss
+  server: 139.59.87.22
+  port: 16970
+  cipher: chacha20-ietf-poly1305
+  password: 6ThD1AgwXc8Stpp7hEohLa
+  name: 青枫资源分享@QFZYFX 🇮🇳IN_1|3.2MB/s
+- type: vless
+  server: 64.227.174.213
+  port: 2053
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.indevs.in
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.111000.indevs.in
+  name: 青枫资源分享@QFZYFX 🇮🇳IN_2|2.1MB/s
+- type: vless
+  server: 204.216.216.23
+  port: 1114
+  uuid: 6ba2eac6-0ec9-44ca-a42b-a8e23aafb530
+  network: tcp
+  tls: false
+  flow: xtls-rprx-vision
+  servername: yahoo.com
+  name: 青枫资源分享@QFZYFX 🇮🇹IT_2|2.4MB/s
+- type: vless
+  server: 221.156.228.221
+  port: 10088
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.v6.army
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.111000.v6.army
+  name: 青枫资源分享@QFZYFX 🇰🇷KR_10|2.4MB/s
+- type: vmess
+  server: 152.67.218.38
+  port: 443
+  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
+  alterId: '0'
+  network: ws
+  name: 青枫资源分享@QFZYFX 🇰🇷KR_11|3.2MB/s
+  cipher: auto
+- type: vless
+  server: 175.204.72.94
+  port: 11001
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.v6.army
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.111000.v6.army
+  name: 青枫资源分享@QFZYFX 🇰🇷KR_1|2.2MB/s
+- type: vless
+  server: 121.179.3.58
+  port: 35342
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.v6.army
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.111000.v6.army
+  name: 青枫资源分享@QFZYFX 🇰🇷KR_2|3.0MB/s
+- type: vless
+  server: 175.215.188.34
+  port: 26214
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.v6.army
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.111000.v6.army
+  name: 青枫资源分享@QFZYFX 🇰🇷KR_3|2.3MB/s
+- type: vless
+  server: 211.51.201.180
+  port: 11001
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.v6.army
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.111000.v6.army
+  name: 青枫资源分享@QFZYFX 🇰🇷KR_4|3.2MB/s
+- type: vless
+  server: 121.165.39.209
+  port: 18810
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.v6.army
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.111000.v6.army
+  name: 青枫资源分享@QFZYFX 🇰🇷KR_5|2.8MB/s
+- type: vless
+  server: 59.17.184.164
+  port: 27016
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.v6.army
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.111000.v6.army
+  name: 青枫资源分享@QFZYFX 🇰🇷KR_6|2.6MB/s
+- type: vless
+  server: 183.103.4.162
+  port: 10912
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.v6.army
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.111000.v6.army
+  name: 青枫资源分享@QFZYFX 🇰🇷KR_7|1.9MB/s
+- type: vless
+  server: 61.77.75.94
+  port: 10001
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.v6.army
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.111000.v6.army
+  name: 青枫资源分享@QFZYFX 🇰🇷KR_8|2.4MB/s
+- type: vless
+  server: 198.71.233.55
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.v6.navy
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX 🇱🇻LV_11|3.0MB/s
+    headers:
+      Host: sni.111000.v6.navy
+  name: 青枫资源分享@QFZYFX 🇱🇻LV_11|3.0MB/s
+- type: vless
+  server: 188.253.17.104
+  port: 443
+  uuid: 63f26629-a4a4-4550-bffc-afabb3b5b3c3
+  network: tcp
+  tls: false
+  flow: xtls-rprx-vision
+  servername: yahoo.com
+  name: 青枫资源分享@QFZYFX 🇱🇻LV_1|1.1MB/s
+- type: vless
+  server: 188.164.248.138
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.indevs.in
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX 🇱🇻LV_2|1.7MB/s
+    headers:
+      Host: sni.111000.indevs.in
+  name: 青枫资源分享@QFZYFX 🇱🇻LV_2|1.7MB/s
+- type: vless
+  server: 104.17.186.184
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.v6.army
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.111000.v6.army
+  name: 青枫资源分享@QFZYFX 🇱🇻LV_3|2.0MB/s
+- type: vless
+  server: 194.154.30.150
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.latonyamadeline.ndjp.net
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX 🇱🇻LV_4|1.3MB/s
+    headers:
+      Host: sni.latonyamadeline.ndjp.net
+  name: 青枫资源分享@QFZYFX 🇱🇻LV_4|1.3MB/s
+- type: vless
+  server: 154.194.12.138
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.indevs.in
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX 🇱🇻LV_5|1.1MB/s
+    headers:
+      Host: sni.111000.indevs.in
+  name: 青枫资源分享@QFZYFX 🇱🇻LV_5|1.1MB/s
+- type: vless
+  server: 45.40.153.238
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.jpmj.dev
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX 🇱🇻LV_7|1.4MB/s
+    headers:
+      Host: sni.jpmj.dev
+  name: 青枫资源分享@QFZYFX 🇱🇻LV_7|1.4MB/s
+- type: vless
+  server: 193.56.8.103
+  port: 8443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.dns.army
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX 🇱🇻LV_8|2.5MB/s
+    headers:
+      Host: sni.111000.dns.army
+  name: 青枫资源分享@QFZYFX 🇱🇻LV_8|2.5MB/s
+- type: vless
+  server: 162.120.94.138
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.indevs.in
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX 🇱🇻LV_9|2.1MB/s
+    headers:
+      Host: sni.111000.indevs.in
+  name: 青枫资源分享@QFZYFX 🇱🇻LV_9|2.1MB/s
+- type: vless
+  server: 212.34.142.191
+  port: 8443
+  uuid: a5e746f7-328f-4b65-a65f-e2e2a4a5b1a9
+  network: tcp
+  tls: false
+  flow: xtls-rprx-vision
+  servername: tradingview.com
+  name: 青枫资源分享@QFZYFX 🇳🇱NL_10|2.4MB/s
+- type: ss
+  server: 82.38.31.210
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  name: 青枫资源分享@QFZYFX 🇳🇱NL_11|2.2MB/s
+- type: vless
+  server: 51.158.206.96
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  network: tcp
+  tls: false
+  flow: xtls-rprx-vision
+  servername: fuck.rkn
+  name: 青枫资源分享@QFZYFX 🇳🇱NL_12|2.6MB/s
+- type: ss
+  server: 193.29.139.157
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: cvII85TrW6n0OGyfpHVS1u
+  name: 青枫资源分享@QFZYFX 🇳🇱NL_14|1.9MB/s
+- type: ss
+  server: 193.29.139.217
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: QCXDxuDlTTMD7jtgHUjIoj
+  name: 青枫资源分享@QFZYFX 🇳🇱NL_15|2.0MB/s
+- type: ss
+  server: 82.38.31.191
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  name: 青枫资源分享@QFZYFX 🇳🇱NL_19|1.4MB/s
+- type: ss
+  server: 82.38.31.66
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  name: 青枫资源分享@QFZYFX 🇳🇱NL_1|1.3MB/s
+- type: ss
+  server: 193.29.139.143
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: 1RWwXhwfAB5gAEozU4G2Pg
+  name: 青枫资源分享@QFZYFX 🇳🇱NL_20|2.5MB/s
+- type: ss
+  server: 193.29.139.202
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  name: 青枫资源分享@QFZYFX 🇳🇱NL_22|2.5MB/s
+- type: vless
+  server: 95.140.154.101
+  port: 8443
+  uuid: 981fca81-5be1-41f8-ac9b-d138e8109943
+  network: tcp
+  tls: true
+  servername: babayaga-6i7.pages.dev
+  ws-opts:
+    path: /
+    headers:
+      Host: babayaga-6i7.pages.dev
+  name: 青枫资源分享@QFZYFX 🇳🇱NL_24|1.9MB/s
+- type: ss
+  server: 82.38.31.135
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  name: 青枫资源分享@QFZYFX 🇳🇱NL_26|2.8MB/s
+- type: vless
+  server: au.kaguya.sbs
+  port: 443
+  uuid: a2b2a4fb-7b34-472b-b4c0-e206fef1edfc
+  network: tcp
+  tls: false
+  flow: xtls-rprx-vision
+  servername: au.kaguya.sbs
+  name: 青枫资源分享@QFZYFX 🇳🇱NL_27|2.7MB/s
+- type: vless
+  server: 216.24.57.1
+  port: 443
+  uuid: 8c4604ef-749c-4b56-adf1-7da405002a21
+  network: tcp
+  tls: true
+  servername: qyi.fqjd663.ggff.net
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX 🇳🇱NL_28|2.3MB/s
+    headers:
+      Host: qyi.fqjd663.ggff.net
+  name: 青枫资源分享@QFZYFX 🇳🇱NL_28|2.3MB/s
+- type: vless
+  server: 188.226.143.148
+  port: 2087
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.dns.army
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX 🇳🇱NL_29|2.3MB/s
+    headers:
+      Host: sni.111000.dns.army
+  name: 青枫资源分享@QFZYFX 🇳🇱NL_29|2.3MB/s
+- type: ss
+  server: 193.29.139.217
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: 4a2rfixophdjffa8KVA4Aa
+  name: 青枫资源分享@QFZYFX 🇳🇱NL_2|2.1MB/s
+- type: vless
+  server: nl-90w-c.southnetworks.cloud
+  port: 80
+  uuid: e08f1ad7-0c60-446d-baec-08b3b69bb3d0
+  network: tcp
+  tls: false
+  ws-opts:
+    path: /getWorkerUpdates#青枫资源分享@QFZYFX 🇳🇱NL_30|2.7MB/s
+    headers:
+      Host: nl-90w-c.southnetworks.cloud
+  name: 青枫资源分享@QFZYFX 🇳🇱NL_30|2.7MB/s
+- type: ss
+  server: 193.29.139.189
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: cvII85TrW6n0OGyfpHVS1u
+  name: 青枫资源分享@QFZYFX 🇳🇱NL_31|2.4MB/s
+- type: vless
+  server: 51.158.206.86
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  network: tcp
+  tls: false
+  flow: xtls-rprx-vision
+  servername: fuck.rkn
+  name: 青枫资源分享@QFZYFX 🇳🇱NL_33|3.5MB/s
+- type: ss
+  server: 193.29.139.217
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: cvII85TrW6n0OGyfpHVS1u
+  name: 青枫资源分享@QFZYFX 🇳🇱NL_34|2.8MB/s
+- type: vless
+  server: 209.38.101.190
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.dns.army
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX 🇳🇱NL_35|2.2MB/s
+    headers:
+      Host: sni.111000.dns.army
+  name: 青枫资源分享@QFZYFX 🇳🇱NL_35|2.2MB/s
+- type: ss
+  server: 159.223.236.36
+  port: 19582
+  cipher: chacha20-ietf-poly1305
+  password: WC0GbiCk67K8nHDaDHmYIX
+  name: 青枫资源分享@QFZYFX 🇳🇱NL_3|1.6MB/s
+- type: vless
+  server: 95.85.8.177
+  port: 8443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.dns.army
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX 🇳🇱NL_7|1.7MB/s
+    headers:
+      Host: sni.111000.dns.army
+  name: 青枫资源分享@QFZYFX 🇳🇱NL_7|1.7MB/s
+- type: ss
+  server: 193.29.139.251
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  name: 青枫资源分享@QFZYFX 🇳🇱NL_9|2.2MB/s
+- type: vless
+  server: 45.140.204.119
+  port: 443
+  uuid: 30143e07-b734-4bd6-867c-7daf4782cccb
+  network: tcp
+  tls: false
+  servername: yahoo.com
+  name: 青枫资源分享@QFZYFX 🇵🇱PL_1|2.1MB/s
+- type: vless
+  server: 195.123.211.204
+  port: 81
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.indevs.in
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.111000.indevs.in
+  name: 青枫资源分享@QFZYFX 🇵🇱PL_5|2.5MB/s
+- type: vless
+  server: 45.15.160.132
+  port: 443
+  uuid: c24f31b4-def4-4e14-aa3d-82194eb18cd1
+  network: tcp
+  tls: false
+  servername: yahoo.com
+  name: 青枫资源分享@QFZYFX 🇷🇸RS_1|2.0MB/s
+- type: vless
+  server: 31.128.32.98
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.v6.navy
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX 🇸🇪SE_2|2.0MB/s
+    headers:
+      Host: sni.111000.v6.navy
+  name: 青枫资源分享@QFZYFX 🇸🇪SE_2|2.0MB/s
+- type: vless
+  server: 210.123.143.214
+  port: 18789
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.v6.army
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.111000.v6.army
+  name: 青枫资源分享@QFZYFX 🇸🇬SG_1|2.3MB/s
+- type: vless
+  server: 45.142.120.191
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.my111000.tech
+  ws-opts:
+    path: /Telegram🇨🇳@WangCai2/#青枫资源分享@QFZYFX 🇸🇬SG_2|2.4MB/s
+    headers:
+      Host: sni.my111000.tech
+  name: 青枫资源分享@QFZYFX 🇸🇬SG_2|2.4MB/s
+- type: vless
+  server: 141.11.203.238
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.jpmj.dev
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX 🇸🇬SG_7|2.3MB/s
+    headers:
+      Host: sni.jpmj.dev
+  name: 青枫资源分享@QFZYFX 🇸🇬SG_7|2.3MB/s
+- type: vless
+  server: 138.68.152.227
+  port: 2053
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.v6.rocks
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.111000.v6.rocks
+  name: 青枫资源分享@QFZYFX 🇸🇬SG_8|2.1MB/s
+- type: vless
+  server: 139.59.142.185
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.latonyamadeline.ndjp.net
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.latonyamadeline.ndjp.net
+  name: 青枫资源分享@QFZYFX 🇸🇬SG_9|1.9MB/s
+- type: vmess
+  server: 165.154.195.38
+  port: 35034
+  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
+  alterId: '0'
+  network: tcp
+  name: 青枫资源分享@QFZYFX 🇹🇼TW_2|1.6MB/s
+  cipher: auto
+- type: vless
+  server: 92.53.191.138
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.indevs.in
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX 🇺🇸US_10|2.0MB/s
+    headers:
+      Host: sni.111000.indevs.in
+  name: 青枫资源分享@QFZYFX 🇺🇸US_10|2.0MB/s
+- type: ss
+  server: 107.172.250.161
+  port: 59556
+  cipher: chacha20-ietf-poly1305
+  password: QTmLViU4VEmuwbOxUw4IXd
+  name: 青枫资源分享@QFZYFX 🇺🇸US_11|2.5MB/s
+- type: vless
+  server: 104.25.242.55
+  port: 443
+  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
+  network: tcp
+  tls: true
+  servername: juzi.qea.ccwu.cc
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX 🇺🇸US_14|2.1MB/s
+    headers:
+      Host: juzi.qea.ccwu.cc
+  name: 青枫资源分享@QFZYFX 🇺🇸US_14|2.1MB/s
+- type: vless
+  server: 104.19.38.35
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.latonyamadeline.ndjp.net
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.latonyamadeline.ndjp.net
+  name: 青枫资源分享@QFZYFX 🇺🇸US_15|2.1MB/s
+- type: vless
+  server: 190.93.244.138
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.indevs.in
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX 🇺🇸US_16|1.2MB/s
+    headers:
+      Host: sni.111000.indevs.in
+  name: 青枫资源分享@QFZYFX 🇺🇸US_16|1.2MB/s
+- type: vless
+  server: 185.156.19.138
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.indevs.in
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.111000.indevs.in
+  name: 青枫资源分享@QFZYFX 🇺🇸US_17|3.0MB/s
+- type: vless
+  server: 104.18.13.149
+  port: 8443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.dynv6.net
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.111000.dynv6.net
+  name: 青枫资源分享@QFZYFX 🇺🇸US_18|2.4MB/s
+- type: vless
+  server: 192.65.217.138
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.indevs.in
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX 🇺🇸US_19|1.2MB/s
+    headers:
+      Host: sni.111000.indevs.in
+  name: 青枫资源分享@QFZYFX 🇺🇸US_19|1.2MB/s
+- type: vless
+  server: 104.18.16.56
+  port: 8443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.dynv6.net
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.111000.dynv6.net
+  name: 青枫资源分享@QFZYFX 🇺🇸US_1|1.7MB/s
+- type: vless
+  server: 135.84.74.65
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.indevs.in
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX 🇺🇸US_20|2.3MB/s
+    headers:
+      Host: sni.111000.indevs.in
+  name: 青枫资源分享@QFZYFX 🇺🇸US_20|2.3MB/s
+- type: vless
+  server: 167.68.5.191
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.my111000.tech
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX 🇺🇸US_21|1.2MB/s
+    headers:
+      Host: sni.my111000.tech
+  name: 青枫资源分享@QFZYFX 🇺🇸US_21|1.2MB/s
+- type: vless
+  server: 104.20.6.134
+  port: 8443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.dynv6.net
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.111000.dynv6.net
+  name: 青枫资源分享@QFZYFX 🇺🇸US_22|1.8MB/s
+- type: vless
+  server: 31.185.108.191
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.my111000.tech
+  ws-opts:
+    path: /Telegram🇨🇳@WangCai2/#青枫资源分享@QFZYFX 🇺🇸US_23|2.4MB/s
+    headers:
+      Host: sni.my111000.tech
+  name: 青枫资源分享@QFZYFX 🇺🇸US_23|2.4MB/s
+- type: vless
+  server: 15.204.97.216
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  network: tcp
+  tls: false
+  flow: xtls-rprx-vision
+  servername: fuck.rkn
+  name: 青枫资源分享@QFZYFX 🇺🇸US_24|1.2MB/s
+- type: vless
+  server: 8.6.112.191
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.my111000.tech
+  ws-opts:
+    path: /Telegram🇨🇳@WangCai2/#青枫资源分享@QFZYFX 🇺🇸US_25|2.1MB/s
+    headers:
+      Host: sni.my111000.tech
+  name: 青枫资源分享@QFZYFX 🇺🇸US_25|2.1MB/s
+- type: vless
+  server: 181.214.1.231
+  port: 443
+  uuid: 981fca81-5be1-41f8-ac9b-d138e8109943
+  network: tcp
+  tls: true
+  servername: babayaga-6i7.pages.dev
+  ws-opts:
+    path: /
+    headers:
+      Host: babayaga-6i7.pages.dev
+  name: 青枫资源分享@QFZYFX 🇺🇸US_26|2.4MB/s
+- type: vless
+  server: 135.84.73.122
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.dynv6.net
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX 🇺🇸US_27|1.7MB/s
+    headers:
+      Host: sni.111000.dynv6.net
+  name: 青枫资源分享@QFZYFX 🇺🇸US_27|1.7MB/s
+- type: vless
+  server: 172.64.147.24
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.indevs.in
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.111000.indevs.in
+  name: 青枫资源分享@QFZYFX 🇺🇸US_30|1.6MB/s
+- type: vless
+  server: 156.154.245.84
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.latonyamadeline.ndjp.net
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.latonyamadeline.ndjp.net
+  name: 青枫资源分享@QFZYFX 🇺🇸US_31|2.5MB/s
+- type: vmess
+  server: 82.198.246.233
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: '0'
+  network: tcp
+  name: 青枫资源分享@QFZYFX 🇺🇸US_32|2.5MB/s
+  cipher: auto
+- type: vless
+  server: 104.16.58.115
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.latonyamadeline.ndjp.net
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.latonyamadeline.ndjp.net
+  name: 青枫资源分享@QFZYFX 🇺🇸US_40|2.4MB/s
+- type: vless
+  server: 164.38.155.138
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.indevs.in
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX 🇺🇸US_41|2.1MB/s
+    headers:
+      Host: sni.111000.indevs.in
+  name: 青枫资源分享@QFZYFX 🇺🇸US_41|2.1MB/s
+- type: vless
+  server: 8.34.70.191
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.my111000.tech
+  ws-opts:
+    path: /Telegram🇨🇳@WangCai2/#青枫资源分享@QFZYFX 🇺🇸US_43|2.5MB/s
+    headers:
+      Host: sni.my111000.tech
+  name: 青枫资源分享@QFZYFX 🇺🇸US_43|2.5MB/s
+- type: vless
+  server: 45.40.153.191
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.my111000.tech
+  ws-opts:
+    path: /Telegram🇨🇳@WangCai2/#青枫资源分享@QFZYFX 🇺🇸US_44|1.5MB/s
+    headers:
+      Host: sni.my111000.tech
+  name: 青枫资源分享@QFZYFX 🇺🇸US_44|1.5MB/s
+- type: vless
+  server: 104.129.166.138
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.indevs.in
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX 🇺🇸US_45|2.5MB/s
+    headers:
+      Host: sni.111000.indevs.in
+  name: 青枫资源分享@QFZYFX 🇺🇸US_45|2.5MB/s
+- type: vless
+  server: 135.84.73.100
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.dynv6.net
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX 🇺🇸US_47|2.0MB/s
+    headers:
+      Host: sni.111000.dynv6.net
+  name: 青枫资源分享@QFZYFX 🇺🇸US_47|2.0MB/s
+- type: vless
+  server: 104.18.4.130
+  port: 2053
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.dynv6.net
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX 🇺🇸US_48|2.0MB/s
+    headers:
+      Host: sni.111000.dynv6.net
+  name: 青枫资源分享@QFZYFX 🇺🇸US_48|2.0MB/s
+- type: vless
+  server: 141.193.213.11
+  port: 443
+  uuid: 8c4604ef-749c-4b56-adf1-7da405002a21
+  network: tcp
+  tls: true
+  servername: qyi.fqjd663.ggff.net
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX 🇺🇸US_49|1.7MB/s
+    headers:
+      Host: qyi.fqjd663.ggff.net
+  name: 青枫资源分享@QFZYFX 🇺🇸US_49|1.7MB/s
+- type: vless
+  server: 160.153.1.121
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.indevs.in
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX 🇺🇸US_4|1.1MB/s
+    headers:
+      Host: sni.111000.indevs.in
+  name: 青枫资源分享@QFZYFX 🇺🇸US_4|1.1MB/s
+- type: vless
+  server: 77.74.228.138
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.indevs.in
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX 🇺🇸US_51|1.8MB/s
+    headers:
+      Host: sni.111000.indevs.in
+  name: 青枫资源分享@QFZYFX 🇺🇸US_51|1.8MB/s
+- type: vless
+  server: 8.6.112.6
+  port: 2053
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.indevs.in
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX 🇺🇸US_52|2.4MB/s
+    headers:
+      Host: sni.111000.indevs.in
+  name: 青枫资源分享@QFZYFX 🇺🇸US_52|2.4MB/s
+- type: vless
+  server: 45.40.147.191
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.my111000.tech
+  ws-opts:
+    path: /Telegram🇨🇳@WangCai2/#青枫资源分享@QFZYFX 🇺🇸US_53|2.1MB/s
+    headers:
+      Host: sni.my111000.tech
+  name: 青枫资源分享@QFZYFX 🇺🇸US_53|2.1MB/s
+- type: vless
+  server: 104.18.13.149
+  port: 2053
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.indevs.in
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX 🇺🇸US_54|2.1MB/s
+    headers:
+      Host: sni.111000.indevs.in
+  name: 青枫资源分享@QFZYFX 🇺🇸US_54|2.1MB/s
+- type: vless
+  server: 193.227.99.138
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.indevs.in
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX 🇺🇸US_55|2.1MB/s
+    headers:
+      Host: sni.111000.indevs.in
+  name: 青枫资源分享@QFZYFX 🇺🇸US_55|2.1MB/s
+- type: vless
+  server: da.mfa.gov.ua
+  port: 443
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  network: tcp
+  tls: true
+  servername: 1-aym.pages.dev
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX 🇺🇸US_56|2.3MB/s
+    headers:
+      Host: 1-aym.pages.dev
+  name: 青枫资源分享@QFZYFX 🇺🇸US_56|2.3MB/s
+- type: vless
+  server: 5.10.245.191
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.my111000.tech
+  ws-opts:
+    path: /Telegram🇨🇳@WangCai2/#青枫资源分享@QFZYFX 🇺🇸US_57|2.3MB/s
+    headers:
+      Host: sni.my111000.tech
+  name: 青枫资源分享@QFZYFX 🇺🇸US_57|2.3MB/s
+- type: vless
+  server: 154.197.75.138
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.indevs.in
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.111000.indevs.in
+  name: 青枫资源分享@QFZYFX 🇺🇸US_58|1.0MB/s
+- type: vless
+  server: 45.192.224.191
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.my111000.tech
+  ws-opts:
+    path: /Telegram🇨🇳@WangCai2/#青枫资源分享@QFZYFX 🇺🇸US_59|2.1MB/s
+    headers:
+      Host: sni.my111000.tech
+  name: 青枫资源分享@QFZYFX 🇺🇸US_59|2.1MB/s
+- type: vless
+  server: 45.142.120.191
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.my111000.tech
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX 🇺🇸US_60|2.2MB/s
+    headers:
+      Host: sni.my111000.tech
+  name: 青枫资源分享@QFZYFX 🇺🇸US_60|2.2MB/s
+- type: vless
+  server: 15.204.97.214
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  network: tcp
+  tls: false
+  flow: xtls-rprx-vision
+  servername: fuck.rkn
+  name: 青枫资源分享@QFZYFX 🇺🇸US_61|3.7MB/s
+- type: vless
+  server: 185.135.9.238
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.jpmj.dev
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX 🇺🇸US_62|2.6MB/s
+    headers:
+      Host: sni.jpmj.dev
+  name: 青枫资源分享@QFZYFX 🇺🇸US_62|2.6MB/s
+- type: vless
+  server: 172.66.3.201
+  port: 443
+  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
+  network: tcp
+  tls: true
+  servername: juzi.qea.ccwu.cc
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX 🇺🇸US_63|2.4MB/s
+    headers:
+      Host: juzi.qea.ccwu.cc
+  name: 青枫资源分享@QFZYFX 🇺🇸US_63|2.4MB/s
+- type: vless
+  server: 213.241.198.138
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.indevs.in
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.111000.indevs.in
+  name: 青枫资源分享@QFZYFX 🇺🇸US_66|1.9MB/s
+- type: vless
+  server: cf9.danfeng.eu.org
+  port: 2096
+  uuid: bafacd98-136a-4530-838d-4e5c51838dac
+  network: tcp
+  tls: true
+  servername: juzi8186.qea.ccwu.cc
+  ws-opts:
+    path: /lib/soft/payment/juzibaipiao
+    headers:
+      Host: juzi8186.qea.ccwu.cc
+  name: 青枫资源分享@QFZYFX 🇺🇸US_67|1.8MB/s
+- type: vless
+  server: 172.64.155.209
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.indevs.in
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.111000.indevs.in
+  name: 青枫资源分享@QFZYFX 🇺🇸US_68|2.1MB/s
+- type: vless
+  server: 166.62.107.138
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.indevs.in
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX 🇺🇸US_69|2.2MB/s
+    headers:
+      Host: sni.111000.indevs.in
+  name: 青枫资源分享@QFZYFX 🇺🇸US_69|2.2MB/s
+- type: vless
+  server: 45.149.12.238
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.jpmj.dev
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX 🇺🇸US_70|2.9MB/s
+    headers:
+      Host: sni.jpmj.dev
+  name: 青枫资源分享@QFZYFX 🇺🇸US_70|2.9MB/s
+- type: vless
+  server: 154.198.173.138
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.indevs.in
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.111000.indevs.in
+  name: 青枫资源分享@QFZYFX 🇺🇸US_71|2.1MB/s
+- type: vless
+  server: cf.danfeng.eu.org
+  port: 443
+  uuid: bafacd98-136a-4530-838d-4e5c51838dac
+  network: tcp
+  tls: true
+  servername: juzi8186.qea.ccwu.cc
+  ws-opts:
+    path: /buy/ads/juzibaipiao
+    headers:
+      Host: juzi8186.qea.ccwu.cc
+  name: 青枫资源分享@QFZYFX 🇺🇸US_72|2.8MB/s
+- type: vless
+  server: 162.159.36.5
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.indevs.in
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX 🇺🇸US_73|2.7MB/s
+    headers:
+      Host: sni.111000.indevs.in
+  name: 青枫资源分享@QFZYFX 🇺🇸US_73|2.7MB/s
+- type: vless
+  server: 15.204.97.198
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  network: tcp
+  tls: false
+  flow: xtls-rprx-vision
+  servername: fuck.rkn
+  name: 青枫资源分享@QFZYFX 🇺🇸US_74|2.3MB/s
+- type: vless
+  server: 66.45.118.238
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.jpmj.dev
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX 🇺🇸US_75|2.8MB/s
+    headers:
+      Host: sni.jpmj.dev
+  name: 青枫资源分享@QFZYFX 🇺🇸US_75|2.8MB/s
+- type: vless
+  server: 104.26.7.205
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.indevs.in
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.111000.indevs.in
+  name: 青枫资源分享@QFZYFX 🇺🇸US_76|2.7MB/s
+- type: vless
+  server: cf6.danfeng.eu.org
+  port: 2087
+  uuid: bafacd98-136a-4530-838d-4e5c51838dac
+  network: tcp
+  tls: true
+  servername: juzi8186.qea.ccwu.cc
+  ws-opts:
+    path: /info/readme/items/juzibaipiao
+    headers:
+      Host: juzi8186.qea.ccwu.cc
+  name: 青枫资源分享@QFZYFX 🇺🇸US_77|2.5MB/s
+- type: vless
+  server: 91.193.58.140
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.v6.rocks
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.111000.v6.rocks
+  name: 青枫资源分享@QFZYFX 🇺🇸US_79|2.8MB/s
+- type: vless
+  server: 184.174.80.238
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.jpmj.dev
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX 🇺🇸US_81|2.8MB/s
+    headers:
+      Host: sni.jpmj.dev
+  name: 青枫资源分享@QFZYFX 🇺🇸US_81|2.8MB/s
+- type: vless
+  server: 45.80.108.191
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.my111000.tech
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX 🇺🇸US_82|3.0MB/s
+    headers:
+      Host: sni.my111000.tech
+  name: 青枫资源分享@QFZYFX 🇺🇸US_82|3.0MB/s
+- type: vless
+  server: 209.102.207.120
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.v6.navy
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX 🇺🇸US_84|2.5MB/s
+    headers:
+      Host: sni.111000.v6.navy
+  name: 青枫资源分享@QFZYFX 🇺🇸US_84|2.5MB/s
+- type: vless
+  server: 104.239.72.238
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.jpmj.dev
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX 🇺🇸US_85|2.4MB/s
+    headers:
+      Host: sni.jpmj.dev
+  name: 青枫资源分享@QFZYFX 🇺🇸US_85|2.4MB/s
+- type: vless
+  server: 57.128.181.24
+  port: 8443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.indevs.in
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX 🇺🇸US_86|2.3MB/s
+    headers:
+      Host: sni.111000.indevs.in
+  name: 青枫资源分享@QFZYFX 🇺🇸US_86|2.3MB/s
+- type: vless
+  server: 134.209.246.179
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.v6.navy
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.111000.v6.navy
+  name: 青枫资源分享@QFZYFX 🇺🇸US_87|2.3MB/s
+- type: vless
+  server: tajikistan.mfa.gov.ua
+  port: 443
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  network: tcp
+  tls: true
+  servername: 3-7v4.pages.dev
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX 🇺🇸US_88|2.1MB/s
+    headers:
+      Host: 3-7v4.pages.dev
+  name: 青枫资源分享@QFZYFX 🇺🇸US_88|2.1MB/s
+- type: vless
+  server: 45.40.154.139
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.dynv6.net
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX 🇺🇸US_89|3.2MB/s
+    headers:
+      Host: sni.111000.dynv6.net
+  name: 青枫资源分享@QFZYFX 🇺🇸US_89|3.2MB/s
+- type: vless
+  server: 104.18.13.149
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.v6.navy
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX 🇺🇸US_90|2.4MB/s
+    headers:
+      Host: sni.111000.v6.navy
+  name: 青枫资源分享@QFZYFX 🇺🇸US_90|2.4MB/s
+- type: vless
+  server: 66.81.247.231
+  port: 443
+  uuid: 981fca81-5be1-41f8-ac9b-d138e8109943
+  network: tcp
+  tls: true
+  servername: babayaga-6i7.pages.dev
+  ws-opts:
+    path: /
+    headers:
+      Host: babayaga-6i7.pages.dev
+  name: 青枫资源分享@QFZYFX 🇺🇸US_91|2.1MB/s
+- type: vless
+  server: 185.18.250.238
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.jpmj.dev
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX 🇺🇸US_92|2.2MB/s
+    headers:
+      Host: sni.jpmj.dev
+  name: 青枫资源分享@QFZYFX 🇺🇸US_92|2.2MB/s
+- type: vless
+  server: 162.159.153.231
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.indevs.in
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.111000.indevs.in
+  name: 青枫资源分享@QFZYFX 🇺🇸US_93|4.0MB/s
+- type: vless
+  server: 135.84.67.74
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.indevs.in
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX 🇺🇸US_94|2.8MB/s
+    headers:
+      Host: sni.111000.indevs.in
+  name: 青枫资源分享@QFZYFX 🇺🇸US_94|2.8MB/s
+- type: vless
+  server: 5.10.244.191
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.my111000.tech
+  ws-opts:
+    path: /Telegram🇨🇳@WangCai2/#青枫资源分享@QFZYFX 🇺🇸US_95|2.2MB/s
+    headers:
+      Host: sni.my111000.tech
+  name: 青枫资源分享@QFZYFX 🇺🇸US_95|2.2MB/s
+- type: vless
+  server: 162.159.12.151
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: tcp
+  tls: true
+  servername: sni.111000.indevs.in
+  ws-opts:
+    path: /#青枫资源分享@QFZYFX 🇺🇸US_9|2.3MB/s
+    headers:
+      Host: sni.111000.indevs.in
+  name: 青枫资源分享@QFZYFX 🇺🇸US_9|2.3MB/s
+- type: vless
+  server: 61.111.247.233
+  port: 34045
+  uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
+  network: tcp
+  tls: false
+  servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
+  name: 韩国 35 (青枫资源分享@QFZYFX)
+- type: vmess
+  server: 152.67.218.38
+  port: 443
+  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
+  alterId: '0'
+  network: ws
+  name: 韩国 51 (青枫资源分享@QFZYFX)
+  cipher: auto
+- type: vmess
+  server: 47.250.149.51
+  port: 50018
+  uuid: 9665280c-a3d1-4aab-ef9f-a3a497337d91
+  alterId: '0'
+  network: ws
+  name: 马来西亚 01 (青枫资源分享@QFZYFX)
+  cipher: auto
 proxy-groups:
 - name: 🚀 节点选择
   type: select
   proxies:
-  - ♻️ 自动选择
-  - 🇭🇰 香港节点
-  - 🇺🇲 美国节点
-  - ☑️ 手动切换
   - DIRECT
-- name: ☑️ 手动切换
-  type: select
-  proxies:
-  - 青枫资源分享@QFZYFX ❓Other_3|1.2MB/s
-  - 🇰🇷 韩国 008 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 118 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 120 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇱🇻LV_1|1.2MB/s
-  - 🇰🇷 韩国 015 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇺🇸US_47|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_66|2.9MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_65|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇱🇻LV_4|3.0MB/s
-  - 青枫资源分享@QFZYFX ❓Other_30|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇱🇻LV_3|1.2MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_42|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_61|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_71|1.9MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_14|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇱🇻LV_9|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_17|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_27|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇯🇵JP_2|3.3MB/s
-  - 青枫资源分享@QFZYFX 🇱🇻LV_6|1.2MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_30|1.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_41|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_48|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_55|2.7MB/s
-  - 青枫资源分享@QFZYFX ❓Other_17|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_1|1.5MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_15|1.8MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_59|1.6MB/s
-  - 🇸🇬 新加坡 51 (青枫资源分享@QFZYFX)
-  - 🇸🇬 新加坡 48 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇺🇸US_12|1.2MB/s
-  - 🇩🇪 德国 17 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇺🇸US_19|1.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_79|2.3MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_73|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_28|1.6MB/s
-  - 青枫资源分享@QFZYFX 🇯🇵JP_3|1.9MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_35|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_52|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_18|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_23|1.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_9|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_63|1.8MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_49|2.3MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_68|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_21|2.5MB/s
-  - 青枫资源分享@QFZYFX ❓Other_28|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_45|1.9MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_67|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_53|2.7MB/s
-  - 🇦🇪 阿联酋 01 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 042 (青枫资源分享@QFZYFX)
-  - 🇩🇪 德国 03 (青枫资源分享@QFZYFX)
-  - 🇯🇵 日本 39 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇺🇸US_8|2.6MB/s
-  - 🇩🇪 德国 14 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇺🇸US_25|1.1MB/s
-  - 🇩🇪 德国 12 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 165 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 046 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 067 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 010 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 161 (青枫资源分享@QFZYFX)
-  - 🇩🇪 德国 15 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 134 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 025 (青枫资源分享@QFZYFX)
-  - 🇱🇻 拉脱维亚 16 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇰🇷KR_4|1.5MB/s
-  - 🇩🇪 德国 11 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 084 (青枫资源分享@QFZYFX)
-  - 🇯🇵 日本 34 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇸🇬SG_2|3.4MB/s
-  - 青枫资源分享@QFZYFX 🇱🇻LV_11|2.2MB/s
-  - 🇸🇬 新加坡 34 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX ❓Other_5|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_33|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_54|3.0MB/s
-  - 🇳🇱 荷兰 03 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇺🇸US_16|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_60|2.9MB/s
-  - 🇺🇸 美国 162 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇸🇬SG_4|4.4MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_39|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_7|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_12|1.6MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_43|3.4MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_5|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_16|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇫🇷FR_1|1.5MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_19|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_19|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_9|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_27|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_16|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_46|3.4MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_47|2.7MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_44|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_3|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_50|2.3MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_12|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_28|2.3MB/s
-  - 青枫资源分享@QFZYFX ❓Other_23|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇵🇱PL_1|2.3MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_13|1.2MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_20|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇨🇭CH_1|2.9MB/s
-  - 🇫🇷 法国 14 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇫🇷FR_4|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_38|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_4|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_11|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇫🇷FR_8|1.7MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_41|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_9|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_36|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_42|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_5|1.2MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_2|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇫🇷FR_3|1.3MB/s
-  - 青枫资源分享@QFZYFX ❓Other_16|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_48|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_14|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_2|1.7MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_15|1.2MB/s
-  - 青枫资源分享@QFZYFX ❓Other_33|2.7MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_5|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_7|1.8MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_8|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_23|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_32|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇫🇷FR_2|1.4MB/s
-  - 青枫资源分享@QFZYFX 🇳🇴NO_1|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_8|2.3MB/s
-  - 🇸🇬 新加坡 53 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇩🇪DE_10|2.6MB/s
-  - 青枫资源分享@QFZYFX ❓Other_13|1.7MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_22|1.7MB/s
+  - 台湾 07 (青枫资源分享@QFZYFX)
+  - 塞舌尔 01 (青枫资源分享@QFZYFX)
+  - 奥地利 02 (青枫资源分享@QFZYFX)
+  - 奥地利 03 (青枫资源分享@QFZYFX)
+  - 德国 02 (青枫资源分享@QFZYFX)
+  - 德国 03 (青枫资源分享@QFZYFX)
+  - 德国 04 (青枫资源分享@QFZYFX)
+  - 德国 05 (青枫资源分享@QFZYFX)
+  - 德国 11 (青枫资源分享@QFZYFX)
+  - 德国 12 (青枫资源分享@QFZYFX)
+  - 德国 13 (青枫资源分享@QFZYFX)
+  - 德国 14 (青枫资源分享@QFZYFX)
+  - 德国 23 (青枫资源分享@QFZYFX)
+  - 意大利 01 (青枫资源分享@QFZYFX)
+  - 拉脱维亚 02 (青枫资源分享@QFZYFX)
+  - 拉脱维亚 05 (青枫资源分享@QFZYFX)
+  - 新加坡 26 (青枫资源分享@QFZYFX)
+  - 波兰 02 (青枫资源分享@QFZYFX)
+  - 美国 023 (青枫资源分享@QFZYFX)
+  - 美国 028 (青枫资源分享@QFZYFX)
+  - 美国 164 (青枫资源分享@QFZYFX)
+  - 美国 180 (青枫资源分享@QFZYFX)
+  - 美国 181 (青枫资源分享@QFZYFX)
+  - 荷兰 05 (青枫资源分享@QFZYFX)
+  - 通用 143 (青枫资源分享@QFZYFX)
+  - 青枫资源分享@QFZYFX ❓Other_10|1.0MB/s
   - 青枫资源分享@QFZYFX ❓Other_11|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_1|2.3MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_12|3.2MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_18|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_20|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_35|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇹🇷TR_1|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇸🇪SE_1|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇦🇹AT_1|2.3MB/s
-  - 🇭🇰 香港 06 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇴🇲OM_1|2.0MB/s
-  - 🇭🇰 香港 41 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇺🇸US_40|1.5MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_39|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_38|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_37|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_26|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_25|2.7MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_24|1.2MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_36|1.7MB/s
+  - 青枫资源分享@QFZYFX ❓Other_12|2.7MB/s
+  - 青枫资源分享@QFZYFX ❓Other_14|3.8MB/s
+  - 青枫资源分享@QFZYFX ❓Other_15|2.1MB/s
+  - 青枫资源分享@QFZYFX ❓Other_18|2.6MB/s
+  - 青枫资源分享@QFZYFX ❓Other_19|2.9MB/s
+  - 青枫资源分享@QFZYFX ❓Other_1|1.6MB/s
+  - 青枫资源分享@QFZYFX ❓Other_20|1.6MB/s
+  - 青枫资源分享@QFZYFX ❓Other_22|2.2MB/s
+  - 青枫资源分享@QFZYFX ❓Other_24|2.5MB/s
+  - 青枫资源分享@QFZYFX ❓Other_27|2.2MB/s
+  - 青枫资源分享@QFZYFX ❓Other_28|2.6MB/s
+  - 青枫资源分享@QFZYFX ❓Other_2|1.7MB/s
+  - 青枫资源分享@QFZYFX ❓Other_3|1.4MB/s
+  - 青枫资源分享@QFZYFX ❓Other_5|2.3MB/s
+  - 青枫资源分享@QFZYFX ❓Other_6|2.3MB/s
+  - 青枫资源分享@QFZYFX ❓Other_8|2.5MB/s
+  - 青枫资源分享@QFZYFX ❓Other_9|2.2MB/s
   - 青枫资源分享@QFZYFX 🇦🇺AU_1|1.6MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_34|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_14|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_13|1.4MB/s
+  - 青枫资源分享@QFZYFX 🇦🇺AU_2|2.5MB/s
+  - 青枫资源分享@QFZYFX 🇦🇺AU_3|1.3MB/s
+  - 青枫资源分享@QFZYFX 🇧🇪BE_1|2.4MB/s
+  - 青枫资源分享@QFZYFX 🇨🇦CA_1|2.4MB/s
+  - 青枫资源分享@QFZYFX 🇨🇦CA_4|2.4MB/s
+  - 青枫资源分享@QFZYFX 🇨🇦CA_5|2.8MB/s
+  - 青枫资源分享@QFZYFX 🇨🇦CA_6|1.3MB/s
+  - 青枫资源分享@QFZYFX 🇨🇦CA_7|2.6MB/s
+  - 青枫资源分享@QFZYFX 🇩🇪DE_10|2.3MB/s
+  - 青枫资源分享@QFZYFX 🇩🇪DE_11|1.0MB/s
+  - 青枫资源分享@QFZYFX 🇩🇪DE_12|1.7MB/s
+  - 青枫资源分享@QFZYFX 🇩🇪DE_13|2.7MB/s
+  - 青枫资源分享@QFZYFX 🇩🇪DE_14|2.2MB/s
+  - 青枫资源分享@QFZYFX 🇩🇪DE_15|2.6MB/s
+  - 青枫资源分享@QFZYFX 🇩🇪DE_1|1.1MB/s
+  - 青枫资源分享@QFZYFX 🇩🇪DE_3|2.1MB/s
+  - 青枫资源分享@QFZYFX 🇩🇪DE_4|2.3MB/s
+  - 青枫资源分享@QFZYFX 🇩🇪DE_5|1.4MB/s
+  - 青枫资源分享@QFZYFX 🇩🇪DE_9|2.5MB/s
+  - 青枫资源分享@QFZYFX 🇪🇪EE_1|2.4MB/s
+  - 青枫资源分享@QFZYFX 🇫🇷FR_4|2.8MB/s
+  - 青枫资源分享@QFZYFX 🇫🇷FR_6|2.5MB/s
+  - 青枫资源分享@QFZYFX 🇫🇷FR_7|2.6MB/s
+  - 青枫资源分享@QFZYFX 🇬🇧GB_10|2.4MB/s
+  - 青枫资源分享@QFZYFX 🇬🇧GB_11|2.5MB/s
+  - 青枫资源分享@QFZYFX 🇬🇧GB_12|2.7MB/s
+  - 青枫资源分享@QFZYFX 🇬🇧GB_13|2.5MB/s
+  - 青枫资源分享@QFZYFX 🇬🇧GB_2|3.0MB/s
+  - 青枫资源分享@QFZYFX 🇬🇧GB_3|1.8MB/s
+  - 青枫资源分享@QFZYFX 🇬🇧GB_4|1.6MB/s
+  - 青枫资源分享@QFZYFX 🇬🇧GB_6|2.0MB/s
+  - 青枫资源分享@QFZYFX 🇬🇧GB_7|1.4MB/s
+  - 青枫资源分享@QFZYFX 🇬🇧GB_8|2.3MB/s
+  - 青枫资源分享@QFZYFX 🇭🇰HK_1|1.0MB/s
+  - 青枫资源分享@QFZYFX 🇭🇰HK_2|2.6MB/s
+  - 青枫资源分享@QFZYFX 🇭🇰HK_3|2.2MB/s
+  - 青枫资源分享@QFZYFX 🇮🇪IE_1|2.4MB/s
+  - 青枫资源分享@QFZYFX 🇮🇳IN_1|3.2MB/s
+  - 青枫资源分享@QFZYFX 🇮🇳IN_2|2.1MB/s
+  - 青枫资源分享@QFZYFX 🇮🇹IT_2|2.4MB/s
+  - 青枫资源分享@QFZYFX 🇰🇷KR_10|2.4MB/s
+  - 青枫资源分享@QFZYFX 🇰🇷KR_11|3.2MB/s
+  - 青枫资源分享@QFZYFX 🇰🇷KR_1|2.2MB/s
+  - 青枫资源分享@QFZYFX 🇰🇷KR_2|3.0MB/s
+  - 青枫资源分享@QFZYFX 🇰🇷KR_3|2.3MB/s
+  - 青枫资源分享@QFZYFX 🇰🇷KR_4|3.2MB/s
+  - 青枫资源分享@QFZYFX 🇰🇷KR_5|2.8MB/s
+  - 青枫资源分享@QFZYFX 🇰🇷KR_6|2.6MB/s
+  - 青枫资源分享@QFZYFX 🇰🇷KR_7|1.9MB/s
+  - 青枫资源分享@QFZYFX 🇰🇷KR_8|2.4MB/s
+  - 青枫资源分享@QFZYFX 🇱🇻LV_11|3.0MB/s
+  - 青枫资源分享@QFZYFX 🇱🇻LV_1|1.1MB/s
+  - 青枫资源分享@QFZYFX 🇱🇻LV_2|1.7MB/s
+  - 青枫资源分享@QFZYFX 🇱🇻LV_3|2.0MB/s
+  - 青枫资源分享@QFZYFX 🇱🇻LV_4|1.3MB/s
   - 青枫资源分享@QFZYFX 🇱🇻LV_5|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_32|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇫🇷FR_5|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_11|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_31|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_10|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_29|1.7MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_7|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_6|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_26|1.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_24|1.6MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_22|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_21|1.7MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_18|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_6|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_20|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_17|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_4|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_15|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_11|1.0MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_10|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_9|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇲🇩MD_1|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_4|1.5MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_13|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇫🇮FI_1|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇹🇼TW_2|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇨🇦CA_2|2.3MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_6|1.2MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_3|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇨🇦CA_1|2.3MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_11|1.9MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_3|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_10|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_1|1.4MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_2|2.7MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_7|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇰🇷KR_3|2.1MB/s
-  - 青枫资源分享@QFZYFX ❓Other_8|2.0MB/s
-  - 青枫资源分享@QFZYFX ❓Other_7|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇱🇻LV_2|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇰🇷KR_2|1.3MB/s
-  - 青枫资源分享@QFZYFX ❓Other_6|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇰🇷KR_1|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇯🇵JP_1|4.2MB/s
-  - 青枫资源分享@QFZYFX ❓Other_4|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_2|1.1MB/s
-  - 青枫资源分享@QFZYFX ❓Other_1|2.3MB/s
-  - 青枫资源分享@QFZYFX 🇮🇳IN_1|1.8MB/s
-- name: ♻️ 自动选择
-  type: url-test
-  url: http://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 50
-  proxies:
-  - 青枫资源分享@QFZYFX ❓Other_3|1.2MB/s
-  - 🇰🇷 韩国 008 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 118 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 120 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇱🇻LV_1|1.2MB/s
-  - 🇰🇷 韩国 015 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇺🇸US_47|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_66|2.9MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_65|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇱🇻LV_4|3.0MB/s
-  - 青枫资源分享@QFZYFX ❓Other_30|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇱🇻LV_3|1.2MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_42|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_61|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_71|1.9MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_14|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇱🇻LV_9|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_17|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_27|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇯🇵JP_2|3.3MB/s
-  - 青枫资源分享@QFZYFX 🇱🇻LV_6|1.2MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_30|1.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_41|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_48|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_55|2.7MB/s
-  - 青枫资源分享@QFZYFX ❓Other_17|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_1|1.5MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_15|1.8MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_59|1.6MB/s
-  - 🇸🇬 新加坡 51 (青枫资源分享@QFZYFX)
-  - 🇸🇬 新加坡 48 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇺🇸US_12|1.2MB/s
-  - 🇩🇪 德国 17 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇺🇸US_19|1.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_79|2.3MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_73|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_28|1.6MB/s
-  - 青枫资源分享@QFZYFX 🇯🇵JP_3|1.9MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_35|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_52|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_18|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_23|1.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_9|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_63|1.8MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_49|2.3MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_68|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_21|2.5MB/s
-  - 青枫资源分享@QFZYFX ❓Other_28|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_45|1.9MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_67|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_53|2.7MB/s
-  - 🇦🇪 阿联酋 01 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 042 (青枫资源分享@QFZYFX)
-  - 🇩🇪 德国 03 (青枫资源分享@QFZYFX)
-  - 🇯🇵 日本 39 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇺🇸US_8|2.6MB/s
-  - 🇩🇪 德国 14 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇺🇸US_25|1.1MB/s
-  - 🇩🇪 德国 12 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 165 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 046 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 067 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 010 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 161 (青枫资源分享@QFZYFX)
-  - 🇩🇪 德国 15 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 134 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 025 (青枫资源分享@QFZYFX)
-  - 🇱🇻 拉脱维亚 16 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇰🇷KR_4|1.5MB/s
-  - 🇩🇪 德国 11 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 084 (青枫资源分享@QFZYFX)
-  - 🇯🇵 日本 34 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇸🇬SG_2|3.4MB/s
-  - 青枫资源分享@QFZYFX 🇱🇻LV_11|2.2MB/s
-  - 🇸🇬 新加坡 34 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX ❓Other_5|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_33|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_54|3.0MB/s
-  - 🇳🇱 荷兰 03 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇺🇸US_16|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_60|2.9MB/s
-  - 🇺🇸 美国 162 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇸🇬SG_4|4.4MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_39|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_7|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_12|1.6MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_43|3.4MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_5|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_16|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇫🇷FR_1|1.5MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_19|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_19|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_9|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_27|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_16|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_46|3.4MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_47|2.7MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_44|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_3|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_50|2.3MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_12|2.2MB/s
+  - 青枫资源分享@QFZYFX 🇱🇻LV_7|1.4MB/s
+  - 青枫资源分享@QFZYFX 🇱🇻LV_8|2.5MB/s
+  - 青枫资源分享@QFZYFX 🇱🇻LV_9|2.1MB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_10|2.4MB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_11|2.2MB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_12|2.6MB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_14|1.9MB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_15|2.0MB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_19|1.4MB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_1|1.3MB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_20|2.5MB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_22|2.5MB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_24|1.9MB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_26|2.8MB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_27|2.7MB/s
   - 青枫资源分享@QFZYFX 🇳🇱NL_28|2.3MB/s
-  - 青枫资源分享@QFZYFX ❓Other_23|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇵🇱PL_1|2.3MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_13|1.2MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_20|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇨🇭CH_1|2.9MB/s
-  - 🇫🇷 法国 14 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇫🇷FR_4|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_38|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_4|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_11|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇫🇷FR_8|1.7MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_41|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_9|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_36|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_42|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_5|1.2MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_2|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇫🇷FR_3|1.3MB/s
-  - 青枫资源分享@QFZYFX ❓Other_16|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_48|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_14|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_2|1.7MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_15|1.2MB/s
-  - 青枫资源分享@QFZYFX ❓Other_33|2.7MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_5|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_7|1.8MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_8|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_23|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_32|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇫🇷FR_2|1.4MB/s
-  - 青枫资源分享@QFZYFX 🇳🇴NO_1|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_8|2.3MB/s
-  - 🇸🇬 新加坡 53 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇩🇪DE_10|2.6MB/s
-  - 青枫资源分享@QFZYFX ❓Other_13|1.7MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_22|1.7MB/s
-  - 青枫资源分享@QFZYFX ❓Other_11|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_1|2.3MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_12|3.2MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_18|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_20|2.2MB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_29|2.3MB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_2|2.1MB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_30|2.7MB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_31|2.4MB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_33|3.5MB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_34|2.8MB/s
   - 青枫资源分享@QFZYFX 🇳🇱NL_35|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇹🇷TR_1|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇸🇪SE_1|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇦🇹AT_1|2.3MB/s
-  - 🇭🇰 香港 06 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇴🇲OM_1|2.0MB/s
-  - 🇭🇰 香港 41 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇺🇸US_40|1.5MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_39|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_38|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_37|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_26|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_25|2.7MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_24|1.2MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_36|1.7MB/s
-  - 青枫资源分享@QFZYFX 🇦🇺AU_1|1.6MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_34|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_14|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_13|1.4MB/s
-  - 青枫资源分享@QFZYFX 🇱🇻LV_5|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_32|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇫🇷FR_5|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_11|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_31|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_10|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_29|1.7MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_7|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_6|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_26|1.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_24|1.6MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_22|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_21|1.7MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_18|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_6|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_20|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_17|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_4|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_15|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_11|1.0MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_10|2.1MB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_3|1.6MB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_7|1.7MB/s
   - 青枫资源分享@QFZYFX 🇳🇱NL_9|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇲🇩MD_1|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_4|1.5MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_13|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇫🇮FI_1|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇹🇼TW_2|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇨🇦CA_2|2.3MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_6|1.2MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_3|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇨🇦CA_1|2.3MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_11|1.9MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_3|2.5MB/s
+  - 青枫资源分享@QFZYFX 🇵🇱PL_1|2.1MB/s
+  - 青枫资源分享@QFZYFX 🇵🇱PL_5|2.5MB/s
+  - 青枫资源分享@QFZYFX 🇷🇸RS_1|2.0MB/s
+  - 青枫资源分享@QFZYFX 🇸🇪SE_2|2.0MB/s
+  - 青枫资源分享@QFZYFX 🇸🇬SG_1|2.3MB/s
+  - 青枫资源分享@QFZYFX 🇸🇬SG_2|2.4MB/s
+  - 青枫资源分享@QFZYFX 🇸🇬SG_7|2.3MB/s
+  - 青枫资源分享@QFZYFX 🇸🇬SG_8|2.1MB/s
+  - 青枫资源分享@QFZYFX 🇸🇬SG_9|1.9MB/s
+  - 青枫资源分享@QFZYFX 🇹🇼TW_2|1.6MB/s
   - 青枫资源分享@QFZYFX 🇺🇸US_10|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_1|1.4MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_2|2.7MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_7|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇰🇷KR_3|2.1MB/s
-  - 青枫资源分享@QFZYFX ❓Other_8|2.0MB/s
-  - 青枫资源分享@QFZYFX ❓Other_7|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇱🇻LV_2|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇰🇷KR_2|1.3MB/s
-  - 青枫资源分享@QFZYFX ❓Other_6|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇰🇷KR_1|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇯🇵JP_1|4.2MB/s
-  - 青枫资源分享@QFZYFX ❓Other_4|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_2|1.1MB/s
-  - 青枫资源分享@QFZYFX ❓Other_1|2.3MB/s
-  - 青枫资源分享@QFZYFX 🇮🇳IN_1|1.8MB/s
-- name: 📹 油管视频
-  type: select
-  proxies:
-  - 🚀 节点选择
-  - ♻️ 自动选择
-  - ☑️ 手动切换
-  - DIRECT
-- name: 🎥 奈飞视频
-  type: select
-  proxies:
-  - 🚀 节点选择
-  - ♻️ 自动选择
-  - ☑️ 手动切换
-  - DIRECT
+  - 青枫资源分享@QFZYFX 🇺🇸US_11|2.5MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_14|2.1MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_15|2.1MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_16|1.2MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_17|3.0MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_18|2.4MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_19|1.2MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_1|1.7MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_20|2.3MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_21|1.2MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_22|1.8MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_23|2.4MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_24|1.2MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_25|2.1MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_26|2.4MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_27|1.7MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_30|1.6MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_31|2.5MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_32|2.5MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_40|2.4MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_41|2.1MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_43|2.5MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_44|1.5MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_45|2.5MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_47|2.0MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_48|2.0MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_49|1.7MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_4|1.1MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_51|1.8MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_52|2.4MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_53|2.1MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_54|2.1MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_55|2.1MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_56|2.3MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_57|2.3MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_58|1.0MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_59|2.1MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_60|2.2MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_61|3.7MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_62|2.6MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_63|2.4MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_66|1.9MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_67|1.8MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_68|2.1MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_69|2.2MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_70|2.9MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_71|2.1MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_72|2.8MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_73|2.7MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_74|2.3MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_75|2.8MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_76|2.7MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_77|2.5MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_79|2.8MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_81|2.8MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_82|3.0MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_84|2.5MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_85|2.4MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_86|2.3MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_87|2.3MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_88|2.1MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_89|3.2MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_90|2.4MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_91|2.1MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_92|2.2MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_93|4.0MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_94|2.8MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_95|2.2MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_9|2.3MB/s
+  - 韩国 35 (青枫资源分享@QFZYFX)
+  - 韩国 51 (青枫资源分享@QFZYFX)
+  - 马来西亚 01 (青枫资源分享@QFZYFX)
 - name: 🌍 国外媒体
   type: select
   proxies:
   - 🚀 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 青枫资源分享@QFZYFX ❓Other_3|1.2MB/s
-  - 🇰🇷 韩国 008 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 118 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 120 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇱🇻LV_1|1.2MB/s
-  - 🇰🇷 韩国 015 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇺🇸US_47|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_66|2.9MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_65|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇱🇻LV_4|3.0MB/s
-  - 青枫资源分享@QFZYFX ❓Other_30|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇱🇻LV_3|1.2MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_42|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_61|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_71|1.9MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_14|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇱🇻LV_9|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_17|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_27|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇯🇵JP_2|3.3MB/s
-  - 青枫资源分享@QFZYFX 🇱🇻LV_6|1.2MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_30|1.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_41|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_48|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_55|2.7MB/s
-  - 青枫资源分享@QFZYFX ❓Other_17|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_1|1.5MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_15|1.8MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_59|1.6MB/s
-  - 🇸🇬 新加坡 51 (青枫资源分享@QFZYFX)
-  - 🇸🇬 新加坡 48 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇺🇸US_12|1.2MB/s
-  - 🇩🇪 德国 17 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇺🇸US_19|1.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_79|2.3MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_73|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_28|1.6MB/s
-  - 青枫资源分享@QFZYFX 🇯🇵JP_3|1.9MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_35|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_52|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_18|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_23|1.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_9|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_63|1.8MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_49|2.3MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_68|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_21|2.5MB/s
-  - 青枫资源分享@QFZYFX ❓Other_28|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_45|1.9MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_67|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_53|2.7MB/s
-  - 🇦🇪 阿联酋 01 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 042 (青枫资源分享@QFZYFX)
-  - 🇩🇪 德国 03 (青枫资源分享@QFZYFX)
-  - 🇯🇵 日本 39 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇺🇸US_8|2.6MB/s
-  - 🇩🇪 德国 14 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇺🇸US_25|1.1MB/s
-  - 🇩🇪 德国 12 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 165 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 046 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 067 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 010 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 161 (青枫资源分享@QFZYFX)
-  - 🇩🇪 德国 15 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 134 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 025 (青枫资源分享@QFZYFX)
-  - 🇱🇻 拉脱维亚 16 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇰🇷KR_4|1.5MB/s
-  - 🇩🇪 德国 11 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 084 (青枫资源分享@QFZYFX)
-  - 🇯🇵 日本 34 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇸🇬SG_2|3.4MB/s
-  - 青枫资源分享@QFZYFX 🇱🇻LV_11|2.2MB/s
-  - 🇸🇬 新加坡 34 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX ❓Other_5|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_33|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_54|3.0MB/s
-  - 🇳🇱 荷兰 03 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇺🇸US_16|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_60|2.9MB/s
-  - 🇺🇸 美国 162 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇸🇬SG_4|4.4MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_39|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_7|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_12|1.6MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_43|3.4MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_5|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_16|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇫🇷FR_1|1.5MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_19|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_19|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_9|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_27|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_16|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_46|3.4MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_47|2.7MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_44|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_3|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_50|2.3MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_12|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_28|2.3MB/s
-  - 青枫资源分享@QFZYFX ❓Other_23|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇵🇱PL_1|2.3MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_13|1.2MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_20|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇨🇭CH_1|2.9MB/s
-  - 🇫🇷 法国 14 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇫🇷FR_4|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_38|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_4|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_11|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇫🇷FR_8|1.7MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_41|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_9|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_36|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_42|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_5|1.2MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_2|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇫🇷FR_3|1.3MB/s
-  - 青枫资源分享@QFZYFX ❓Other_16|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_48|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_14|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_2|1.7MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_15|1.2MB/s
-  - 青枫资源分享@QFZYFX ❓Other_33|2.7MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_5|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_7|1.8MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_8|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_23|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_32|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇫🇷FR_2|1.4MB/s
-  - 青枫资源分享@QFZYFX 🇳🇴NO_1|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_8|2.3MB/s
-  - 🇸🇬 新加坡 53 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇩🇪DE_10|2.6MB/s
-  - 青枫资源分享@QFZYFX ❓Other_13|1.7MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_22|1.7MB/s
-  - 青枫资源分享@QFZYFX ❓Other_11|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_1|2.3MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_12|3.2MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_18|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_20|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_35|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇹🇷TR_1|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇸🇪SE_1|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇦🇹AT_1|2.3MB/s
-  - 🇭🇰 香港 06 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇴🇲OM_1|2.0MB/s
-  - 🇭🇰 香港 41 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇺🇸US_40|1.5MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_39|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_38|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_37|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_26|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_25|2.7MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_24|1.2MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_36|1.7MB/s
-  - 青枫资源分享@QFZYFX 🇦🇺AU_1|1.6MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_34|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_14|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_13|1.4MB/s
-  - 青枫资源分享@QFZYFX 🇱🇻LV_5|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_32|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇫🇷FR_5|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_11|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_31|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_10|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_29|1.7MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_7|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_6|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_26|1.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_24|1.6MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_22|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_21|1.7MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_18|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_6|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_20|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_17|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_4|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_15|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_11|1.0MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_10|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_9|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇲🇩MD_1|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_4|1.5MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_13|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇫🇮FI_1|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇹🇼TW_2|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇨🇦CA_2|2.3MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_6|1.2MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_3|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇨🇦CA_1|2.3MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_11|1.9MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_3|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_10|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_1|1.4MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_2|2.7MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_7|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇰🇷KR_3|2.1MB/s
-  - 青枫资源分享@QFZYFX ❓Other_8|2.0MB/s
-  - 青枫资源分享@QFZYFX ❓Other_7|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇱🇻LV_2|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇰🇷KR_2|1.3MB/s
-  - 青枫资源分享@QFZYFX ❓Other_6|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇰🇷KR_1|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇯🇵JP_1|4.2MB/s
-  - 青枫资源分享@QFZYFX ❓Other_4|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_2|1.1MB/s
-  - 青枫资源分享@QFZYFX ❓Other_1|2.3MB/s
-  - 青枫资源分享@QFZYFX 🇮🇳IN_1|1.8MB/s
+  - ♻️ 自动选择
 - name: 📲 电报信息
   type: select
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 青枫资源分享@QFZYFX ❓Other_3|1.2MB/s
-  - 🇰🇷 韩国 008 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 118 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 120 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇱🇻LV_1|1.2MB/s
-  - 🇰🇷 韩国 015 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇺🇸US_47|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_66|2.9MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_65|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇱🇻LV_4|3.0MB/s
-  - 青枫资源分享@QFZYFX ❓Other_30|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇱🇻LV_3|1.2MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_42|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_61|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_71|1.9MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_14|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇱🇻LV_9|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_17|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_27|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇯🇵JP_2|3.3MB/s
-  - 青枫资源分享@QFZYFX 🇱🇻LV_6|1.2MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_30|1.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_41|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_48|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_55|2.7MB/s
-  - 青枫资源分享@QFZYFX ❓Other_17|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_1|1.5MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_15|1.8MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_59|1.6MB/s
-  - 🇸🇬 新加坡 51 (青枫资源分享@QFZYFX)
-  - 🇸🇬 新加坡 48 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇺🇸US_12|1.2MB/s
-  - 🇩🇪 德国 17 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇺🇸US_19|1.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_79|2.3MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_73|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_28|1.6MB/s
-  - 青枫资源分享@QFZYFX 🇯🇵JP_3|1.9MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_35|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_52|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_18|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_23|1.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_9|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_63|1.8MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_49|2.3MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_68|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_21|2.5MB/s
-  - 青枫资源分享@QFZYFX ❓Other_28|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_45|1.9MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_67|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_53|2.7MB/s
-  - 🇦🇪 阿联酋 01 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 042 (青枫资源分享@QFZYFX)
-  - 🇩🇪 德国 03 (青枫资源分享@QFZYFX)
-  - 🇯🇵 日本 39 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇺🇸US_8|2.6MB/s
-  - 🇩🇪 德国 14 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇺🇸US_25|1.1MB/s
-  - 🇩🇪 德国 12 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 165 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 046 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 067 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 010 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 161 (青枫资源分享@QFZYFX)
-  - 🇩🇪 德国 15 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 134 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 025 (青枫资源分享@QFZYFX)
-  - 🇱🇻 拉脱维亚 16 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇰🇷KR_4|1.5MB/s
-  - 🇩🇪 德国 11 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 084 (青枫资源分享@QFZYFX)
-  - 🇯🇵 日本 34 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇸🇬SG_2|3.4MB/s
-  - 青枫资源分享@QFZYFX 🇱🇻LV_11|2.2MB/s
-  - 🇸🇬 新加坡 34 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX ❓Other_5|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_33|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_54|3.0MB/s
-  - 🇳🇱 荷兰 03 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇺🇸US_16|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_60|2.9MB/s
-  - 🇺🇸 美国 162 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇸🇬SG_4|4.4MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_39|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_7|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_12|1.6MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_43|3.4MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_5|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_16|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇫🇷FR_1|1.5MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_19|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_19|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_9|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_27|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_16|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_46|3.4MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_47|2.7MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_44|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_3|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_50|2.3MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_12|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_28|2.3MB/s
-  - 青枫资源分享@QFZYFX ❓Other_23|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇵🇱PL_1|2.3MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_13|1.2MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_20|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇨🇭CH_1|2.9MB/s
-  - 🇫🇷 法国 14 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇫🇷FR_4|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_38|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_4|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_11|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇫🇷FR_8|1.7MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_41|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_9|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_36|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_42|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_5|1.2MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_2|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇫🇷FR_3|1.3MB/s
-  - 青枫资源分享@QFZYFX ❓Other_16|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_48|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_14|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_2|1.7MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_15|1.2MB/s
-  - 青枫资源分享@QFZYFX ❓Other_33|2.7MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_5|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_7|1.8MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_8|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_23|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_32|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇫🇷FR_2|1.4MB/s
-  - 青枫资源分享@QFZYFX 🇳🇴NO_1|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_8|2.3MB/s
-  - 🇸🇬 新加坡 53 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇩🇪DE_10|2.6MB/s
-  - 青枫资源分享@QFZYFX ❓Other_13|1.7MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_22|1.7MB/s
-  - 青枫资源分享@QFZYFX ❓Other_11|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_1|2.3MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_12|3.2MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_18|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_20|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_35|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇹🇷TR_1|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇸🇪SE_1|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇦🇹AT_1|2.3MB/s
-  - 🇭🇰 香港 06 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇴🇲OM_1|2.0MB/s
-  - 🇭🇰 香港 41 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇺🇸US_40|1.5MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_39|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_38|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_37|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_26|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_25|2.7MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_24|1.2MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_36|1.7MB/s
-  - 青枫资源分享@QFZYFX 🇦🇺AU_1|1.6MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_34|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_14|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_13|1.4MB/s
-  - 青枫资源分享@QFZYFX 🇱🇻LV_5|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_32|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇫🇷FR_5|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_11|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_31|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_10|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_29|1.7MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_7|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_6|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_26|1.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_24|1.6MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_22|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_21|1.7MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_18|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_6|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_20|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_17|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_4|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_15|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_11|1.0MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_10|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_9|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇲🇩MD_1|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_4|1.5MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_13|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇫🇮FI_1|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇹🇼TW_2|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇨🇦CA_2|2.3MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_6|1.2MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_3|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇨🇦CA_1|2.3MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_11|1.9MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_3|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_10|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_1|1.4MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_2|2.7MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_7|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇰🇷KR_3|2.1MB/s
-  - 青枫资源分享@QFZYFX ❓Other_8|2.0MB/s
-  - 青枫资源分享@QFZYFX ❓Other_7|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇱🇻LV_2|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇰🇷KR_2|1.3MB/s
-  - 青枫资源分享@QFZYFX ❓Other_6|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇰🇷KR_1|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇯🇵JP_1|4.2MB/s
-  - 青枫资源分享@QFZYFX ❓Other_4|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_2|1.1MB/s
-  - 青枫资源分享@QFZYFX ❓Other_1|2.3MB/s
-  - 青枫资源分享@QFZYFX 🇮🇳IN_1|1.8MB/s
-- name: 🤖 OpenAi
-  type: select
-  proxies:
-  - 🚀 节点选择
   - ♻️ 自动选择
-  - 🇺🇲 美国节点
-  - ☑️ 手动切换
-  - DIRECT
 - name: Ⓜ️ 微软服务
   type: select
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 青枫资源分享@QFZYFX ❓Other_3|1.2MB/s
-  - 🇰🇷 韩国 008 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 118 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 120 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇱🇻LV_1|1.2MB/s
-  - 🇰🇷 韩国 015 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇺🇸US_47|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_66|2.9MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_65|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇱🇻LV_4|3.0MB/s
-  - 青枫资源分享@QFZYFX ❓Other_30|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇱🇻LV_3|1.2MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_42|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_61|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_71|1.9MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_14|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇱🇻LV_9|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_17|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_27|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇯🇵JP_2|3.3MB/s
-  - 青枫资源分享@QFZYFX 🇱🇻LV_6|1.2MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_30|1.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_41|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_48|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_55|2.7MB/s
-  - 青枫资源分享@QFZYFX ❓Other_17|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_1|1.5MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_15|1.8MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_59|1.6MB/s
-  - 🇸🇬 新加坡 51 (青枫资源分享@QFZYFX)
-  - 🇸🇬 新加坡 48 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇺🇸US_12|1.2MB/s
-  - 🇩🇪 德国 17 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇺🇸US_19|1.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_79|2.3MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_73|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_28|1.6MB/s
-  - 青枫资源分享@QFZYFX 🇯🇵JP_3|1.9MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_35|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_52|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_18|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_23|1.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_9|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_63|1.8MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_49|2.3MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_68|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_21|2.5MB/s
-  - 青枫资源分享@QFZYFX ❓Other_28|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_45|1.9MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_67|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_53|2.7MB/s
-  - 🇦🇪 阿联酋 01 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 042 (青枫资源分享@QFZYFX)
-  - 🇩🇪 德国 03 (青枫资源分享@QFZYFX)
-  - 🇯🇵 日本 39 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇺🇸US_8|2.6MB/s
-  - 🇩🇪 德国 14 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇺🇸US_25|1.1MB/s
-  - 🇩🇪 德国 12 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 165 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 046 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 067 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 010 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 161 (青枫资源分享@QFZYFX)
-  - 🇩🇪 德国 15 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 134 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 025 (青枫资源分享@QFZYFX)
-  - 🇱🇻 拉脱维亚 16 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇰🇷KR_4|1.5MB/s
-  - 🇩🇪 德国 11 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 084 (青枫资源分享@QFZYFX)
-  - 🇯🇵 日本 34 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇸🇬SG_2|3.4MB/s
-  - 青枫资源分享@QFZYFX 🇱🇻LV_11|2.2MB/s
-  - 🇸🇬 新加坡 34 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX ❓Other_5|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_33|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_54|3.0MB/s
-  - 🇳🇱 荷兰 03 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇺🇸US_16|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_60|2.9MB/s
-  - 🇺🇸 美国 162 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇸🇬SG_4|4.4MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_39|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_7|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_12|1.6MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_43|3.4MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_5|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_16|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇫🇷FR_1|1.5MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_19|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_19|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_9|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_27|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_16|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_46|3.4MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_47|2.7MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_44|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_3|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_50|2.3MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_12|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_28|2.3MB/s
-  - 青枫资源分享@QFZYFX ❓Other_23|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇵🇱PL_1|2.3MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_13|1.2MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_20|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇨🇭CH_1|2.9MB/s
-  - 🇫🇷 法国 14 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇫🇷FR_4|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_38|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_4|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_11|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇫🇷FR_8|1.7MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_41|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_9|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_36|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_42|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_5|1.2MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_2|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇫🇷FR_3|1.3MB/s
-  - 青枫资源分享@QFZYFX ❓Other_16|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_48|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_14|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_2|1.7MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_15|1.2MB/s
-  - 青枫资源分享@QFZYFX ❓Other_33|2.7MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_5|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_7|1.8MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_8|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_23|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_32|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇫🇷FR_2|1.4MB/s
-  - 青枫资源分享@QFZYFX 🇳🇴NO_1|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_8|2.3MB/s
-  - 🇸🇬 新加坡 53 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇩🇪DE_10|2.6MB/s
-  - 青枫资源分享@QFZYFX ❓Other_13|1.7MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_22|1.7MB/s
-  - 青枫资源分享@QFZYFX ❓Other_11|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_1|2.3MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_12|3.2MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_18|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_20|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_35|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇹🇷TR_1|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇸🇪SE_1|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇦🇹AT_1|2.3MB/s
-  - 🇭🇰 香港 06 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇴🇲OM_1|2.0MB/s
-  - 🇭🇰 香港 41 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇺🇸US_40|1.5MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_39|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_38|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_37|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_26|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_25|2.7MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_24|1.2MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_36|1.7MB/s
-  - 青枫资源分享@QFZYFX 🇦🇺AU_1|1.6MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_34|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_14|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_13|1.4MB/s
-  - 青枫资源分享@QFZYFX 🇱🇻LV_5|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_32|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇫🇷FR_5|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_11|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_31|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_10|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_29|1.7MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_7|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_6|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_26|1.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_24|1.6MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_22|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_21|1.7MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_18|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_6|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_20|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_17|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_4|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_15|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_11|1.0MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_10|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_9|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇲🇩MD_1|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_4|1.5MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_13|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇫🇮FI_1|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇹🇼TW_2|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇨🇦CA_2|2.3MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_6|1.2MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_3|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇨🇦CA_1|2.3MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_11|1.9MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_3|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_10|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_1|1.4MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_2|2.7MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_7|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇰🇷KR_3|2.1MB/s
-  - 青枫资源分享@QFZYFX ❓Other_8|2.0MB/s
-  - 青枫资源分享@QFZYFX ❓Other_7|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇱🇻LV_2|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇰🇷KR_2|1.3MB/s
-  - 青枫资源分享@QFZYFX ❓Other_6|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇰🇷KR_1|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇯🇵JP_1|4.2MB/s
-  - 青枫资源分享@QFZYFX ❓Other_4|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_2|1.1MB/s
-  - 青枫资源分享@QFZYFX ❓Other_1|2.3MB/s
-  - 青枫资源分享@QFZYFX 🇮🇳IN_1|1.8MB/s
+  - ♻️ 自动选择
 - name: 🍎 苹果服务
   type: select
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 青枫资源分享@QFZYFX ❓Other_3|1.2MB/s
-  - 🇰🇷 韩国 008 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 118 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 120 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇱🇻LV_1|1.2MB/s
-  - 🇰🇷 韩国 015 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇺🇸US_47|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_66|2.9MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_65|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇱🇻LV_4|3.0MB/s
-  - 青枫资源分享@QFZYFX ❓Other_30|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇱🇻LV_3|1.2MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_42|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_61|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_71|1.9MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_14|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇱🇻LV_9|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_17|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_27|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇯🇵JP_2|3.3MB/s
-  - 青枫资源分享@QFZYFX 🇱🇻LV_6|1.2MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_30|1.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_41|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_48|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_55|2.7MB/s
-  - 青枫资源分享@QFZYFX ❓Other_17|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_1|1.5MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_15|1.8MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_59|1.6MB/s
-  - 🇸🇬 新加坡 51 (青枫资源分享@QFZYFX)
-  - 🇸🇬 新加坡 48 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇺🇸US_12|1.2MB/s
-  - 🇩🇪 德国 17 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇺🇸US_19|1.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_79|2.3MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_73|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_28|1.6MB/s
-  - 青枫资源分享@QFZYFX 🇯🇵JP_3|1.9MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_35|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_52|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_18|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_23|1.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_9|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_63|1.8MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_49|2.3MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_68|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_21|2.5MB/s
-  - 青枫资源分享@QFZYFX ❓Other_28|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_45|1.9MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_67|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_53|2.7MB/s
-  - 🇦🇪 阿联酋 01 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 042 (青枫资源分享@QFZYFX)
-  - 🇩🇪 德国 03 (青枫资源分享@QFZYFX)
-  - 🇯🇵 日本 39 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇺🇸US_8|2.6MB/s
-  - 🇩🇪 德国 14 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇺🇸US_25|1.1MB/s
-  - 🇩🇪 德国 12 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 165 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 046 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 067 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 010 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 161 (青枫资源分享@QFZYFX)
-  - 🇩🇪 德国 15 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 134 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 025 (青枫资源分享@QFZYFX)
-  - 🇱🇻 拉脱维亚 16 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇰🇷KR_4|1.5MB/s
-  - 🇩🇪 德国 11 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 084 (青枫资源分享@QFZYFX)
-  - 🇯🇵 日本 34 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇸🇬SG_2|3.4MB/s
-  - 青枫资源分享@QFZYFX 🇱🇻LV_11|2.2MB/s
-  - 🇸🇬 新加坡 34 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX ❓Other_5|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_33|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_54|3.0MB/s
-  - 🇳🇱 荷兰 03 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇺🇸US_16|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_60|2.9MB/s
-  - 🇺🇸 美国 162 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇸🇬SG_4|4.4MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_39|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_7|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_12|1.6MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_43|3.4MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_5|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_16|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇫🇷FR_1|1.5MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_19|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_19|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_9|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_27|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_16|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_46|3.4MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_47|2.7MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_44|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_3|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_50|2.3MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_12|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_28|2.3MB/s
-  - 青枫资源分享@QFZYFX ❓Other_23|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇵🇱PL_1|2.3MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_13|1.2MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_20|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇨🇭CH_1|2.9MB/s
-  - 🇫🇷 法国 14 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇫🇷FR_4|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_38|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_4|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_11|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇫🇷FR_8|1.7MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_41|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_9|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_36|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_42|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_5|1.2MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_2|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇫🇷FR_3|1.3MB/s
-  - 青枫资源分享@QFZYFX ❓Other_16|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_48|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_14|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_2|1.7MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_15|1.2MB/s
-  - 青枫资源分享@QFZYFX ❓Other_33|2.7MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_5|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_7|1.8MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_8|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_23|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_32|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇫🇷FR_2|1.4MB/s
-  - 青枫资源分享@QFZYFX 🇳🇴NO_1|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_8|2.3MB/s
-  - 🇸🇬 新加坡 53 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇩🇪DE_10|2.6MB/s
-  - 青枫资源分享@QFZYFX ❓Other_13|1.7MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_22|1.7MB/s
-  - 青枫资源分享@QFZYFX ❓Other_11|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_1|2.3MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_12|3.2MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_18|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_20|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_35|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇹🇷TR_1|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇸🇪SE_1|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇦🇹AT_1|2.3MB/s
-  - 🇭🇰 香港 06 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇴🇲OM_1|2.0MB/s
-  - 🇭🇰 香港 41 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇺🇸US_40|1.5MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_39|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_38|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_37|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_26|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_25|2.7MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_24|1.2MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_36|1.7MB/s
-  - 青枫资源分享@QFZYFX 🇦🇺AU_1|1.6MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_34|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_14|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_13|1.4MB/s
-  - 青枫资源分享@QFZYFX 🇱🇻LV_5|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_32|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇫🇷FR_5|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_11|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_31|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_10|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_29|1.7MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_7|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_6|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_26|1.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_24|1.6MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_22|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_21|1.7MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_18|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_6|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_20|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_17|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_4|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_15|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_11|1.0MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_10|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_9|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇲🇩MD_1|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_4|1.5MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_13|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇫🇮FI_1|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇹🇼TW_2|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇨🇦CA_2|2.3MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_6|1.2MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_3|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇨🇦CA_1|2.3MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_11|1.9MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_3|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_10|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_1|1.4MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_2|2.7MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_7|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇰🇷KR_3|2.1MB/s
-  - 青枫资源分享@QFZYFX ❓Other_8|2.0MB/s
-  - 青枫资源分享@QFZYFX ❓Other_7|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇱🇻LV_2|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇰🇷KR_2|1.3MB/s
-  - 青枫资源分享@QFZYFX ❓Other_6|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇰🇷KR_1|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇯🇵JP_1|4.2MB/s
-  - 青枫资源分享@QFZYFX ❓Other_4|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_2|1.1MB/s
-  - 青枫资源分享@QFZYFX ❓Other_1|2.3MB/s
-  - 青枫资源分享@QFZYFX 🇮🇳IN_1|1.8MB/s
-- name: 📢 谷歌FCM
-  type: select
-  proxies:
-  - 🚀 节点选择
-  - 🎯 全球直连
   - ♻️ 自动选择
-  - 青枫资源分享@QFZYFX ❓Other_3|1.2MB/s
-  - 🇰🇷 韩国 008 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 118 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 120 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇱🇻LV_1|1.2MB/s
-  - 🇰🇷 韩国 015 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇺🇸US_47|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_66|2.9MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_65|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇱🇻LV_4|3.0MB/s
-  - 青枫资源分享@QFZYFX ❓Other_30|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇱🇻LV_3|1.2MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_42|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_61|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_71|1.9MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_14|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇱🇻LV_9|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_17|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_27|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇯🇵JP_2|3.3MB/s
-  - 青枫资源分享@QFZYFX 🇱🇻LV_6|1.2MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_30|1.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_41|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_48|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_55|2.7MB/s
-  - 青枫资源分享@QFZYFX ❓Other_17|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_1|1.5MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_15|1.8MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_59|1.6MB/s
-  - 🇸🇬 新加坡 51 (青枫资源分享@QFZYFX)
-  - 🇸🇬 新加坡 48 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇺🇸US_12|1.2MB/s
-  - 🇩🇪 德国 17 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇺🇸US_19|1.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_79|2.3MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_73|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_28|1.6MB/s
-  - 青枫资源分享@QFZYFX 🇯🇵JP_3|1.9MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_35|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_52|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_18|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_23|1.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_9|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_63|1.8MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_49|2.3MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_68|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_21|2.5MB/s
-  - 青枫资源分享@QFZYFX ❓Other_28|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_45|1.9MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_67|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_53|2.7MB/s
-  - 🇦🇪 阿联酋 01 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 042 (青枫资源分享@QFZYFX)
-  - 🇩🇪 德国 03 (青枫资源分享@QFZYFX)
-  - 🇯🇵 日本 39 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇺🇸US_8|2.6MB/s
-  - 🇩🇪 德国 14 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇺🇸US_25|1.1MB/s
-  - 🇩🇪 德国 12 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 165 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 046 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 067 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 010 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 161 (青枫资源分享@QFZYFX)
-  - 🇩🇪 德国 15 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 134 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 025 (青枫资源分享@QFZYFX)
-  - 🇱🇻 拉脱维亚 16 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇰🇷KR_4|1.5MB/s
-  - 🇩🇪 德国 11 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 084 (青枫资源分享@QFZYFX)
-  - 🇯🇵 日本 34 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇸🇬SG_2|3.4MB/s
-  - 青枫资源分享@QFZYFX 🇱🇻LV_11|2.2MB/s
-  - 🇸🇬 新加坡 34 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX ❓Other_5|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_33|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_54|3.0MB/s
-  - 🇳🇱 荷兰 03 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇺🇸US_16|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_60|2.9MB/s
-  - 🇺🇸 美国 162 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇸🇬SG_4|4.4MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_39|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_7|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_12|1.6MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_43|3.4MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_5|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_16|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇫🇷FR_1|1.5MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_19|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_19|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_9|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_27|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_16|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_46|3.4MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_47|2.7MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_44|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_3|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_50|2.3MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_12|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_28|2.3MB/s
-  - 青枫资源分享@QFZYFX ❓Other_23|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇵🇱PL_1|2.3MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_13|1.2MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_20|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇨🇭CH_1|2.9MB/s
-  - 🇫🇷 法国 14 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇫🇷FR_4|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_38|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_4|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_11|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇫🇷FR_8|1.7MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_41|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_9|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_36|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_42|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_5|1.2MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_2|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇫🇷FR_3|1.3MB/s
-  - 青枫资源分享@QFZYFX ❓Other_16|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_48|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_14|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_2|1.7MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_15|1.2MB/s
-  - 青枫资源分享@QFZYFX ❓Other_33|2.7MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_5|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_7|1.8MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_8|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_23|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_32|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇫🇷FR_2|1.4MB/s
-  - 青枫资源分享@QFZYFX 🇳🇴NO_1|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_8|2.3MB/s
-  - 🇸🇬 新加坡 53 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇩🇪DE_10|2.6MB/s
-  - 青枫资源分享@QFZYFX ❓Other_13|1.7MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_22|1.7MB/s
-  - 青枫资源分享@QFZYFX ❓Other_11|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_1|2.3MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_12|3.2MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_18|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_20|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_35|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇹🇷TR_1|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇸🇪SE_1|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇦🇹AT_1|2.3MB/s
-  - 🇭🇰 香港 06 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇴🇲OM_1|2.0MB/s
-  - 🇭🇰 香港 41 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇺🇸US_40|1.5MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_39|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_38|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_37|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_26|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_25|2.7MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_24|1.2MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_36|1.7MB/s
-  - 青枫资源分享@QFZYFX 🇦🇺AU_1|1.6MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_34|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_14|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_13|1.4MB/s
-  - 青枫资源分享@QFZYFX 🇱🇻LV_5|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_32|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇫🇷FR_5|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_11|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_31|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_10|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_29|1.7MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_7|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_6|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_26|1.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_24|1.6MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_22|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_21|1.7MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_18|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_6|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_20|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_17|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_4|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_15|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_11|1.0MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_10|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_9|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇲🇩MD_1|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_4|1.5MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_13|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇫🇮FI_1|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇹🇼TW_2|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇨🇦CA_2|2.3MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_6|1.2MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_3|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇨🇦CA_1|2.3MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_11|1.9MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_3|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_10|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_1|1.4MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_2|2.7MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_7|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇰🇷KR_3|2.1MB/s
-  - 青枫资源分享@QFZYFX ❓Other_8|2.0MB/s
-  - 青枫资源分享@QFZYFX ❓Other_7|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇱🇻LV_2|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇰🇷KR_2|1.3MB/s
-  - 青枫资源分享@QFZYFX ❓Other_6|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇰🇷KR_1|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇯🇵JP_1|4.2MB/s
-  - 青枫资源分享@QFZYFX ❓Other_4|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_2|1.1MB/s
-  - 青枫资源分享@QFZYFX ❓Other_1|2.3MB/s
-  - 青枫资源分享@QFZYFX 🇮🇳IN_1|1.8MB/s
 - name: 🎯 全球直连
   type: select
   proxies:
@@ -4273,304 +2518,238 @@ proxy-groups:
   proxies:
   - REJECT
   - DIRECT
+  - 🚀 节点选择
+  - ♻️ 自动选择
 - name: 🍃 应用净化
   type: select
   proxies:
   - REJECT
   - DIRECT
+  - 🚀 节点选择
+  - ♻️ 自动选择
 - name: 🐟 漏网之鱼
   type: select
   proxies:
+  - DIRECT
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - 青枫资源分享@QFZYFX ❓Other_3|1.2MB/s
-  - 🇰🇷 韩国 008 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 118 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 120 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇱🇻LV_1|1.2MB/s
-  - 🇰🇷 韩国 015 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇺🇸US_47|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_66|2.9MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_65|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇱🇻LV_4|3.0MB/s
-  - 青枫资源分享@QFZYFX ❓Other_30|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇱🇻LV_3|1.2MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_42|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_61|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_71|1.9MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_14|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇱🇻LV_9|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_17|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_27|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇯🇵JP_2|3.3MB/s
-  - 青枫资源分享@QFZYFX 🇱🇻LV_6|1.2MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_30|1.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_41|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_48|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_55|2.7MB/s
-  - 青枫资源分享@QFZYFX ❓Other_17|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_1|1.5MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_15|1.8MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_59|1.6MB/s
-  - 🇸🇬 新加坡 51 (青枫资源分享@QFZYFX)
-  - 🇸🇬 新加坡 48 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇺🇸US_12|1.2MB/s
-  - 🇩🇪 德国 17 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇺🇸US_19|1.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_79|2.3MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_73|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_28|1.6MB/s
-  - 青枫资源分享@QFZYFX 🇯🇵JP_3|1.9MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_35|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_52|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_18|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_23|1.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_9|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_63|1.8MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_49|2.3MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_68|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_21|2.5MB/s
-  - 青枫资源分享@QFZYFX ❓Other_28|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_45|1.9MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_67|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_53|2.7MB/s
-  - 🇦🇪 阿联酋 01 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 042 (青枫资源分享@QFZYFX)
-  - 🇩🇪 德国 03 (青枫资源分享@QFZYFX)
-  - 🇯🇵 日本 39 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇺🇸US_8|2.6MB/s
-  - 🇩🇪 德国 14 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇺🇸US_25|1.1MB/s
-  - 🇩🇪 德国 12 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 165 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 046 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 067 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 010 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 161 (青枫资源分享@QFZYFX)
-  - 🇩🇪 德国 15 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 134 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 025 (青枫资源分享@QFZYFX)
-  - 🇱🇻 拉脱维亚 16 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇰🇷KR_4|1.5MB/s
-  - 🇩🇪 德国 11 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 084 (青枫资源分享@QFZYFX)
-  - 🇯🇵 日本 34 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇸🇬SG_2|3.4MB/s
-  - 青枫资源分享@QFZYFX 🇱🇻LV_11|2.2MB/s
-  - 🇸🇬 新加坡 34 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX ❓Other_5|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_33|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_54|3.0MB/s
-  - 🇳🇱 荷兰 03 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇺🇸US_16|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_60|2.9MB/s
-  - 🇺🇸 美国 162 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇸🇬SG_4|4.4MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_39|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_7|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_12|1.6MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_43|3.4MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_5|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_16|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇫🇷FR_1|1.5MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_19|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_19|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_9|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_27|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_16|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_46|3.4MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_47|2.7MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_44|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_3|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_50|2.3MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_12|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_28|2.3MB/s
-  - 青枫资源分享@QFZYFX ❓Other_23|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇵🇱PL_1|2.3MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_13|1.2MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_20|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇨🇭CH_1|2.9MB/s
-  - 🇫🇷 法国 14 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇫🇷FR_4|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_38|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_4|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_11|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇫🇷FR_8|1.7MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_41|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_9|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_36|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_42|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_5|1.2MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_2|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇫🇷FR_3|1.3MB/s
-  - 青枫资源分享@QFZYFX ❓Other_16|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_48|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_14|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_2|1.7MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_15|1.2MB/s
-  - 青枫资源分享@QFZYFX ❓Other_33|2.7MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_5|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_7|1.8MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_8|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_23|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_32|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇫🇷FR_2|1.4MB/s
-  - 青枫资源分享@QFZYFX 🇳🇴NO_1|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_8|2.3MB/s
-  - 🇸🇬 新加坡 53 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇩🇪DE_10|2.6MB/s
-  - 青枫资源分享@QFZYFX ❓Other_13|1.7MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_22|1.7MB/s
+- name: ♻️ 自动选择
+  type: url-test
+  proxies:
+  - 台湾 07 (青枫资源分享@QFZYFX)
+  - 塞舌尔 01 (青枫资源分享@QFZYFX)
+  - 奥地利 02 (青枫资源分享@QFZYFX)
+  - 奥地利 03 (青枫资源分享@QFZYFX)
+  - 德国 02 (青枫资源分享@QFZYFX)
+  - 德国 03 (青枫资源分享@QFZYFX)
+  - 德国 04 (青枫资源分享@QFZYFX)
+  - 德国 05 (青枫资源分享@QFZYFX)
+  - 德国 11 (青枫资源分享@QFZYFX)
+  - 德国 12 (青枫资源分享@QFZYFX)
+  - 德国 13 (青枫资源分享@QFZYFX)
+  - 德国 14 (青枫资源分享@QFZYFX)
+  - 德国 23 (青枫资源分享@QFZYFX)
+  - 意大利 01 (青枫资源分享@QFZYFX)
+  - 拉脱维亚 02 (青枫资源分享@QFZYFX)
+  - 拉脱维亚 05 (青枫资源分享@QFZYFX)
+  - 新加坡 26 (青枫资源分享@QFZYFX)
+  - 波兰 02 (青枫资源分享@QFZYFX)
+  - 美国 023 (青枫资源分享@QFZYFX)
+  - 美国 028 (青枫资源分享@QFZYFX)
+  - 美国 164 (青枫资源分享@QFZYFX)
+  - 美国 180 (青枫资源分享@QFZYFX)
+  - 美国 181 (青枫资源分享@QFZYFX)
+  - 荷兰 05 (青枫资源分享@QFZYFX)
+  - 通用 143 (青枫资源分享@QFZYFX)
+  - 青枫资源分享@QFZYFX ❓Other_10|1.0MB/s
   - 青枫资源分享@QFZYFX ❓Other_11|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_1|2.3MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_12|3.2MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_18|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_20|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_35|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇹🇷TR_1|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇸🇪SE_1|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇦🇹AT_1|2.3MB/s
-  - 🇭🇰 香港 06 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇴🇲OM_1|2.0MB/s
-  - 🇭🇰 香港 41 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇺🇸US_40|1.5MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_39|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_38|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_37|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_26|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_25|2.7MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_24|1.2MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_36|1.7MB/s
+  - 青枫资源分享@QFZYFX ❓Other_12|2.7MB/s
+  - 青枫资源分享@QFZYFX ❓Other_14|3.8MB/s
+  - 青枫资源分享@QFZYFX ❓Other_15|2.1MB/s
+  - 青枫资源分享@QFZYFX ❓Other_18|2.6MB/s
+  - 青枫资源分享@QFZYFX ❓Other_19|2.9MB/s
+  - 青枫资源分享@QFZYFX ❓Other_1|1.6MB/s
+  - 青枫资源分享@QFZYFX ❓Other_20|1.6MB/s
+  - 青枫资源分享@QFZYFX ❓Other_22|2.2MB/s
+  - 青枫资源分享@QFZYFX ❓Other_24|2.5MB/s
+  - 青枫资源分享@QFZYFX ❓Other_27|2.2MB/s
+  - 青枫资源分享@QFZYFX ❓Other_28|2.6MB/s
+  - 青枫资源分享@QFZYFX ❓Other_2|1.7MB/s
+  - 青枫资源分享@QFZYFX ❓Other_3|1.4MB/s
+  - 青枫资源分享@QFZYFX ❓Other_5|2.3MB/s
+  - 青枫资源分享@QFZYFX ❓Other_6|2.3MB/s
+  - 青枫资源分享@QFZYFX ❓Other_8|2.5MB/s
+  - 青枫资源分享@QFZYFX ❓Other_9|2.2MB/s
   - 青枫资源分享@QFZYFX 🇦🇺AU_1|1.6MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_34|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_14|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_13|1.4MB/s
+  - 青枫资源分享@QFZYFX 🇦🇺AU_2|2.5MB/s
+  - 青枫资源分享@QFZYFX 🇦🇺AU_3|1.3MB/s
+  - 青枫资源分享@QFZYFX 🇧🇪BE_1|2.4MB/s
+  - 青枫资源分享@QFZYFX 🇨🇦CA_1|2.4MB/s
+  - 青枫资源分享@QFZYFX 🇨🇦CA_4|2.4MB/s
+  - 青枫资源分享@QFZYFX 🇨🇦CA_5|2.8MB/s
+  - 青枫资源分享@QFZYFX 🇨🇦CA_6|1.3MB/s
+  - 青枫资源分享@QFZYFX 🇨🇦CA_7|2.6MB/s
+  - 青枫资源分享@QFZYFX 🇩🇪DE_10|2.3MB/s
+  - 青枫资源分享@QFZYFX 🇩🇪DE_11|1.0MB/s
+  - 青枫资源分享@QFZYFX 🇩🇪DE_12|1.7MB/s
+  - 青枫资源分享@QFZYFX 🇩🇪DE_13|2.7MB/s
+  - 青枫资源分享@QFZYFX 🇩🇪DE_14|2.2MB/s
+  - 青枫资源分享@QFZYFX 🇩🇪DE_15|2.6MB/s
+  - 青枫资源分享@QFZYFX 🇩🇪DE_1|1.1MB/s
+  - 青枫资源分享@QFZYFX 🇩🇪DE_3|2.1MB/s
+  - 青枫资源分享@QFZYFX 🇩🇪DE_4|2.3MB/s
+  - 青枫资源分享@QFZYFX 🇩🇪DE_5|1.4MB/s
+  - 青枫资源分享@QFZYFX 🇩🇪DE_9|2.5MB/s
+  - 青枫资源分享@QFZYFX 🇪🇪EE_1|2.4MB/s
+  - 青枫资源分享@QFZYFX 🇫🇷FR_4|2.8MB/s
+  - 青枫资源分享@QFZYFX 🇫🇷FR_6|2.5MB/s
+  - 青枫资源分享@QFZYFX 🇫🇷FR_7|2.6MB/s
+  - 青枫资源分享@QFZYFX 🇬🇧GB_10|2.4MB/s
+  - 青枫资源分享@QFZYFX 🇬🇧GB_11|2.5MB/s
+  - 青枫资源分享@QFZYFX 🇬🇧GB_12|2.7MB/s
+  - 青枫资源分享@QFZYFX 🇬🇧GB_13|2.5MB/s
+  - 青枫资源分享@QFZYFX 🇬🇧GB_2|3.0MB/s
+  - 青枫资源分享@QFZYFX 🇬🇧GB_3|1.8MB/s
+  - 青枫资源分享@QFZYFX 🇬🇧GB_4|1.6MB/s
+  - 青枫资源分享@QFZYFX 🇬🇧GB_6|2.0MB/s
+  - 青枫资源分享@QFZYFX 🇬🇧GB_7|1.4MB/s
+  - 青枫资源分享@QFZYFX 🇬🇧GB_8|2.3MB/s
+  - 青枫资源分享@QFZYFX 🇭🇰HK_1|1.0MB/s
+  - 青枫资源分享@QFZYFX 🇭🇰HK_2|2.6MB/s
+  - 青枫资源分享@QFZYFX 🇭🇰HK_3|2.2MB/s
+  - 青枫资源分享@QFZYFX 🇮🇪IE_1|2.4MB/s
+  - 青枫资源分享@QFZYFX 🇮🇳IN_1|3.2MB/s
+  - 青枫资源分享@QFZYFX 🇮🇳IN_2|2.1MB/s
+  - 青枫资源分享@QFZYFX 🇮🇹IT_2|2.4MB/s
+  - 青枫资源分享@QFZYFX 🇰🇷KR_10|2.4MB/s
+  - 青枫资源分享@QFZYFX 🇰🇷KR_11|3.2MB/s
+  - 青枫资源分享@QFZYFX 🇰🇷KR_1|2.2MB/s
+  - 青枫资源分享@QFZYFX 🇰🇷KR_2|3.0MB/s
+  - 青枫资源分享@QFZYFX 🇰🇷KR_3|2.3MB/s
+  - 青枫资源分享@QFZYFX 🇰🇷KR_4|3.2MB/s
+  - 青枫资源分享@QFZYFX 🇰🇷KR_5|2.8MB/s
+  - 青枫资源分享@QFZYFX 🇰🇷KR_6|2.6MB/s
+  - 青枫资源分享@QFZYFX 🇰🇷KR_7|1.9MB/s
+  - 青枫资源分享@QFZYFX 🇰🇷KR_8|2.4MB/s
+  - 青枫资源分享@QFZYFX 🇱🇻LV_11|3.0MB/s
+  - 青枫资源分享@QFZYFX 🇱🇻LV_1|1.1MB/s
+  - 青枫资源分享@QFZYFX 🇱🇻LV_2|1.7MB/s
+  - 青枫资源分享@QFZYFX 🇱🇻LV_3|2.0MB/s
+  - 青枫资源分享@QFZYFX 🇱🇻LV_4|1.3MB/s
   - 青枫资源分享@QFZYFX 🇱🇻LV_5|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_32|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇫🇷FR_5|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_11|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_31|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_10|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_29|1.7MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_7|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_6|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_26|1.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_24|1.6MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_22|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_21|1.7MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_18|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_6|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_20|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_17|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_4|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_15|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_11|1.0MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_10|2.1MB/s
+  - 青枫资源分享@QFZYFX 🇱🇻LV_7|1.4MB/s
+  - 青枫资源分享@QFZYFX 🇱🇻LV_8|2.5MB/s
+  - 青枫资源分享@QFZYFX 🇱🇻LV_9|2.1MB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_10|2.4MB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_11|2.2MB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_12|2.6MB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_14|1.9MB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_15|2.0MB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_19|1.4MB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_1|1.3MB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_20|2.5MB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_22|2.5MB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_24|1.9MB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_26|2.8MB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_27|2.7MB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_28|2.3MB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_29|2.3MB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_2|2.1MB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_30|2.7MB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_31|2.4MB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_33|3.5MB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_34|2.8MB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_35|2.2MB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_3|1.6MB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_7|1.7MB/s
   - 青枫资源分享@QFZYFX 🇳🇱NL_9|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇲🇩MD_1|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_4|1.5MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_13|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇫🇮FI_1|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇹🇼TW_2|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇨🇦CA_2|2.3MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_6|1.2MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_3|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇨🇦CA_1|2.3MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_11|1.9MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_3|2.5MB/s
+  - 青枫资源分享@QFZYFX 🇵🇱PL_1|2.1MB/s
+  - 青枫资源分享@QFZYFX 🇵🇱PL_5|2.5MB/s
+  - 青枫资源分享@QFZYFX 🇷🇸RS_1|2.0MB/s
+  - 青枫资源分享@QFZYFX 🇸🇪SE_2|2.0MB/s
+  - 青枫资源分享@QFZYFX 🇸🇬SG_1|2.3MB/s
+  - 青枫资源分享@QFZYFX 🇸🇬SG_2|2.4MB/s
+  - 青枫资源分享@QFZYFX 🇸🇬SG_7|2.3MB/s
+  - 青枫资源分享@QFZYFX 🇸🇬SG_8|2.1MB/s
+  - 青枫资源分享@QFZYFX 🇸🇬SG_9|1.9MB/s
+  - 青枫资源分享@QFZYFX 🇹🇼TW_2|1.6MB/s
   - 青枫资源分享@QFZYFX 🇺🇸US_10|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_1|1.4MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_2|2.7MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_7|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇰🇷KR_3|2.1MB/s
-  - 青枫资源分享@QFZYFX ❓Other_8|2.0MB/s
-  - 青枫资源分享@QFZYFX ❓Other_7|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇱🇻LV_2|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇰🇷KR_2|1.3MB/s
-  - 青枫资源分享@QFZYFX ❓Other_6|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇰🇷KR_1|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇯🇵JP_1|4.2MB/s
-  - 青枫资源分享@QFZYFX ❓Other_4|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_2|1.1MB/s
-  - 青枫资源分享@QFZYFX ❓Other_1|2.3MB/s
-  - 青枫资源分享@QFZYFX 🇮🇳IN_1|1.8MB/s
-- name: 🇭🇰 香港节点
-  type: load-balance
-  strategy: consistent-hashing
+  - 青枫资源分享@QFZYFX 🇺🇸US_11|2.5MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_14|2.1MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_15|2.1MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_16|1.2MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_17|3.0MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_18|2.4MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_19|1.2MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_1|1.7MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_20|2.3MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_21|1.2MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_22|1.8MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_23|2.4MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_24|1.2MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_25|2.1MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_26|2.4MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_27|1.7MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_30|1.6MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_31|2.5MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_32|2.5MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_40|2.4MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_41|2.1MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_43|2.5MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_44|1.5MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_45|2.5MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_47|2.0MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_48|2.0MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_49|1.7MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_4|1.1MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_51|1.8MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_52|2.4MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_53|2.1MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_54|2.1MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_55|2.1MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_56|2.3MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_57|2.3MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_58|1.0MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_59|2.1MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_60|2.2MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_61|3.7MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_62|2.6MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_63|2.4MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_66|1.9MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_67|1.8MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_68|2.1MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_69|2.2MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_70|2.9MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_71|2.1MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_72|2.8MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_73|2.7MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_74|2.3MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_75|2.8MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_76|2.7MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_77|2.5MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_79|2.8MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_81|2.8MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_82|3.0MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_84|2.5MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_85|2.4MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_86|2.3MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_87|2.3MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_88|2.1MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_89|3.2MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_90|2.4MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_91|2.1MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_92|2.2MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_93|4.0MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_94|2.8MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_95|2.2MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_9|2.3MB/s
+  - 韩国 35 (青枫资源分享@QFZYFX)
+  - 韩国 51 (青枫资源分享@QFZYFX)
+  - 马来西亚 01 (青枫资源分享@QFZYFX)
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
-  proxies:
-  - 🇭🇰 香港 06 (青枫资源分享@QFZYFX)
-  - 🇭🇰 香港 41 (青枫资源分享@QFZYFX)
-- name: 🇺🇲 美国节点
-  type: load-balance
-  strategy: consistent-hashing
-  url: http://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 150
-  proxies:
-  - 青枫资源分享@QFZYFX 🇺🇸US_47|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_66|2.9MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_65|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_42|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_61|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_71|1.9MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_14|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_17|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_27|2.2MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_30|1.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_41|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_48|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_55|2.7MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_1|1.5MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_15|1.8MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_59|1.6MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_12|1.2MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_19|1.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_79|2.3MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_73|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_28|1.6MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_35|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_52|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_18|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_23|1.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_9|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_63|1.8MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_49|2.3MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_68|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_45|1.9MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_67|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_53|2.7MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_8|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_25|1.1MB/s
-  - 🇺🇸 美国 165 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 161 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇺🇸US_33|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_54|3.0MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_16|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_60|2.9MB/s
-  - 🇺🇸 美国 162 (青枫资源分享@QFZYFX)
-  - 青枫资源分享@QFZYFX 🇺🇸US_40|1.5MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_39|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_38|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_37|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_36|1.7MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_34|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_32|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_31|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_29|1.7MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_26|1.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_24|1.6MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_22|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_21|1.7MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_20|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_13|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_11|1.9MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_10|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_7|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_2|1.1MB/s
 rule-providers:
   LocalAreaNetwork:
     type: http
@@ -4743,4 +2922,4 @@ rules:
 - DOMAIN-SUFFIX,openai.com,🌍 国外媒体
 - GEOIP,CN,🎯 全球直连
 - MATCH,🐟 漏网之鱼
-# updated: 2026-05-15 14:09:18
+# updated: 2026-05-19 11:50:27
