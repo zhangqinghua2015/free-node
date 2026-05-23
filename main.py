@@ -786,15 +786,11 @@ def save_clash_yaml(yaml_content, filename):
     return path
 
 
-def git_commit_and_push(filename):
-    """Commit the updated files and push to remote."""
-    files_to_add = []
-    yaml_file = f"{filename}.yaml"
-    txt_file = f"{filename}.txt"
-    if Path(yaml_file).exists():
-        files_to_add.append(yaml_file)
-    if Path(txt_file).exists():
-        files_to_add.append(txt_file)
+def git_commit_and_push(files):
+    """Commit the given files and push to remote."""
+    if isinstance(files, str):
+        files = [files]
+    files_to_add = [f for f in files if Path(f).exists()]
     if not files_to_add:
         print("[GIT] No files to commit")
         return
@@ -822,6 +818,12 @@ def git_commit_and_push(filename):
         print(f"[GIT] Error: {e.stderr.strip() if e.stderr else e}")
     except subprocess.TimeoutExpired:
         print("[GIT] Push timed out")
+
+
+def git_checkout_file(filepath):
+    """Restore a file to its last committed state."""
+    subprocess.run(["git", "checkout", "HEAD", "--", filepath], capture_output=True)
+    print(f"[GIT] Restored {filepath}")
 
 
 def extract_clash_url(channel, data):
@@ -873,7 +875,8 @@ def convert_from_txt(channel):
         print("[ERROR] Failed to convert subscription URL")
         return False
     save_clash_yaml(yaml_content, channel)
-    git_commit_and_push(channel)
+    yaml_file = f"{channel}.yaml"
+    git_commit_and_push(yaml_file)
     return True
 
 
@@ -927,16 +930,12 @@ def main():
         if password:
             print(f"password={password}")
             clash_url = None
+            txt_file = Path.cwd() / f"{channel or 'unknown'}.txt"
             if channel == "jcnode" and not args.no_fetch:
                 links = fetch_jcnode_subscription(password)
                 if links:
                     print_subscription_links(links)
                     clash_url = extract_clash_url(channel, links)
-                    if clash_url:
-                        sub_file = Path.cwd() / "jcnode.txt"
-                        sub_file.write_text(clash_url, encoding="utf-8")
-                        print(f"[SAVE] Subscription URL saved to {sub_file}")
-                git_commit_and_push(channel)
             elif channel == "QFZYFX" and not args.no_fetch:
                 if not description:
                     description = get_video_description(video_url, COOKIES_FILE)
@@ -944,18 +943,21 @@ def main():
                 if content:
                     print_subscription_content(content)
                     clash_url = extract_clash_url(channel, content)
-                    if clash_url:
-                        sub_file = Path.cwd() / "QFZYFX.txt"
-                        sub_file.write_text(clash_url, encoding="utf-8")
-                        print(f"[SAVE] Clash URL saved to {sub_file}")
-                git_commit_and_push(channel)
             if clash_url:
                 print(f"clash_url={clash_url}")
                 yaml_content = convert_clash_url(clash_url)
                 if yaml_content:
+                    git_checkout_file(txt_file)
                     save_name = channel or "clash"
                     save_clash_yaml(yaml_content, save_name)
-                    git_commit_and_push(save_name)
+                    git_commit_and_push(f"{save_name}.yaml")
+                else:
+                    txt_file.write_text(clash_url, encoding="utf-8")
+                    print(f"[SAVE] Clash URL saved to {txt_file}")
+                    git_commit_and_push(txt_file)
+            else:
+                if txt_file.exists():
+                    git_commit_and_push(txt_file)
         else:
             print("password=")
             sys.exit(1)
