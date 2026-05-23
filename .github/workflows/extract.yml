@@ -4,7 +4,7 @@ on:
   push:
     paths:
       - 'jcnode.txt'
-      - 'QFZYFX.txt'
+      - 'QFZYFX_P.txt'
   workflow_dispatch:
     inputs:
       channel:
@@ -33,7 +33,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install Python dependencies
-        run: pip install --upgrade requests pyyaml
+        run: pip install --upgrade requests pyyaml cryptography
 
       - name: Configure git
         run: |
@@ -49,7 +49,7 @@ jobs:
             CHANGED=$(git diff --name-only HEAD~1 HEAD || true)
             CHANNELS=""
             echo "$CHANGED" | grep -q 'jcnode.txt' && CHANNELS="$CHANNELS jcnode" || true
-            echo "$CHANGED" | grep -q 'QFZYFX.txt' && CHANNELS="$CHANNELS QFZYFX" || true
+            echo "$CHANGED" | grep -q 'QFZYFX_P.txt' && CHANNELS="$CHANNELS QFZYFX" || true
             CHANNELS=$(echo $CHANNELS | xargs)
             echo "channels=$CHANNELS" >> $GITHUB_OUTPUT
           fi

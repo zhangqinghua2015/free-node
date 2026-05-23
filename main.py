@@ -512,9 +512,9 @@ def fetch_qfzyfx_subscription(description, password):
         return None
 
     print(f"[FETCH] Subscription URL: {sub_url}")
-    sub_file = Path.cwd() / "QFZYFX.txt"
-    sub_file.write_text(sub_url, encoding="utf-8")
-    print(f"[SAVE] Subscription URL saved to {sub_file}")
+    sub_file = Path.cwd() / "QFZYFX_P.txt"
+    sub_file.write_text(f"{sub_url}\n{password}", encoding="utf-8")
+    print(f"[SAVE] Subscription URL + password saved to {sub_file}")
     plaintext = _privatebin_decrypt(sub_url, password)
     return plaintext
 
@@ -860,16 +860,36 @@ def extract_clash_url(channel, data):
 
 
 def convert_from_txt(channel):
-    """Read subscription URL from {channel}.txt, convert to Clash YAML, commit and push."""
-    txt_file = Path.cwd() / f"{channel}.txt"
-    if not txt_file.exists():
-        print(f"[ERROR] {txt_file} not found")
-        return False
-    clash_url = txt_file.read_text(encoding="utf-8").strip()
+    """Read URL from {channel}.txt (or QFZYFX_P.txt for QFZYFX), convert to Clash YAML, commit and push."""
+    if channel == "QFZYFX":
+        p_file = Path.cwd() / "QFZYFX_P.txt"
+        if not p_file.exists():
+            print(f"[ERROR] {p_file} not found")
+            return False
+        lines = p_file.read_text(encoding="utf-8").strip().splitlines()
+        if len(lines) < 2:
+            print(f"[ERROR] {p_file} must contain URL and password on separate lines")
+            return False
+        sub_url, password = lines[0].strip(), lines[1].strip()
+        print(f"[CONVERT] QFZYFX PrivateBin URL: {sub_url}")
+        content = _privatebin_decrypt(sub_url, password)
+        if not content:
+            print("[ERROR] Failed to decrypt PrivateBin paste")
+            return False
+        clash_url = extract_clash_url(channel, content)
+    else:
+        txt_file = Path.cwd() / f"{channel}.txt"
+        if not txt_file.exists():
+            print(f"[ERROR] {txt_file} not found")
+            return False
+        clash_url = txt_file.read_text(encoding="utf-8").strip()
+        if not clash_url:
+            print(f"[ERROR] {txt_file} is empty")
+            return False
+    print(f"[CONVERT] Channel={channel}, Clash URL={clash_url}")
     if not clash_url:
-        print(f"[ERROR] {txt_file} is empty")
+        print("[ERROR] Failed to extract Clash subscription URL")
         return False
-    print(f"[CONVERT] Channel={channel}, URL={clash_url}")
     yaml_content = convert_clash_url(clash_url)
     if not yaml_content:
         print("[ERROR] Failed to convert subscription URL")
@@ -930,7 +950,7 @@ def main():
         if password:
             print(f"password={password}")
             clash_url = None
-            txt_file = Path.cwd() / f"{channel or 'unknown'}.txt"
+            txt_file = Path.cwd() / ("QFZYFX_P.txt" if channel == "QFZYFX" else f"{channel or 'unknown'}.txt")
             if channel == "jcnode" and not args.no_fetch:
                 links = fetch_jcnode_subscription(password)
                 if links:
@@ -952,8 +972,9 @@ def main():
                     save_clash_yaml(yaml_content, save_name)
                     git_commit_and_push(f"{save_name}.yaml")
                 else:
-                    txt_file.write_text(clash_url, encoding="utf-8")
-                    print(f"[SAVE] Clash URL saved to {txt_file}")
+                    if channel != "QFZYFX":
+                        txt_file.write_text(clash_url, encoding="utf-8")
+                        print(f"[SAVE] Clash URL saved to {txt_file}")
                     git_commit_and_push(txt_file)
             else:
                 if txt_file.exists():
