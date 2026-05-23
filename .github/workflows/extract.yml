@@ -1,32 +1,31 @@
-name: Extract YouTube Password
+name: Convert Subscription
 
 on:
-  # schedule:
-    # Run daily at 01:00 UTC (adjust as needed)
-    # - cron: '0 1 * * *'
-  workflow_dispatch:      # Allows manual trigger
+  push:
+    paths:
+      - 'jcnode.txt'
+      - 'QFZYFX.txt'
+  workflow_dispatch:
+    inputs:
+      channel:
+        description: 'Channel to convert (jcnode or QFZYFX)'
+        required: true
+        default: 'jcnode'
+        type: choice
+        options:
+          - jcnode
+          - QFZYFX
 
 jobs:
-  extract:
+  convert:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-
-      - name: Install system dependencies
-        run: |
-          sudo apt update
-          sudo apt install -y --no-install-recommends \
-            ffmpeg \
-            tesseract-ocr \
-            tesseract-ocr-eng \
-            tesseract-ocr-chi-sim \
-            python3-pip
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          fetch-depth: 2
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -34,37 +33,38 @@ jobs:
           python-version: '3.11'
 
       - name: Install Python dependencies
-        run: |
-          pip install --upgrade yt-dlp pytesseract Pillow requests
-          yt-dlp --version
+        run: pip install --upgrade requests pyyaml
 
-      - name: Restore cookies (optional)
-        env:
-          COOKIES_SECRET: ${{ secrets.YT_COOKIES }}
+      - name: Configure git
         run: |
-          if [ -n "$COOKIES_SECRET" ]; then
-            echo "$COOKIES_SECRET" > cookies.txt
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Detect changed channel
+        id: detect
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "channel=${{ inputs.channel }}" >> $GITHUB_OUTPUT
+          else
+            CHANGED=$(git diff --name-only HEAD~1 HEAD || true)
+            CHANNELS=""
+            echo "$CHANGED" | grep -q 'jcnode.txt' && CHANNELS="$CHANNELS jcnode" || true
+            echo "$CHANGED" | grep -q 'QFZYFX.txt' && CHANNELS="$CHANNELS QFZYFX" || true
+            CHANNELS=$(echo $CHANNELS | xargs)
+            echo "channels=$CHANNELS" >> $GITHUB_OUTPUT
           fi
 
-      - name: Run password extraction (hard‑subtitle OCR only)
-        id: extract
+      - name: Run conversion
         env:
-          # Optional: limit OCR to a known time segment (e.g., "120-180" for 2:00-3:00)
-          PASSWORD_SEGMENT: ""
-          # Optional: normalized ROI coordinate (x,y,w,h) e.g., "0.7,0.8,0.3,0.2"
-          OCR_REGION: ""
+          CHANNELS: ${{ steps.detect.outputs.channels }}
+          INPUT_CHANNEL: ${{ inputs.channel }}
         run: |
-          python main.py > output.txt
-          PASSWORD=$(grep -oP '^password=\K.*' output.txt)
-          echo "password=$PASSWORD" >> $GITHUB_OUTPUT
-          echo "$PASSWORD" > extracted_password.txt
-
-      - name: Upload extracted password as artifact (optional)
-        uses: actions/upload-artifact@v4
-        with:
-          name: extracted_password
-          path: extracted_password.txt
-
-      - name: Display password (for debugging, remove in production)
-        run: |
-          echo "Extracted password: ${{ steps.extract.outputs.password }}"
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "Converting channel: $INPUT_CHANNEL"
+            python main.py --convert-only "$INPUT_CHANNEL"
+          else
+            for ch in $CHANNELS; do
+              echo "Converting channel: $ch"
+              python main.py --convert-only "$ch"
+            done
+          fi

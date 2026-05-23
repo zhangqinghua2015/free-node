@@ -31,13 +31,6 @@ import zlib
 
 import requests
 import yaml
-import yt_dlp
-import numpy as np
-from cryptography.hazmat.primitives import hashes
-from cryptography.hazmat.primitives.ciphers.aead import AESGCM
-from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
-from rapidocr_onnxruntime import RapidOCR
-from PIL import Image
 
 
 CHANNELS = {
@@ -75,6 +68,7 @@ def _add_cookies(ydl_opts, cookies_file):
 
 
 def get_latest_video_url(channel_url, cookies_file=None):
+    import yt_dlp
     print(f"[DEBUG] Fetching latest video from: {channel_url}")
     ydl_opts = {
         'quiet': True,
@@ -104,6 +98,7 @@ def get_latest_video_url(channel_url, cookies_file=None):
 
 def get_video_description(video_url, cookies_file=None):
     """Fetch full video description (extract_flat doesn't include it)."""
+    import yt_dlp
     print(f"[DEBUG] Fetching full video info for description: {video_url}")
     ydl_opts = {
         'quiet': True,
@@ -131,6 +126,7 @@ def extract_from_text(text):
 
 
 def download_video(video_url, video_path, cookies_file=None):
+    import yt_dlp
     base_opts = {
         'outtmpl': str(video_path),
         'quiet': False,
@@ -207,6 +203,8 @@ def crop_roi(img, roi_cfg):
 
 
 def ocr_scan_frames(frames_dir, roi_cfg, ocr_engine, debug_save=False):
+    import numpy as np
+    from PIL import Image
     frame_files = sorted(Path(frames_dir).glob("*.png"))
     print(f"[OCR] Scanning {len(frame_files)} frames, ROI={roi_cfg}")
     for idx, frame_file in enumerate(frame_files):
@@ -267,6 +265,7 @@ def ocr_password_from_video(video_url, temp_dir, cookies_file=None, channel=None
     print(f"[FRAME] Extracted {count} frames")
 
     if count > 0:
+        from rapidocr_onnxruntime import RapidOCR
         debug_save = os.environ.get("OCR_DEBUG", "") == "1"
         ocr_engine = RapidOCR()
         rois = [CHANNEL_ROI[channel]] if channel and channel in CHANNEL_ROI else [
@@ -406,6 +405,9 @@ def _privatebin_decrypt(paste_url, password):
         Decrypted plaintext string, or None on failure.
     """
     from urllib.parse import urlparse, parse_qs
+    from cryptography.hazmat.primitives import hashes
+    from cryptography.hazmat.primitives.ciphers.aead import AESGCM
+    from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
 
     parsed = urlparse(paste_url)
     fragment = parsed.fragment
@@ -510,6 +512,9 @@ def fetch_qfzyfx_subscription(description, password):
         return None
 
     print(f"[FETCH] Subscription URL: {sub_url}")
+    sub_file = Path.cwd() / "QFZYFX.txt"
+    sub_file.write_text(sub_url, encoding="utf-8")
+    print(f"[SAVE] Subscription URL saved to {sub_file}")
     plaintext = _privatebin_decrypt(sub_url, password)
     return plaintext
 
@@ -782,10 +787,20 @@ def save_clash_yaml(yaml_content, filename):
 
 
 def git_commit_and_push(filename):
-    """Commit the updated YAML file and push to remote."""
+    """Commit the updated files and push to remote."""
+    files_to_add = []
     yaml_file = f"{filename}.yaml"
+    txt_file = f"{filename}.txt"
+    if Path(yaml_file).exists():
+        files_to_add.append(yaml_file)
+    if Path(txt_file).exists():
+        files_to_add.append(txt_file)
+    if not files_to_add:
+        print("[GIT] No files to commit")
+        return
     try:
-        subprocess.run(["git", "add", yaml_file], check=True, capture_output=True)
+        for f in files_to_add:
+            subprocess.run(["git", "add", f], check=True, capture_output=True)
         result = subprocess.run(
             ["git", "diff", "--cached", "--quiet"], capture_output=True
         )
@@ -793,7 +808,7 @@ def git_commit_and_push(filename):
             print("[GIT] No changes to commit")
             return
         today = datetime.date.today().isoformat()
-        msg = f"Update {yaml_file} [{today}]"
+        msg = f"Update {', '.join(files_to_add)} [{today}]"
         subprocess.run(["git", "commit", "-m", msg], check=True, capture_output=True)
         print(f"[GIT] Committed: {msg}")
         result = subprocess.run(
@@ -842,18 +857,43 @@ def extract_clash_url(channel, data):
     return None
 
 
+def convert_from_txt(channel):
+    """Read subscription URL from {channel}.txt, convert to Clash YAML, commit and push."""
+    txt_file = Path.cwd() / f"{channel}.txt"
+    if not txt_file.exists():
+        print(f"[ERROR] {txt_file} not found")
+        return False
+    clash_url = txt_file.read_text(encoding="utf-8").strip()
+    if not clash_url:
+        print(f"[ERROR] {txt_file} is empty")
+        return False
+    print(f"[CONVERT] Channel={channel}, URL={clash_url}")
+    yaml_content = convert_clash_url(clash_url)
+    if not yaml_content:
+        print("[ERROR] Failed to convert subscription URL")
+        return False
+    save_clash_yaml(yaml_content, channel)
+    git_commit_and_push(channel)
+    return True
+
+
 def main():
     parser = argparse.ArgumentParser(description='Extract password from YouTube video subtitles')
     parser.add_argument('url', nargs='?', default=None, help='Channel or video URL')
     parser.add_argument('--video', action='store_true', help='Treat URL as a direct video URL')
     parser.add_argument('--channels', action='store_true', help='List available channel aliases')
     parser.add_argument('--no-fetch', action='store_true', help='Skip fetching subscription links (only extract password)')
+    parser.add_argument('--convert-only', metavar='CHANNEL', help='Only convert: read URL from {CHANNEL}.txt, fetch and generate Clash YAML')
     args = parser.parse_args()
 
     if args.channels:
         for name, url in CHANNELS.items():
             print(f"  {name:12s} -> {url}")
         sys.exit(0)
+
+    if args.convert_only:
+        success = convert_from_txt(args.convert_only)
+        sys.exit(0 if success else 1)
 
     if args.url:
         channel_url = CHANNELS.get(args.url, args.url)
@@ -892,6 +932,11 @@ def main():
                 if links:
                     print_subscription_links(links)
                     clash_url = extract_clash_url(channel, links)
+                    if clash_url:
+                        sub_file = Path.cwd() / "jcnode.txt"
+                        sub_file.write_text(clash_url, encoding="utf-8")
+                        print(f"[SAVE] Subscription URL saved to {sub_file}")
+                git_commit_and_push(channel)
             elif channel == "QFZYFX" and not args.no_fetch:
                 if not description:
                     description = get_video_description(video_url, COOKIES_FILE)
@@ -899,6 +944,11 @@ def main():
                 if content:
                     print_subscription_content(content)
                     clash_url = extract_clash_url(channel, content)
+                    if clash_url:
+                        sub_file = Path.cwd() / "QFZYFX.txt"
+                        sub_file.write_text(clash_url, encoding="utf-8")
+                        print(f"[SAVE] Clash URL saved to {sub_file}")
+                git_commit_and_push(channel)
             if clash_url:
                 print(f"clash_url={clash_url}")
                 yaml_content = convert_clash_url(clash_url)
