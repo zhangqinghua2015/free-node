@@ -788,8 +788,8 @@ def save_clash_yaml(yaml_content, filename):
 
 def git_commit_and_push(files):
     """Commit the given files and push to remote."""
-    if isinstance(files, str):
-        files = [files]
+    if isinstance(files, (str, Path)):
+        files = [str(files)]
     files_to_add = [f for f in files if Path(f).exists()]
     if not files_to_add:
         print("[GIT] No files to commit")
