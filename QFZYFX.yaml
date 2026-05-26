@@ -9752,4 +9752,4 @@ rules:
 - DOMAIN-SUFFIX,openai.com,🌍 国外媒体
 - GEOIP,CN,🎯 全球直连
 - MATCH,🐟 漏网之鱼
-# updated: 2026-05-25 03:44:46
+# updated: 2026-05-26 02:00:17
