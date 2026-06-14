@@ -1392,7 +1392,7 @@ proxies:
   flow: xtls-rprx-vision
   reality-opts:
     public-key: JE82iOR_U_H7ffxJ5yfoxXeRkMlE-aVu1wxR7n6jrVM
-    short-id: 473277e2
+    short-id: '473277e2'
   servername: dlcdnets.asus.com
   client-fingerprint: chrome
   network: tcp
