@@ -708,10 +708,27 @@ def _try_parse_content(content):
     return None
 
 
+def _fix_reality_short_id(proxies):
+    """Fix reality-opts short-id: add single quotes if missing."""
+    for proxy in proxies:
+        if isinstance(proxy, dict) and "reality-opts" in proxy:
+            reality_opts = proxy["reality-opts"]
+            if isinstance(reality_opts, dict) and "short-id" in reality_opts:
+                short_id = reality_opts["short-id"]
+                # Check if short-id is not already quoted (e.g., string wrapped in quotes)
+                # If it's a plain value without quotes, wrap it
+                if isinstance(short_id, str) and not (short_id.startswith("'") and short_id.endswith("'")):
+                    reality_opts["short-id"] = f"'{short_id}'"
+                    print(f"[INFO] Fixed reality-opts short-id for proxy '{proxy.get('name', 'unknown')}': {short_id} -> '{short_id}'")
+
+
 def _merge_template(template, data):
     """Merge proxies and proxy-groups into the template."""
     proxies = data["proxies"]
     proxies.sort(key=lambda p: p.get("name", ""))
+
+    # Fix reality-opts short-id
+    _fix_reality_short_id(proxies)
 
     template["proxies"] = proxies
 
