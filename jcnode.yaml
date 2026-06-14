@@ -841,6 +841,7 @@ proxies:
   tls: true
   reality-opts:
     public-key: BBmixcZDs_ETN7JQfMblZfRFscTbwRbOL9J3KtRlPRc
+    short-id: ''
   servername: 5post-gate.x5.ru
   client-fingerprint: firefox
   name: 🇳🇱荷兰NL001 3.7MB/s中性 TG@jcnode
@@ -854,6 +855,7 @@ proxies:
   tls: true
   reality-opts:
     public-key: BBmixcZDs_ETN7JQfMblZfRFscTbwRbOL9J3KtRlPRc
+    short-id: ''
   servername: 5post-gate.x5.ru
   client-fingerprint: chrome
   name: 🇳🇱荷兰NL002 4.3MB/s中性 TG@jcnode
@@ -1503,6 +1505,7 @@ proxies:
   flow: xtls-rprx-vision
   reality-opts:
     public-key: g-oxbqigzCaXqARxuyD2_vbTYeMD9zn8wnTo02S69QM
+    short-id: ''
   servername: addons.mozilla.org
   client-fingerprint: chrome
   network: tcp
