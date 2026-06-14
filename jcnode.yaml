@@ -831,34 +831,6 @@ proxies:
   port: 9002
   skip-cert-verify: true
   tls: true
-- type: vless
-  server: 89.169.176.125
-  port: 8443
-  uuid: 4c872cd3-7aa2-43ad-8f75-a71fb0d3c2c1
-  flow: xtls-rprx-vision
-  network: tcp
-  encryption: none
-  tls: true
-  reality-opts:
-    public-key: BBmixcZDs_ETN7JQfMblZfRFscTbwRbOL9J3KtRlPRc
-    short-id: ''
-  servername: 5post-gate.x5.ru
-  client-fingerprint: firefox
-  name: 🇳🇱荷兰NL001 3.7MB/s中性 TG@jcnode
-- type: vless
-  server: 89.169.176.125
-  port: 8443
-  uuid: af1bc54d-4764-4b66-a824-dd80645eeafe
-  flow: xtls-rprx-vision
-  network: tcp
-  encryption: none
-  tls: true
-  reality-opts:
-    public-key: BBmixcZDs_ETN7JQfMblZfRFscTbwRbOL9J3KtRlPRc
-    short-id: ''
-  servername: 5post-gate.x5.ru
-  client-fingerprint: chrome
-  name: 🇳🇱荷兰NL002 4.3MB/s中性 TG@jcnode
 - name: 🇷🇴罗马尼亚RO 001 5.5MB/s TG@jcnode
   port: 9002
   server: 84.239.49.242
@@ -1495,20 +1467,6 @@ proxies:
   skip-cert-verify: true
   sni: ae8413f3-teisg0-tgl134-1h240.se.hyhuawei.com
   type: anytls
-  udp: true
-- name: 🇺🇸美国US005 2.1MB/s纯净 TG@jcnode
-  server: 216.36.124.219
-  port: 37462
-  type: vless
-  uuid: e04378e8-3406-4abe-d388-9e3dbb046c54
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: g-oxbqigzCaXqARxuyD2_vbTYeMD9zn8wnTo02S69QM
-    short-id: ''
-  servername: addons.mozilla.org
-  client-fingerprint: chrome
-  network: tcp
   udp: true
 - name: 🇺🇸美国US006 0.2MB/s中性 TG@jcnode
   server: 45.63.75.211
