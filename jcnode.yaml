@@ -72,7 +72,7 @@ proxies:
   port: 7443
   reality-opts:
     public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
-    short-id: '''be0ce047'''
+    short-id: 'be0ce047'
   server: 31.56.188.90
   servername: mi.com
   tls: true
@@ -89,7 +89,7 @@ proxies:
   tls: true
   reality-opts:
     public-key: 4pGooKDmjXPxY0u7IJoYAfj6fw2sf6Tbhi_tW0n34zw
-    short-id: '''4333dc36'''
+    short-id: '4333dc36'
   servername: yahoo.com
   client-fingerprint: firefox
   name: 🇦🇺澳大利亚AU001 1.8MB/s中性 TG@jcnode
@@ -102,7 +102,7 @@ proxies:
   tls: true
   reality-opts:
     public-key: 31olEIZTZkGDqOu6Ztle3r2rGVRYS1dtxDl_WO597SE
-    short-id: '''a004f8507696d9c4'''
+    short-id: 'a004f8507696d9c4'
   servername: yahoo.com
   client-fingerprint: firefox
   name: 🇦🇺澳大利亚AU002 7.4MB/s中性 TG@jcnode
@@ -126,7 +126,7 @@ proxies:
   tls: true
   reality-opts:
     public-key: TdT90qbeyM7WO0QCztOhKDGKOi2qaFFif0hO0cfK1E4
-    short-id: '''ea1058117be12087'''
+    short-id: 'ea1058117be12087'
   servername: max.ru
   client-fingerprint: chrome
   network: grpc
@@ -333,7 +333,7 @@ proxies:
   tls: true
   reality-opts:
     public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
-    short-id: '''d82fb387'''
+    short-id: 'd82fb387'
   servername: stackoverflow.com
   client-fingerprint: firefox
   name: 🇩🇪德国DE023 4.3MB/s中性 TG@jcnode
@@ -372,7 +372,7 @@ proxies:
   udp: true
   reality-opts:
     public-key: 3HaD5Ztk3X4gi3aJLVesV6KSJTW2YGG-hvGD3ZumJkE
-    short-id: '''fa789b2f5ff56959'''
+    short-id: 'fa789b2f5ff56959'
     spider-x: /
   xhttp-opts:
     path: /alvin9999.com
@@ -385,7 +385,7 @@ proxies:
   tls: true
   reality-opts:
     public-key: D9EktvCfJb5l8mBkJHx3U31BIUwIBHJKV85OzyNnDlU
-    short-id: '''6ba85179e30d4fc3'''
+    short-id: '6ba85179e30d4fc3'
   servername: www.yahoo.com
   grpc-opts:
     grpc-service-name: shakhle
@@ -404,7 +404,7 @@ proxies:
   udp: true
   reality-opts:
     public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
-    short-id: '''d020b987f84eb78a'''
+    short-id: 'd020b987f84eb78a'
   client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -420,7 +420,7 @@ proxies:
   udp: true
   reality-opts:
     public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
-    short-id: '''d020b987f84eb78a'''
+    short-id: 'd020b987f84eb78a'
   client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -434,7 +434,7 @@ proxies:
   tls: true
   reality-opts:
     public-key: D9EktvCfJb5l8mBkJHx3U31BIUwIBHJKV85OzyNnDlU
-    short-id: '''6ba85179e30d4fc3'''
+    short-id: '6ba85179e30d4fc3'
   servername: www.yahoo.com
   grpc-opts:
     grpc-service-name: shakhle
@@ -451,7 +451,7 @@ proxies:
   tls: true
   reality-opts:
     public-key: 8scIVVv78H2lFNiBh4wbB0bnHJ2PVd91DO1WQYIsl1A
-    short-id: '''0e8c77184f7fb76c'''
+    short-id: '0e8c77184f7fb76c'
   servername: www.icloud.com
   client-fingerprint: edge
   name: 🇫🇮芬兰FI005 2.2MB/s中性 TG@jcnode
@@ -472,7 +472,7 @@ proxies:
   port: 8443
   reality-opts:
     public-key: BrGL0gTKK_Ir2VwJOa91Vd8870DswnOXhA6-F92RBGI
-    short-id: '''a987b6bd1781daa3'''
+    short-id: 'a987b6bd1781daa3'
   server: 5.35.85.51
   servername: www.kinopoisk.ru
   skip-cert-verify: false
@@ -714,7 +714,7 @@ proxies:
   udp: true
   reality-opts:
     public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
-    short-id: '''0d960275b7b0f9af'''
+    short-id: '0d960275b7b0f9af'
   client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -1563,7 +1563,7 @@ proxies:
   udp: true
   reality-opts:
     public-key: rZgu2lJcC2yrYnx66znee-Z75mW6m4TRfWt7_neoEVI
-    short-id: '''1c74cf626ef50bb3'''
+    short-id: '1c74cf626ef50bb3'
   client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -1591,7 +1591,7 @@ proxies:
   tls: true
   reality-opts:
     public-key: 7MC_kyGYEV7nG0zqKnfwUmvXsoA0fGG4g4chkqqSRGI
-    short-id: '''5ac35e1cd8ce6720'''
+    short-id: '5ac35e1cd8ce6720'
   servername: www.tesla.com
   client-fingerprint: firefox
   name: 🇸🇬新加坡SG003 17.2MB/s中性 TG@jcnode
@@ -1604,7 +1604,7 @@ proxies:
   tls: true
   reality-opts:
     public-key: l6Z-68Q2EJ8nZ5mzWSAB53lp1-_nOHwV2Z18y3DT7xQ
-    short-id: '''7185b14179922a5c'''
+    short-id: '7185b14179922a5c'
   servername: www.tesla.com
   client-fingerprint: firefox
   name: 🇸🇬新加坡SG004 19.7MB/s中性 TG@jcnode
@@ -1617,7 +1617,7 @@ proxies:
   tls: true
   reality-opts:
     public-key: inxRtKQbaiuz18TGXqdYu0dyO_RplIhR7MDZ6rL42UA
-    short-id: '''af0d579034a74916'''
+    short-id: 'af0d579034a74916'
   servername: www.tesla.com
   client-fingerprint: firefox
   name: 🇸🇬新加坡SG005 5.6MB/s中性 TG@jcnode
@@ -1630,7 +1630,7 @@ proxies:
   tls: true
   reality-opts:
     public-key: pAg7gxX-dDZ68kwy3mEj9vyDrieu-kTvIAhxSRMJQ1w
-    short-id: '''be3e57dff1279a7d'''
+    short-id: 'be3e57dff1279a7d'
   servername: www.tesla.com
   client-fingerprint: firefox
   name: 🇸🇬新加坡SG006 17.8MB/s中性 TG@jcnode
@@ -2014,7 +2014,7 @@ proxies:
   tls: true
   reality-opts:
     public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
-    short-id: '''be0ce047'''
+    short-id: 'be0ce047'
   servername: www.microsoft.com
   client-fingerprint: chrome
   name: 🇺🇸美国US025 1.2MB/s纯净 TG@jcnode
@@ -2878,4 +2878,4 @@ rules:
 - DOMAIN-SUFFIX,openai.com,🌍 国外媒体
 - GEOIP,CN,🎯 全球直连
 - MATCH,🐟 漏网之鱼
-# updated: 2026-06-14 10:18:44
+# updated: 2026-06-15 04:54:15
