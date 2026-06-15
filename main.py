@@ -718,7 +718,8 @@ def _fix_reality_short_id(proxies):
                 # Check if short-id is not already quoted (e.g., string wrapped in quotes)
                 # If it's a plain value without quotes, wrap it
                 if isinstance(short_id, str) and not (short_id.startswith("'") and short_id.endswith("'")):
-                    reality_opts["short-id"] = yaml.ScalarString(f"'{short_id}'")
+                    # Simply set it as a quoted string - YAML dumper will handle quoting
+                    reality_opts["short-id"] = f"'{short_id}'"
                     print(f"[INFO] Fixed reality-opts short-id for proxy '{proxy.get('name', 'unknown')}': {short_id} -> '{short_id}'")
 
 
@@ -739,7 +740,7 @@ def _merge_template(template, data):
             g for g in template["proxy-groups"] if g["name"] not in names_to_remove
         ]
         for g in template["proxy-groups"]:
-            if g["name"] in ("🚀 节��选择", "🌍 国外媒体", "📲 电报信息", "Ⓜ️ 微软服务", "🍎 苹果服务"):
+            if g["name"] in ("🚀 节点选择", "🌍 国外媒体", "📲 电报信息", "Ⓜ️ 微软服务", "🍎 苹果服务"):
                 g["proxies"].extend(p["name"] for p in proxy_groups)
         template["proxy-groups"].extend(proxy_groups)
     else:
