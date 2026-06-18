@@ -6235,4 +6235,4 @@ rules:
 - DOMAIN-SUFFIX,openai.com,🌍 国外媒体
 - GEOIP,CN,🎯 全球直连
 - MATCH,🐟 漏网之鱼
-# updated: 2026-06-18 02:11:44
+# updated: 2026-06-18 10:15:54
