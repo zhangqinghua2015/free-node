@@ -269,7 +269,7 @@ def ocr_password_from_video(video_url, temp_dir, cookies_file=None, channel=None
         scan_start, scan_end = max(0, int(segment_env.split("-")[0])), min(duration, int(segment_env.split("-")[1]))
     else:
         scan_start = 80
-        scan_end = min(119, duration)
+        scan_end = min(128, duration)
 
     print(f"[FRAME] Extracting {scan_start:.0f}s - {scan_end:.0f}s at 1fps")
     count = extract_frames(video_path, frames_dir, scan_start, scan_end, 1.0, "f")
