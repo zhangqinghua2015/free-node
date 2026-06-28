@@ -2796,4 +2796,4 @@ rules:
 - DOMAIN-SUFFIX,openai.com,🌍 国外媒体
 - GEOIP,CN,🎯 全球直连
 - MATCH,🐟 漏网之鱼
-# updated: 2026-06-28 21:26:12
+# updated: 2026-06-28 21:43:32
