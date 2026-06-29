@@ -1092,8 +1092,7 @@ proxies:
   skip-cert-verify: true
   reality-opts:
     public-key: bHHdXJs2NGgY4tDUBwmoLBaKM7y_5sd49geQcdbihz0
-    short-id: !!python/object/new:main.QuotedString
-    - '80963776'
+    short-id: '80963776'
   servername: apple.com
   client-fingerprint: firefox
   network: tcp
@@ -6048,4 +6047,4 @@ rules:
 - DOMAIN-SUFFIX,openai.com,🌍 国外媒体
 - GEOIP,CN,🎯 全球直连
 - MATCH,🐟 漏网之鱼
-# updated: 2026-06-29 09:38:54
+# updated: 2026-06-29 01:39:20
