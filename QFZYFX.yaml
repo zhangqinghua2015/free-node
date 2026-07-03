@@ -5040,4 +5040,4 @@ rules:
 - DOMAIN-SUFFIX,openai.com,🌍 国外媒体
 - GEOIP,CN,🎯 全球直连
 - MATCH,🐟 漏网之鱼
-# updated: 2026-07-03 01:39:56
+# updated: 2026-07-03 09:51:00
