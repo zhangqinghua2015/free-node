@@ -6343,4 +6343,4 @@ rules:
 - DOMAIN-SUFFIX,openai.com,🌍 国外媒体
 - GEOIP,CN,🎯 全球直连
 - MATCH,🐟 漏网之鱼
-# updated: 2026-07-05 10:37:05
+# updated: 2026-07-05 10:42:21
