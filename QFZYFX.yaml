@@ -4783,4 +4783,4 @@ rules:
 - DOMAIN-SUFFIX,openai.com,🌍 国外媒体
 - GEOIP,CN,🎯 全球直连
 - MATCH,🐟 漏网之鱼
-# updated: 2026-07-05 20:32:13
+# updated: 2026-07-05 21:12:28
