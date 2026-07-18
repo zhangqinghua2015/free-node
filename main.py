@@ -511,7 +511,9 @@ def _extract_subscription_url(description):
     """Extract subscription URL from video description (after '订阅地址：' or '订阅地址:')."""
     if not description:
         return None
-    match = re.search(r'订阅地址[：:]\s*(https?://[^\s　（）（）]+)', description)
+    print(f"{description}")
+    pattern = r'(订阅地址|\(Nodes Link\))[：:]\s.*?\[?(https?://[^\s　（）\[\]]+)'
+    match = re.search(pattern, description)
     if match:
         return match.group(1)
     return None
