@@ -515,7 +515,7 @@ def _extract_subscription_url(description):
     pattern = r'(订阅地址|\(Nodes Link\))[：:]\s.*?\[?(https?://[^\s　（）\[\]]+)'
     match = re.search(pattern, description)
     if match:
-        return match.group(1)
+        return match.group(2)
     return None
 
 
