@@ -5502,7 +5502,7 @@ proxies:
   cipher: auto
   http-opts:
     headers:
-    - Host: speedtest.net
+      Host: speedtest.net
     path:
     - /
   name: 🇻🇳越南VN001 测速未知危险 TG@jcnode
@@ -6714,4 +6714,4 @@ rules:
 - DOMAIN-SUFFIX,openai.com,🌍 国外媒体
 - GEOIP,CN,🎯 全球直连
 - MATCH,🐟 漏网之鱼
-# updated: 2026-07-21 02:12:24
+# updated: 2026-07-21 02:40:42
