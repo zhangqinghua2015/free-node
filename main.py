@@ -769,7 +769,7 @@ def _merge_template(template, data):
     # Fix reality-opts short-id
     _fix_reality_short_id(proxies)
     # 新增：统一修复 http-opts.headers 格式问题
-    _fix_http_headers(proxies)
+    # _fix_http_headers(proxies)
 
     template["proxies"] = proxies
 
