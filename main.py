@@ -730,22 +730,20 @@ def _setup_quoted_string_representer():
     
     yaml.add_representer(QuotedString, represent_quoted_string)
   
-def _fix_http_headers(proxies):
-    """修复 http-opts.headers 不是数组的语法错误"""
+def _fix_http_headers_host_slice(proxies):
+    opt_key = "http-opts"
     for proxy in proxies:
-        # 不存在 http-opts 直接跳过
-        http_opts = proxy.get("http-opts")
+        http_opts = proxy.get(opt_key)
         if not http_opts:
             continue
         headers = http_opts.get("headers")
-        if headers is None:
+        if not isinstance(headers, dict):
             continue
-        # 判断：不是 list 说明是对象，需要转成数组格式
-        if not isinstance(headers, list):
-            new_headers = []
-            for k, v in headers.items():
-                new_headers.append({k: v})
-            http_opts["headers"] = new_headers
+        # 只处理 Host 字段
+        if "Host" in headers:
+            v = headers["Host"]
+            if not isinstance(v, list):
+                headers["Host"] = [v]
 
 def _fix_reality_short_id(proxies):
     """Fix reality-opts short-id: add single quotes if missing."""
@@ -769,7 +767,7 @@ def _merge_template(template, data):
     # Fix reality-opts short-id
     _fix_reality_short_id(proxies)
     # 新增：统一修复 http-opts.headers 格式问题
-    # _fix_http_headers(proxies)
+    _fix_http_headers_host_slice(proxies)
 
     template["proxies"] = proxies
 
