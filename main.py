@@ -729,7 +729,23 @@ def _setup_quoted_string_representer():
         return dumper.represent_scalar('tag:yaml.org,2002:str', str(data), style="'")
     
     yaml.add_representer(QuotedString, represent_quoted_string)
-
+  
+def _fix_http_headers(proxies):
+    """修复 http-opts.headers 不是数组的语法错误"""
+    for proxy in proxies:
+        # 不存在 http-opts 直接跳过
+        http_opts = proxy.get("http-opts")
+        if not http_opts:
+            continue
+        headers = http_opts.get("headers")
+        if headers is None:
+            continue
+        # 判断：不是 list 说明是对象，需要转成数组格式
+        if not isinstance(headers, list):
+            new_headers = []
+            for k, v in headers.items():
+                new_headers.append({k: v})
+            http_opts["headers"] = new_headers
 
 def _fix_reality_short_id(proxies):
     """Fix reality-opts short-id: add single quotes if missing."""
@@ -752,6 +768,8 @@ def _merge_template(template, data):
 
     # Fix reality-opts short-id
     _fix_reality_short_id(proxies)
+    # 新增：统一修复 http-opts.headers 格式问题
+    _fix_http_headers(proxies)
 
     template["proxies"] = proxies
 
