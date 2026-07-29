@@ -44,6 +44,12 @@ CHANNEL_ROI = {
     "QFZYFX":  ("qfzyfx_bottom_wide",  "0,0.85,1,0.20"),
 }
 
+# Channel-specific frame sampling rate for OCR.
+# QFZYFX subtitles are often short-lived, so sample more densely.
+CHANNEL_OCR_FPS = {
+    "QFZYFX": 3.0,
+}
+
 DEFAULT_CHANNEL = "https://www.youtube.com/@jcnode"
 COOKIES_FILE = "cookies.txt"
 
@@ -278,8 +284,9 @@ def ocr_password_from_video(video_url, temp_dir, cookies_file=None, channel=None
         scan_start = 70
         scan_end = min(140, duration)
 
-    print(f"[FRAME] Extracting {scan_start:.0f}s - {scan_end:.0f}s at 1fps")
-    count = extract_frames(video_path, frames_dir, scan_start, scan_end, 1.0, "f")
+    fps = CHANNEL_OCR_FPS.get(channel, 1.0)
+    print(f"[FRAME] Extracting {scan_start:.0f}s - {scan_end:.0f}s at {fps:g}fps")
+    count = extract_frames(video_path, frames_dir, scan_start, scan_end, fps, "f")
     print(f"[FRAME] Extracted {count} frames")
 
     if count > 0:
