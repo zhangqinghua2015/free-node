@@ -41,7 +41,7 @@ CHANNELS = {
 # Channel-specific ROI: only scan the region where each channel shows passwords
 CHANNEL_ROI = {
     "jcnode":  ("jcnode_middle",       "0.2,0.6,0.6,0.35"),
-    "QFZYFX":  ("qfzyfx_bottom_wide",  "0,0.85,1,0.20"),
+    "QFZYFX":  ("qfzyfx_password_banner", "0.25,0.72,0.55,0.25"),
 }
 
 # Channel-specific frame sampling rate for OCR.
@@ -294,7 +294,7 @@ def ocr_password_from_video(video_url, temp_dir, cookies_file=None, channel=None
         debug_save = os.environ.get("OCR_DEBUG", "") == "1"
         ocr_engine = RapidOCR()
         rois = [CHANNEL_ROI[channel]] if channel and channel in CHANNEL_ROI else [
-            ("qfzyfx_bottom_wide", "0,0.85,1,0.20"),
+            ("qfzyfx_password_banner", "0.25,0.72,0.55,0.25"),
             ("jcnode_middle", "0.2,0.6,0.6,0.35"),
         ]
         for roi_name, roi_cfg in rois:
