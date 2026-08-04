@@ -16167,4 +16167,4 @@ rules:
 - DOMAIN-SUFFIX,openai.com,🌍 国外媒体
 - GEOIP,CN,🎯 全球直连
 - MATCH,🐟 漏网之鱼
-# updated: 2026-08-04 10:17:41
+# updated: 2026-08-04 10:50:50
