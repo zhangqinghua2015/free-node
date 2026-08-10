@@ -64,4874 +64,1799 @@ tun:
   inet4-route-exclude-address:
   - 192.168.0.0/16
 proxies:
-- name: 31.58.50.200 01 (青枫资源分享@QFZYFX)
-  server: 31.58.50.200
-  port: 8443
-  type: vless
-  uuid: 00dda8ac-c263-4106-a740-1e4478a7dc44
-  tls: false
-  tfo: false
-  skip-cert-verify: true
+- client-fingerprint: firefox
+  name: 青枫资源分享@QFZYFX 🇦🇹AT_1|1.8MB/s
   network: tcp
-- name: 82.97.252.129 01 (青枫资源分享@QFZYFX)
-  server: 82.97.252.129
   port: 443
-  type: vless
-  uuid: 3ad1d277-5715-4ca1-84db-5baea72f822d
-  tls: false
-  tfo: false
-  skip-cert-verify: true
-  network: tcp
-- name: 92.63.99.228 01 (青枫资源分享@QFZYFX)
-  server: 92.63.99.228
-  port: 7899
-  type: vless
-  uuid: e27dce75-b33b-49b6-afb7-17e29ce67bb1
-  tls: false
-  tfo: false
-  skip-cert-verify: true
-  network: tcp
-- name: 列支敦士登 瓦杜兹-LI 01 (青枫资源分享@QFZYFX)
-  server: 104.20.60.123
-  port: 80
-  type: ss
-  cipher: 2022-blake3-aes-128-gcm
-  password: YTE1ZWU4ZTEyZjc3YmEzZA==:ZGYzOWJkMjMtMjk0YS00Ng==
-- name: 摩纳哥 摩纳哥城-MC 01 (青枫资源分享@QFZYFX)
-  server: 104.20.21.90
-  port: 80
-  type: ss
-  cipher: 2022-blake3-aes-128-gcm
-  password: YTE1ZWU4ZTEyZjc3YmEzZA==:ZGYzOWJkMjMtMjk0YS00Ng==
-- name: 订阅失效 登录 获取 01 (青枫资源分享@QFZYFX)
-  server: zhs.ooo
-  port: 404
-  type: ss
-  cipher: aes-128-gcm
-  password: zhshi.gitlab.io
-- name: 通用 001 (青枫资源分享@QFZYFX)
-  server: x4g-production-1c57.up.railway.app
-  port: 443
-  type: vless
-  uuid: 96dc234e-4809-39c4-dc20-aec74bdbc30e
-  tls: true
-  alpn:
-  - http/1.1
-  tfo: false
-  skip-cert-verify: true
-  servername: x4g-production-1c57.up.railway.app
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws/96dc234e-4809-39c4-dc20-aec74bdbc30e
-    headers:
-      Host: x4g-production-1c57.up.railway.app
-- name: 通用 002 (青枫资源分享@QFZYFX)
-  server: ansooyefilter-production-454e.up.railway.app
-  port: 443
-  type: vless
-  uuid: a9d1b03b-e73c-a9ce-6520-1f988c20749e
-  tls: true
-  alpn:
-  - http/1.1
-  tfo: false
-  skip-cert-verify: true
-  servername: ansooyefilter-production-454e.up.railway.app
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws/a9d1b03b-e73c-a9ce-6520-1f988c20749e
-    headers:
-      Host: ansooyefilter-production-454e.up.railway.app
-- name: 通用 003 (青枫资源分享@QFZYFX)
-  server: x4g-production-23fd.up.railway.app
-  port: 443
-  type: vless
-  uuid: ea5dbb0a-4dd4-7b78-84f3-3188b2de74ed
-  tls: true
-  alpn:
-  - http/1.1
-  tfo: false
-  skip-cert-verify: true
-  servername: x4g-production-23fd.up.railway.app
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws/ea5dbb0a-4dd4-7b78-84f3-3188b2de74ed
-    headers:
-      Host: x4g-production-23fd.up.railway.app
-- name: 通用 004 (青枫资源分享@QFZYFX)
-  server: chatgpt.com
-  port: 2053
-  type: vless
-  uuid: d361072e-9e0e-4e2d-8ec7-2a4189b5b23a
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: ov.iran-servers.shop
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /j5alqoy1r9onwycm
-    headers:
-      Host: ov.iran-servers.shop
-- name: 通用 005 (青枫资源分享@QFZYFX)
-  server: 104.19.223.105
-  port: 443
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  tls: true
-  alpn:
-  - h2
-  - http/1.1
-  tfo: false
-  skip-cert-verify: true
-  servername: 015684ces274.kukuss.top
-  client-fingerprint: ios
-  network: tcp
-- name: 通用 006 (青枫资源分享@QFZYFX)
-  server: 212.34.134.163
-  port: 443
-  type: vless
-  uuid: 5bb7df8d-ad02-41fa-a8e6-8a8a4650d2c4
-  tls: true
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
   reality-opts:
-    public-key: xza7f7babj7ly4hulopvcbbbytu-rb7qyiz96njvywo
-    short-id: '7bcfc0bc'
-  servername: yahoo.com
-  client-fingerprint: firefox
-  network: tcp
-- name: 通用 007 (青枫资源分享@QFZYFX)
-  server: 104.17.183.179
-  port: 443
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  tls: true
-  alpn:
-  - h2
-  - http/1.1
-  tfo: false
-  skip-cert-verify: true
-  servername: 015684ces274.kukuss.top
-  client-fingerprint: ios
-  network: tcp
-- name: 通用 008 (青枫资源分享@QFZYFX)
-  server: de.hunerux.oorluma.ir
-  port: 6500
-  type: vless
-  uuid: b8ae8186-22ed-413b-b0de-dc590bbbc3bc
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  reality-opts:
-    public-key: lqbgwndyw6zbjdim0jtxuarzb-3gsjdvtx6fjyzd9qo
-  servername: play.google.com
-  client-fingerprint: qq
-  network: tcp
-- name: 通用 009 (青枫资源分享@QFZYFX)
-  server: 172.64.34.122
-  port: 443
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  tls: true
-  alpn:
-  - h2
-  - http/1.1
-  tfo: false
-  skip-cert-verify: true
-  servername: 60ab1a75s709.kukuss.top
-  client-fingerprint: ios
-  network: tcp
-- name: 通用 010 (青枫资源分享@QFZYFX)
-  server: uupupupuppupupupuuppupupupupuup-11.poki-pakipon.ir
-  port: 26378
-  type: trojan
-  password: '-----------banv2ray-----------'
-  sni: chi.yahoo.com
-  skip-cert-verify: true
-- name: 通用 011 (青枫资源分享@QFZYFX)
-  server: 179.61.138.177
-  port: 443
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  tls: true
-  alpn:
-  - h2
-  - http/1.1
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  servername: u695099u818690d8s71.gogocs.xyz
-  client-fingerprint: firefox
-  network: tcp
-- name: 通用 012 (青枫资源分享@QFZYFX)
-  server: 51.250.90.33
-  port: 443
-  type: vless
-  uuid: 3734dbab-3080-4bf5-847e-fdbad8fb2e6d
-  tls: true
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  reality-opts:
-    public-key: sbvkoemjk0silbwg4akybg5ml5kzwwb-ed4eee7ynrc
-  servername: max.ru
-  client-fingerprint: firefox
-  network: tcp
-- name: 通用 013 (青枫资源分享@QFZYFX)
-  server: s553.uugfw.top
-  port: 443
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  tls: true
-  alpn:
-  - h2
-  - http/1.1
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  servername: u695099ue1b9d2e4s552.gogocs.xyz
-  client-fingerprint: firefox
-  network: tcp
-- name: 通用 014 (青枫资源分享@QFZYFX)
-  server: 130.17.2.137
-  port: 2200
-  type: vless
-  uuid: e7299042-7d8f-440f-8368-2516b0e69341
-  tls: false
-  tfo: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /v1
-    headers:
-      Host: rzd.ru
-- name: 通用 015 (青枫资源分享@QFZYFX)
-  server: 51.250.88.94
-  port: 443
-  type: vless
-  uuid: bbbe4893-0f2c-4b08-a732-e8fb737971e1
-  tls: true
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  reality-opts:
-    public-key: sbvkoemjk0silbwg4akybg5ml5kzwwb-ed4eee7ynrc
-  servername: ads.x5.ru
-  client-fingerprint: firefox
-  network: tcp
-- name: 通用 016 (青枫资源分享@QFZYFX)
-  server: alist.sm.uy
-  port: 443
-  type: vless
-  uuid: 29ca503d-e6b8-4509-b666-48133f450857
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: learn00.evany.de5.net
-  client-fingerprint: random
-  network: ws
-  ws-opts:
-    path: /fdip
-    headers:
-      Host: learn00.evany.de5.net
-- name: 通用 017 (青枫资源分享@QFZYFX)
-  server: 8y7r-2-4-3-1-4-5-2-2-3.poki-pakipon.ir
-  port: 27111
-  type: trojan
-  password: '-----------banv2ray------------'
-  sni: chi.yahoo.com
-  skip-cert-verify: true
-- name: 通用 018 (青枫资源分享@QFZYFX)
-  server: x4g-production-6be3.up.railway.app
-  port: 443
-  type: vless
-  uuid: d26a9be3-593a-3631-7f4b-4c27113188c0
-  tls: true
-  alpn:
-  - http/1.1
-  tfo: false
-  skip-cert-verify: true
-  servername: x4g-production-6be3.up.railway.app
-  client-fingerprint: ios
-  network: ws
-  ws-opts:
-    path: /ws/d26a9be3-593a-3631-7f4b-4c27113188c0
-    headers:
-      Host: x4g-production-6be3.up.railway.app
-- name: 通用 019 (青枫资源分享@QFZYFX)
-  server: 88.218.44.4
-  port: 993
-  type: vless
-  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
-  tls: true
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  reality-opts:
-    public-key: rt2wltcwoxirofggnwmudzdbjxls8dsf4icawqxkdk8
-  servername: dl.google.com
-  client-fingerprint: chrome
-  network: tcp
-- name: 通用 020 (青枫资源分享@QFZYFX)
-  server: luemborgclouding.iranlast.com
-  port: 7009
-  type: vless
-  uuid: 3f298aca-2412-49ac-9f20-235f0e448d31
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  reality-opts:
-    public-key: f8tgqvbyk3tmhip3lj-r8d0i6fqef1zy-zafehs-cl8
-  servername: yahoo.com
-  client-fingerprint: qq
-  network: tcp
-- name: 通用 021 (青枫资源分享@QFZYFX)
-  server: 185.119.19.105
-  port: 443
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  tls: true
-  alpn:
-  - h2
-  - http/1.1
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  servername: u695099u39d0c1b5s8746.gogocs.xyz
-  client-fingerprint: firefox
-  network: tcp
-- name: 通用 022 (青枫资源分享@QFZYFX)
-  server: x4g-production-b148.up.railway.app
-  port: 443
-  type: vless
-  uuid: e004cd21-d55b-a5cf-b0e2-af27acc7ec83
-  tls: true
-  alpn:
-  - http/1.1
-  tfo: false
-  skip-cert-verify: true
-  servername: x4g-production-b148.up.railway.app
-  client-fingerprint: ios
-  network: ws
-  ws-opts:
-    path: /ws/e004cd21-d55b-a5cf-b0e2-af27acc7ec83
-    headers:
-      Host: x4g-production-b148.up.railway.app
-- name: 通用 023 (青枫资源分享@QFZYFX)
-  server: s593.gogocs.xyz
-  port: 443
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  tls: true
-  alpn:
-  - h2
-  - http/1.1
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  servername: u695099ub67c99c6s591.csgfw.top
-  client-fingerprint: firefox
-  network: tcp
-- name: 通用 024 (青枫资源分享@QFZYFX)
-  server: 108.162.192.142
-  port: 443
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  tls: true
-  alpn:
-  - h2
-  - http/1.1
-  tfo: false
-  skip-cert-verify: true
-  servername: a3f71e98s489.kukuss.top
-  client-fingerprint: ios
-  network: tcp
-- name: 通用 025 (青枫资源分享@QFZYFX)
-  server: 51.250.90.33
-  port: 443
-  type: vless
-  uuid: bbbe4893-0f2c-4b08-a732-e8fb737971e1
-  tls: true
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  reality-opts:
-    public-key: sbvkoemjk0silbwg4akybg5ml5kzwwb-ed4eee7ynrc
-  servername: max.ru
-  client-fingerprint: firefox
-  network: tcp
-- name: 通用 026 (青枫资源分享@QFZYFX)
-  server: 185.18.250.245
-  port: 443
-  type: trojan
-  password: humanity
-  sni: www.calmlunch.com
-  skip-cert-verify: true
-- name: 通用 027 (青枫资源分享@QFZYFX)
-  server: 212.192.15.191
-  port: 443
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  tls: true
-  alpn:
-  - h2
-  - http/1.1
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  servername: u695099u36cf43b9s298.wagahaha.xyz
-  client-fingerprint: firefox
-  network: tcp
-- name: 通用 028 (青枫资源分享@QFZYFX)
-  server: 51.250.109.95
-  port: 443
-  type: vless
-  uuid: 3734dbab-3080-4bf5-847e-fdbad8fb2e6d
-  tls: true
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  reality-opts:
-    public-key: sbvkoemjk0silbwg4akybg5ml5kzwwb-ed4eee7ynrc
-  servername: ads.x5.ru
-  client-fingerprint: firefox
-  network: tcp
-- name: 通用 029 (青枫资源分享@QFZYFX)
-  server: 51.250.71.246
-  port: 443
-  type: vless
-  uuid: 3734dbab-3080-4bf5-847e-fdbad8fb2e6d
-  tls: true
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  reality-opts:
-    public-key: sbvkoemjk0silbwg4akybg5ml5kzwwb-ed4eee7ynrc
-  servername: vkvideo.ru
-  client-fingerprint: firefox
-  network: tcp
-- name: 通用 030 (青枫资源分享@QFZYFX)
-  server: 104.21.3.85
-  port: 443
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  tls: true
-  alpn:
-  - h2
-  - http/1.1
-  tfo: false
-  skip-cert-verify: true
-  servername: a3f71e98s489.kukuss.top
-  client-fingerprint: ios
-  network: tcp
-- name: 通用 031 (青枫资源分享@QFZYFX)
-  server: nmslfangbinxing.pusytroller.gq
-  port: 2095
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  tls: false
-  tfo: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: nmslfangbinxing.pusytroller.gq
-- name: 通用 032 (青枫资源分享@QFZYFX)
-  server: 45.125.32.115
-  port: 443
-  type: vless
-  uuid: e2c8fa8c-886d-4649-bd59-cf73bee48b55
-  tls: false
-  tfo: false
-  skip-cert-verify: true
-  network: tcp
-- name: 通用 033 (青枫资源分享@QFZYFX)
-  server: trollhastambotrvg-production-162c.up.railway.app
-  port: 443
-  type: vless
-  uuid: 5b25a339-bf7e-2673-1960-919233576ee0
-  tls: true
-  alpn:
-  - http/1.1
-  tfo: false
-  skip-cert-verify: true
-  servername: trollhastambotrvg-production-162c.up.railway.app
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws/5b25a339-bf7e-2673-1960-919233576ee0
-    headers:
-      Host: trollhastambotrvg-production-162c.up.railway.app
-- name: 通用 034 (青枫资源分享@QFZYFX)
-  server: 104.19.194.197
-  port: 443
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  tls: true
-  alpn:
-  - h2
-  - http/1.1
-  tfo: false
-  skip-cert-verify: true
-  servername: e0b86b9bs226.kukuss.top
-  client-fingerprint: ios
-  network: tcp
-- name: 通用 035 (青枫资源分享@QFZYFX)
-  server: rvg-production-0fab.up.railway.app
-  port: 443
-  type: vless
-  uuid: ab181813-5879-e2b9-1534-70aac9770fb7
-  tls: true
-  alpn:
-  - http/1.1
-  tfo: false
-  skip-cert-verify: true
-  servername: rvg-production-0fab.up.railway.app
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws/ab181813-5879-e2b9-1534-70aac9770fb7
-    headers:
-      Host: rvg-production-0fab.up.railway.app
-- name: 通用 036 (青枫资源分享@QFZYFX)
-  server: 94.249.225.80
-  port: 443
-  type: vless
-  uuid: c28ee61d-0d43-4e69-8e6a-6397ed0ffc03
-  tls: true
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  reality-opts:
-    public-key: x6zch8pcuxraunqvbnkm8e_otdb0wor8ecmczs3b1tc
-  servername: warm-gazelle.cdn.cachefleet.com
-  client-fingerprint: random
-  network: tcp
-- name: 通用 037 (青枫资源分享@QFZYFX)
-  server: ansooyefilter-production-abf6.up.railway.app
-  port: 443
-  type: vless
-  uuid: 08183979-836e-ac85-15db-8a5a48eae531
-  tls: true
-  alpn:
-  - http/1.1
-  tfo: false
-  skip-cert-verify: true
-  servername: ansooyefilter-production-abf6.up.railway.app
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws/08183979-836e-ac85-15db-8a5a48eae531
-    headers:
-      Host: ansooyefilter-production-abf6.up.railway.app
-- name: 通用 038 (青枫资源分享@QFZYFX)
-  server: python-graysongon.wasmer.app
-  port: 443
-  type: vless
-  uuid: 7bd180e8-1142-4387-93f5-03e8d750a896
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: python-graysongon.wasmer.app
-  network: ws
-  ws-opts:
-    path: /7bd180e8
-    headers:
-      Host: python-graysongon.wasmer.app
-- name: 通用 039 (青枫资源分享@QFZYFX)
-  server: fast.nanniang.top
-  port: 8443
-  type: vless
-  uuid: 916e3030-6eac-418b-9402-7508ca7d6280
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: aq.nanniang.top
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: aq.nanniang.top
-- name: 通用 040 (青枫资源分享@QFZYFX)
-  server: 23.166.40.27
-  port: 443
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  tls: true
-  alpn:
-  - h2
-  - http/1.1
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  servername: u695099u0660a077s79.gogocs.xyz
-  client-fingerprint: firefox
-  network: tcp
-- name: 通用 041 (青枫资源分享@QFZYFX)
-  server: rvg-production-798c.up.railway.app
-  port: 443
-  type: vless
-  uuid: c9c5e676-278f-7bf7-5436-dcf6e3210667
-  tls: true
-  alpn:
-  - http/1.1
-  tfo: false
-  skip-cert-verify: true
-  servername: rvg-production-798c.up.railway.app
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws/c9c5e676-278f-7bf7-5436-dcf6e3210667
-    headers:
-      Host: rvg-production-798c.up.railway.app
-- name: 通用 042 (青枫资源分享@QFZYFX)
-  server: rvg-production-8249.up.railway.app
-  port: 443
-  type: vless
-  uuid: f1f47653-d57b-5917-fa47-c80823a8b7f3
-  tls: true
-  alpn:
-  - http/1.1
-  tfo: false
-  skip-cert-verify: true
-  servername: rvg-production-8249.up.railway.app
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws/f1f47653-d57b-5917-fa47-c80823a8b7f3
-    headers:
-      Host: rvg-production-8249.up.railway.app
-- name: 通用 043 (青枫资源分享@QFZYFX)
-  server: 45.131.215.61
-  port: 52315
-  type: vless
-  uuid: 29498268-55f3-4b51-ba1a-1eba23f4ab63
-  tls: false
-  tfo: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-- name: 通用 044 (青枫资源分享@QFZYFX)
-  server: 51.250.88.94
-  port: 443
-  type: vless
-  uuid: 3734dbab-3080-4bf5-847e-fdbad8fb2e6d
-  tls: true
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  reality-opts:
-    public-key: sbvkoemjk0silbwg4akybg5ml5kzwwb-ed4eee7ynrc
-  servername: ads.x5.ru
-  client-fingerprint: firefox
-  network: tcp
-- name: 通用 045 (青枫资源分享@QFZYFX)
-  server: ansooyefilter-production-4623.up.railway.app
-  port: 443
-  type: vless
-  uuid: a75f5c82-d667-0ce8-d297-30286b054691
-  tls: true
-  alpn:
-  - http/1.1
-  tfo: false
-  skip-cert-verify: true
-  servername: ansooyefilter-production-4623.up.railway.app
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws/a75f5c82-d667-0ce8-d297-30286b054691
-    headers:
-      Host: ansooyefilter-production-4623.up.railway.app
-- name: 通用 046 (青枫资源分享@QFZYFX)
-  server: 91.124.209.138
-  port: 2086
-  type: vless
-  uuid: 28926c34-865c-447e-8d42-a17240af743b
-  tls: false
-  tfo: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cdn-cloudflare91.korvexe.ir
-- name: 通用 047 (青枫资源分享@QFZYFX)
-  server: s462.csgfw.top
-  port: 443
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  tls: true
-  alpn:
-  - h2
-  - http/1.1
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  servername: u695099u57be39cds394.csgfw.top
-  client-fingerprint: firefox
-  network: tcp
-- name: 通用 048 (青枫资源分享@QFZYFX)
-  server: 94.130.179.44
-  port: 1234
-  type: vless
-  uuid: 7ff55eb0-eff4-4d71-ad1c-e6fe1a6c68d9
-  tls: false
-  tfo: false
-  skip-cert-verify: true
-  network: tcp
-- name: 通用 049 (青枫资源分享@QFZYFX)
-  server: 91.124.209.138
-  port: 8880
-  type: vless
-  uuid: 28926c34-865c-447e-8d42-a17240af743b
-  tls: false
-  tfo: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cdn-cloudflare91.korvexe.ir
-- name: 通用 050 (青枫资源分享@QFZYFX)
-  server: 172.66.208.115
-  port: 443
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  tls: true
-  alpn:
-  - h2
-  - http/1.1
-  tfo: false
-  skip-cert-verify: true
-  servername: 122ef77bs848.kukuss.top
-  client-fingerprint: ios
-  network: tcp
-- name: 通用 051 (青枫资源分享@QFZYFX)
-  server: premium-us-az-01-hostinger.efgwf.online
-  port: 8080
-  type: vless
-  uuid: 59eefc04-b831-45cf-8d68-63ca23381171
-  tls: false
-  tfo: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /ws-htopcf3l
-    headers:
-      Host: premium-us-az-01-hostinger.efgwf.online
-- name: 通用 052 (青枫资源分享@QFZYFX)
-  server: engelestanclouding.iranlast.com
-  port: 7009
-  type: vless
-  uuid: 3f298aca-2412-49ac-9f20-235f0e448d31
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  reality-opts:
-    public-key: f8tgqvbyk3tmhip3lj-r8d0i6fqef1zy-zafehs-cl8
-  servername: yahoo.com
-  client-fingerprint: qq
-  network: tcp
-- name: 通用 053 (青枫资源分享@QFZYFX)
-  server: s2359.ccgfw.online
-  port: 443
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  tls: true
-  alpn:
-  - h2
-  - http/1.1
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  servername: u695099u53fe439es2358.gogocs.xyz
-  client-fingerprint: firefox
-  network: tcp
-- name: 通用 054 (青枫资源分享@QFZYFX)
-  server: s2318.okgfw.top
-  port: 443
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  tls: true
-  alpn:
-  - h2
-  - http/1.1
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  servername: u695099ub023e5f3s2316.gogocs.xyz
-  client-fingerprint: firefox
-  network: tcp
-- name: 通用 055 (青枫资源分享@QFZYFX)
-  server: 91.124.209.138
-  port: 2095
-  type: vless
-  uuid: 28926c34-865c-447e-8d42-a17240af743b
-  tls: false
-  tfo: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cdn-cloudflare91.korvexe.ir
-- name: 通用 056 (青枫资源分享@QFZYFX)
-  server: rare-creation-production.up.railway.app
-  port: 443
-  type: vless
-  uuid: 39dfd8b4-47a8-158c-80e9-e80a747828fc
-  tls: true
-  alpn:
-  - http/1.1
-  tfo: false
-  skip-cert-verify: true
-  servername: rare-creation-production.up.railway.app
-  client-fingerprint: ios
-  network: ws
-  ws-opts:
-    path: /ws/39dfd8b4-47a8-158c-80e9-e80a747828fc
-    headers:
-      Host: rare-creation-production.up.railway.app
-- name: 通用 057 (青枫资源分享@QFZYFX)
-  server: s88.gogocs.xyz
-  port: 443
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  tls: true
-  alpn:
-  - h2
-  - http/1.1
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  servername: u695099u818690d8s71.gogocs.xyz
-  client-fingerprint: firefox
-  network: tcp
-- name: 通用 058 (青枫资源分享@QFZYFX)
-  server: telegramemen-timazadi-8585.up.railway.app
-  port: 443
-  type: vless
-  uuid: 75995e72-6885-1e0a-a55e-498f2f897a54
-  tls: true
-  alpn:
-  - http/1.1
-  tfo: false
-  skip-cert-verify: true
-  servername: telegramemen-timazadi-8585.up.railway.app
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws/75995e72-6885-1e0a-a55e-498f2f897a54
-    headers:
-      Host: telegramemen-timazadi-8585.up.railway.app
-- name: 通用 059 (青枫资源分享@QFZYFX)
-  server: kaoqy-uk-akile.cf.090227.xyz
-  port: 8443
-  type: vless
-  uuid: 916e3030-6eac-418b-9402-7508ca7d6280
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: akile.uk.781391.xyz
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: akile.uk.781391.xyz
-- name: 通用 060 (青枫资源分享@QFZYFX)
-  server: 104.16.75.88
-  port: 443
-  type: vless
-  uuid: 03707fb7-0990-440f-88f6-b0e0f7242a38
-  tls: true
-  alpn:
-  - http/1.1
-  tfo: false
-  skip-cert-verify: true
-  servername: germany-1.ariyuz.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: germany-1.ariyuz.org
-- name: 通用 061 (青枫资源分享@QFZYFX)
-  server: x4g-production-709e.up.railway.app
-  port: 443
-  type: vless
-  uuid: 942bdf54-733c-64c5-6560-fe1b90f79486
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /ws/942bdf54-733c-64c5-6560-fe1b90f79486
-    headers:
-      Host: x4g-production-709e.up.railway.app
-- name: 通用 062 (青枫资源分享@QFZYFX)
-  server: s306.ccgfw.top
-  port: 443
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  tls: true
-  alpn:
-  - h2
-  - http/1.1
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  servername: u695099u36cf43b9s298.wagahaha.xyz
-  client-fingerprint: firefox
-  network: tcp
-- name: 通用 063 (青枫资源分享@QFZYFX)
-  server: s2317.ccgfw.top
-  port: 443
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  tls: true
-  alpn:
-  - h2
-  - http/1.1
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  servername: u695099ub023e5f3s2316.gogocs.xyz
-  client-fingerprint: firefox
-  network: tcp
-- name: 通用 064 (青枫资源分享@QFZYFX)
-  server: 103.173.155.212
-  port: 443
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  tls: true
-  alpn:
-  - h2
-  - http/1.1
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  servername: u695099ub67c99c6s591.csgfw.top
-  client-fingerprint: firefox
-  network: tcp
-- name: 通用 065 (青枫资源分享@QFZYFX)
-  server: 91.192.81.214
-  port: 443
-  type: vless
-  uuid: 607801ac-dbdd-4938-a167-129015d9978e
-  tls: true
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  reality-opts:
-    public-key: bmcyxnueltqhz5kuxcf8oddstwhowyflhkndcbuwedc
-    short-id: 'd1742269'
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  network: tcp
-- name: 通用 066 (青枫资源分享@QFZYFX)
-  server: 5.129.194.34
-  port: 4100
-  type: vless
-  uuid: 9b44bfb4-9d28-4870-9fc3-5154d6d462ff
-  tls: false
-  tfo: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /v1
-    headers:
-      Host: live.ok.ru
-- name: 通用 067 (青枫资源分享@QFZYFX)
-  server: 185.105.118.126
-  port: 2053
-  type: vless
-  uuid: c7e9c591-2764-423a-afca-efbd010fd396
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: forfreeuse.sub-flow.online
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: forfreeuse.sub-flow.online
-- name: 通用 068 (青枫资源分享@QFZYFX)
-  server: www.fbi.gov
-  port: 2095
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  tls: false
-  tfo: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: fuckingfangbinxing.pusytroller.cf
-- name: 通用 069 (青枫资源分享@QFZYFX)
-  server: x4g-update1000-production.up.railway.app
-  port: 443
-  type: vless
-  uuid: b68b3c3d-2623-4d94-2633-0d8aec412b0e
-  tls: true
-  alpn:
-  - http/1.1
-  tfo: false
-  skip-cert-verify: true
-  servername: x4g-update1000-production.up.railway.app
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws/b68b3c3d-2623-4d94-2633-0d8aec412b0e
-    headers:
-      Host: x4g-update1000-production.up.railway.app
-- name: 通用 070 (青枫资源分享@QFZYFX)
-  server: 51.250.43.84
-  port: 443
-  type: vless
-  uuid: 3734dbab-3080-4bf5-847e-fdbad8fb2e6d
-  tls: true
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  reality-opts:
-    public-key: sbvkoemjk0silbwg4akybg5ml5kzwwb-ed4eee7ynrc
-  servername: ads.x5.ru
-  client-fingerprint: firefox
-  network: tcp
-- name: 通用 071 (青枫资源分享@QFZYFX)
-  server: diligent-laughter-production-f70e.up.railway.app
-  port: 443
-  type: vless
-  uuid: 5670900d-db88-4815-ac82-1f56337271f0
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: diligent-laughter-production-f70e.up.railway.app
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /in1
-    headers:
-      Host: diligent-laughter-production-f70e.up.railway.app
-- name: 通用 072 (青枫资源分享@QFZYFX)
-  server: de.unit-digital.com
-  port: 443
-  type: vless
-  uuid: 322137af-0ecd-48a9-9bab-ef5754331437
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  reality-opts:
-    public-key: vnuqdfzedjka4ugk7umhady2p48e_f-zqizitff2pey
-    short-id: 'b536806a'
-  servername: www.intel.com
-  client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: /
-- name: 通用 073 (青枫资源分享@QFZYFX)
-  server: 103.118.29.142
-  port: 35730
-  type: vless
-  uuid: 376dc930-a905-4e75-a2d5-bb801a6adc25
-  tls: false
-  tfo: false
-  skip-cert-verify: true
-  network: tcp
-- name: 通用 074 (青枫资源分享@QFZYFX)
-  server: www.true.th
-  port: 80
-  type: vless
-  uuid: 89c3b66f-c849-4602-a5a8-84b6f06af478
-  tls: false
-  tfo: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: d2pwbkmfr5lxa4.cloudfront.net
-- name: 通用 075 (青枫资源分享@QFZYFX)
-  server: s784.wagahaha.xyz
-  port: 443
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  tls: true
-  alpn:
-  - h2
-  - http/1.1
-  tfo: false
-  skip-cert-verify: true
-  servername: u695099u84fb0ba0s783.csgfw.top
-  client-fingerprint: firefox
-  network: tcp
-- name: 通用 076 (青枫资源分享@QFZYFX)
-  server: x4g-production-4ce4.up.railway.app
-  port: 443
-  type: vless
-  uuid: db633771-6002-4e85-b4f3-103e328ad861
-  tls: true
-  alpn:
-  - http/1.1
-  tfo: false
-  skip-cert-verify: true
-  servername: x4g-production-4ce4.up.railway.app
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws/db633771-6002-4e85-b4f3-103e328ad861
-    headers:
-      Host: x4g-production-4ce4.up.railway.app
-- name: 通用 077 (青枫资源分享@QFZYFX)
-  server: x4g-production-1322.up.railway.app
-  port: 443
-  type: vless
-  uuid: e99fb15e-1390-ae01-64a1-3e88c4c2771f
-  tls: true
-  alpn:
-  - http/1.1
-  tfo: false
-  skip-cert-verify: true
-  servername: x4g-production-1322.up.railway.app
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws/e99fb15e-1390-ae01-64a1-3e88c4c2771f
-    headers:
-      Host: x4g-production-1322.up.railway.app
-- name: 通用 078 (青枫资源分享@QFZYFX)
-  server: dl2dl2dl2.lornavps.ir
-  port: 8855
-  type: vless
-  uuid: 49438e78-0148-a1d0-ffb5-63db11b86987
-  tls: false
-  tfo: false
-  skip-cert-verify: true
-  network: tcp
-- name: 通用 079 (青枫资源分享@QFZYFX)
-  server: s880.gogocs.xyz
-  port: 443
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  tls: true
-  alpn:
-  - h2
-  - http/1.1
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  servername: u695099u0660a077s79.gogocs.xyz
-  client-fingerprint: firefox
-  network: tcp
-- name: 通用 080 (青枫资源分享@QFZYFX)
-  server: x4g-production-213b.up.railway.app
-  port: 443
-  type: vless
-  uuid: 6e475ace-9410-5f61-8ea9-f05fadd1f604
-  tls: true
-  alpn:
-  - http/1.1
-  tfo: false
-  skip-cert-verify: true
-  servername: x4g-production-213b.up.railway.app
-  client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /ws/6e475ace-9410-5f61-8ea9-f05fadd1f604
-    headers:
-      Host: x4g-production-213b.up.railway.app
-- name: 通用 081 (青枫资源分享@QFZYFX)
-  server: ansooyefilter-production.up.railway.app
-  port: 443
-  type: vless
-  uuid: b521cf5a-91a8-7fad-3702-698a57b8a50e
-  tls: true
-  alpn:
-  - http/1.1
-  tfo: false
-  skip-cert-verify: true
-  servername: ansooyefilter-production.up.railway.app
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws/b521cf5a-91a8-7fad-3702-698a57b8a50e
-    headers:
-      Host: ansooyefilter-production.up.railway.app
-- name: 通用 082 (青枫资源分享@QFZYFX)
-  server: www.true.th
-  port: 80
-  type: vless
-  uuid: ff0c1cde-6f94-4bf1-9774-ab25c6b4977d
-  tls: false
-  tfo: false
-  skip-cert-verify: true
-  servername: d7iwyzy9wpvuu.cloudfront.net
-  network: ws
-  ws-opts:
-    path: /knl8
-    headers:
-      Host: d7iwyzy9wpvuu.cloudfront.net
-- name: 通用 083 (青枫资源分享@QFZYFX)
-  server: 51.250.71.246
-  port: 443
-  type: vless
-  uuid: bbbe4893-0f2c-4b08-a732-e8fb737971e1
-  tls: true
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  reality-opts:
-    public-key: sbvkoemjk0silbwg4akybg5ml5kzwwb-ed4eee7ynrc
-  servername: vkvideo.ru
-  client-fingerprint: firefox
-  network: tcp
-- name: 通用 084 (青枫资源分享@QFZYFX)
-  server: 170.114.46.6
-  port: 80
-  type: vless
-  uuid: cac6ec8f-99f0-44c5-814f-2f3f65e4db74
-  tls: false
-  tfo: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /dula
-    headers:
-      Host: speed.dulacloud.store
-- name: 通用 085 (青枫资源分享@QFZYFX)
-  server: 172.67.94.140
-  port: 443
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  tls: true
-  alpn:
-  - h2
-  - http/1.1
-  tfo: false
-  skip-cert-verify: true
-  servername: e0b86b9bs226.kukuss.top
-  client-fingerprint: ios
-  network: tcp
-- name: 通用 086 (青枫资源分享@QFZYFX)
-  server: 3x-ui-production-e032.up.railway.app
-  port: 443
-  type: vless
-  uuid: e95a6f6e-f9bc-4d51-ba7e-73804aeb74e1
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /in1
-    headers:
-      Host: 3x-ui-production-e032.up.railway.app
-- name: 通用 087 (青枫资源分享@QFZYFX)
-  server: 8.47.69.0
-  port: 8880
-  type: vless
-  uuid: fd22ad82-2d89-4338-b72c-5092ae699c7d
-  tls: false
-  tfo: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /rutube
-    headers:
-      Host: rutube.ummapeople.online
-- name: 通用 088 (青枫资源分享@QFZYFX)
-  server: x4g-production-c71f.up.railway.app
-  port: 443
-  type: vless
-  uuid: 01200f5c-5321-d946-7028-0661ea0a2c0e
-  tls: true
-  alpn:
-  - http/1.1
-  tfo: false
-  skip-cert-verify: true
-  servername: x4g-production-c71f.up.railway.app
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws/01200f5c-5321-d946-7028-0661ea0a2c0e
-    headers:
-      Host: x4g-production-c71f.up.railway.app
-- name: 通用 089 (青枫资源分享@QFZYFX)
-  server: 31.172.67.215
-  port: 4100
-  type: vless
-  uuid: 155e8dd4-a559-407a-9ea8-13a5e829f066
-  tls: false
-  tfo: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /v1
-- name: 通用 090 (青枫资源分享@QFZYFX)
-  server: premium-us-ca-01-gthost.efgwf.online
-  port: 8080
-  type: vless
-  uuid: 4e0f4e59-3613-4f0c-b824-7348413d20e6
-  tls: false
-  tfo: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /ws-6tta3kyf
-    headers:
-      Host: premium-us-ca-01-gthost.efgwf.online
-- name: 通用 091 (青枫资源分享@QFZYFX)
-  server: oplosgru-c.catcat321.com
-  port: 20004
-  type: trojan
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  sni: hk.catxstar.com
-  skip-cert-verify: true
-- name: 通用 092 (青枫资源分享@QFZYFX)
-  server: s2360.okgfwbackxyz.xyz
-  port: 443
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  tls: true
-  alpn:
-  - h2
-  - http/1.1
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  servername: u695099u53fe439es2358.gogocs.xyz
-  client-fingerprint: firefox
-  network: tcp
-- name: 通用 093 (青枫资源分享@QFZYFX)
-  server: hkdcrtc-e.catcat321.com
-  port: 20041
-  type: trojan
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  sni: de.catxstar.com
-  skip-cert-verify: true
-- name: 通用 094 (青枫资源分享@QFZYFX)
-  server: x4g-production-ffd1.up.railway.app
-  port: 443
-  type: vless
-  uuid: e878eed7-c3f7-cd5c-bb10-468bad9b936c
-  tls: true
-  alpn:
-  - http/1.1
-  tfo: false
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws/e878eed7-c3f7-cd5c-bb10-468bad9b936c
-    headers:
-      Host: x4g-production-ffd1.up.railway.app
-- name: 通用 095 (青枫资源分享@QFZYFX)
-  server: s785.sspcccdn.xyz
-  port: 443
-  type: hysteria2
-  password: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  auth: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  sni: u695099u84fb0ba0s783.csgfw.top
-  skip-cert-verify: true
-- name: 通用 096 (青枫资源分享@QFZYFX)
-  server: 198.98.48.110
-  port: 443
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  tls: true
-  alpn:
-  - h2
-  - http/1.1
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  servername: u695099ue1b9d2e4s552.gogocs.xyz
-  client-fingerprint: firefox
-  network: tcp
-- name: 通用 097 (青枫资源分享@QFZYFX)
-  server: jp1.8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net
-  port: 443
-  type: trojan
-  password: eb6fb64d-18c0-44d0-9ee5-f29c29194083
-  sni: 8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net
-  skip-cert-verify: true
-- name: 通用 098 (青枫资源分享@QFZYFX)
-  server: 3x-ui-upgrade.up.railway.app
-  port: 443
-  type: vless
-  uuid: 1db32709-d9b9-465b-877e-7a779a6fe215
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: 3x-ui-upgrade.up.railway.app
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 3x-ui-upgrade.up.railway.app
-- name: 通用 099 (青枫资源分享@QFZYFX)
-  server: 8.47.69.0
-  port: 8880
-  type: vless
-  uuid: a8178248-3cdf-4fb0-ab7b-87c1ab77201c
-  tls: false
-  tfo: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /cdn/assets/stream
-    headers:
-      Host: cnd.france2.gg.newwaycdn.com
-- name: 通用 100 (青枫资源分享@QFZYFX)
-  server: kaoqy-us-akile.cf.090227.xyz
-  port: 8443
-  type: vless
-  uuid: 916e3030-6eac-418b-9402-7508ca7d6280
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: akile.us.781391.xyz
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: akile.us.781391.xyz
-- name: 通用 101 (青枫资源分享@QFZYFX)
-  server: 147.45.253.97
-  port: 4100
-  type: vless
-  uuid: 9b44bfb4-9d28-4870-9fc3-5154d6d462ff
-  tls: false
-  tfo: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /v1
-    headers:
-      Host: live.ok.ru
-- name: 通用 102 (青枫资源分享@QFZYFX)
-  server: bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir
-  port: 53159
-  type: trojan
-  password: '-------banv2ray------'
-  sni: chi.yahoo.com
-  skip-cert-verify: true
-- name: 通用 103 (青枫资源分享@QFZYFX)
-  server: x4g-production-0a45.up.railway.app
-  port: 443
-  type: vless
-  uuid: 778220c8-646a-b3d2-3d41-be2fe98e9e23
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: x4g-production-0a45.up.railway.app
-  network: ws
-  ws-opts:
-    path: /ws/778220c8-646a-b3d2-3d41-be2fe98e9e23
-    headers:
-      Host: x4g-production-0a45.up.railway.app
-- name: 通用 104 (青枫资源分享@QFZYFX)
-  server: rr2.tube-cat.com
-  port: 9450
-  type: trojan
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  sni: hk.catxstar.com
-  skip-cert-verify: true
-- name: 通用 105 (青枫资源分享@QFZYFX)
-  server: ansooyefilter-channel-production-79b2.up.railway.app
-  port: 443
-  type: vless
-  uuid: 3ad99f4d-6144-8272-1a8b-8e0f3e2e2414
-  tls: true
-  alpn:
-  - http/1.1
-  tfo: false
-  skip-cert-verify: true
-  servername: ansooyefilter-channel-production-79b2.up.railway.app
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws/3ad99f4d-6144-8272-1a8b-8e0f3e2e2414
-    headers:
-      Host: ansooyefilter-channel-production-79b2.up.railway.app
-- name: 通用 106 (青枫资源分享@QFZYFX)
-  server: s299.freessr.bid
-  port: 443
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  tls: true
-  alpn:
-  - h2
-  - http/1.1
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  servername: u695099u36cf43b9s298.wagahaha.xyz
-  client-fingerprint: firefox
-  network: tcp
-- name: 通用 107 (青枫资源分享@QFZYFX)
-  server: z-e-u-s-panel-ogpqo9.z-e-u-s-7mdylr.workers.dev
-  port: 443
-  type: vless
-  uuid: 50414e45-4c5f-5a45-5553-23b46f07f787
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: z-e-u-s-panel-ogpqo9.z-e-u-s-7mdylr.workers.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /stream/panel_zeus/50414e45
-    headers:
-      Host: z-e-u-s-panel-ogpqo9.z-e-u-s-7mdylr.workers.dev
-- name: 通用 108 (青枫资源分享@QFZYFX)
-  server: 176.109.82.24
-  port: 2223
-  type: vless
-  uuid: f9f7fbd7-353b-4a9a-9491-209110aaf0e4
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  reality-opts:
-    public-key: ms4q2e2pa3sln3jueo76-ktzcirngr49mjf685msxhg
-    short-id: '7aaf7ba9'
-  servername: mail.epass.mts.ru
-  client-fingerprint: safari
-  network: grpc
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: /
-- name: 通用 109 (青枫资源分享@QFZYFX)
-  server: 1405-4-19-ansooyefilter-telegram.up.railway.app
-  port: 443
-  type: vless
-  uuid: fd410906-cb49-760c-8c7b-64e230f8d4d4
-  tls: true
-  alpn:
-  - http/1.1
-  tfo: false
-  skip-cert-verify: true
-  servername: 1405-4-19-ansooyefilter-telegram.up.railway.app
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws/fd410906-cb49-760c-8c7b-64e230f8d4d4
-    headers:
-      Host: 1405-4-19-ansooyefilter-telegram.up.railway.app
-- name: 通用 110 (青枫资源分享@QFZYFX)
-  server: x4g-production-0a61.up.railway.app
-  port: 443
-  type: vless
-  uuid: 1725bfd6-5c74-759f-64d1-2f442f1c5992
-  tls: true
-  alpn:
-  - http/1.1
-  tfo: false
-  skip-cert-verify: true
-  servername: x4g-production-0a61.up.railway.app
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws/1725bfd6-5c74-759f-64d1-2f442f1c5992
-    headers:
-      Host: x4g-production-0a61.up.railway.app
-- name: 通用 111 (青枫资源分享@QFZYFX)
-  server: hemidal-production-1351.up.railway.app
-  port: 443
-  type: vless
-  uuid: 2cb607a7-6794-4911-b36b-958bed7b23b6
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: hemidal-production-1351.up.railway.app
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hemidal-production-1351.up.railway.app
-- name: 通用 112 (青枫资源分享@QFZYFX)
-  server: 157.85.96.11
-  port: 8443
-  type: vless
-  uuid: 9abf5e0c-e98a-44a3-bd0b-1a6dd065eb0f
-  tls: false
-  tfo: false
-  skip-cert-verify: true
-  network: tcp
-- name: 通用 113 (青枫资源分享@QFZYFX)
-  server: hostvds-nl-nl.kvnfreetest.uk
-  port: 21443
-  type: vless
-  uuid: 122f8c58-f173-4f4a-acb8-86172ba5e10d
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  reality-opts:
-    public-key: pepivzcg5cbehvqumvjlnpx3a9hy719fq7hqsxmp4ro
-  servername: cloudflare.com
-  client-fingerprint: chrome
-  network: tcp
-- name: 通用 114 (青枫资源分享@QFZYFX)
-  server: s8748.gogocs.xyz
-  port: 443
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  tls: true
-  alpn:
-  - h2
-  - http/1.1
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  servername: u695099u39d0c1b5s8746.gogocs.xyz
-  client-fingerprint: firefox
-  network: tcp
-- name: 通用 115 (青枫资源分享@QFZYFX)
-  server: rvg2-production.up.railway.app
-  port: 443
-  type: vless
-  uuid: 7c352f3b-6535-788f-fb0c-f28a76d6deb6
-  tls: true
-  alpn:
-  - http/1.1
-  tfo: false
-  skip-cert-verify: true
-  servername: rvg2-production.up.railway.app
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws/7c352f3b-6535-788f-fb0c-f28a76d6deb6
-    headers:
-      Host: rvg2-production.up.railway.app
-- name: 通用 116 (青枫资源分享@QFZYFX)
-  server: s592.okgg.top
-  port: 443
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  tls: true
-  alpn:
-  - h2
-  - http/1.1
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  servername: u695099ub67c99c6s591.csgfw.top
-  client-fingerprint: firefox
-  network: tcp
-- name: 通用 117 (青枫资源分享@QFZYFX)
-  server: 207.174.133.222
-  port: 10000
-  type: vless
-  uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
-  tls: false
-  tfo: false
-  skip-cert-verify: true
-  network: tcp
-- name: 通用 118 (青枫资源分享@QFZYFX)
-  server: s554.ccgfw.online
-  port: 443
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  tls: true
-  alpn:
-  - h2
-  - http/1.1
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  servername: u695099ue1b9d2e4s552.gogocs.xyz
-  client-fingerprint: firefox
-  network: tcp
-- name: 通用 119 (青枫资源分享@QFZYFX)
-  server: 172.66.138.35
-  port: 443
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  tls: true
-  alpn:
-  - h2
-  - http/1.1
-  tfo: false
-  skip-cert-verify: true
-  servername: 60ab1a75s709.kukuss.top
-  client-fingerprint: ios
-  network: tcp
-- name: 通用 120 (青枫资源分享@QFZYFX)
-  server: 104.17.108.69
-  port: 443
-  type: vless
-  uuid: 3a17b816-a8ae-415d-a592-29345d7a7591
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: 89drg3d.zenvorix.ir
-  network: ws
-  ws-opts:
-    path: /nova-geo-psiphon-ca
-    headers:
-      Host: 89drg3d.zenvorix.ir
-- name: 通用 121 (青枫资源分享@QFZYFX)
-  server: 104.24.17.149
-  port: 443
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  tls: true
-  alpn:
-  - h2
-  - http/1.1
-  tfo: false
-  skip-cert-verify: true
-  servername: 122ef77bs848.kukuss.top
-  client-fingerprint: ios
-  network: tcp
-- name: 通用 122 (青枫资源分享@QFZYFX)
-  server: ansooyefilter-channel-production.up.railway.app
-  port: 443
-  type: vless
-  uuid: ca816894-0b86-57ed-9512-46cba3dc2656
-  tls: true
-  alpn:
-  - http/1.1
-  tfo: false
-  skip-cert-verify: true
-  servername: ansooyefilter-channel-production.up.railway.app
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws/ca816894-0b86-57ed-9512-46cba3dc2656
-    headers:
-      Host: ansooyefilter-channel-production.up.railway.app
-- name: 通用 123 (青枫资源分享@QFZYFX)
-  server: talianaccentclouding.iranlast.com
-  port: 7009
-  type: vless
-  uuid: 3f298aca-2412-49ac-9f20-235f0e448d31
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  reality-opts:
-    public-key: f8tgqvbyk3tmhip3lj-r8d0i6fqef1zy-zafehs-cl8
-  servername: yahoo.com
-  client-fingerprint: qq
-  network: tcp
-- name: 通用 124 (青枫资源分享@QFZYFX)
-  server: v2rayngselllbot-aaws.up.railway.app
-  port: 443
-  type: vless
-  uuid: f082844f-1902-b7a0-9af2-9bd9bf1c5361
-  tls: true
-  alpn:
-  - http/1.1
-  tfo: false
-  skip-cert-verify: true
-  servername: v2rayngselllbot-aaws.up.railway.app
-  client-fingerprint: ios
-  network: ws
-  ws-opts:
-    path: /ws/f082844f-1902-b7a0-9af2-9bd9bf1c5361
-    headers:
-      Host: v2rayngselllbot-aaws.up.railway.app
-- name: 通用 125 (青枫资源分享@QFZYFX)
-  server: shopcar.rafeaftabsokhtegi.com
+    public-key: whjFaQUOWE6n1r89kfjPVeJtut_b_YD3YnfRtpC4QEU
+    short-id: '0782f882'
+  server: 152.53.142.39
+  tls: true
+  type: vless
+  udp: true
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+  servername: media2.tcpdoor.net
+- name: 青枫资源分享@QFZYFX 🇦🇺AU_1|1.1MB/s
+  password: ''
+  port: 443
+  server: 159.13.44.228
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇧🇷BR_1|2.0MB/s
+  password: qGwNSnw1
+  port: 64218
+  server: 200.225.173.142
+  type: http
+  username: ZJWRqQLE
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇨🇭CH_1|1.0MB/s|R002-260618
   port: 9443
-  type: vless
-  uuid: 7dfe2f33-54c5-43cf-a654-7c8919a266be
-  tls: false
-  tfo: false
+  server: 37.120.213.210
   skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 青枫资源分享@QFZYFX 🇩🇪DE_10|2.4MB/s
   network: tcp
-- name: 通用 126 (青枫资源分享@QFZYFX)
-  server: x4g-update-production.up.railway.app
   port: 443
-  type: vless
-  uuid: a57c04f8-3c73-7f22-58dc-d4f7e26b70cf
+  server: ddc-akn.astralweb.tech
   tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: x4g-update-production.up.railway.app
-  network: ws
-  ws-opts:
-    path: /ws/a57c04f8-3c73-7f22-58dc-d4f7e26b70cf
-    headers:
-      Host: x4g-update-production.up.railway.app
-- name: 通用 127 (青枫资源分享@QFZYFX)
-  server: s1243.gogocs.xyz
-  port: 443
   type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  tls: true
-  alpn:
-  - h2
-  - http/1.1
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  servername: u695099ubfb7b8f7s861.gogocs.xyz
-  client-fingerprint: firefox
-  network: tcp
-- name: 通用 128 (青枫资源分享@QFZYFX)
-  server: 3x-ui-production-f8f6.up.railway.app
-  port: 443
-  type: vless
-  uuid: 5c9c1907-3e66-415e-943d-e7a432b40c1c
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: 3x-ui-production-f8f6.up.railway.app
-  network: ws
-  ws-opts:
-    path: /in1
-    headers:
-      Host: 3x-ui-production-f8f6.up.railway.app
-- name: 通用 129 (青枫资源分享@QFZYFX)
-  server: 104.16.231.46
-  port: 443
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  tls: true
-  alpn:
-  - h2
-  - http/1.1
-  tfo: false
-  skip-cert-verify: true
-  servername: 60ab1a75s709.kukuss.top
-  client-fingerprint: ios
-  network: tcp
-- name: 通用 130 (青枫资源分享@QFZYFX)
-  server: railway-production-b185.up.railway.app
-  port: 443
-  type: vless
-  uuid: 90cd4a77-141a-43c9-991b-08263cfe9c10
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: railway-production-b185.up.railway.app
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: railway-production-b185.up.railway.app
-- name: 通用 131 (青枫资源分享@QFZYFX)
-  server: 5.61.91.207
-  port: 443
-  type: vless
-  uuid: 9ec52cb8-8daa-0021-ac36-d38295a25e5b
-  tls: true
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  reality-opts:
-    public-key: b4n1pco8st3jkgtj8yymxvrw17lee2ehec5wy7hmmr4
-    short-id: 'a7b2c9d4'
-  servername: www.amd.com
-  client-fingerprint: firefox
-  network: tcp
-- name: 通用 132 (青枫资源分享@QFZYFX)
-  server: switzerlandscloudnig.iranlast.com
-  port: 7009
-  type: vless
-  uuid: 3f298aca-2412-49ac-9f20-235f0e448d31
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  reality-opts:
-    public-key: f8tgqvbyk3tmhip3lj-r8d0i6fqef1zy-zafehs-cl8
-  servername: yahoo.com
-  client-fingerprint: qq
-  network: tcp
-- name: 通用 133 (青枫资源分享@QFZYFX)
-  server: fast-domain-gb.dhbhvfbhfbvhfbvhfbhv.shop
-  port: 2096
-  type: vless
-  uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
-  tls: false
-  tfo: false
-  skip-cert-verify: true
-  network: grpc
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: /
-- name: 通用 134 (青枫资源分享@QFZYFX)
-  server: 198.41.204.96
-  port: 443
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  tls: true
-  alpn:
-  - h2
-  - http/1.1
-  tfo: false
-  skip-cert-verify: true
-  servername: 015684ces274.kukuss.top
-  client-fingerprint: ios
-  network: tcp
-- name: 通用 135 (青枫资源分享@QFZYFX)
-  server: 31.172.67.215
-  port: 2200
-  type: vless
-  uuid: 2aa7f4b1-e859-46d0-b8ac-8587811ab7b1
-  tls: false
-  tfo: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /v1
-    headers:
-      Host: rzd.ru
-- name: 通用 136 (青枫资源分享@QFZYFX)
-  server: ans-channel-production-b262.up.railway.app
-  port: 443
-  type: vless
-  uuid: f753c98a-bb23-e85a-d174-ebbeabcd7626
-  tls: true
-  alpn:
-  - http/1.1
-  tfo: false
-  skip-cert-verify: true
-  servername: ans-channel-production-b262.up.railway.app
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws/f753c98a-bb23-e85a-d174-ebbeabcd7626
-    headers:
-      Host: ans-channel-production-b262.up.railway.app
-- name: 通用 137 (青枫资源分享@QFZYFX)
-  server: 104.17.81.10
-  port: 443
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  tls: true
-  alpn:
-  - h2
-  - http/1.1
-  tfo: false
-  skip-cert-verify: true
-  servername: e0b86b9bs226.kukuss.top
-  client-fingerprint: ios
-  network: tcp
-- name: 通用 138 (青枫资源分享@QFZYFX)
-  server: mmd-production-13bc.up.railway.app
-  port: 443
-  type: vless
-  uuid: 5eb30146-53a6-996b-0834-d1da5115b18c
-  tls: true
-  alpn:
-  - http/1.1
-  tfo: false
-  skip-cert-verify: true
-  servername: mmd-production-13bc.up.railway.app
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws/5eb30146-53a6-996b-0834-d1da5115b18c
-    headers:
-      Host: mmd-production-13bc.up.railway.app
-- name: 通用 139 (青枫资源分享@QFZYFX)
-  server: x4g-production-984b.up.railway.app
-  port: 443
-  type: vless
-  uuid: a721bafd-16b9-344e-ba9b-1c0a1720cabc
-  tls: true
-  alpn:
-  - http/1.1
-  tfo: false
-  skip-cert-verify: true
-  servername: x4g-production-984b.up.railway.app
-  client-fingerprint: ios
-  network: ws
-  ws-opts:
-    path: /ws/a721bafd-16b9-344e-ba9b-1c0a1720cabc
-    headers:
-      Host: x4g-production-984b.up.railway.app
-- name: 通用 140 (青枫资源分享@QFZYFX)
-  server: 160.25.74.91
-  port: 443
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  tls: true
-  alpn:
-  - h2
-  - http/1.1
-  tfo: false
-  skip-cert-verify: true
-  servername: u695099u84fb0ba0s783.csgfw.top
-  client-fingerprint: firefox
-  network: tcp
-- name: 通用 141 (青枫资源分享@QFZYFX)
-  server: x4g-production-fa85.up.railway.app
-  port: 443
-  type: vless
-  uuid: 77378ca1-5b62-72bd-911c-58ad48bbadeb
-  tls: true
-  alpn:
-  - http/1.1
-  tfo: false
-  skip-cert-verify: true
-  servername: x4g-production-fa85.up.railway.app
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws/77378ca1-5b62-72bd-911c-58ad48bbadeb
-    headers:
-      Host: x4g-production-fa85.up.railway.app
-- name: 通用 142 (青枫资源分享@QFZYFX)
-  server: 193.53.126.91
-  port: 443
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  tls: true
-  alpn:
-  - h2
-  - http/1.1
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  servername: u695099u53fe439es2358.gogocs.xyz
-  client-fingerprint: firefox
-  network: tcp
-- name: 通用 143 (青枫资源分享@QFZYFX)
-  server: x4g-production-75b2.up.railway.app
-  port: 443
-  type: vless
-  uuid: b75fe5c1-cd5d-046f-10cf-6ffc0ae37fef
-  tls: true
-  alpn:
-  - http/1.1
-  tfo: false
-  skip-cert-verify: true
-  servername: x4g-production-75b2.up.railway.app
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws/b75fe5c1-cd5d-046f-10cf-6ffc0ae37fef
-    headers:
-      Host: x4g-production-75b2.up.railway.app
-- name: 通用 144 (青枫资源分享@QFZYFX)
-  server: x4g-production-1e7a.up.railway.app
-  port: 443
-  type: vless
-  uuid: 65bed288-9602-d3aa-f7ef-752da3683677
-  tls: true
-  alpn:
-  - http/1.1
-  tfo: false
-  skip-cert-verify: true
-  servername: x4g-production-1e7a.up.railway.app
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws/65bed288-9602-d3aa-f7ef-752da3683677
-    headers:
-      Host: x4g-production-1e7a.up.railway.app
-- name: 通用 145 (青枫资源分享@QFZYFX)
-  server: 51.250.65.234
-  port: 443
-  type: vless
-  uuid: bbbe4893-0f2c-4b08-a732-e8fb737971e1
-  tls: true
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  reality-opts:
-    public-key: sbvkoemjk0silbwg4akybg5ml5kzwwb-ed4eee7ynrc
-  servername: ads.x5.ru
-  client-fingerprint: firefox
-  network: tcp
-- name: 通用 146 (青枫资源分享@QFZYFX)
-  server: ronaldo37.fordnsdirect.shop
-  port: 8880
-  type: vless
-  uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
-  tls: false
-  tfo: false
-  skip-cert-verify: true
-  network: grpc
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: /
-- name: 通用 147 (青枫资源分享@QFZYFX)
-  server: x4g-update-production-d517.up.railway.app
-  port: 443
-  type: vless
-  uuid: 5b910013-f46d-317a-f396-6f0e4012a27b
-  tls: true
-  alpn:
-  - http/1.1
-  tfo: false
-  skip-cert-verify: true
-  servername: x4g-update-production-d517.up.railway.app
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws/5b910013-f46d-317a-f396-6f0e4012a27b
-    headers:
-      Host: x4g-update-production-d517.up.railway.app
-- name: 通用 148 (青枫资源分享@QFZYFX)
-  server: 192.0.2.1
-  port: 1
-  type: vless
-  uuid: c073aa06-c111-4f1c-8faf-e111ce8e1ceb
-  tls: false
-  tfo: false
-  skip-cert-verify: true
-  network: tcp
-- name: 通用 149 (青枫资源分享@QFZYFX)
-  server: 104.25.105.101
-  port: 443
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  tls: true
-  alpn:
-  - h2
-  - http/1.1
-  tfo: false
-  skip-cert-verify: true
-  servername: 015684ces274.kukuss.top
-  client-fingerprint: ios
-  network: tcp
-- name: 通用 150 (青枫资源分享@QFZYFX)
-  server: 104.25.147.105
-  port: 443
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  tls: true
-  alpn:
-  - h2
-  - http/1.1
-  tfo: false
-  skip-cert-verify: true
-  servername: a3f71e98s489.kukuss.top
-  client-fingerprint: ios
-  network: tcp
-- name: 通用 151 (青枫资源分享@QFZYFX)
-  server: 51.250.109.95
-  port: 443
-  type: vless
-  uuid: bbbe4893-0f2c-4b08-a732-e8fb737971e1
-  tls: true
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  reality-opts:
-    public-key: sbvkoemjk0silbwg4akybg5ml5kzwwb-ed4eee7ynrc
-  servername: ads.x5.ru
-  client-fingerprint: firefox
-  network: tcp
-- name: 通用 152 (青枫资源分享@QFZYFX)
-  server: ansooyefilter6.up.railway.app
-  port: 443
-  type: vless
-  uuid: 0b0dd312-eecb-cb9d-fe12-6d0c1df30ae4
-  tls: true
-  alpn:
-  - http/1.1
-  tfo: false
-  skip-cert-verify: true
-  servername: ansooyefilter6.up.railway.app
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws/0b0dd312-eecb-cb9d-fe12-6d0c1df30ae4
-    headers:
-      Host: ansooyefilter6.up.railway.app
-- name: 通用 153 (青枫资源分享@QFZYFX)
-  server: telewebion.com.fin2.shakhle.ir
-  port: 52525
-  type: vless
-  uuid: 21702d6d-7b35-4faa-8462-c23dc7e20e00
-  tls: false
-  tfo: false
-  skip-cert-verify: true
-  network: tcp
-- name: 通用 154 (青枫资源分享@QFZYFX)
-  server: 104.18.91.125
-  port: 443
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  tls: true
-  alpn:
-  - h2
-  - http/1.1
-  tfo: false
-  skip-cert-verify: true
-  servername: 015684ces274.kukuss.top
-  client-fingerprint: ios
-  network: tcp
-- name: 通用 155 (青枫资源分享@QFZYFX)
-  server: 159.69.192.171
-  port: 1234
-  type: vless
-  uuid: 7ff55eb0-eff4-4d71-ad1c-e6fe1a6c68d9
-  tls: false
-  tfo: false
-  skip-cert-verify: true
-  network: tcp
-- name: 通用 156 (青枫资源分享@QFZYFX)
-  server: rvg-production-aa24.up.railway.app
-  port: 443
-  type: vless
-  uuid: 3aedf221-f6c5-9f8d-49da-2547c302cb03
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /ws/3aedf221-f6c5-9f8d-49da-2547c302cb03
-    headers:
-      Host: rvg-production-aa24.up.railway.app
-- name: 通用 157 (青枫资源分享@QFZYFX)
-  server: x4g-production-23fd.up.railway.app
-  port: 443
-  type: vless
-  uuid: ac903291-e326-7a42-3371-a3482b9c6896
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: x4g-production-23fd.up.railway.app
-  network: ws
-  ws-opts:
-    path: /ws/ac903291-e326-7a42-3371-a3482b9c6896
-    headers:
-      Host: x4g-production-23fd.up.railway.app
-- name: 通用 158 (青枫资源分享@QFZYFX)
-  server: it1.levikogjgfdd.ir
-  port: 8880
-  type: vless
-  uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
-  tls: false
-  tfo: false
-  skip-cert-verify: true
-  network: grpc
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: /
-- name: 通用 159 (青枫资源分享@QFZYFX)
-  server: 192.3.118.133
-  port: 443
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  tls: true
-  alpn:
-  - h2
-  - http/1.1
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  servername: u695099ub023e5f3s2316.gogocs.xyz
-  client-fingerprint: firefox
-  network: tcp
-- name: 通用 160 (青枫资源分享@QFZYFX)
-  server: 45.130.146.232
-  port: 443
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  tls: true
-  alpn:
-  - h2
-  - http/1.1
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  servername: u695099u57be39cds394.csgfw.top
-  client-fingerprint: firefox
-  network: tcp
-- name: 通用 161 (青枫资源分享@QFZYFX)
-  server: edededededededededededede-66.poki-pakipon.ir
-  port: 36268
-  type: trojan
-  password: '-------banv2ray------'
-  sni: chi.yahoo.com
-  skip-cert-verify: true
-- name: 通用 162 (青枫资源分享@QFZYFX)
-  server: s85.okgfw.top
-  port: 443
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  tls: true
-  alpn:
-  - h2
-  - http/1.1
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  servername: u695099u818690d8s71.gogocs.xyz
-  client-fingerprint: firefox
-  network: tcp
-- name: 通用 163 (青枫资源分享@QFZYFX)
-  server: s461.wagahaha.xyz
-  port: 443
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  tls: true
-  alpn:
-  - h2
-  - http/1.1
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  servername: u695099u57be39cds394.csgfw.top
-  client-fingerprint: firefox
-  network: tcp
-- name: 通用 164 (青枫资源分享@QFZYFX)
-  server: 51.250.65.234
-  port: 443
-  type: vless
-  uuid: 3734dbab-3080-4bf5-847e-fdbad8fb2e6d
-  tls: true
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  reality-opts:
-    public-key: sbvkoemjk0silbwg4akybg5ml5kzwwb-ed4eee7ynrc
-  servername: ads.x5.ru
-  client-fingerprint: firefox
-  network: tcp
-- name: 通用 165 (青枫资源分享@QFZYFX)
-  server: x4g-production-0f83.up.railway.app
-  port: 443
-  type: vless
-  uuid: 7f7cabf9-30e6-4252-d2dd-9a67a602c0a1
-  tls: true
-  alpn:
-  - http/1.1
-  tfo: false
-  skip-cert-verify: true
-  servername: x4g-production-0f83.up.railway.app
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws/7f7cabf9-30e6-4252-d2dd-9a67a602c0a1
-    headers:
-      Host: x4g-production-0f83.up.railway.app
-- name: 通用 166 (青枫资源分享@QFZYFX)
-  server: x4g-production-5110.up.railway.app
-  port: 443
-  type: vless
-  uuid: 7726f5f8-eded-a25f-d5c4-55e48ae096ea
-  tls: true
-  alpn:
-  - http/1.1
-  tfo: false
-  skip-cert-verify: true
-  servername: x4g-production-5110.up.railway.app
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws/7726f5f8-eded-a25f-d5c4-55e48ae096ea
-    headers:
-      Host: x4g-production-5110.up.railway.app
-- name: 通用 167 (青枫资源分享@QFZYFX)
-  server: 104.18.37.228
-  port: 443
-  type: vless
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: hhlfy.twiladaphne.ndjp.net
-  network: ws
-  ws-opts:
-    path: /fp
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-- name: 通用 168 (青枫资源分享@QFZYFX)
-  server: ansooyefilter4.up.railway.app
-  port: 443
-  type: vless
-  uuid: b6d7c0af-fa36-12e6-60d2-a4260129235b
-  tls: true
-  alpn:
-  - http/1.1
-  tfo: false
-  skip-cert-verify: true
-  servername: ansooyefilter4.up.railway.app
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws/b6d7c0af-fa36-12e6-60d2-a4260129235b
-    headers:
-      Host: ansooyefilter4.up.railway.app
-- name: 通用 169 (青枫资源分享@QFZYFX)
-  server: s881.wagahaha.xyz
-  port: 443
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  tls: true
-  alpn:
-  - h2
-  - http/1.1
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  servername: u695099u0660a077s79.gogocs.xyz
-  client-fingerprint: firefox
-  network: tcp
-- name: 通用 170 (青枫资源分享@QFZYFX)
-  server: net1.wizardx1.com
-  port: 2045
-  type: vless
-  uuid: 8ba5361f-2d12-40fe-9f33-eca6847f1475
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  reality-opts:
-    public-key: sbvkoemjk0silbwg4akybg5ml5kzwwb-ed4eee7ynrc
-  servername: icloud.com
-  client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: /
-- name: 通用 171 (青枫资源分享@QFZYFX)
-  server: 203.23.179.151
-  port: 443
-  type: vless
-  uuid: 3ad1d277-5715-4ca1-84db-5baea72f822d
-  tls: true
-  alpn:
-  - h2
-  tfo: false
-  skip-cert-verify: true
+  udp: true
+  uuid: 5dc56757-458e-4df2-9e71-2a14ce47e8af
+  xudp: true
+  packet-encoding: xudp
   servername: ddc-akn.astralweb.tech
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 55 Mbps
+  name: 青枫资源分享@QFZYFX 🇩🇪DE_1|2.0MB/s
+  port: 26691
+  protocol: udp
+  server: 5.83.129.143
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: 11 Mbps
+  udp: true
+- alpn:
+  - h2
   client-fingerprint: firefox
-  network: tcp
-- name: 通用 172 (青枫资源分享@QFZYFX)
-  server: fuckfangbinxing.pusytroller.gq
-  port: 2095
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  tls: false
-  tfo: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: fuckfangbinxing.pusytroller.gq
-- name: 通用 173 (青枫资源分享@QFZYFX)
-  server: x4g-production-06e2.up.railway.app
+  name: 青枫资源分享@QFZYFX 🇩🇪DE_2|2.5MB/s
+  network: xhttp
   port: 443
-  type: vless
-  uuid: 14dc1390-2efc-724d-9dfa-1bc02bc644bc
+  server: cloudberry-n9d4xk.vkvideo-cdn.com
   tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: x4g-production-06e2.up.railway.app
-  network: ws
-  ws-opts:
-    path: /ws/14dc1390-2efc-724d-9dfa-1bc02bc644bc
-    headers:
-      Host: x4g-production-06e2.up.railway.app
-- name: 通用 174 (青枫资源分享@QFZYFX)
-  server: ansooyefilter-channel-production-f50d.up.railway.app
-  port: 443
   type: vless
-  uuid: 2107d017-9bb3-d249-0938-c0ad831fb011
-  tls: true
-  alpn:
-  - http/1.1
-  tfo: false
+  udp: true
+  uuid: a68a9249-89db-476e-8f3c-d946d91f619f
+  xhttp-opts:
+    host: cloudberry-n9d4xk.vkvideo-cdn.com
+    mode: packet-up
+    path: /content/media/stream/
+    uplink-data-placement: body
+    uplink-http-method: GET
+    x-padding-bytes: 16-64
+    x-padding-header: X-Signature
+    x-padding-key: _token
+    x-padding-method: tokenish
+    x-padding-obfs-mode: true
+    x-padding-placement: query
+  servername: cloudberry-n9d4xk.vkvideo-cdn.com
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: 青枫资源分享@QFZYFX 🇩🇪DE_3|3.1MB/s
+  password: 3ebac90b-6977-47c0-bef5-b2e37554432c
+  port: 17306
+  reduce-rtt: false
+  request-timeout: 0
+  server: 89.144.35.232
   skip-cert-verify: true
-  servername: ansooyefilter-channel-production-f50d.up.railway.app
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws/2107d017-9bb3-d249-0938-c0ad831fb011
-    headers:
-      Host: ansooyefilter-channel-production-f50d.up.railway.app
-- name: 通用 175 (青枫资源分享@QFZYFX)
-  server: dl1.helloworld.lornavps.ir
-  port: 8080
-  type: vless
-  uuid: 49438e78-0148-a1d0-ffb5-63db11b86987
-  tls: false
-  tfo: false
+  sni: www.microsoft.com
+  type: tuic
+  udp-relay-mode: native
+  uuid: 3ebac90b-6977-47c0-bef5-b2e37554432c
+  udp: true
+  version: 5
+- name: 青枫资源分享@QFZYFX 🇩🇪DE_4|1.2MB/s|R002-260618
+  port: 11111
+  server: 103.237.102.191
+  sub_tag: R002-260618
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇩🇪DE_5|1.6MB/s
+  password: None
+  port: 11111
+  server: 103.237.102.191
+  type: http
+  udp: true
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 1000
+  name: 青枫资源分享@QFZYFX 🇩🇪DE_6|2.0MB/s
+  port: 20088
+  protocol: udp
+  server: 5.83.129.153
   skip-cert-verify: true
-  network: tcp
-- name: 通用 176 (青枫资源分享@QFZYFX)
-  server: 104.64.206.42
-  port: 57137
-  type: vless
-  uuid: 4476eabb-509c-42d3-bb42-6838bf6fcd1e
-  tls: false
-  tfo: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /free by tharuwa (0767597317)
-    headers:
-      Host: m.zoom.us
-- name: 通用 177 (青枫资源分享@QFZYFX)
-  server: soskeynets-v2ngnet-daefaaf.up.railway.app
-  port: 443
-  type: vless
-  uuid: 713b7247-d958-0148-3838-1fcb15f991b5
-  tls: true
-  alpn:
-  - http/1.1
-  tfo: false
-  skip-cert-verify: true
-  servername: join-v2ngnet-daefaaf.up.railway.app
-  client-fingerprint: ios
-  network: ws
-  ws-opts:
-    path: /ws/713b7247-d958-0148-3838-1fcb15f991b5
-    headers:
-      Host: join-v2ngnet-daefaaf.up.railway.app
-- name: 通用 178 (青枫资源分享@QFZYFX)
-  server: x4g-production-f44e.up.railway.app
-  port: 443
-  type: vless
-  uuid: a4f4a373-d6c2-c5eb-0e1c-d2b01ff2529b
-  tls: true
-  alpn:
-  - http/1.1
-  tfo: false
-  skip-cert-verify: true
-  servername: x4g-production-f44e.up.railway.app
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws/a4f4a373-d6c2-c5eb-0e1c-d2b01ff2529b
-    headers:
-      Host: x4g-production-f44e.up.railway.app
-- name: 通用 179 (青枫资源分享@QFZYFX)
-  server: 104.24.15.207
-  port: 443
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  tls: true
-  alpn:
-  - h2
-  - http/1.1
-  tfo: false
-  skip-cert-verify: true
-  servername: 122ef77bs848.kukuss.top
-  client-fingerprint: ios
-  network: tcp
-- name: 通用 180 (青枫资源分享@QFZYFX)
-  server: netazad1-production.up.railway.app
-  port: 443
-  type: vless
-  uuid: ad8173e7-c717-42a8-a87f-d573783e6efc
-  tls: true
-  alpn:
-  - http/1.1
-  tfo: false
-  skip-cert-verify: true
-  servername: netazad1-production.up.railway.app
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /vip
-    headers:
-      Host: netazad1-production.up.railway.app
-- name: 通用 181 (青枫资源分享@QFZYFX)
-  server: 104.18.175.122
-  port: 443
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  tls: true
-  alpn:
-  - h2
-  - http/1.1
-  tfo: false
-  skip-cert-verify: true
-  servername: 015684ces274.kukuss.top
-  client-fingerprint: ios
-  network: tcp
-- name: 通用 182 (青枫资源分享@QFZYFX)
-  server: x4g-production-7c77.up.railway.app
-  port: 443
-  type: vless
-  uuid: ef61d287-1771-71f0-211a-474478346d4f
-  tls: true
-  alpn:
-  - http/1.1
-  tfo: false
-  skip-cert-verify: true
-  servername: x4g-production-7c77.up.railway.app
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws/ef61d287-1771-71f0-211a-474478346d4f
-    headers:
-      Host: x4g-production-7c77.up.railway.app
-- name: 通用 183 (青枫资源分享@QFZYFX)
-  server: 104.19.64.105
-  port: 443
-  type: trojan
-  password: humanity
-  sni: www.calmlunch.com
-  skip-cert-verify: true
-- name: 通用 184 (青枫资源分享@QFZYFX)
-  server: 193.142.59.97
-  port: 443
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  tls: true
-  alpn:
-  - h2
-  - http/1.1
-  tfo: false
+  sni: apple.com
+  type: hysteria
+  udp: true
+  up: 500
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  skip-cert-verify: true
-  servername: u695099ubfb7b8f7s861.gogocs.xyz
-  client-fingerprint: firefox
+  name: 青枫资源分享@QFZYFX 🇩🇪DE_7|2.5MB/s
   network: tcp
-- name: 🇨🇳 台湾 台北-TW 01 (青枫资源分享@QFZYFX)
-  server: www.shopify.com
-  port: 2095
-  type: ss
-  cipher: 2022-blake3-aes-128-gcm
-  password: YTE1ZWU4ZTEyZjc3YmEzZA==:ZGYzOWJkMjMtMjk0YS00Ng==
-- name: 🇩🇪 德国 01 (青枫资源分享@QFZYFX)
-  server: 194.93.0.28
-  port: 443
-  type: vless
-  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-  tls: true
-  tfo: false
-  skip-cert-verify: true
+  port: 7443
   reality-opts:
-    public-key: vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8
-    short-id: '3303c7a5'
-  servername: media2.tcpdoor.net
-  client-fingerprint: safari
-  network: grpc
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: /
-- name: 🇩🇪 德国 02 (青枫资源分享@QFZYFX)
-  server: 217.163.76.118
-  port: 2086
+    public-key: UJASCPCy2vuNWu3q2C7vVte-HxG0r0XI83pgxBFBv1E
+    short-id: '9c56af76'
+  server: 85.234.100.49
+  tls: true
   type: vless
-  uuid: b7977b65-cfd8-4db9-a029-6ef014a4ae4a
-  tls: false
-  tfo: false
-  skip-cert-verify: true
+  udp: true
+  uuid: 501b6afa-f955-473f-8440-1010110a1548
+  servername: images.apple.com
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 青枫资源分享@QFZYFX 🇩🇪DE_8|2.0MB/s
   network: tcp
-- name: 🇩🇪 德国 柏林-DE 01 (青枫资源分享@QFZYFX)
-  server: 172.64.188.59
-  port: 80
-  type: ss
-  cipher: 2022-blake3-aes-128-gcm
-  password: YTE1ZWU4ZTEyZjc3YmEzZA==:ZGYzOWJkMjMtMjk0YS00Ng==
-- name: 🇬🇧 英国 02 (青枫资源分享@QFZYFX)
-  server: wopa8.api3-max.ru
   port: 443
-  type: hysteria2
-  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
-  auth: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
-  sni: wopa8.api3-max.ru
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港特别行政区 香港-HK 01 (青枫资源分享@QFZYFX)
-  server: www.shopify.com
-  port: 2086
-  type: ss
-  cipher: 2022-blake3-aes-128-gcm
-  password: YTE1ZWU4ZTEyZjc3YmEzZA==:ZGYzOWJkMjMtMjk0YS00Ng==
-- name: 🇭🇰 中国香港特别行政区 香港-HK 02 (青枫资源分享@QFZYFX)
-  server: www.shopify.com
-  port: 2052
-  type: ss
-  cipher: 2022-blake3-aes-128-gcm
-  password: YTE1ZWU4ZTEyZjc3YmEzZA==:ZGYzOWJkMjMtMjk0YS00Ng==
-- name: 🇭🇰 中国香港特别行政区 香港-HK 03 (青枫资源分享@QFZYFX)
-  server: www.shopify.com
-  port: 80
-  type: ss
-  cipher: 2022-blake3-aes-128-gcm
-  password: YTE1ZWU4ZTEyZjc3YmEzZA==:ZGYzOWJkMjMtMjk0YS00Ng==
-- name: 🇯🇵 免费-日本1-VER. 01 (青枫资源分享@QFZYFX)
-  server: dj7vrml-g06.jp01-nn-vm0.entry.fr0528.art
-  port: 21586
-  type: vmess
-  uuid: f6e278e0-85fc-3336-b8e4-80d58715ff38
-  alterId: 1
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-- name: 🇯🇵 免费-日本2-VER. 01 (青枫资源分享@QFZYFX)
-  server: dj76r05-g06.jp02-e3-vm0.entry.fr0528.art
-  port: 11778
-  type: vmess
-  uuid: f6e278e0-85fc-3336-b8e4-80d58715ff38
-  alterId: 1
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-- name: 🇯🇵 免费-日本3-VER. 01 (青枫资源分享@QFZYFX)
-  server: cf4vrm5-g06.jp03-j7-vm0.entry.fr0528.art
-  port: 21586
-  type: vmess
-  uuid: f6e278e0-85fc-3336-b8e4-80d58715ff38
-  alterId: 1
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-- name: 🇯🇵 免费-日本4-VER. 01 (青枫资源分享@QFZYFX)
-  server: ujziemw-g06.jp04-1d-vm0.entry.fr0528.art
-  port: 449
-  type: vmess
-  uuid: f6e278e0-85fc-3336-b8e4-80d58715ff38
-  alterId: 1
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-- name: 🇯🇵 免费-日本5-VER. 01 (青枫资源分享@QFZYFX)
-  server: c9avr2w-g06.jp05-h6-vm0.entry.fr0528.art
-  port: 46487
-  type: vmess
-  uuid: f6e278e0-85fc-3336-b8e4-80d58715ff38
-  alterId: 1
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-- name: 🇯🇵 免费-日本6-VER. 01 (青枫资源分享@QFZYFX)
-  server: cf4lecw-g06.jp06-jz-vm0.entry.fr0528.art
-  port: 28788
-  type: vmess
-  uuid: f6e278e0-85fc-3336-b8e4-80d58715ff38
-  alterId: 1
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-- name: 🇯🇵 免费-日本7-VER. 01 (青枫资源分享@QFZYFX)
-  server: c97ldcx-g06.jp07-sh-vm0.entry.fr0528.art
-  port: 28788
-  type: vmess
-  uuid: f6e278e0-85fc-3336-b8e4-80d58715ff38
-  alterId: 1
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-- name: 🇯🇵 日本 东京-JP 01 (青枫资源分享@QFZYFX)
-  server: openai.com
-  port: 80
-  type: ss
-  cipher: 2022-blake3-aes-128-gcm
-  password: YTE1ZWU4ZTEyZjc3YmEzZA==:ZGYzOWJkMjMtMjk0YS00Ng==
-- name: 🇰🇷 韩国 01 (青枫资源分享@QFZYFX)
-  server: 211.104.99.209
-  port: 11019
-  type: vless
-  uuid: 3ee15a68-9391-470d-b810-29fc663beb28
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
-- name: 🇲🇩 摩尔多瓦 基希讷乌-MD 01 (青枫资源分享@QFZYFX)
-  server: 172.67.129.226
-  port: 80
-  type: ss
-  cipher: 2022-blake3-aes-128-gcm
-  password: YTE1ZWU4ZTEyZjc3YmEzZA==:ZGYzOWJkMjMtMjk0YS00Ng==
-- name: 🇷🇺 俄罗斯 01 (青枫资源分享@QFZYFX)
-  server: 46.8.220.182
-  port: 443
-  type: vless
-  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-  tls: true
-  tfo: false
-  skip-cert-verify: true
   reality-opts:
-    public-key: vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8
-    short-id: '3303c7a5'
-  servername: media2.tcpdoor.net
-  client-fingerprint: firefox
-  network: grpc
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: /
-- name: 🇹🇷 土耳其 安卡拉-TR 01 (青枫资源分享@QFZYFX)
-  server: 104.20.56.72
-  port: 80
-  type: ss
-  cipher: 2022-blake3-aes-128-gcm
-  password: YTE1ZWU4ZTEyZjc3YmEzZA==:ZGYzOWJkMjMtMjk0YS00Ng==
-- name: 🇺🇸 美国 01 (青枫资源分享@QFZYFX)
-  server: 103.133.1.160
-  port: 80
+    public-key: RWznvelrkz8tOe6iz9qFVyXbak3E08bs37ZO1rRLfxg
+  server: apple-cd2b77.cdx-edge.com
+  tls: true
   type: vless
-  uuid: eaf76557-2219-4799-8171-d7020adfefd0
-  tls: false
-  tfo: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: soft-shadow-1e33.xicav73335.workers.dev
-- name: 🇺🇸 美国 02 (青枫资源分享@QFZYFX)
-  server: ad-013.milo1fmyz.info
+  udp: true
+  uuid: 6f5bfa9c-e469-454d-8109-9b5e0266d6c3
+  servername: deepl.com
+- cipher: chacha20-ietf-poly1305
+  name: 青枫资源分享@QFZYFX 🇩🇪DE_9|2.4MB/s
+  password: 0V8o3i+XvFEK9Qm/kIhi/LQz74XYXuBItISbfXUEP3A=
+  port: 56985
+  server: e3.cover20.ir
+  type: ss
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇫🇷FR_1|2.1MB/s
+  password: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d
+  port: 443
+  server: 527b5b47-t9zts0-tighxj-12hj8.fr.oshuawei.com
+  sni: 527b5b47-t9zts0-tighxj-12hj8.fr.oshuawei.com
+  tls: true
+  type: http
+  username: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d
+  udp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 青枫资源分享@QFZYFX 🇫🇷FR_2|2.1MB/s
+  network: tcp
   port: 8443
-  type: vless
-  uuid: 304a1e62-eb26-4b44-994e-b96a70fff9b4
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: ad-013.milo1fmyz.info
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ad-013.milo1fmyz.info
-- name: 🇺🇸 美国 03 (青枫资源分享@QFZYFX)
-  server: taga3.api3-max.ru
-  port: 443
-  type: hysteria2
-  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
-  auth: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
-  sni: taga3.api3-max.ru
-  skip-cert-verify: true
-- name: 🇺🇸 美国 04 (青枫资源分享@QFZYFX)
-  server: 162.159.81.177
-  port: 80
-  type: vless
-  uuid: 4b00d726-e072-429b-997e-f07affea3b7f
-  tls: false
-  tfo: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoibHFUM0pwRHZXIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OmIwOjY0OjpdIl19
-    headers:
-      Host: icy-darkness-8ff1.farzambia12mo.workers.dev
-- name: 🇺🇸 美国 05 (青枫资源分享@QFZYFX)
-  server: 154.21.91.88
-  port: 41236
-  type: vless
-  uuid: 1a16fad3-3182-445f-b27b-db018e4e5746
-  tls: true
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
   reality-opts:
-    public-key: lDSUkgWuvxEQ1RzMbuwGCqdX7bn3uDetAYJmP4HGhXA
-    short-id: 'c5475819'
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  server: 141.227.160.236
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8fdf6dde-a1ca-456d-9b18-86b74d5768e6
+  xudp: true
+  packet-encoding: xudp
+  servername: sellflow.org
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 青枫资源分享@QFZYFX 🇫🇷FR_3|2.2MB/s
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  server: 152.228.215.219
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8fdf6dde-a1ca-456d-9b18-86b74d5768e6
+  xudp: true
+  packet-encoding: xudp
+  servername: sellflow.org
+- name: 青枫资源分享@QFZYFX 🇫🇷FR_4|2.5MB/s
+  password: 1Telegram_MojiVPN
+  port: 1080
+  server: ch-zur.pvdata.host
+  type: socks5
+  username: N9cyF6jvgy3ZEmCNKe04zBIR
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇫🇷FR_5|2.1MB/s
+  password: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d
+  port: 443
+  server: 527b5b47-t9zts0-tighxj-12hj8.fr.oshuawei.com
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d
+  udp: true
+  sni: 527b5b47-t9zts0-tighxj-12hj8.fr.oshuawei.com
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 青枫资源分享@QFZYFX 🇫🇷FR_6|2.6MB/s
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  server: 141.227.160.138
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8fdf6dde-a1ca-456d-9b18-86b74d5768e6
+  xudp: true
+  packet-encoding: xudp
+  servername: sellflow.org
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 青枫资源分享@QFZYFX 🇫🇷FR_7|1.9MB/s
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  server: 141.227.170.14
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8fdf6dde-a1ca-456d-9b18-86b74d5768e6
+  xudp: true
+  packet-encoding: xudp
+  servername: sellflow.org
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 青枫资源分享@QFZYFX 🇫🇷FR_8|2.0MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  server: 141.227.170.192
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8fdf6dde-a1ca-456d-9b18-86b74d5768e6
+  xudp: true
+  packet-encoding: xudp
+  servername: fi.sellflow.org
+- client-fingerprint: chrome
+  encryption: none
+  name: 青枫资源分享@QFZYFX 🇫🇷FR_9|2.1MB/s
+  network: xhttp
+  port: 65513
+  reality-opts:
+    public-key: tQeEamJmYVUUfjRLX7ETvMnPj4DrHzRhR5TI684oYgg
+    short-id: '21569dd6'
+  server: 2001:bc8:32d7:302::10
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2567e2e0-8d4c-4c51-aee9-5d1f36024472
+  xhttp-opts:
+    path: /6eg3r4an
+  xudp: true
+  packet-encoding: xudp
+  servername: www.yahoo.com
+- name: 青枫资源分享@QFZYFX 🇬🇧GB_1|2.5MB/s|R002-260618
+  port: 9443
+  server: 37.120.233.34
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇬🇧GB_2|1.7MB/s
+  port: 443
+  server: 193.36.118.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- down: ''
+  fingerprint: ''
+  name: 青枫资源分享@QFZYFX 🇬🇧GB_3|2.4MB/s
+  obfs: ''
+  obfs-password: ''
+  password: 0f2dc4af-951f-4690-922e-07c6e8bab26a
+  port: 2096
+  server: 178.253.55.89
+  skip-cert-verify: false
+  sni: it-one.quiet-rogue.site
+  type: hysteria2
+  up: ''
+  udp: true
+- client-fingerprint: chrome
+  name: 青枫资源分享@QFZYFX 🇭🇰HK_1|2.4MB/s
+  password: BxceQaOe
+  port: 35151
+  server: 16.162.190.25
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+  network: tcp
+- client-fingerprint: chrome
+  name: 青枫资源分享@QFZYFX 🇭🇰HK_2|2.3MB/s
+  password: BxceQaOe
+  port: 35151
+  server: 18.167.76.203
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+  network: tcp
+- name: 青枫资源分享@QFZYFX 🇮🇳IN_1|2.4MB/s
+  port: 1088
+  server: 144.24.111.128
+  type: socks5
+  udp: true
+- down: ''
+  fingerprint: ''
+  name: 青枫资源分享@QFZYFX 🇯🇵JP_1|4.0MB/s
+  obfs: ''
+  obfs-password: ''
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-jp-002.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-jp-002.fastervpn.world
+  type: hysteria2
+  up: ''
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 青枫资源分享@QFZYFX 🇯🇵JP_2|3.1MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: XIEl7Jc6yg_oN8LXbPUPzal77H9cTsRsRupyFhEKtF4
+    short-id: '94fc930c'
+  server: 64.176.58.170
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1b5d1c3c-93de-405c-9041-7cf6bcdbe726
+  xudp: true
+  packet-encoding: xudp
+  servername: www.amazon.com
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  name: 青枫资源分享@QFZYFX 🇰🇿KZ_1|2.3MB/s
+  network: xhttp
+  port: 443
+  server: 185.136.12.190
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2cca8201-c93e-40eb-bd8a-fea4170c169e
+  xhttp-opts:
+    host: deu683.lackerdeu.org
+    mode: auto
+    path: /api/v1/
+  xudp: true
+  packet-encoding: xudp
+  servername: deu683.lackerdeu.org
+- delay: 1209
+  name: 青枫资源分享@QFZYFX 🇳🇱NL_10|2.4MB/s
+  port: 9002
+  server: 84.17.47.146
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- delay: 1676
+  name: 青枫资源分享@QFZYFX 🇳🇱NL_11|1.2MB/s
+  port: 9002
+  server: 84.17.47.150
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 青枫资源分享@QFZYFX 🇳🇱NL_12|2.1MB/s
+  network: tcp
+  port: 9444
+  reality-opts:
+    public-key: bqLr1d3mbuP10WAYxWj8OEdSuZlVvrywrKq2U6ACw2w
+    short-id: '12b9ecabbf3a3b88'
+  server: mws-fc-1.ghost-lan.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: b251ec8f-47ec-4ab4-8bd2-13ac333a4100
+  xudp: true
+  packet-encoding: xudp
+  servername: max.ru
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+  name: 青枫资源分享@QFZYFX 🇳🇱NL_13|2.1MB/s
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  server: ns.1tut1.click
+  tls: true
+  type: vless
+  udp: true
+  uuid: 78c407f6-3f20-426e-94ea-7227e760c180
+  xudp: true
+  packet-encoding: xudp
+  servername: id.vk.com
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 青枫资源分享@QFZYFX 🇳🇱NL_14|2.5MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: UvJqmTGvadeK94_38ncycxTRqU4lmsjhDjJBuL0CQSA
+    short-id: 'c71af684feb2fef4'
+  server: 82.117.87.119
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0f2dc4af-951f-4690-922e-07c6e8bab26a
+  xudp: true
+  packet-encoding: xudp
+  servername: nl-one.quiet-rogue.site
+- name: 青枫资源分享@QFZYFX 🇳🇱NL_15|3.1MB/s|R002-260618
+  port: 9002
+  server: 84.17.47.149
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 青枫资源分享@QFZYFX 🇳🇱NL_1|3.3MB/s
+  network: grpc
+  port: 8444
+  reality-opts:
+    public-key: JjxjQ0bCB8UZDC4Tjs3FhWJciPB6jBd0846Ew31hSQk
+    short-id: 'a1b2c3d4'
+  server: 91.240.87.201
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9d246b7d-936c-4472-9e90-a83e69124e8c
+  xudp: true
+  packet-encoding: xudp
+  servername: ads.x5.ru
+- name: 青枫资源分享@QFZYFX 🇳🇱NL_2|2.5MB/s
+  password: ''
+  port: 9002
+  server: 84.17.47.147
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: 青枫资源分享@QFZYFX 🇳🇱NL_3|1.9MB/s
+  port: 443
+  server: 185.140.209.235
+  skip-cert-verify: true
+  sni: 482c8436a1f7c908b48a1757abb5dd79-ce85c45206570905.apache-iv.com
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇳🇱NL_4|2.0MB/s
+  password: None
+  port: 9002
+  server: 84.17.47.125
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇳🇱NL_5|3.1MB/s
+  port: 443
+  server: 185.246.153.28
+  skip-cert-verify: true
+  sni: 4a8c2906c96058315dffbc2b0e7ff19b-0c66a58858a795df.apache-iv.com
+  tls: true
+  type: http
+  udp: true
+- down: ''
+  fingerprint: ''
+  name: 青枫资源分享@QFZYFX 🇳🇱NL_6|2.5MB/s
+  obfs: ''
+  obfs-password: ''
+  password: 0f2dc4af-951f-4690-922e-07c6e8bab26a
+  port: 443
+  server: 82.117.87.119
+  skip-cert-verify: false
+  sni: nl-one.quiet-rogue.site
+  type: hysteria2
+  up: ''
+  udp: true
+- down: ''
+  fingerprint: ''
+  name: 青枫资源分享@QFZYFX 🇳🇱NL_7|3.7MB/s
+  obfs: ''
+  obfs-password: ''
+  password: 0f2dc4af-951f-4690-922e-07c6e8bab26a
+  port: 443
+  server: 178.253.55.89
+  skip-cert-verify: false
+  sni: nl-one.quiet-rogue.site
+  type: hysteria2
+  up: ''
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 青枫资源分享@QFZYFX 🇳🇱NL_8|1.6MB/s
+  network: tcp
+  port: 2018
+  reality-opts:
+    public-key: GAV1yGinA0uSgM2qRW7vdbHtXYj8klSs0U-IbytX5jU
+    short-id: 'dd0b0f3487af4fc4'
+  server: Nl.Sav-savteAm.iR
+  tls: true
+  type: vless
+  udp: true
+  uuid: 17a7a06a-4237-4510-acc2-ac0fd0d27852
+  xudp: true
+  packet-encoding: xudp
   servername: yahoo.com
-  client-fingerprint: chrome
+- delay: 1230
+  name: 青枫资源分享@QFZYFX 🇳🇱NL_9|3.5MB/s
+  port: 9002
+  server: 84.17.47.125
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 青枫资源分享@QFZYFX 🇳🇴NO_1|2.5MB/s
   network: tcp
-- name: 🇺🇸 美国 07 (青枫资源分享@QFZYFX)
-  server: 23.95.75.151
-  port: 8443
-  type: hysteria2
-  password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
-  auth: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
-  sni: hopp-us.yyuyy.com
-  skip-cert-verify: true
-- name: 🇺🇸 美国 08 (青枫资源分享@QFZYFX)
-  server: 88.218.44.4
   port: 443
-  type: vless
-  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
-  tls: true
-  tfo: false
-  skip-cert-verify: true
   reality-opts:
-    public-key: Nnpwm8dqFl9dlMJmg0M9G11vmgCKzNagFTn4tH4sWy4
-  servername: swcdn.apple.com
-  client-fingerprint: chrome
-  network: tcp
-- name: 🇺🇸 美国 09 (青枫资源分享@QFZYFX)
-  server: 172.67.170.118
-  port: 8080
+    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
+    short-id: '2f3e735aedc55aaf'
+  server: 109.163.239.4
+  tls: true
   type: vless
-  uuid: e3eff0b8-7276-3179-e538-a53000000002
-  tls: false
-  tfo: false
+  udp: true
+  uuid: e9824072-c700-4aa2-bcbb-7e6cc2d895aa
+  servername: cdn9-40.yahoo.com
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_10|2.0MB/s|P002-260618
+  port: 9002
+  server: 193.176.84.19
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /sync
-    headers:
-      Host: tiny-hat-f95e.ilia-1000-a.workers.dev
-- name: 🇺🇸 美国 10 (青枫资源分享@QFZYFX)
-  server: undef.network
+  sni: www.bing.com
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_11|2.1MB/s|P002-260618
+  port: 9002
+  server: 193.176.84.23
+  skip-cert-verify: true
+  sni: www.bing.com
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_12|2.1MB/s|R002-260618
+  port: 9002
+  server: 193.176.84.34
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_13|2.1MB/s
+  port: 9002
+  server: 193.176.84.24
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_14|2.0MB/s
+  port: 9002
+  server: 193.176.84.38
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_15|2.1MB/s
+  port: 9002
+  server: 193.176.84.30
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_16|2.2MB/s
+  port: 9002
+  server: 193.176.84.35
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_17|2.5MB/s
+  port: 9002
+  server: 193.176.84.20
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- delay: 2210
+  name: 青枫资源分享@QFZYFX 🇷🇴RO_18|2.6MB/s|G001-260618
+  port: 9002
+  server: 193.176.84.32
+  skip-cert-verify: true
+  sub_tag: G001-260618
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_19|2.1MB/s|R002-260618
+  port: 9002
+  server: 193.176.84.39
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_1|2.3MB/s|R002-260618
+  port: 9002
+  server: 193.176.84.26
+  skip-cert-verify: true
+  sni: www.bing.com
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_20|2.1MB/s|P002-260618
+  port: 9002
+  server: 193.176.84.27
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_21|2.4MB/s|R002-260618
+  port: 9002
+  server: 193.176.84.27
+  skip-cert-verify: true
+  sni: www.bing.com
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- delay: 1801
+  name: 青枫资源分享@QFZYFX 🇷🇴RO_22|2.0MB/s|G001-260618
+  port: 9002
+  server: 193.176.84.31
+  skip-cert-verify: true
+  sub_tag: G001-260618
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_23|1.5MB/s|Z001-260618
+  port: 9002
+  server: 193.176.84.21
+  skip-cert-verify: true
+  sub_tag: Z001-260618
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_24|1.4MB/s|Z001-260618
+  port: 9002
+  server: 193.176.84.40
+  skip-cert-verify: true
+  sub_tag: Z001-260618
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_25|1.5MB/s|Z001-260618
+  port: 9002
+  server: 193.176.84.33
+  skip-cert-verify: true
+  sub_tag: Z001-260618
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_26|1.8MB/s|P002-260618
+  password: None
+  port: 9002
+  server: 193.176.84.32
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_27|2.0MB/s|P002-260618
+  password: None
+  port: 9002
+  server: 193.176.84.31
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_28|1.6MB/s|P002-260618
+  password: None
+  port: 9002
+  server: 193.176.84.34
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_29|2.1MB/s|R002-260618
+  password: None
+  port: 9002
+  server: 193.176.84.25
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_2|2.1MB/s|R002-260618
+  port: 9002
+  server: 193.176.84.25
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_30|2.0MB/s|R002-260618
+  password: 'null'
+  port: 9002
+  server: 193.176.84.40
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_31|2.5MB/s
+  port: 9002
+  server: 193.176.84.24
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_32|2.4MB/s
+  password: ''
+  port: 9002
+  server: 84.239.49.245
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_33|2.0MB/s
+  password: None
+  port: 9002
+  server: 193.176.84.20
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_34|2.4MB/s
+  password: None
+  port: 9002
+  server: 84.239.49.197
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_35|1.8MB/s
+  password: None
+  port: 9002
+  server: 84.239.14.147
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_36|2.0MB/s
+  password: None
+  port: 9002
+  server: 84.239.49.194
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_37|2.1MB/s
+  password: None
+  port: 9002
+  server: 84.239.49.234
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_38|1.4MB/s
+  password: None
+  port: 9002
+  server: 84.239.49.214
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_39|1.2MB/s
+  password: None
+  port: 9002
+  server: 84.239.49.204
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_3|2.5MB/s
+  port: 9002
+  server: 193.176.84.34
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_40|1.1MB/s
+  password: None
+  port: 9002
+  server: 84.239.49.43
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_41|2.4MB/s
+  password: None
+  port: 9002
+  server: 84.239.14.153
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_42|1.3MB/s
+  password: None
+  port: 9002
+  server: 84.239.49.47
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_43|2.5MB/s
+  password: None
+  port: 9002
+  server: 84.239.49.53
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_4|2.4MB/s
+  port: 9002
+  server: 193.176.84.39
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_5|2.0MB/s
+  port: 9002
+  server: 193.176.84.17
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_6|2.1MB/s|P002-260618
+  port: 9002
+  server: 193.176.84.26
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_7|1.7MB/s|P002-260618
+  port: 9002
+  server: 193.176.84.36
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+- down: ''
+  fingerprint: ''
+  name: 青枫资源分享@QFZYFX 🇷🇴RO_8|2.5MB/s
+  obfs: ''
+  obfs-password: ''
+  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
   port: 8443
-  type: trojan
-  password: 5xjmr1dz66pgsew0
-  sni: com.digitalposts.dpdns.org
-  skip-cert-verify: true
-- name: 🇺🇸 美国 11 (青枫资源分享@QFZYFX)
-  server: 162.159.44.198
-  port: 443
-  type: vless
-  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: fu.baiproxy.us.ci
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: fu.baiproxy.us.ci
-- name: 🇺🇸 美国 12 (青枫资源分享@QFZYFX)
-  server: 199.232.78.159
-  port: 443
-  type: vless
-  uuid: 6e2e03e2-4f66-479a-a186-a34d66ca8c91
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: ssl.fastly.com
-  network: ws
-  ws-opts:
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed
-    headers:
-      Host: ssl.fastly.com
-- name: 🇺🇸 美国 13 (青枫资源分享@QFZYFX)
-  server: taga4.api3-max.ru
-  port: 443
+  server: 205.237.109.219
+  skip-cert-verify: false
+  sni: grape-turbo-fr.roxa.org
   type: hysteria2
-  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
-  auth: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
-  sni: taga4.api3-max.ru
-  skip-cert-verify: true
-- name: 🇺🇸 美国 14 (青枫资源分享@QFZYFX)
-  server: 18.239.134.69
-  port: 80
-  type: vless
-  uuid: f55ce6cc-3f6b-40fc-9e3b-abe26db17009
-  tls: false
-  tfo: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: d2e1v87ko56lyw.cloudfront.net%3Aassets.opensignal.com
-- name: 🇺🇸 美国 16 (青枫资源分享@QFZYFX)
-  server: 91.206.71.8
-  port: 80
-  type: vless
-  uuid: c20a0bcf-aa6f-4c35-9e62-a39b47b04e73
-  tls: false
-  tfo: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=Telegram🇨🇳 @WangCai2
-    headers:
-      Host: round-haze-8783.294.workers.dev
-- name: 🇺🇸 美国 17 (青枫资源分享@QFZYFX)
-  server: 88.218.44.4
+  up: ''
+  udp: true
+- down: ''
+  fingerprint: ''
+  name: 青枫资源分享@QFZYFX 🇷🇴RO_9|1.1MB/s
+  obfs: ''
+  obfs-password: ''
+  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   port: 8443
-  type: vless
-  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  reality-opts:
-    public-key: Rt2wltCWOxIroFggNWMudZDBJXls8DsF4icaWqxKDk8
-  servername: dl.google.com
+  server: 93.114.194.122
+  skip-cert-verify: false
+  sni: grape-zet-ro-turbo.bumbleshrimp.com
+  type: hysteria2
+  up: ''
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
   client-fingerprint: chrome
+  name: 青枫资源分享@QFZYFX 🇷🇺RU_1|1.1MB/s
+  network: xhttp
+  port: 443
+  server: ru6.ethicsdinnerpave.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: 60ba3369-9a78-40fe-98c3-233a6f107043
+  xhttp-opts:
+    host: ru6.ethicsdinnerpave.online
+    path: /assets/build/_app/immutable/chunks/stream-one/
+  servername: ru6.ethicsdinnerpave.online
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  name: 青枫资源分享@QFZYFX 🇷🇺RU_2|1.4MB/s
+  network: xhttp
+  port: 443
+  server: wqeds.denverpresents.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 60ba3369-9a78-40fe-98c3-233a6f107043
+  xhttp-opts:
+    host: wqeds.denverpresents.top
+    path: /assets/build/_app/immutable/chunks/stream-one/
+  servername: wqeds.denverpresents.top
+- client-fingerprint: edge
+  name: 青枫资源分享@QFZYFX 🇷🇺RU_3|1.2MB/s
+  network: xhttp
+  port: 443
+  server: 178.72.162.73
+  tls: true
+  type: vless
+  udp: true
+  uuid: 60ba3369-9a78-40fe-98c3-233a6f107043
+  xhttp-opts:
+    host: ru6.ethicsdinnerpave.online
+    path: /assets/build/_app/immutable/chunks/stream-one/
+  servername: ru6.ethicsdinnerpave.online
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: edge
+  name: 青枫资源分享@QFZYFX 🇷🇺RU_4|2.2MB/s
+  network: xhttp
+  port: 443
+  server: qwesd.rutendingaltos.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 60ba3369-9a78-40fe-98c3-233a6f107043
+  xhttp-opts:
+    host: qwesd.rutendingaltos.top
+    path: /assets/build/_app/immutable/chunks/stream-one/
+  servername: qwesd.rutendingaltos.top
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc-tuning-stream
+  name: 青枫资源分享@QFZYFX 🇷🇺RU_5|2.0MB/s
   network: grpc
+  port: 9441
+  reality-opts:
+    public-key: xTk5dX6E0DGuQj19bWDMafx13XoUK8euqlmtwJIg8wY
+    short-id: '8a7137d4e9c49b9c'
+  server: 176.109.85.140
+  tls: true
+  type: vless
+  udp: true
+  uuid: b251ec8f-47ec-4ab4-8bd2-13ac333a4100
+  xudp: true
+  packet-encoding: xudp
+  servername: max.ru
+- client-fingerprint: chrome
+  encryption: none
+  name: 青枫资源分享@QFZYFX 🇷🇺RU_6|2.0MB/s
+  network: xhttp
+  port: 443
+  server: 178.72.162.73
+  tls: true
+  type: vless
+  udp: true
+  uuid: 60ba3369-9a78-40fe-98c3-233a6f107043
+  xhttp-opts:
+    path: /assets/build/_app/immutable/chunks/stream-one/
+  xudp: true
+  packet-encoding: xudp
+  servername: wqeds.denverpresents.top
+- down: ''
+  fingerprint: ''
+  name: 青枫资源分享@QFZYFX 🇸🇪SE_1|1.4MB/s
+  obfs: ''
+  obfs-password: ''
+  password: 0f2dc4af-951f-4690-922e-07c6e8bab26a
+  port: 2083
+  server: 178.253.55.89
+  skip-cert-verify: false
+  sni: swe-one.quiet-rogue.site
+  type: hysteria2
+  up: ''
+  udp: true
+- down: ''
+  fingerprint: ''
+  name: 青枫资源分享@QFZYFX 🇸🇪SE_2|1.4MB/s
+  obfs: ''
+  obfs-password: ''
+  password: 0f2dc4af-951f-4690-922e-07c6e8bab26a
+  port: 2083
+  server: 82.117.87.119
+  skip-cert-verify: false
+  sni: swe-one.quiet-rogue.site
+  type: hysteria2
+  up: ''
+  udp: true
+- encryption: none
+  name: 青枫资源分享@QFZYFX 🇸🇬SG_1|3.2MB/s
+  network: ws
+  port: 8880
+  server: 104.27.82.154
+  type: vless
+  udp: true
+  uuid: 94ed4a58-dcf4-43cb-afc1-f158e14ec42d
+  ws-opts:
+    headers:
+      Host: gentle-surf-cc74.345-604.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.106 Safari/537.36
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+  xudp: true
+  packet-encoding: xudp
+- name: 青枫资源分享@QFZYFX 🇸🇬SG_2|2.0MB/s
+  password: qGwNSnw1
+  port: 63124
+  server: 45.195.184.106
+  type: http
+  username: ZJWRqQLE
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇸🇬SG_3|1.9MB/s
+  password: ESfDSCxpD
+  port: 64462
+  server: 154.219.254.66
+  type: http
+  username: n17sMRE7S
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 青枫资源分享@QFZYFX 🇸🇬SG_4|2.5MB/s
+  network: ws
+  port: 443
+  server: 64.176.36.17
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1bc380b1-cff7-446f-b13f-5c0ad29fc75a
+  ws-opts:
+    headers:
+      Host: zero.csmaster.ggff.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.89 Safari/537.36
+    path: /
+  xudp: true
+  packet-encoding: xudp
+  servername: zero.csmaster.ggff.net
+- name: 青枫资源分享@QFZYFX 🇺🇸US_10|2.5MB/s|P002-260618
+  password: None
+  port: 9002
+  server: 138.199.35.213
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇺🇸US_11|2.9MB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.200
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- name: 青枫资源分享@QFZYFX 🇺🇸US_12|1.2MB/s|P002-260618
+  password: 'null'
+  port: 9002
+  server: 138.199.35.207
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- name: 青枫资源分享@QFZYFX 🇺🇸US_13|2.5MB/s
+  port: 9002
+  server: 138.199.35.211
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇺🇸US_14|1.1MB/s
+  port: 9002
+  server: 138.199.35.206
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇺🇸US_15|1.3MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.197
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇺🇸US_16|2.0MB/s
+  password: ''
+  port: 9002
+  server: 138.199.35.196
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇺🇸US_17|1.0MB/s
+  port: 9002
+  server: 156.146.59.23
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇺🇸US_18|2.5MB/s
+  password: BxceQaOe
+  port: 10418
+  server: 18.167.76.203
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
+  network: tcp
+- name: 青枫资源分享@QFZYFX 🇺🇸US_19|1.1MB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.218
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇺🇸US_1|2.4MB/s
+  network: ws
+  port: 80
+  server: 18.239.134.69
+  tls: false
+  type: vless
+  udp: true
+  uuid: de27291c-15a9-4256-9ba7-ad517569877e
+  ws-opts:
+    headers:
+      Host: d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com
+    path: /
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 青枫资源分享@QFZYFX 🇺🇸US_20|2.7MB/s
+  network: ws
+  password: MITIVPN
+  port: 443
+  server: 104.21.5.155
+  skip-cert-verify: false
+  sni: de1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.mitiVpN.lIfeStyLe
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/dde2---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- name: 青枫资源分享@QFZYFX 🇺🇸US_21|2.1MB/s
+  password: None
+  port: 9002
+  server: 156.146.59.19
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇺🇸US_22|2.1MB/s
+  password: None
+  port: 9002
+  server: 156.146.59.41
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇺🇸US_23|1.2MB/s
+  password: ''
+  port: 9002
+  server: 156.146.59.42
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇺🇸US_24|2.1MB/s
+  password: ''
+  port: 10808
+  server: 129.151.9.55
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+  udp: true
+- client-fingerprint: chrome
   grpc-opts:
     grpc-mode: gun
-    grpc-service-name: /
-- name: 🇺🇸 美国 18 (青枫资源分享@QFZYFX)
-  server: 178.17.53.177
-  port: 34150
-  type: vless
-  uuid: e80398bb-aecb-4686-a75c-dfe4cd8ce242
-  tls: true
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
+    grpc-service-name: your-custom-path
+  name: 青枫资源分享@QFZYFX 🇺🇸US_25|2.7MB/s
+  network: grpc
+  port: 8443
   reality-opts:
-    public-key: nlEvGwt7WTuobjUSOK9ITQ8LF5VIC-SrWPMTH9FqTk4
-    short-id: '84abf04b'
-  client-fingerprint: chrome
-  network: tcp
-- name: 🇺🇸 美国 20 (青枫资源分享@QFZYFX)
-  server: 104.21.15.212
-  port: 8880
+    public-key: OMlQAFrCMZ3DX0xlnbEZiByLBFzpUE8XJHJsrBzLdlY
+    short-id: '2da4299da566b7'
+  server: 45.151.101.103
+  tls: true
   type: vless
-  uuid: 65aed3c1-1999-46a1-a3f3-2e5eb119ec64
-  tls: false
-  tfo: false
+  udp: true
+  uuid: 95e8532b-cc69-42d4-9553-e3c23292b15b
+  servername: maps.apple.com
+- delay: 844
+  name: 青枫资源分享@QFZYFX 🇺🇸US_26|2.7MB/s
+  port: 9002
+  server: 138.199.35.207
   skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- encryption: none
+  name: 青枫资源分享@QFZYFX 🇺🇸US_27|2.5MB/s
   network: ws
+  port: 8880
+  server: 104.27.82.154
+  type: vless
+  udp: true
+  uuid: 7ed93ccf-6a54-4b19-a9b4-aedfc79bab7d
   ws-opts:
+    headers:
+      Host: muddy-sky-4767.344-7a7.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/69.0.3497.100 Safari/537.36
     path: /pyip=ProxyIP.KR.CMLiussss.net
-    headers:
-      Host: weathered-hat-76a5.380-d00.workers.dev
-- name: 🇺🇸 美国 21 (青枫资源分享@QFZYFX)
-  server: 141.133.172.222
-  port: 20342
+  xudp: true
+  packet-encoding: xudp
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 青枫资源分享@QFZYFX 🇺🇸US_28|2.6MB/s
+  network: ws
+  port: 443
+  server: ezaccess1-sulgx-ezaccess1-a775.up.railway.app
+  tls: true
   type: vless
-  uuid: 5eecb34f-c905-4c77-b7fb-d830b451cd11
-  tls: false
-  tfo: false
-  skip-cert-verify: true
-  servername: 141.133.172.222
+  udp: true
+  uuid: 75f64991-de26-4be3-9e8e-2cf99cd17943
+  ws-opts:
+    headers:
+      Host: ezaccess1-sulgx-ezaccess1-a775.up.railway.app
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/45.0.2454.101 Safari/537.36
+    path: /ws/75f64991-de26-4be3-9e8e-2cf99cd17943
+  xudp: true
+  packet-encoding: xudp
+  servername: ezaccess1-sulgx-ezaccess1-a775.up.railway.app
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 青枫资源分享@QFZYFX 🇺🇸US_29|2.2MB/s
   network: tcp
-- name: 🇺🇸 美国 22 (青枫资源分享@QFZYFX)
-  server: 173.245.49.116
   port: 443
-  type: vless
-  uuid: 9e5e0a3f-0fdc-4272-9c6b-bc6f00000001
+  reality-opts:
+    public-key: qW8UIkS9M8F1BjbAa6Ih1kNL5hkTRDp_DZ5TEpyyIFs
+    short-id: ''
+  server: 152.53.82.202
   tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: amirweb1388.dpdns.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /mr
-    headers:
-      Host: amirweb1388.dpdns.org
-- name: 🇺🇸 美国 23 (青枫资源分享@QFZYFX)
-  server: 155.46.167.30
-  port: 8880
   type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: false
-  tfo: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime50.workers.dev
-- name: 🇺🇸 美国 24 (青枫资源分享@QFZYFX)
-  server: 162.159.81.104
-  port: 80
-  type: vless
-  uuid: 4b00d726-e072-429b-997e-f07affea3b7f
-  tls: false
-  tfo: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiUEVTdDRlR2hhc0JuYyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ==
-    headers:
-      Host: icy-darkness-8ff1.farzambia12mo.workers.dev
-- name: 🇺🇸 美国 26 (青枫资源分享@QFZYFX)
-  server: 104.21.90.146
+  udp: true
+  uuid: 2a12bb81-f3a3-41bb-99ab-36febf676b4a
+  xudp: true
+  packet-encoding: xudp
+  servername: shy-tiger.cdn.cachefleet.com
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: your-custom-path
+  name: 青枫资源分享@QFZYFX 🇺🇸US_2|2.1MB/s
+  network: grpc
   port: 443
-  type: vless
-  uuid: e35a5ad5-0175-4cd6-b654-1eb220ff28f0
+  reality-opts:
+    public-key: gr7DAOBqoNiHEUhWZQh3nSqBOmg6QwmRC0HKj7TOsUk
+    short-id: '2da4299da566b7'
+  server: 45.151.101.103
   tls: true
-  tfo: false
+  type: vless
+  udp: true
+  uuid: 95e8532b-cc69-42d4-9553-e3c23292b15b
+  servername: maps.apple.com
+- name: 青枫资源分享@QFZYFX 🇺🇸US_30|2.5MB/s|P002-260618
+  password: ''
+  port: 9002
+  server: 138.199.35.210
   skip-cert-verify: true
-  servername: node-dispatch-c8-2.e20260720.kdns.fr
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /Wvf67jc5MgASmsb9Qsr0
-    headers:
-      Host: node-dispatch-c8-2.e20260720.kdns.fr
-- name: 🇺🇸 美国 27 (青枫资源分享@QFZYFX)
-  server: tun1.wizardx1.com
-  port: 2078
-  type: vmess
-  uuid: 8c207682-e007-4a0d-88a3-68b8638b3d10
-  alterId: 0
-  cipher: auto
-  tls: false
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: 青枫资源分享@QFZYFX 🇺🇸US_31|2.4MB/s
+  password: ''
+  port: 9002
+  server: 138.199.35.208
   skip-cert-verify: true
-- name: 🇺🇸 美国 圣何塞-US 01 (青枫资源分享@QFZYFX)
-  server: www.syfe.com
-  port: 80
-  type: ss
-  cipher: 2022-blake3-aes-128-gcm
-  password: YTE1ZWU4ZTEyZjc3YmEzZA==:ZGYzOWJkMjMtMjk0YS00Ng==
-- name: 🇺🇸 美国 洛杉矶-US 01 (青枫资源分享@QFZYFX)
-  server: 172.96.161.152
-  port: 20092
-  type: ss
-  cipher: 2022-blake3-aes-128-gcm
-  password: YTE1ZWU4ZTEyZjc3YmEzZA==:ZGYzOWJkMjMtMjk0YS00Ng==
-- name: 🇺🇸 美国 洛杉矶-US 02 (青枫资源分享@QFZYFX)
-  server: 172.96.161.152
-  port: 20091
-  type: ss
-  cipher: 2022-blake3-aes-128-gcm
-  password: YTE1ZWU4ZTEyZjc3YmEzZA==:ZGYzOWJkMjMtMjk0YS00Ng==
-- name: 🇺🇸 美国 洛杉矶-US 03 (青枫资源分享@QFZYFX)
-  server: 172.96.161.152
-  port: 20090
-  type: ss
-  cipher: 2022-blake3-aes-128-gcm
-  password: YTE1ZWU4ZTEyZjc3YmEzZA==:ZGYzOWJkMjMtMjk0YS00Ng==
-- name: 🇺🇸 美国 洛杉矶-US 04 (青枫资源分享@QFZYFX)
-  server: 104.128.72.119
-  port: 80
-  type: ss
-  cipher: 2022-blake3-aes-128-gcm
-  password: YTE1ZWU4ZTEyZjc3YmEzZA==:ZGYzOWJkMjMtMjk0YS00Ng==
-- name: 🇺🇸 美国 洛杉矶-US 05 (青枫资源分享@QFZYFX)
-  server: 172.96.161.152
-  port: 20093
-  type: ss
-  cipher: 2022-blake3-aes-128-gcm
-  password: YTE1ZWU4ZTEyZjc3YmEzZA==:ZGYzOWJkMjMtMjk0YS00Ng==
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: 青枫资源分享@QFZYFX 🇺🇸US_32|2.1MB/s
+  password: ''
+  port: 9002
+  server: 156.146.59.4
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: 青枫资源分享@QFZYFX 🇺🇸US_33|2.1MB/s|P002-260618
+  password: ''
+  port: 9002
+  server: 156.146.59.15
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: 青枫资源分享@QFZYFX 🇺🇸US_34|2.4MB/s|R002-260618
+  port: 9002
+  server: 138.199.35.197
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇺🇸US_35|1.1MB/s|R002-260618
+  port: 9002
+  server: 138.199.35.195
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇺🇸US_36|2.1MB/s|R002-260618
+  port: 9002
+  server: 138.199.35.204
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇺🇸US_37|1.2MB/s|R002-260618
+  port: 9002
+  server: 138.199.35.202
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇺🇸US_38|2.2MB/s|R002-260618
+  port: 9002
+  server: 156.146.59.8
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇺🇸US_39|2.1MB/s|R002-260618
+  port: 9002
+  server: 156.146.59.33
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- multiplexing: MULTIPLEXING_LOW
+  name: 青枫资源分享@QFZYFX 🇺🇸US_3|2.5MB/s
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇺🇸US_40|2.1MB/s|P002-260618
+  password: None
+  port: 9002
+  server: 156.146.59.8
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇺🇸US_41|2.1MB/s|R002-260618
+  password: 'null'
+  port: 9002
+  server: 138.199.35.199
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- name: 青枫资源分享@QFZYFX 🇺🇸US_42|1.2MB/s|P002-260618
+  password: None
+  port: 9002
+  server: 138.199.35.211
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇺🇸US_43|2.1MB/s
+  password: ''
+  port: 9002
+  server: 156.146.59.32
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: 青枫资源分享@QFZYFX 🇺🇸US_44|2.1MB/s|R002-260618
+  password: None
+  port: 9002
+  server: 156.146.59.43
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇺🇸US_45|2.5MB/s|P002-260618
+  password: 'null'
+  port: 9002
+  server: 138.199.35.217
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- name: 青枫资源分享@QFZYFX 🇺🇸US_46|2.0MB/s|P002-260618
+  password: 'null'
+  port: 9002
+  server: 138.199.35.195
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- name: 青枫资源分享@QFZYFX 🇺🇸US_47|1.7MB/s|R002-260618
+  port: 9002
+  server: 156.146.59.27
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇺🇸US_48|2.0MB/s|R002-260618
+  password: 'null'
+  port: 9002
+  server: 138.199.35.216
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- name: 青枫资源分享@QFZYFX 🇺🇸US_49|2.1MB/s|R002-260618
+  password: 'null'
+  port: 9002
+  server: 138.199.35.205
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- name: 青枫资源分享@QFZYFX 🇺🇸US_4|3.2MB/s
+  password: ''
+  port: 9002
+  server: 138.199.35.217
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: 青枫资源分享@QFZYFX 🇺🇸US_50|2.5MB/s
+  network: tcp
+  password: BxceQaOe
+  port: 10418
+  server: 18.167.76.203
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇺🇸US_51|2.1MB/s
+  port: 9002
+  server: 138.199.35.209
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇺🇸US_52|2.6MB/s
+  port: 9002
+  server: 138.199.35.219
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  name: 青枫资源分享@QFZYFX 🇺🇸US_53|2.5MB/s
+  password: BxceQaOe
+  port: 10418
+  server: 18.167.76.203
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+  network: tcp
+- name: 青枫资源分享@QFZYFX 🇺🇸US_54|1.3MB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.212
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇺🇸US_55|2.1MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.215
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇺🇸US_56|1.3MB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇺🇸US_57|2.0MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.219
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇺🇸US_58|2.5MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.204
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇺🇸US_59|2.1MB/s
+  password: None
+  port: 9002
+  server: 156.146.59.50
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇺🇸US_5|1.5MB/s
+  password: ''
+  port: 9002
+  server: 138.199.35.218
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: 青枫资源分享@QFZYFX 🇺🇸US_60|1.3MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.196
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇺🇸US_6|2.7MB/s
+  password: ''
+  port: 9002
+  server: 138.199.35.203
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: 青枫资源分享@QFZYFX 🇺🇸US_7|1.7MB/s|R002-260618
+  port: 9002
+  server: 138.199.35.213
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇺🇸US_8|2.7MB/s|R002-260618
+  port: 9002
+  server: 138.199.35.216
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇺🇸US_9|1.4MB/s|R002-260618
+  port: 9002
+  server: 156.146.59.16
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇿🇦ZA_1|1.3MB/s
+  password: aa
+  port: 89
+  server: 160.124.240.189
+  type: http
+  username: aa
+  udp: true
 proxy-groups:
 - name: 🚀 节点选择
   type: select
   proxies:
-  - ♻️ 自动选择
-  - 🇭🇰 香港节点
-  - 🇺🇲 美国节点
-  - ☑️ 手动切换
   - DIRECT
-- name: ☑️ 手动切换
-  type: select
-  proxies:
-  - 通用 082 (青枫资源分享@QFZYFX)
-  - 通用 016 (青枫资源分享@QFZYFX)
-  - 通用 167 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 11 (青枫资源分享@QFZYFX)
-  - 通用 106 (青枫资源分享@QFZYFX)
-  - 通用 032 (青枫资源分享@QFZYFX)
-  - 通用 027 (青枫资源分享@QFZYFX)
-  - 通用 084 (青枫资源分享@QFZYFX)
-  - 通用 112 (青枫资源分享@QFZYFX)
-  - 通用 043 (青枫资源分享@QFZYFX)
-  - 通用 013 (青枫资源分享@QFZYFX)
-  - 通用 096 (青枫资源分享@QFZYFX)
-  - 通用 159 (青枫资源分享@QFZYFX)
-  - 通用 074 (青枫资源分享@QFZYFX)
-  - 通用 118 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 18 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 26 (青枫资源分享@QFZYFX)
-  - 通用 114 (青枫资源分享@QFZYFX)
-  - 通用 021 (青枫资源分享@QFZYFX)
-  - 通用 060 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 27 (青枫资源分享@QFZYFX)
-  - 通用 184 (青枫资源分享@QFZYFX)
-  - 通用 171 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 07 (青枫资源分享@QFZYFX)
-  - 通用 127 (青枫资源分享@QFZYFX)
-  - 通用 095 (青枫资源分享@QFZYFX)
-  - 通用 126 (青枫资源分享@QFZYFX)
-  - 通用 083 (青枫资源分享@QFZYFX)
-  - 通用 044 (青枫资源分享@QFZYFX)
-  - 通用 042 (青枫资源分享@QFZYFX)
-  - 🇷🇺 俄罗斯 01 (青枫资源分享@QFZYFX)
-  - 🇯🇵 免费-日本6-VER. 01 (青枫资源分享@QFZYFX)
-  - 通用 097 (青枫资源分享@QFZYFX)
-  - 通用 101 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 洛杉矶-US 02 (青枫资源分享@QFZYFX)
-  - 通用 175 (青枫资源分享@QFZYFX)
-  - 通用 140 (青枫资源分享@QFZYFX)
-  - 通用 115 (青枫资源分享@QFZYFX)
-  - 通用 061 (青枫资源分享@QFZYFX)
-  - 通用 056 (青枫资源分享@QFZYFX)
-  - 通用 071 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 洛杉矶-US 04 (青枫资源分享@QFZYFX)
-  - 通用 129 (青枫资源分享@QFZYFX)
-  - 通用 110 (青枫资源分享@QFZYFX)
-  - 🇹🇷 土耳其 安卡拉-TR 01 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 20 (青枫资源分享@QFZYFX)
-  - 🇭🇰 中国香港特别行政区 香港-HK 02 (青枫资源分享@QFZYFX)
-  - 通用 151 (青枫资源分享@QFZYFX)
-  - 🇯🇵 免费-日本5-VER. 01 (青枫资源分享@QFZYFX)
-  - 通用 177 (青枫资源分享@QFZYFX)
-  - 通用 090 (青枫资源分享@QFZYFX)
-  - 🇨🇳 台湾 台北-TW 01 (青枫资源分享@QFZYFX)
-  - 通用 081 (青枫资源分享@QFZYFX)
-  - 通用 028 (青枫资源分享@QFZYFX)
-  - 通用 050 (青枫资源分享@QFZYFX)
-  - 通用 055 (青枫资源分享@QFZYFX)
-  - 31.58.50.200 01 (青枫资源分享@QFZYFX)
-  - 通用 155 (青枫资源分享@QFZYFX)
-  - 通用 148 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 04 (青枫资源分享@QFZYFX)
-  - 摩纳哥 摩纳哥城-MC 01 (青枫资源分享@QFZYFX)
-  - 通用 157 (青枫资源分享@QFZYFX)
-  - 通用 147 (青枫资源分享@QFZYFX)
-  - 通用 041 (青枫资源分享@QFZYFX)
-  - 通用 122 (青枫资源分享@QFZYFX)
-  - 通用 125 (青枫资源分享@QFZYFX)
-  - 通用 080 (青枫资源分享@QFZYFX)
-  - 通用 086 (青枫资源分享@QFZYFX)
-  - 通用 075 (青枫资源分享@QFZYFX)
-  - 通用 146 (青枫资源分享@QFZYFX)
-  - 通用 047 (青枫资源分享@QFZYFX)
-  - 通用 182 (青枫资源分享@QFZYFX)
-  - 通用 054 (青枫资源分享@QFZYFX)
-  - 通用 057 (青枫资源分享@QFZYFX)
-  - 🇩🇪 德国 01 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 01 (青枫资源分享@QFZYFX)
-  - 通用 117 (青枫资源分享@QFZYFX)
-  - 通用 031 (青枫资源分享@QFZYFX)
-  - 通用 104 (青枫资源分享@QFZYFX)
-  - 通用 164 (青枫资源分享@QFZYFX)
-  - 通用 073 (青枫资源分享@QFZYFX)
-  - 通用 132 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 02 (青枫资源分享@QFZYFX)
-  - 通用 002 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 23 (青枫资源分享@QFZYFX)
-  - 通用 087 (青枫资源分享@QFZYFX)
-  - 通用 128 (青枫资源分享@QFZYFX)
-  - 🇲🇩 摩尔多瓦 基希讷乌-MD 01 (青枫资源分享@QFZYFX)
-  - 🇯🇵 免费-日本4-VER. 01 (青枫资源分享@QFZYFX)
-  - 通用 068 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 01 (青枫资源分享@QFZYFX)
-  - 🇩🇪 德国 柏林-DE 01 (青枫资源分享@QFZYFX)
-  - 通用 174 (青枫资源分享@QFZYFX)
-  - 通用 158 (青枫资源分享@QFZYFX)
-  - 通用 133 (青枫资源分享@QFZYFX)
-  - 🇯🇵 免费-日本1-VER. 01 (青枫资源分享@QFZYFX)
-  - 通用 051 (青枫资源分享@QFZYFX)
-  - 通用 058 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 08 (青枫资源分享@QFZYFX)
-  - 通用 162 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 24 (青枫资源分享@QFZYFX)
-  - 通用 094 (青枫资源分享@QFZYFX)
-  - 通用 049 (青枫资源分享@QFZYFX)
-  - 通用 108 (青枫资源分享@QFZYFX)
-  - 通用 154 (青枫资源分享@QFZYFX)
-  - 通用 079 (青枫资源分享@QFZYFX)
-  - 通用 113 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 05 (青枫资源分享@QFZYFX)
-  - 通用 066 (青枫资源分享@QFZYFX)
-  - 通用 143 (青枫资源分享@QFZYFX)
-  - 通用 153 (青枫资源分享@QFZYFX)
-  - 通用 052 (青枫资源分享@QFZYFX)
-  - 通用 120 (青枫资源分享@QFZYFX)
-  - 通用 123 (青枫资源分享@QFZYFX)
-  - 通用 138 (青枫资源分享@QFZYFX)
-  - 通用 149 (青枫资源分享@QFZYFX)
-  - 通用 070 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 17 (青枫资源分享@QFZYFX)
-  - 通用 045 (青枫资源分享@QFZYFX)
-  - 🇯🇵 免费-日本2-VER. 01 (青枫资源分享@QFZYFX)
-  - 通用 091 (青枫资源分享@QFZYFX)
-  - 通用 022 (青枫资源分享@QFZYFX)
-  - 通用 036 (青枫资源分享@QFZYFX)
-  - 订阅失效 登录 获取 01 (青枫资源分享@QFZYFX)
-  - 通用 103 (青枫资源分享@QFZYFX)
-  - 通用 176 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 10 (青枫资源分享@QFZYFX)
-  - 通用 145 (青枫资源分享@QFZYFX)
-  - 82.97.252.129 01 (青枫资源分享@QFZYFX)
-  - 通用 076 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 21 (青枫资源分享@QFZYFX)
-  - 通用 144 (青枫资源分享@QFZYFX)
-  - 通用 105 (青枫资源分享@QFZYFX)
-  - 通用 088 (青枫资源分享@QFZYFX)
-  - 通用 005 (青枫资源分享@QFZYFX)
-  - 🇯🇵 免费-日本3-VER. 01 (青枫资源分享@QFZYFX)
-  - 通用 172 (青枫资源分享@QFZYFX)
-  - 🇭🇰 中国香港特别行政区 香港-HK 01 (青枫资源分享@QFZYFX)
-  - 通用 136 (青枫资源分享@QFZYFX)
-  - 通用 100 (青枫资源分享@QFZYFX)
-  - 通用 023 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 13 (青枫资源分享@QFZYFX)
-  - 通用 134 (青枫资源分享@QFZYFX)
-  - 通用 152 (青枫资源分享@QFZYFX)
-  - 列支敦士登 瓦杜兹-LI 01 (青枫资源分享@QFZYFX)
-  - 🇯🇵 日本 东京-JP 01 (青枫资源分享@QFZYFX)
-  - 通用 038 (青枫资源分享@QFZYFX)
-  - 通用 029 (青枫资源分享@QFZYFX)
-  - 通用 039 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 圣何塞-US 01 (青枫资源分享@QFZYFX)
-  - 通用 156 (青枫资源分享@QFZYFX)
-  - 通用 161 (青枫资源分享@QFZYFX)
-  - 通用 014 (青枫资源分享@QFZYFX)
-  - 通用 019 (青枫资源分享@QFZYFX)
-  - 通用 010 (青枫资源分享@QFZYFX)
-  - 通用 009 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 洛杉矶-US 01 (青枫资源分享@QFZYFX)
-  - 通用 065 (青枫资源分享@QFZYFX)
-  - 通用 006 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 12 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 03 (青枫资源分享@QFZYFX)
-  - 通用 169 (青枫资源分享@QFZYFX)
-  - 通用 059 (青枫资源分享@QFZYFX)
-  - 通用 165 (青枫资源分享@QFZYFX)
-  - 通用 163 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 洛杉矶-US 03 (青枫资源分享@QFZYFX)
-  - 通用 077 (青枫资源分享@QFZYFX)
-  - 通用 011 (青枫资源分享@QFZYFX)
-  - 🇩🇪 德国 02 (青枫资源分享@QFZYFX)
-  - 通用 024 (青枫资源分享@QFZYFX)
-  - 通用 141 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 洛杉矶-US 05 (青枫资源分享@QFZYFX)
-  - 通用 053 (青枫资源分享@QFZYFX)
-  - 通用 119 (青枫资源分享@QFZYFX)
-  - 通用 015 (青枫资源分享@QFZYFX)
-  - 通用 183 (青枫资源分享@QFZYFX)
-  - 通用 116 (青枫资源分享@QFZYFX)
-  - 通用 102 (青枫资源分享@QFZYFX)
-  - 通用 033 (青枫资源分享@QFZYFX)
-  - 通用 072 (青枫资源分享@QFZYFX)
-  - 🇯🇵 免费-日本7-VER. 01 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 14 (青枫资源分享@QFZYFX)
-  - 通用 179 (青枫资源分享@QFZYFX)
-  - 通用 078 (青枫资源分享@QFZYFX)
-  - 通用 018 (青枫资源分享@QFZYFX)
-  - 92.63.99.228 01 (青枫资源分享@QFZYFX)
-  - 通用 001 (青枫资源分享@QFZYFX)
-  - 通用 107 (青枫资源分享@QFZYFX)
-  - 通用 170 (青枫资源分享@QFZYFX)
-  - 通用 173 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 16 (青枫资源分享@QFZYFX)
-  - 通用 092 (青枫资源分享@QFZYFX)
-  - 通用 181 (青枫资源分享@QFZYFX)
-  - 通用 178 (青枫资源分享@QFZYFX)
-  - 通用 098 (青枫资源分享@QFZYFX)
-  - 🇭🇰 中国香港特别行政区 香港-HK 03 (青枫资源分享@QFZYFX)
-  - 通用 017 (青枫资源分享@QFZYFX)
-  - 通用 124 (青枫资源分享@QFZYFX)
-  - 通用 064 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 09 (青枫资源分享@QFZYFX)
-  - 通用 003 (青枫资源分享@QFZYFX)
-  - 通用 037 (青枫资源分享@QFZYFX)
-  - 通用 040 (青枫资源分享@QFZYFX)
-  - 通用 062 (青枫资源分享@QFZYFX)
-  - 通用 130 (青枫资源分享@QFZYFX)
-  - 通用 008 (青枫资源分享@QFZYFX)
-  - 通用 004 (青枫资源分享@QFZYFX)
-  - 通用 111 (青枫资源分享@QFZYFX)
-  - 通用 063 (青枫资源分享@QFZYFX)
-  - 通用 137 (青枫资源分享@QFZYFX)
-  - 通用 139 (青枫资源分享@QFZYFX)
-  - 通用 012 (青枫资源分享@QFZYFX)
-  - 通用 160 (青枫资源分享@QFZYFX)
-  - 通用 099 (青枫资源分享@QFZYFX)
-  - 通用 046 (青枫资源分享@QFZYFX)
-  - 通用 142 (青枫资源分享@QFZYFX)
-  - 通用 026 (青枫资源分享@QFZYFX)
-  - 通用 166 (青枫资源分享@QFZYFX)
-  - 通用 150 (青枫资源分享@QFZYFX)
-  - 通用 109 (青枫资源分享@QFZYFX)
-  - 通用 030 (青枫资源分享@QFZYFX)
-  - 通用 067 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 22 (青枫资源分享@QFZYFX)
-  - 通用 034 (青枫资源分享@QFZYFX)
-  - 通用 035 (青枫资源分享@QFZYFX)
-  - 通用 020 (青枫资源分享@QFZYFX)
-  - 通用 089 (青枫资源分享@QFZYFX)
-  - 通用 180 (青枫资源分享@QFZYFX)
-  - 通用 131 (青枫资源分享@QFZYFX)
-  - 通用 168 (青枫资源分享@QFZYFX)
-  - 通用 121 (青枫资源分享@QFZYFX)
-  - 通用 085 (青枫资源分享@QFZYFX)
-  - 通用 069 (青枫资源分享@QFZYFX)
-  - 🇬🇧 英国 02 (青枫资源分享@QFZYFX)
-  - 通用 007 (青枫资源分享@QFZYFX)
-  - 通用 135 (青枫资源分享@QFZYFX)
-  - 通用 048 (青枫资源分享@QFZYFX)
-  - 通用 025 (青枫资源分享@QFZYFX)
-  - 通用 093 (青枫资源分享@QFZYFX)
-- name: ♻️ 自动选择
-  type: url-test
-  url: http://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 50
-  proxies:
-  - 通用 082 (青枫资源分享@QFZYFX)
-  - 通用 016 (青枫资源分享@QFZYFX)
-  - 通用 167 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 11 (青枫资源分享@QFZYFX)
-  - 通用 106 (青枫资源分享@QFZYFX)
-  - 通用 032 (青枫资源分享@QFZYFX)
-  - 通用 027 (青枫资源分享@QFZYFX)
-  - 通用 084 (青枫资源分享@QFZYFX)
-  - 通用 112 (青枫资源分享@QFZYFX)
-  - 通用 043 (青枫资源分享@QFZYFX)
-  - 通用 013 (青枫资源分享@QFZYFX)
-  - 通用 096 (青枫资源分享@QFZYFX)
-  - 通用 159 (青枫资源分享@QFZYFX)
-  - 通用 074 (青枫资源分享@QFZYFX)
-  - 通用 118 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 18 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 26 (青枫资源分享@QFZYFX)
-  - 通用 114 (青枫资源分享@QFZYFX)
-  - 通用 021 (青枫资源分享@QFZYFX)
-  - 通用 060 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 27 (青枫资源分享@QFZYFX)
-  - 通用 184 (青枫资源分享@QFZYFX)
-  - 通用 171 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 07 (青枫资源分享@QFZYFX)
-  - 通用 127 (青枫资源分享@QFZYFX)
-  - 通用 095 (青枫资源分享@QFZYFX)
-  - 通用 126 (青枫资源分享@QFZYFX)
-  - 通用 083 (青枫资源分享@QFZYFX)
-  - 通用 044 (青枫资源分享@QFZYFX)
-  - 通用 042 (青枫资源分享@QFZYFX)
-  - 🇷🇺 俄罗斯 01 (青枫资源分享@QFZYFX)
-  - 🇯🇵 免费-日本6-VER. 01 (青枫资源分享@QFZYFX)
-  - 通用 097 (青枫资源分享@QFZYFX)
-  - 通用 101 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 洛杉矶-US 02 (青枫资源分享@QFZYFX)
-  - 通用 175 (青枫资源分享@QFZYFX)
-  - 通用 140 (青枫资源分享@QFZYFX)
-  - 通用 115 (青枫资源分享@QFZYFX)
-  - 通用 061 (青枫资源分享@QFZYFX)
-  - 通用 056 (青枫资源分享@QFZYFX)
-  - 通用 071 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 洛杉矶-US 04 (青枫资源分享@QFZYFX)
-  - 通用 129 (青枫资源分享@QFZYFX)
-  - 通用 110 (青枫资源分享@QFZYFX)
-  - 🇹🇷 土耳其 安卡拉-TR 01 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 20 (青枫资源分享@QFZYFX)
-  - 🇭🇰 中国香港特别行政区 香港-HK 02 (青枫资源分享@QFZYFX)
-  - 通用 151 (青枫资源分享@QFZYFX)
-  - 🇯🇵 免费-日本5-VER. 01 (青枫资源分享@QFZYFX)
-  - 通用 177 (青枫资源分享@QFZYFX)
-  - 通用 090 (青枫资源分享@QFZYFX)
-  - 🇨🇳 台湾 台北-TW 01 (青枫资源分享@QFZYFX)
-  - 通用 081 (青枫资源分享@QFZYFX)
-  - 通用 028 (青枫资源分享@QFZYFX)
-  - 通用 050 (青枫资源分享@QFZYFX)
-  - 通用 055 (青枫资源分享@QFZYFX)
-  - 31.58.50.200 01 (青枫资源分享@QFZYFX)
-  - 通用 155 (青枫资源分享@QFZYFX)
-  - 通用 148 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 04 (青枫资源分享@QFZYFX)
-  - 摩纳哥 摩纳哥城-MC 01 (青枫资源分享@QFZYFX)
-  - 通用 157 (青枫资源分享@QFZYFX)
-  - 通用 147 (青枫资源分享@QFZYFX)
-  - 通用 041 (青枫资源分享@QFZYFX)
-  - 通用 122 (青枫资源分享@QFZYFX)
-  - 通用 125 (青枫资源分享@QFZYFX)
-  - 通用 080 (青枫资源分享@QFZYFX)
-  - 通用 086 (青枫资源分享@QFZYFX)
-  - 通用 075 (青枫资源分享@QFZYFX)
-  - 通用 146 (青枫资源分享@QFZYFX)
-  - 通用 047 (青枫资源分享@QFZYFX)
-  - 通用 182 (青枫资源分享@QFZYFX)
-  - 通用 054 (青枫资源分享@QFZYFX)
-  - 通用 057 (青枫资源分享@QFZYFX)
-  - 🇩🇪 德国 01 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 01 (青枫资源分享@QFZYFX)
-  - 通用 117 (青枫资源分享@QFZYFX)
-  - 通用 031 (青枫资源分享@QFZYFX)
-  - 通用 104 (青枫资源分享@QFZYFX)
-  - 通用 164 (青枫资源分享@QFZYFX)
-  - 通用 073 (青枫资源分享@QFZYFX)
-  - 通用 132 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 02 (青枫资源分享@QFZYFX)
-  - 通用 002 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 23 (青枫资源分享@QFZYFX)
-  - 通用 087 (青枫资源分享@QFZYFX)
-  - 通用 128 (青枫资源分享@QFZYFX)
-  - 🇲🇩 摩尔多瓦 基希讷乌-MD 01 (青枫资源分享@QFZYFX)
-  - 🇯🇵 免费-日本4-VER. 01 (青枫资源分享@QFZYFX)
-  - 通用 068 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 01 (青枫资源分享@QFZYFX)
-  - 🇩🇪 德国 柏林-DE 01 (青枫资源分享@QFZYFX)
-  - 通用 174 (青枫资源分享@QFZYFX)
-  - 通用 158 (青枫资源分享@QFZYFX)
-  - 通用 133 (青枫资源分享@QFZYFX)
-  - 🇯🇵 免费-日本1-VER. 01 (青枫资源分享@QFZYFX)
-  - 通用 051 (青枫资源分享@QFZYFX)
-  - 通用 058 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 08 (青枫资源分享@QFZYFX)
-  - 通用 162 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 24 (青枫资源分享@QFZYFX)
-  - 通用 094 (青枫资源分享@QFZYFX)
-  - 通用 049 (青枫资源分享@QFZYFX)
-  - 通用 108 (青枫资源分享@QFZYFX)
-  - 通用 154 (青枫资源分享@QFZYFX)
-  - 通用 079 (青枫资源分享@QFZYFX)
-  - 通用 113 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 05 (青枫资源分享@QFZYFX)
-  - 通用 066 (青枫资源分享@QFZYFX)
-  - 通用 143 (青枫资源分享@QFZYFX)
-  - 通用 153 (青枫资源分享@QFZYFX)
-  - 通用 052 (青枫资源分享@QFZYFX)
-  - 通用 120 (青枫资源分享@QFZYFX)
-  - 通用 123 (青枫资源分享@QFZYFX)
-  - 通用 138 (青枫资源分享@QFZYFX)
-  - 通用 149 (青枫资源分享@QFZYFX)
-  - 通用 070 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 17 (青枫资源分享@QFZYFX)
-  - 通用 045 (青枫资源分享@QFZYFX)
-  - 🇯🇵 免费-日本2-VER. 01 (青枫资源分享@QFZYFX)
-  - 通用 091 (青枫资源分享@QFZYFX)
-  - 通用 022 (青枫资源分享@QFZYFX)
-  - 通用 036 (青枫资源分享@QFZYFX)
-  - 订阅失效 登录 获取 01 (青枫资源分享@QFZYFX)
-  - 通用 103 (青枫资源分享@QFZYFX)
-  - 通用 176 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 10 (青枫资源分享@QFZYFX)
-  - 通用 145 (青枫资源分享@QFZYFX)
-  - 82.97.252.129 01 (青枫资源分享@QFZYFX)
-  - 通用 076 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 21 (青枫资源分享@QFZYFX)
-  - 通用 144 (青枫资源分享@QFZYFX)
-  - 通用 105 (青枫资源分享@QFZYFX)
-  - 通用 088 (青枫资源分享@QFZYFX)
-  - 通用 005 (青枫资源分享@QFZYFX)
-  - 🇯🇵 免费-日本3-VER. 01 (青枫资源分享@QFZYFX)
-  - 通用 172 (青枫资源分享@QFZYFX)
-  - 🇭🇰 中国香港特别行政区 香港-HK 01 (青枫资源分享@QFZYFX)
-  - 通用 136 (青枫资源分享@QFZYFX)
-  - 通用 100 (青枫资源分享@QFZYFX)
-  - 通用 023 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 13 (青枫资源分享@QFZYFX)
-  - 通用 134 (青枫资源分享@QFZYFX)
-  - 通用 152 (青枫资源分享@QFZYFX)
-  - 列支敦士登 瓦杜兹-LI 01 (青枫资源分享@QFZYFX)
-  - 🇯🇵 日本 东京-JP 01 (青枫资源分享@QFZYFX)
-  - 通用 038 (青枫资源分享@QFZYFX)
-  - 通用 029 (青枫资源分享@QFZYFX)
-  - 通用 039 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 圣何塞-US 01 (青枫资源分享@QFZYFX)
-  - 通用 156 (青枫资源分享@QFZYFX)
-  - 通用 161 (青枫资源分享@QFZYFX)
-  - 通用 014 (青枫资源分享@QFZYFX)
-  - 通用 019 (青枫资源分享@QFZYFX)
-  - 通用 010 (青枫资源分享@QFZYFX)
-  - 通用 009 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 洛杉矶-US 01 (青枫资源分享@QFZYFX)
-  - 通用 065 (青枫资源分享@QFZYFX)
-  - 通用 006 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 12 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 03 (青枫资源分享@QFZYFX)
-  - 通用 169 (青枫资源分享@QFZYFX)
-  - 通用 059 (青枫资源分享@QFZYFX)
-  - 通用 165 (青枫资源分享@QFZYFX)
-  - 通用 163 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 洛杉矶-US 03 (青枫资源分享@QFZYFX)
-  - 通用 077 (青枫资源分享@QFZYFX)
-  - 通用 011 (青枫资源分享@QFZYFX)
-  - 🇩🇪 德国 02 (青枫资源分享@QFZYFX)
-  - 通用 024 (青枫资源分享@QFZYFX)
-  - 通用 141 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 洛杉矶-US 05 (青枫资源分享@QFZYFX)
-  - 通用 053 (青枫资源分享@QFZYFX)
-  - 通用 119 (青枫资源分享@QFZYFX)
-  - 通用 015 (青枫资源分享@QFZYFX)
-  - 通用 183 (青枫资源分享@QFZYFX)
-  - 通用 116 (青枫资源分享@QFZYFX)
-  - 通用 102 (青枫资源分享@QFZYFX)
-  - 通用 033 (青枫资源分享@QFZYFX)
-  - 通用 072 (青枫资源分享@QFZYFX)
-  - 🇯🇵 免费-日本7-VER. 01 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 14 (青枫资源分享@QFZYFX)
-  - 通用 179 (青枫资源分享@QFZYFX)
-  - 通用 078 (青枫资源分享@QFZYFX)
-  - 通用 018 (青枫资源分享@QFZYFX)
-  - 92.63.99.228 01 (青枫资源分享@QFZYFX)
-  - 通用 001 (青枫资源分享@QFZYFX)
-  - 通用 107 (青枫资源分享@QFZYFX)
-  - 通用 170 (青枫资源分享@QFZYFX)
-  - 通用 173 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 16 (青枫资源分享@QFZYFX)
-  - 通用 092 (青枫资源分享@QFZYFX)
-  - 通用 181 (青枫资源分享@QFZYFX)
-  - 通用 178 (青枫资源分享@QFZYFX)
-  - 通用 098 (青枫资源分享@QFZYFX)
-  - 🇭🇰 中国香港特别行政区 香港-HK 03 (青枫资源分享@QFZYFX)
-  - 通用 017 (青枫资源分享@QFZYFX)
-  - 通用 124 (青枫资源分享@QFZYFX)
-  - 通用 064 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 09 (青枫资源分享@QFZYFX)
-  - 通用 003 (青枫资源分享@QFZYFX)
-  - 通用 037 (青枫资源分享@QFZYFX)
-  - 通用 040 (青枫资源分享@QFZYFX)
-  - 通用 062 (青枫资源分享@QFZYFX)
-  - 通用 130 (青枫资源分享@QFZYFX)
-  - 通用 008 (青枫资源分享@QFZYFX)
-  - 通用 004 (青枫资源分享@QFZYFX)
-  - 通用 111 (青枫资源分享@QFZYFX)
-  - 通用 063 (青枫资源分享@QFZYFX)
-  - 通用 137 (青枫资源分享@QFZYFX)
-  - 通用 139 (青枫资源分享@QFZYFX)
-  - 通用 012 (青枫资源分享@QFZYFX)
-  - 通用 160 (青枫资源分享@QFZYFX)
-  - 通用 099 (青枫资源分享@QFZYFX)
-  - 通用 046 (青枫资源分享@QFZYFX)
-  - 通用 142 (青枫资源分享@QFZYFX)
-  - 通用 026 (青枫资源分享@QFZYFX)
-  - 通用 166 (青枫资源分享@QFZYFX)
-  - 通用 150 (青枫资源分享@QFZYFX)
-  - 通用 109 (青枫资源分享@QFZYFX)
-  - 通用 030 (青枫资源分享@QFZYFX)
-  - 通用 067 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 22 (青枫资源分享@QFZYFX)
-  - 通用 034 (青枫资源分享@QFZYFX)
-  - 通用 035 (青枫资源分享@QFZYFX)
-  - 通用 020 (青枫资源分享@QFZYFX)
-  - 通用 089 (青枫资源分享@QFZYFX)
-  - 通用 180 (青枫资源分享@QFZYFX)
-  - 通用 131 (青枫资源分享@QFZYFX)
-  - 通用 168 (青枫资源分享@QFZYFX)
-  - 通用 121 (青枫资源分享@QFZYFX)
-  - 通用 085 (青枫资源分享@QFZYFX)
-  - 通用 069 (青枫资源分享@QFZYFX)
-  - 🇬🇧 英国 02 (青枫资源分享@QFZYFX)
-  - 通用 007 (青枫资源分享@QFZYFX)
-  - 通用 135 (青枫资源分享@QFZYFX)
-  - 通用 048 (青枫资源分享@QFZYFX)
-  - 通用 025 (青枫资源分享@QFZYFX)
-  - 通用 093 (青枫资源分享@QFZYFX)
-- name: 📹 油管视频
-  type: select
-  proxies:
-  - 🚀 节点选择
-  - ♻️ 自动选择
-  - ☑️ 手动切换
-  - DIRECT
-- name: 🎥 奈飞视频
-  type: select
-  proxies:
-  - 🚀 节点选择
-  - ♻️ 自动选择
-  - ☑️ 手动切换
-  - DIRECT
+  - PROXY
+  - AUTO
+  - AIGC
+  - Telegram
+  - Google
+  - HK AUTO
+  - SG AUTO
+  - JP AUTO
+  - US AUTO
+  - GLOBAL
 - name: 🌍 国外媒体
   type: select
   proxies:
   - 🚀 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 通用 082 (青枫资源分享@QFZYFX)
-  - 通用 016 (青枫资源分享@QFZYFX)
-  - 通用 167 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 11 (青枫资源分享@QFZYFX)
-  - 通用 106 (青枫资源分享@QFZYFX)
-  - 通用 032 (青枫资源分享@QFZYFX)
-  - 通用 027 (青枫资源分享@QFZYFX)
-  - 通用 084 (青枫资源分享@QFZYFX)
-  - 通用 112 (青枫资源分享@QFZYFX)
-  - 通用 043 (青枫资源分享@QFZYFX)
-  - 通用 013 (青枫资源分享@QFZYFX)
-  - 通用 096 (青枫资源分享@QFZYFX)
-  - 通用 159 (青枫资源分享@QFZYFX)
-  - 通用 074 (青枫资源分享@QFZYFX)
-  - 通用 118 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 18 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 26 (青枫资源分享@QFZYFX)
-  - 通用 114 (青枫资源分享@QFZYFX)
-  - 通用 021 (青枫资源分享@QFZYFX)
-  - 通用 060 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 27 (青枫资源分享@QFZYFX)
-  - 通用 184 (青枫资源分享@QFZYFX)
-  - 通用 171 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 07 (青枫资源分享@QFZYFX)
-  - 通用 127 (青枫资源分享@QFZYFX)
-  - 通用 095 (青枫资源分享@QFZYFX)
-  - 通用 126 (青枫资源分享@QFZYFX)
-  - 通用 083 (青枫资源分享@QFZYFX)
-  - 通用 044 (青枫资源分享@QFZYFX)
-  - 通用 042 (青枫资源分享@QFZYFX)
-  - 🇷🇺 俄罗斯 01 (青枫资源分享@QFZYFX)
-  - 🇯🇵 免费-日本6-VER. 01 (青枫资源分享@QFZYFX)
-  - 通用 097 (青枫资源分享@QFZYFX)
-  - 通用 101 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 洛杉矶-US 02 (青枫资源分享@QFZYFX)
-  - 通用 175 (青枫资源分享@QFZYFX)
-  - 通用 140 (青枫资源分享@QFZYFX)
-  - 通用 115 (青枫资源分享@QFZYFX)
-  - 通用 061 (青枫资源分享@QFZYFX)
-  - 通用 056 (青枫资源分享@QFZYFX)
-  - 通用 071 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 洛杉矶-US 04 (青枫资源分享@QFZYFX)
-  - 通用 129 (青枫资源分享@QFZYFX)
-  - 通用 110 (青枫资源分享@QFZYFX)
-  - 🇹🇷 土耳其 安卡拉-TR 01 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 20 (青枫资源分享@QFZYFX)
-  - 🇭🇰 中国香港特别行政区 香港-HK 02 (青枫资源分享@QFZYFX)
-  - 通用 151 (青枫资源分享@QFZYFX)
-  - 🇯🇵 免费-日本5-VER. 01 (青枫资源分享@QFZYFX)
-  - 通用 177 (青枫资源分享@QFZYFX)
-  - 通用 090 (青枫资源分享@QFZYFX)
-  - 🇨🇳 台湾 台北-TW 01 (青枫资源分享@QFZYFX)
-  - 通用 081 (青枫资源分享@QFZYFX)
-  - 通用 028 (青枫资源分享@QFZYFX)
-  - 通用 050 (青枫资源分享@QFZYFX)
-  - 通用 055 (青枫资源分享@QFZYFX)
-  - 31.58.50.200 01 (青枫资源分享@QFZYFX)
-  - 通用 155 (青枫资源分享@QFZYFX)
-  - 通用 148 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 04 (青枫资源分享@QFZYFX)
-  - 摩纳哥 摩纳哥城-MC 01 (青枫资源分享@QFZYFX)
-  - 通用 157 (青枫资源分享@QFZYFX)
-  - 通用 147 (青枫资源分享@QFZYFX)
-  - 通用 041 (青枫资源分享@QFZYFX)
-  - 通用 122 (青枫资源分享@QFZYFX)
-  - 通用 125 (青枫资源分享@QFZYFX)
-  - 通用 080 (青枫资源分享@QFZYFX)
-  - 通用 086 (青枫资源分享@QFZYFX)
-  - 通用 075 (青枫资源分享@QFZYFX)
-  - 通用 146 (青枫资源分享@QFZYFX)
-  - 通用 047 (青枫资源分享@QFZYFX)
-  - 通用 182 (青枫资源分享@QFZYFX)
-  - 通用 054 (青枫资源分享@QFZYFX)
-  - 通用 057 (青枫资源分享@QFZYFX)
-  - 🇩🇪 德国 01 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 01 (青枫资源分享@QFZYFX)
-  - 通用 117 (青枫资源分享@QFZYFX)
-  - 通用 031 (青枫资源分享@QFZYFX)
-  - 通用 104 (青枫资源分享@QFZYFX)
-  - 通用 164 (青枫资源分享@QFZYFX)
-  - 通用 073 (青枫资源分享@QFZYFX)
-  - 通用 132 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 02 (青枫资源分享@QFZYFX)
-  - 通用 002 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 23 (青枫资源分享@QFZYFX)
-  - 通用 087 (青枫资源分享@QFZYFX)
-  - 通用 128 (青枫资源分享@QFZYFX)
-  - 🇲🇩 摩尔多瓦 基希讷乌-MD 01 (青枫资源分享@QFZYFX)
-  - 🇯🇵 免费-日本4-VER. 01 (青枫资源分享@QFZYFX)
-  - 通用 068 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 01 (青枫资源分享@QFZYFX)
-  - 🇩🇪 德国 柏林-DE 01 (青枫资源分享@QFZYFX)
-  - 通用 174 (青枫资源分享@QFZYFX)
-  - 通用 158 (青枫资源分享@QFZYFX)
-  - 通用 133 (青枫资源分享@QFZYFX)
-  - 🇯🇵 免费-日本1-VER. 01 (青枫资源分享@QFZYFX)
-  - 通用 051 (青枫资源分享@QFZYFX)
-  - 通用 058 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 08 (青枫资源分享@QFZYFX)
-  - 通用 162 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 24 (青枫资源分享@QFZYFX)
-  - 通用 094 (青枫资源分享@QFZYFX)
-  - 通用 049 (青枫资源分享@QFZYFX)
-  - 通用 108 (青枫资源分享@QFZYFX)
-  - 通用 154 (青枫资源分享@QFZYFX)
-  - 通用 079 (青枫资源分享@QFZYFX)
-  - 通用 113 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 05 (青枫资源分享@QFZYFX)
-  - 通用 066 (青枫资源分享@QFZYFX)
-  - 通用 143 (青枫资源分享@QFZYFX)
-  - 通用 153 (青枫资源分享@QFZYFX)
-  - 通用 052 (青枫资源分享@QFZYFX)
-  - 通用 120 (青枫资源分享@QFZYFX)
-  - 通用 123 (青枫资源分享@QFZYFX)
-  - 通用 138 (青枫资源分享@QFZYFX)
-  - 通用 149 (青枫资源分享@QFZYFX)
-  - 通用 070 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 17 (青枫资源分享@QFZYFX)
-  - 通用 045 (青枫资源分享@QFZYFX)
-  - 🇯🇵 免费-日本2-VER. 01 (青枫资源分享@QFZYFX)
-  - 通用 091 (青枫资源分享@QFZYFX)
-  - 通用 022 (青枫资源分享@QFZYFX)
-  - 通用 036 (青枫资源分享@QFZYFX)
-  - 订阅失效 登录 获取 01 (青枫资源分享@QFZYFX)
-  - 通用 103 (青枫资源分享@QFZYFX)
-  - 通用 176 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 10 (青枫资源分享@QFZYFX)
-  - 通用 145 (青枫资源分享@QFZYFX)
-  - 82.97.252.129 01 (青枫资源分享@QFZYFX)
-  - 通用 076 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 21 (青枫资源分享@QFZYFX)
-  - 通用 144 (青枫资源分享@QFZYFX)
-  - 通用 105 (青枫资源分享@QFZYFX)
-  - 通用 088 (青枫资源分享@QFZYFX)
-  - 通用 005 (青枫资源分享@QFZYFX)
-  - 🇯🇵 免费-日本3-VER. 01 (青枫资源分享@QFZYFX)
-  - 通用 172 (青枫资源分享@QFZYFX)
-  - 🇭🇰 中国香港特别行政区 香港-HK 01 (青枫资源分享@QFZYFX)
-  - 通用 136 (青枫资源分享@QFZYFX)
-  - 通用 100 (青枫资源分享@QFZYFX)
-  - 通用 023 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 13 (青枫资源分享@QFZYFX)
-  - 通用 134 (青枫资源分享@QFZYFX)
-  - 通用 152 (青枫资源分享@QFZYFX)
-  - 列支敦士登 瓦杜兹-LI 01 (青枫资源分享@QFZYFX)
-  - 🇯🇵 日本 东京-JP 01 (青枫资源分享@QFZYFX)
-  - 通用 038 (青枫资源分享@QFZYFX)
-  - 通用 029 (青枫资源分享@QFZYFX)
-  - 通用 039 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 圣何塞-US 01 (青枫资源分享@QFZYFX)
-  - 通用 156 (青枫资源分享@QFZYFX)
-  - 通用 161 (青枫资源分享@QFZYFX)
-  - 通用 014 (青枫资源分享@QFZYFX)
-  - 通用 019 (青枫资源分享@QFZYFX)
-  - 通用 010 (青枫资源分享@QFZYFX)
-  - 通用 009 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 洛杉矶-US 01 (青枫资源分享@QFZYFX)
-  - 通用 065 (青枫资源分享@QFZYFX)
-  - 通用 006 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 12 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 03 (青枫资源分享@QFZYFX)
-  - 通用 169 (青枫资源分享@QFZYFX)
-  - 通用 059 (青枫资源分享@QFZYFX)
-  - 通用 165 (青枫资源分享@QFZYFX)
-  - 通用 163 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 洛杉矶-US 03 (青枫资源分享@QFZYFX)
-  - 通用 077 (青枫资源分享@QFZYFX)
-  - 通用 011 (青枫资源分享@QFZYFX)
-  - 🇩🇪 德国 02 (青枫资源分享@QFZYFX)
-  - 通用 024 (青枫资源分享@QFZYFX)
-  - 通用 141 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 洛杉矶-US 05 (青枫资源分享@QFZYFX)
-  - 通用 053 (青枫资源分享@QFZYFX)
-  - 通用 119 (青枫资源分享@QFZYFX)
-  - 通用 015 (青枫资源分享@QFZYFX)
-  - 通用 183 (青枫资源分享@QFZYFX)
-  - 通用 116 (青枫资源分享@QFZYFX)
-  - 通用 102 (青枫资源分享@QFZYFX)
-  - 通用 033 (青枫资源分享@QFZYFX)
-  - 通用 072 (青枫资源分享@QFZYFX)
-  - 🇯🇵 免费-日本7-VER. 01 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 14 (青枫资源分享@QFZYFX)
-  - 通用 179 (青枫资源分享@QFZYFX)
-  - 通用 078 (青枫资源分享@QFZYFX)
-  - 通用 018 (青枫资源分享@QFZYFX)
-  - 92.63.99.228 01 (青枫资源分享@QFZYFX)
-  - 通用 001 (青枫资源分享@QFZYFX)
-  - 通用 107 (青枫资源分享@QFZYFX)
-  - 通用 170 (青枫资源分享@QFZYFX)
-  - 通用 173 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 16 (青枫资源分享@QFZYFX)
-  - 通用 092 (青枫资源分享@QFZYFX)
-  - 通用 181 (青枫资源分享@QFZYFX)
-  - 通用 178 (青枫资源分享@QFZYFX)
-  - 通用 098 (青枫资源分享@QFZYFX)
-  - 🇭🇰 中国香港特别行政区 香港-HK 03 (青枫资源分享@QFZYFX)
-  - 通用 017 (青枫资源分享@QFZYFX)
-  - 通用 124 (青枫资源分享@QFZYFX)
-  - 通用 064 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 09 (青枫资源分享@QFZYFX)
-  - 通用 003 (青枫资源分享@QFZYFX)
-  - 通用 037 (青枫资源分享@QFZYFX)
-  - 通用 040 (青枫资源分享@QFZYFX)
-  - 通用 062 (青枫资源分享@QFZYFX)
-  - 通用 130 (青枫资源分享@QFZYFX)
-  - 通用 008 (青枫资源分享@QFZYFX)
-  - 通用 004 (青枫资源分享@QFZYFX)
-  - 通用 111 (青枫资源分享@QFZYFX)
-  - 通用 063 (青枫资源分享@QFZYFX)
-  - 通用 137 (青枫资源分享@QFZYFX)
-  - 通用 139 (青枫资源分享@QFZYFX)
-  - 通用 012 (青枫资源分享@QFZYFX)
-  - 通用 160 (青枫资源分享@QFZYFX)
-  - 通用 099 (青枫资源分享@QFZYFX)
-  - 通用 046 (青枫资源分享@QFZYFX)
-  - 通用 142 (青枫资源分享@QFZYFX)
-  - 通用 026 (青枫资源分享@QFZYFX)
-  - 通用 166 (青枫资源分享@QFZYFX)
-  - 通用 150 (青枫资源分享@QFZYFX)
-  - 通用 109 (青枫资源分享@QFZYFX)
-  - 通用 030 (青枫资源分享@QFZYFX)
-  - 通用 067 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 22 (青枫资源分享@QFZYFX)
-  - 通用 034 (青枫资源分享@QFZYFX)
-  - 通用 035 (青枫资源分享@QFZYFX)
-  - 通用 020 (青枫资源分享@QFZYFX)
-  - 通用 089 (青枫资源分享@QFZYFX)
-  - 通用 180 (青枫资源分享@QFZYFX)
-  - 通用 131 (青枫资源分享@QFZYFX)
-  - 通用 168 (青枫资源分享@QFZYFX)
-  - 通用 121 (青枫资源分享@QFZYFX)
-  - 通用 085 (青枫资源分享@QFZYFX)
-  - 通用 069 (青枫资源分享@QFZYFX)
-  - 🇬🇧 英国 02 (青枫资源分享@QFZYFX)
-  - 通用 007 (青枫资源分享@QFZYFX)
-  - 通用 135 (青枫资源分享@QFZYFX)
-  - 通用 048 (青枫资源分享@QFZYFX)
-  - 通用 025 (青枫资源分享@QFZYFX)
-  - 通用 093 (青枫资源分享@QFZYFX)
+  - PROXY
+  - AUTO
+  - AIGC
+  - Telegram
+  - Google
+  - HK AUTO
+  - SG AUTO
+  - JP AUTO
+  - US AUTO
+  - GLOBAL
 - name: 📲 电报信息
   type: select
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 通用 082 (青枫资源分享@QFZYFX)
-  - 通用 016 (青枫资源分享@QFZYFX)
-  - 通用 167 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 11 (青枫资源分享@QFZYFX)
-  - 通用 106 (青枫资源分享@QFZYFX)
-  - 通用 032 (青枫资源分享@QFZYFX)
-  - 通用 027 (青枫资源分享@QFZYFX)
-  - 通用 084 (青枫资源分享@QFZYFX)
-  - 通用 112 (青枫资源分享@QFZYFX)
-  - 通用 043 (青枫资源分享@QFZYFX)
-  - 通用 013 (青枫资源分享@QFZYFX)
-  - 通用 096 (青枫资源分享@QFZYFX)
-  - 通用 159 (青枫资源分享@QFZYFX)
-  - 通用 074 (青枫资源分享@QFZYFX)
-  - 通用 118 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 18 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 26 (青枫资源分享@QFZYFX)
-  - 通用 114 (青枫资源分享@QFZYFX)
-  - 通用 021 (青枫资源分享@QFZYFX)
-  - 通用 060 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 27 (青枫资源分享@QFZYFX)
-  - 通用 184 (青枫资源分享@QFZYFX)
-  - 通用 171 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 07 (青枫资源分享@QFZYFX)
-  - 通用 127 (青枫资源分享@QFZYFX)
-  - 通用 095 (青枫资源分享@QFZYFX)
-  - 通用 126 (青枫资源分享@QFZYFX)
-  - 通用 083 (青枫资源分享@QFZYFX)
-  - 通用 044 (青枫资源分享@QFZYFX)
-  - 通用 042 (青枫资源分享@QFZYFX)
-  - 🇷🇺 俄罗斯 01 (青枫资源分享@QFZYFX)
-  - 🇯🇵 免费-日本6-VER. 01 (青枫资源分享@QFZYFX)
-  - 通用 097 (青枫资源分享@QFZYFX)
-  - 通用 101 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 洛杉矶-US 02 (青枫资源分享@QFZYFX)
-  - 通用 175 (青枫资源分享@QFZYFX)
-  - 通用 140 (青枫资源分享@QFZYFX)
-  - 通用 115 (青枫资源分享@QFZYFX)
-  - 通用 061 (青枫资源分享@QFZYFX)
-  - 通用 056 (青枫资源分享@QFZYFX)
-  - 通用 071 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 洛杉矶-US 04 (青枫资源分享@QFZYFX)
-  - 通用 129 (青枫资源分享@QFZYFX)
-  - 通用 110 (青枫资源分享@QFZYFX)
-  - 🇹🇷 土耳其 安卡拉-TR 01 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 20 (青枫资源分享@QFZYFX)
-  - 🇭🇰 中国香港特别行政区 香港-HK 02 (青枫资源分享@QFZYFX)
-  - 通用 151 (青枫资源分享@QFZYFX)
-  - 🇯🇵 免费-日本5-VER. 01 (青枫资源分享@QFZYFX)
-  - 通用 177 (青枫资源分享@QFZYFX)
-  - 通用 090 (青枫资源分享@QFZYFX)
-  - 🇨🇳 台湾 台北-TW 01 (青枫资源分享@QFZYFX)
-  - 通用 081 (青枫资源分享@QFZYFX)
-  - 通用 028 (青枫资源分享@QFZYFX)
-  - 通用 050 (青枫资源分享@QFZYFX)
-  - 通用 055 (青枫资源分享@QFZYFX)
-  - 31.58.50.200 01 (青枫资源分享@QFZYFX)
-  - 通用 155 (青枫资源分享@QFZYFX)
-  - 通用 148 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 04 (青枫资源分享@QFZYFX)
-  - 摩纳哥 摩纳哥城-MC 01 (青枫资源分享@QFZYFX)
-  - 通用 157 (青枫资源分享@QFZYFX)
-  - 通用 147 (青枫资源分享@QFZYFX)
-  - 通用 041 (青枫资源分享@QFZYFX)
-  - 通用 122 (青枫资源分享@QFZYFX)
-  - 通用 125 (青枫资源分享@QFZYFX)
-  - 通用 080 (青枫资源分享@QFZYFX)
-  - 通用 086 (青枫资源分享@QFZYFX)
-  - 通用 075 (青枫资源分享@QFZYFX)
-  - 通用 146 (青枫资源分享@QFZYFX)
-  - 通用 047 (青枫资源分享@QFZYFX)
-  - 通用 182 (青枫资源分享@QFZYFX)
-  - 通用 054 (青枫资源分享@QFZYFX)
-  - 通用 057 (青枫资源分享@QFZYFX)
-  - 🇩🇪 德国 01 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 01 (青枫资源分享@QFZYFX)
-  - 通用 117 (青枫资源分享@QFZYFX)
-  - 通用 031 (青枫资源分享@QFZYFX)
-  - 通用 104 (青枫资源分享@QFZYFX)
-  - 通用 164 (青枫资源分享@QFZYFX)
-  - 通用 073 (青枫资源分享@QFZYFX)
-  - 通用 132 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 02 (青枫资源分享@QFZYFX)
-  - 通用 002 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 23 (青枫资源分享@QFZYFX)
-  - 通用 087 (青枫资源分享@QFZYFX)
-  - 通用 128 (青枫资源分享@QFZYFX)
-  - 🇲🇩 摩尔多瓦 基希讷乌-MD 01 (青枫资源分享@QFZYFX)
-  - 🇯🇵 免费-日本4-VER. 01 (青枫资源分享@QFZYFX)
-  - 通用 068 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 01 (青枫资源分享@QFZYFX)
-  - 🇩🇪 德国 柏林-DE 01 (青枫资源分享@QFZYFX)
-  - 通用 174 (青枫资源分享@QFZYFX)
-  - 通用 158 (青枫资源分享@QFZYFX)
-  - 通用 133 (青枫资源分享@QFZYFX)
-  - 🇯🇵 免费-日本1-VER. 01 (青枫资源分享@QFZYFX)
-  - 通用 051 (青枫资源分享@QFZYFX)
-  - 通用 058 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 08 (青枫资源分享@QFZYFX)
-  - 通用 162 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 24 (青枫资源分享@QFZYFX)
-  - 通用 094 (青枫资源分享@QFZYFX)
-  - 通用 049 (青枫资源分享@QFZYFX)
-  - 通用 108 (青枫资源分享@QFZYFX)
-  - 通用 154 (青枫资源分享@QFZYFX)
-  - 通用 079 (青枫资源分享@QFZYFX)
-  - 通用 113 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 05 (青枫资源分享@QFZYFX)
-  - 通用 066 (青枫资源分享@QFZYFX)
-  - 通用 143 (青枫资源分享@QFZYFX)
-  - 通用 153 (青枫资源分享@QFZYFX)
-  - 通用 052 (青枫资源分享@QFZYFX)
-  - 通用 120 (青枫资源分享@QFZYFX)
-  - 通用 123 (青枫资源分享@QFZYFX)
-  - 通用 138 (青枫资源分享@QFZYFX)
-  - 通用 149 (青枫资源分享@QFZYFX)
-  - 通用 070 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 17 (青枫资源分享@QFZYFX)
-  - 通用 045 (青枫资源分享@QFZYFX)
-  - 🇯🇵 免费-日本2-VER. 01 (青枫资源分享@QFZYFX)
-  - 通用 091 (青枫资源分享@QFZYFX)
-  - 通用 022 (青枫资源分享@QFZYFX)
-  - 通用 036 (青枫资源分享@QFZYFX)
-  - 订阅失效 登录 获取 01 (青枫资源分享@QFZYFX)
-  - 通用 103 (青枫资源分享@QFZYFX)
-  - 通用 176 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 10 (青枫资源分享@QFZYFX)
-  - 通用 145 (青枫资源分享@QFZYFX)
-  - 82.97.252.129 01 (青枫资源分享@QFZYFX)
-  - 通用 076 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 21 (青枫资源分享@QFZYFX)
-  - 通用 144 (青枫资源分享@QFZYFX)
-  - 通用 105 (青枫资源分享@QFZYFX)
-  - 通用 088 (青枫资源分享@QFZYFX)
-  - 通用 005 (青枫资源分享@QFZYFX)
-  - 🇯🇵 免费-日本3-VER. 01 (青枫资源分享@QFZYFX)
-  - 通用 172 (青枫资源分享@QFZYFX)
-  - 🇭🇰 中国香港特别行政区 香港-HK 01 (青枫资源分享@QFZYFX)
-  - 通用 136 (青枫资源分享@QFZYFX)
-  - 通用 100 (青枫资源分享@QFZYFX)
-  - 通用 023 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 13 (青枫资源分享@QFZYFX)
-  - 通用 134 (青枫资源分享@QFZYFX)
-  - 通用 152 (青枫资源分享@QFZYFX)
-  - 列支敦士登 瓦杜兹-LI 01 (青枫资源分享@QFZYFX)
-  - 🇯🇵 日本 东京-JP 01 (青枫资源分享@QFZYFX)
-  - 通用 038 (青枫资源分享@QFZYFX)
-  - 通用 029 (青枫资源分享@QFZYFX)
-  - 通用 039 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 圣何塞-US 01 (青枫资源分享@QFZYFX)
-  - 通用 156 (青枫资源分享@QFZYFX)
-  - 通用 161 (青枫资源分享@QFZYFX)
-  - 通用 014 (青枫资源分享@QFZYFX)
-  - 通用 019 (青枫资源分享@QFZYFX)
-  - 通用 010 (青枫资源分享@QFZYFX)
-  - 通用 009 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 洛杉矶-US 01 (青枫资源分享@QFZYFX)
-  - 通用 065 (青枫资源分享@QFZYFX)
-  - 通用 006 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 12 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 03 (青枫资源分享@QFZYFX)
-  - 通用 169 (青枫资源分享@QFZYFX)
-  - 通用 059 (青枫资源分享@QFZYFX)
-  - 通用 165 (青枫资源分享@QFZYFX)
-  - 通用 163 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 洛杉矶-US 03 (青枫资源分享@QFZYFX)
-  - 通用 077 (青枫资源分享@QFZYFX)
-  - 通用 011 (青枫资源分享@QFZYFX)
-  - 🇩🇪 德国 02 (青枫资源分享@QFZYFX)
-  - 通用 024 (青枫资源分享@QFZYFX)
-  - 通用 141 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 洛杉矶-US 05 (青枫资源分享@QFZYFX)
-  - 通用 053 (青枫资源分享@QFZYFX)
-  - 通用 119 (青枫资源分享@QFZYFX)
-  - 通用 015 (青枫资源分享@QFZYFX)
-  - 通用 183 (青枫资源分享@QFZYFX)
-  - 通用 116 (青枫资源分享@QFZYFX)
-  - 通用 102 (青枫资源分享@QFZYFX)
-  - 通用 033 (青枫资源分享@QFZYFX)
-  - 通用 072 (青枫资源分享@QFZYFX)
-  - 🇯🇵 免费-日本7-VER. 01 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 14 (青枫资源分享@QFZYFX)
-  - 通用 179 (青枫资源分享@QFZYFX)
-  - 通用 078 (青枫资源分享@QFZYFX)
-  - 通用 018 (青枫资源分享@QFZYFX)
-  - 92.63.99.228 01 (青枫资源分享@QFZYFX)
-  - 通用 001 (青枫资源分享@QFZYFX)
-  - 通用 107 (青枫资源分享@QFZYFX)
-  - 通用 170 (青枫资源分享@QFZYFX)
-  - 通用 173 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 16 (青枫资源分享@QFZYFX)
-  - 通用 092 (青枫资源分享@QFZYFX)
-  - 通用 181 (青枫资源分享@QFZYFX)
-  - 通用 178 (青枫资源分享@QFZYFX)
-  - 通用 098 (青枫资源分享@QFZYFX)
-  - 🇭🇰 中国香港特别行政区 香港-HK 03 (青枫资源分享@QFZYFX)
-  - 通用 017 (青枫资源分享@QFZYFX)
-  - 通用 124 (青枫资源分享@QFZYFX)
-  - 通用 064 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 09 (青枫资源分享@QFZYFX)
-  - 通用 003 (青枫资源分享@QFZYFX)
-  - 通用 037 (青枫资源分享@QFZYFX)
-  - 通用 040 (青枫资源分享@QFZYFX)
-  - 通用 062 (青枫资源分享@QFZYFX)
-  - 通用 130 (青枫资源分享@QFZYFX)
-  - 通用 008 (青枫资源分享@QFZYFX)
-  - 通用 004 (青枫资源分享@QFZYFX)
-  - 通用 111 (青枫资源分享@QFZYFX)
-  - 通用 063 (青枫资源分享@QFZYFX)
-  - 通用 137 (青枫资源分享@QFZYFX)
-  - 通用 139 (青枫资源分享@QFZYFX)
-  - 通用 012 (青枫资源分享@QFZYFX)
-  - 通用 160 (青枫资源分享@QFZYFX)
-  - 通用 099 (青枫资源分享@QFZYFX)
-  - 通用 046 (青枫资源分享@QFZYFX)
-  - 通用 142 (青枫资源分享@QFZYFX)
-  - 通用 026 (青枫资源分享@QFZYFX)
-  - 通用 166 (青枫资源分享@QFZYFX)
-  - 通用 150 (青枫资源分享@QFZYFX)
-  - 通用 109 (青枫资源分享@QFZYFX)
-  - 通用 030 (青枫资源分享@QFZYFX)
-  - 通用 067 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 22 (青枫资源分享@QFZYFX)
-  - 通用 034 (青枫资源分享@QFZYFX)
-  - 通用 035 (青枫资源分享@QFZYFX)
-  - 通用 020 (青枫资源分享@QFZYFX)
-  - 通用 089 (青枫资源分享@QFZYFX)
-  - 通用 180 (青枫资源分享@QFZYFX)
-  - 通用 131 (青枫资源分享@QFZYFX)
-  - 通用 168 (青枫资源分享@QFZYFX)
-  - 通用 121 (青枫资源分享@QFZYFX)
-  - 通用 085 (青枫资源分享@QFZYFX)
-  - 通用 069 (青枫资源分享@QFZYFX)
-  - 🇬🇧 英国 02 (青枫资源分享@QFZYFX)
-  - 通用 007 (青枫资源分享@QFZYFX)
-  - 通用 135 (青枫资源分享@QFZYFX)
-  - 通用 048 (青枫资源分享@QFZYFX)
-  - 通用 025 (青枫资源分享@QFZYFX)
-  - 通用 093 (青枫资源分享@QFZYFX)
-- name: 🤖 OpenAi
-  type: select
-  proxies:
-  - 🚀 节点选择
-  - ♻️ 自动选择
-  - 🇺🇲 美国节点
-  - ☑️ 手动切换
-  - DIRECT
+  - PROXY
+  - AUTO
+  - AIGC
+  - Telegram
+  - Google
+  - HK AUTO
+  - SG AUTO
+  - JP AUTO
+  - US AUTO
+  - GLOBAL
 - name: Ⓜ️ 微软服务
   type: select
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 通用 082 (青枫资源分享@QFZYFX)
-  - 通用 016 (青枫资源分享@QFZYFX)
-  - 通用 167 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 11 (青枫资源分享@QFZYFX)
-  - 通用 106 (青枫资源分享@QFZYFX)
-  - 通用 032 (青枫资源分享@QFZYFX)
-  - 通用 027 (青枫资源分享@QFZYFX)
-  - 通用 084 (青枫资源分享@QFZYFX)
-  - 通用 112 (青枫资源分享@QFZYFX)
-  - 通用 043 (青枫资源分享@QFZYFX)
-  - 通用 013 (青枫资源分享@QFZYFX)
-  - 通用 096 (青枫资源分享@QFZYFX)
-  - 通用 159 (青枫资源分享@QFZYFX)
-  - 通用 074 (青枫资源分享@QFZYFX)
-  - 通用 118 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 18 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 26 (青枫资源分享@QFZYFX)
-  - 通用 114 (青枫资源分享@QFZYFX)
-  - 通用 021 (青枫资源分享@QFZYFX)
-  - 通用 060 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 27 (青枫资源分享@QFZYFX)
-  - 通用 184 (青枫资源分享@QFZYFX)
-  - 通用 171 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 07 (青枫资源分享@QFZYFX)
-  - 通用 127 (青枫资源分享@QFZYFX)
-  - 通用 095 (青枫资源分享@QFZYFX)
-  - 通用 126 (青枫资源分享@QFZYFX)
-  - 通用 083 (青枫资源分享@QFZYFX)
-  - 通用 044 (青枫资源分享@QFZYFX)
-  - 通用 042 (青枫资源分享@QFZYFX)
-  - 🇷🇺 俄罗斯 01 (青枫资源分享@QFZYFX)
-  - 🇯🇵 免费-日本6-VER. 01 (青枫资源分享@QFZYFX)
-  - 通用 097 (青枫资源分享@QFZYFX)
-  - 通用 101 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 洛杉矶-US 02 (青枫资源分享@QFZYFX)
-  - 通用 175 (青枫资源分享@QFZYFX)
-  - 通用 140 (青枫资源分享@QFZYFX)
-  - 通用 115 (青枫资源分享@QFZYFX)
-  - 通用 061 (青枫资源分享@QFZYFX)
-  - 通用 056 (青枫资源分享@QFZYFX)
-  - 通用 071 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 洛杉矶-US 04 (青枫资源分享@QFZYFX)
-  - 通用 129 (青枫资源分享@QFZYFX)
-  - 通用 110 (青枫资源分享@QFZYFX)
-  - 🇹🇷 土耳其 安卡拉-TR 01 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 20 (青枫资源分享@QFZYFX)
-  - 🇭🇰 中国香港特别行政区 香港-HK 02 (青枫资源分享@QFZYFX)
-  - 通用 151 (青枫资源分享@QFZYFX)
-  - 🇯🇵 免费-日本5-VER. 01 (青枫资源分享@QFZYFX)
-  - 通用 177 (青枫资源分享@QFZYFX)
-  - 通用 090 (青枫资源分享@QFZYFX)
-  - 🇨🇳 台湾 台北-TW 01 (青枫资源分享@QFZYFX)
-  - 通用 081 (青枫资源分享@QFZYFX)
-  - 通用 028 (青枫资源分享@QFZYFX)
-  - 通用 050 (青枫资源分享@QFZYFX)
-  - 通用 055 (青枫资源分享@QFZYFX)
-  - 31.58.50.200 01 (青枫资源分享@QFZYFX)
-  - 通用 155 (青枫资源分享@QFZYFX)
-  - 通用 148 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 04 (青枫资源分享@QFZYFX)
-  - 摩纳哥 摩纳哥城-MC 01 (青枫资源分享@QFZYFX)
-  - 通用 157 (青枫资源分享@QFZYFX)
-  - 通用 147 (青枫资源分享@QFZYFX)
-  - 通用 041 (青枫资源分享@QFZYFX)
-  - 通用 122 (青枫资源分享@QFZYFX)
-  - 通用 125 (青枫资源分享@QFZYFX)
-  - 通用 080 (青枫资源分享@QFZYFX)
-  - 通用 086 (青枫资源分享@QFZYFX)
-  - 通用 075 (青枫资源分享@QFZYFX)
-  - 通用 146 (青枫资源分享@QFZYFX)
-  - 通用 047 (青枫资源分享@QFZYFX)
-  - 通用 182 (青枫资源分享@QFZYFX)
-  - 通用 054 (青枫资源分享@QFZYFX)
-  - 通用 057 (青枫资源分享@QFZYFX)
-  - 🇩🇪 德国 01 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 01 (青枫资源分享@QFZYFX)
-  - 通用 117 (青枫资源分享@QFZYFX)
-  - 通用 031 (青枫资源分享@QFZYFX)
-  - 通用 104 (青枫资源分享@QFZYFX)
-  - 通用 164 (青枫资源分享@QFZYFX)
-  - 通用 073 (青枫资源分享@QFZYFX)
-  - 通用 132 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 02 (青枫资源分享@QFZYFX)
-  - 通用 002 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 23 (青枫资源分享@QFZYFX)
-  - 通用 087 (青枫资源分享@QFZYFX)
-  - 通用 128 (青枫资源分享@QFZYFX)
-  - 🇲🇩 摩尔多瓦 基希讷乌-MD 01 (青枫资源分享@QFZYFX)
-  - 🇯🇵 免费-日本4-VER. 01 (青枫资源分享@QFZYFX)
-  - 通用 068 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 01 (青枫资源分享@QFZYFX)
-  - 🇩🇪 德国 柏林-DE 01 (青枫资源分享@QFZYFX)
-  - 通用 174 (青枫资源分享@QFZYFX)
-  - 通用 158 (青枫资源分享@QFZYFX)
-  - 通用 133 (青枫资源分享@QFZYFX)
-  - 🇯🇵 免费-日本1-VER. 01 (青枫资源分享@QFZYFX)
-  - 通用 051 (青枫资源分享@QFZYFX)
-  - 通用 058 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 08 (青枫资源分享@QFZYFX)
-  - 通用 162 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 24 (青枫资源分享@QFZYFX)
-  - 通用 094 (青枫资源分享@QFZYFX)
-  - 通用 049 (青枫资源分享@QFZYFX)
-  - 通用 108 (青枫资源分享@QFZYFX)
-  - 通用 154 (青枫资源分享@QFZYFX)
-  - 通用 079 (青枫资源分享@QFZYFX)
-  - 通用 113 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 05 (青枫资源分享@QFZYFX)
-  - 通用 066 (青枫资源分享@QFZYFX)
-  - 通用 143 (青枫资源分享@QFZYFX)
-  - 通用 153 (青枫资源分享@QFZYFX)
-  - 通用 052 (青枫资源分享@QFZYFX)
-  - 通用 120 (青枫资源分享@QFZYFX)
-  - 通用 123 (青枫资源分享@QFZYFX)
-  - 通用 138 (青枫资源分享@QFZYFX)
-  - 通用 149 (青枫资源分享@QFZYFX)
-  - 通用 070 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 17 (青枫资源分享@QFZYFX)
-  - 通用 045 (青枫资源分享@QFZYFX)
-  - 🇯🇵 免费-日本2-VER. 01 (青枫资源分享@QFZYFX)
-  - 通用 091 (青枫资源分享@QFZYFX)
-  - 通用 022 (青枫资源分享@QFZYFX)
-  - 通用 036 (青枫资源分享@QFZYFX)
-  - 订阅失效 登录 获取 01 (青枫资源分享@QFZYFX)
-  - 通用 103 (青枫资源分享@QFZYFX)
-  - 通用 176 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 10 (青枫资源分享@QFZYFX)
-  - 通用 145 (青枫资源分享@QFZYFX)
-  - 82.97.252.129 01 (青枫资源分享@QFZYFX)
-  - 通用 076 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 21 (青枫资源分享@QFZYFX)
-  - 通用 144 (青枫资源分享@QFZYFX)
-  - 通用 105 (青枫资源分享@QFZYFX)
-  - 通用 088 (青枫资源分享@QFZYFX)
-  - 通用 005 (青枫资源分享@QFZYFX)
-  - 🇯🇵 免费-日本3-VER. 01 (青枫资源分享@QFZYFX)
-  - 通用 172 (青枫资源分享@QFZYFX)
-  - 🇭🇰 中国香港特别行政区 香港-HK 01 (青枫资源分享@QFZYFX)
-  - 通用 136 (青枫资源分享@QFZYFX)
-  - 通用 100 (青枫资源分享@QFZYFX)
-  - 通用 023 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 13 (青枫资源分享@QFZYFX)
-  - 通用 134 (青枫资源分享@QFZYFX)
-  - 通用 152 (青枫资源分享@QFZYFX)
-  - 列支敦士登 瓦杜兹-LI 01 (青枫资源分享@QFZYFX)
-  - 🇯🇵 日本 东京-JP 01 (青枫资源分享@QFZYFX)
-  - 通用 038 (青枫资源分享@QFZYFX)
-  - 通用 029 (青枫资源分享@QFZYFX)
-  - 通用 039 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 圣何塞-US 01 (青枫资源分享@QFZYFX)
-  - 通用 156 (青枫资源分享@QFZYFX)
-  - 通用 161 (青枫资源分享@QFZYFX)
-  - 通用 014 (青枫资源分享@QFZYFX)
-  - 通用 019 (青枫资源分享@QFZYFX)
-  - 通用 010 (青枫资源分享@QFZYFX)
-  - 通用 009 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 洛杉矶-US 01 (青枫资源分享@QFZYFX)
-  - 通用 065 (青枫资源分享@QFZYFX)
-  - 通用 006 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 12 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 03 (青枫资源分享@QFZYFX)
-  - 通用 169 (青枫资源分享@QFZYFX)
-  - 通用 059 (青枫资源分享@QFZYFX)
-  - 通用 165 (青枫资源分享@QFZYFX)
-  - 通用 163 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 洛杉矶-US 03 (青枫资源分享@QFZYFX)
-  - 通用 077 (青枫资源分享@QFZYFX)
-  - 通用 011 (青枫资源分享@QFZYFX)
-  - 🇩🇪 德国 02 (青枫资源分享@QFZYFX)
-  - 通用 024 (青枫资源分享@QFZYFX)
-  - 通用 141 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 洛杉矶-US 05 (青枫资源分享@QFZYFX)
-  - 通用 053 (青枫资源分享@QFZYFX)
-  - 通用 119 (青枫资源分享@QFZYFX)
-  - 通用 015 (青枫资源分享@QFZYFX)
-  - 通用 183 (青枫资源分享@QFZYFX)
-  - 通用 116 (青枫资源分享@QFZYFX)
-  - 通用 102 (青枫资源分享@QFZYFX)
-  - 通用 033 (青枫资源分享@QFZYFX)
-  - 通用 072 (青枫资源分享@QFZYFX)
-  - 🇯🇵 免费-日本7-VER. 01 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 14 (青枫资源分享@QFZYFX)
-  - 通用 179 (青枫资源分享@QFZYFX)
-  - 通用 078 (青枫资源分享@QFZYFX)
-  - 通用 018 (青枫资源分享@QFZYFX)
-  - 92.63.99.228 01 (青枫资源分享@QFZYFX)
-  - 通用 001 (青枫资源分享@QFZYFX)
-  - 通用 107 (青枫资源分享@QFZYFX)
-  - 通用 170 (青枫资源分享@QFZYFX)
-  - 通用 173 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 16 (青枫资源分享@QFZYFX)
-  - 通用 092 (青枫资源分享@QFZYFX)
-  - 通用 181 (青枫资源分享@QFZYFX)
-  - 通用 178 (青枫资源分享@QFZYFX)
-  - 通用 098 (青枫资源分享@QFZYFX)
-  - 🇭🇰 中国香港特别行政区 香港-HK 03 (青枫资源分享@QFZYFX)
-  - 通用 017 (青枫资源分享@QFZYFX)
-  - 通用 124 (青枫资源分享@QFZYFX)
-  - 通用 064 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 09 (青枫资源分享@QFZYFX)
-  - 通用 003 (青枫资源分享@QFZYFX)
-  - 通用 037 (青枫资源分享@QFZYFX)
-  - 通用 040 (青枫资源分享@QFZYFX)
-  - 通用 062 (青枫资源分享@QFZYFX)
-  - 通用 130 (青枫资源分享@QFZYFX)
-  - 通用 008 (青枫资源分享@QFZYFX)
-  - 通用 004 (青枫资源分享@QFZYFX)
-  - 通用 111 (青枫资源分享@QFZYFX)
-  - 通用 063 (青枫资源分享@QFZYFX)
-  - 通用 137 (青枫资源分享@QFZYFX)
-  - 通用 139 (青枫资源分享@QFZYFX)
-  - 通用 012 (青枫资源分享@QFZYFX)
-  - 通用 160 (青枫资源分享@QFZYFX)
-  - 通用 099 (青枫资源分享@QFZYFX)
-  - 通用 046 (青枫资源分享@QFZYFX)
-  - 通用 142 (青枫资源分享@QFZYFX)
-  - 通用 026 (青枫资源分享@QFZYFX)
-  - 通用 166 (青枫资源分享@QFZYFX)
-  - 通用 150 (青枫资源分享@QFZYFX)
-  - 通用 109 (青枫资源分享@QFZYFX)
-  - 通用 030 (青枫资源分享@QFZYFX)
-  - 通用 067 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 22 (青枫资源分享@QFZYFX)
-  - 通用 034 (青枫资源分享@QFZYFX)
-  - 通用 035 (青枫资源分享@QFZYFX)
-  - 通用 020 (青枫资源分享@QFZYFX)
-  - 通用 089 (青枫资源分享@QFZYFX)
-  - 通用 180 (青枫资源分享@QFZYFX)
-  - 通用 131 (青枫资源分享@QFZYFX)
-  - 通用 168 (青枫资源分享@QFZYFX)
-  - 通用 121 (青枫资源分享@QFZYFX)
-  - 通用 085 (青枫资源分享@QFZYFX)
-  - 通用 069 (青枫资源分享@QFZYFX)
-  - 🇬🇧 英国 02 (青枫资源分享@QFZYFX)
-  - 通用 007 (青枫资源分享@QFZYFX)
-  - 通用 135 (青枫资源分享@QFZYFX)
-  - 通用 048 (青枫资源分享@QFZYFX)
-  - 通用 025 (青枫资源分享@QFZYFX)
-  - 通用 093 (青枫资源分享@QFZYFX)
+  - PROXY
+  - AUTO
+  - AIGC
+  - Telegram
+  - Google
+  - HK AUTO
+  - SG AUTO
+  - JP AUTO
+  - US AUTO
+  - GLOBAL
 - name: 🍎 苹果服务
   type: select
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 通用 082 (青枫资源分享@QFZYFX)
-  - 通用 016 (青枫资源分享@QFZYFX)
-  - 通用 167 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 11 (青枫资源分享@QFZYFX)
-  - 通用 106 (青枫资源分享@QFZYFX)
-  - 通用 032 (青枫资源分享@QFZYFX)
-  - 通用 027 (青枫资源分享@QFZYFX)
-  - 通用 084 (青枫资源分享@QFZYFX)
-  - 通用 112 (青枫资源分享@QFZYFX)
-  - 通用 043 (青枫资源分享@QFZYFX)
-  - 通用 013 (青枫资源分享@QFZYFX)
-  - 通用 096 (青枫资源分享@QFZYFX)
-  - 通用 159 (青枫资源分享@QFZYFX)
-  - 通用 074 (青枫资源分享@QFZYFX)
-  - 通用 118 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 18 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 26 (青枫资源分享@QFZYFX)
-  - 通用 114 (青枫资源分享@QFZYFX)
-  - 通用 021 (青枫资源分享@QFZYFX)
-  - 通用 060 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 27 (青枫资源分享@QFZYFX)
-  - 通用 184 (青枫资源分享@QFZYFX)
-  - 通用 171 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 07 (青枫资源分享@QFZYFX)
-  - 通用 127 (青枫资源分享@QFZYFX)
-  - 通用 095 (青枫资源分享@QFZYFX)
-  - 通用 126 (青枫资源分享@QFZYFX)
-  - 通用 083 (青枫资源分享@QFZYFX)
-  - 通用 044 (青枫资源分享@QFZYFX)
-  - 通用 042 (青枫资源分享@QFZYFX)
-  - 🇷🇺 俄罗斯 01 (青枫资源分享@QFZYFX)
-  - 🇯🇵 免费-日本6-VER. 01 (青枫资源分享@QFZYFX)
-  - 通用 097 (青枫资源分享@QFZYFX)
-  - 通用 101 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 洛杉矶-US 02 (青枫资源分享@QFZYFX)
-  - 通用 175 (青枫资源分享@QFZYFX)
-  - 通用 140 (青枫资源分享@QFZYFX)
-  - 通用 115 (青枫资源分享@QFZYFX)
-  - 通用 061 (青枫资源分享@QFZYFX)
-  - 通用 056 (青枫资源分享@QFZYFX)
-  - 通用 071 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 洛杉矶-US 04 (青枫资源分享@QFZYFX)
-  - 通用 129 (青枫资源分享@QFZYFX)
-  - 通用 110 (青枫资源分享@QFZYFX)
-  - 🇹🇷 土耳其 安卡拉-TR 01 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 20 (青枫资源分享@QFZYFX)
-  - 🇭🇰 中国香港特别行政区 香港-HK 02 (青枫资源分享@QFZYFX)
-  - 通用 151 (青枫资源分享@QFZYFX)
-  - 🇯🇵 免费-日本5-VER. 01 (青枫资源分享@QFZYFX)
-  - 通用 177 (青枫资源分享@QFZYFX)
-  - 通用 090 (青枫资源分享@QFZYFX)
-  - 🇨🇳 台湾 台北-TW 01 (青枫资源分享@QFZYFX)
-  - 通用 081 (青枫资源分享@QFZYFX)
-  - 通用 028 (青枫资源分享@QFZYFX)
-  - 通用 050 (青枫资源分享@QFZYFX)
-  - 通用 055 (青枫资源分享@QFZYFX)
-  - 31.58.50.200 01 (青枫资源分享@QFZYFX)
-  - 通用 155 (青枫资源分享@QFZYFX)
-  - 通用 148 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 04 (青枫资源分享@QFZYFX)
-  - 摩纳哥 摩纳哥城-MC 01 (青枫资源分享@QFZYFX)
-  - 通用 157 (青枫资源分享@QFZYFX)
-  - 通用 147 (青枫资源分享@QFZYFX)
-  - 通用 041 (青枫资源分享@QFZYFX)
-  - 通用 122 (青枫资源分享@QFZYFX)
-  - 通用 125 (青枫资源分享@QFZYFX)
-  - 通用 080 (青枫资源分享@QFZYFX)
-  - 通用 086 (青枫资源分享@QFZYFX)
-  - 通用 075 (青枫资源分享@QFZYFX)
-  - 通用 146 (青枫资源分享@QFZYFX)
-  - 通用 047 (青枫资源分享@QFZYFX)
-  - 通用 182 (青枫资源分享@QFZYFX)
-  - 通用 054 (青枫资源分享@QFZYFX)
-  - 通用 057 (青枫资源分享@QFZYFX)
-  - 🇩🇪 德国 01 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 01 (青枫资源分享@QFZYFX)
-  - 通用 117 (青枫资源分享@QFZYFX)
-  - 通用 031 (青枫资源分享@QFZYFX)
-  - 通用 104 (青枫资源分享@QFZYFX)
-  - 通用 164 (青枫资源分享@QFZYFX)
-  - 通用 073 (青枫资源分享@QFZYFX)
-  - 通用 132 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 02 (青枫资源分享@QFZYFX)
-  - 通用 002 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 23 (青枫资源分享@QFZYFX)
-  - 通用 087 (青枫资源分享@QFZYFX)
-  - 通用 128 (青枫资源分享@QFZYFX)
-  - 🇲🇩 摩尔多瓦 基希讷乌-MD 01 (青枫资源分享@QFZYFX)
-  - 🇯🇵 免费-日本4-VER. 01 (青枫资源分享@QFZYFX)
-  - 通用 068 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 01 (青枫资源分享@QFZYFX)
-  - 🇩🇪 德国 柏林-DE 01 (青枫资源分享@QFZYFX)
-  - 通用 174 (青枫资源分享@QFZYFX)
-  - 通用 158 (青枫资源分享@QFZYFX)
-  - 通用 133 (青枫资源分享@QFZYFX)
-  - 🇯🇵 免费-日本1-VER. 01 (青枫资源分享@QFZYFX)
-  - 通用 051 (青枫资源分享@QFZYFX)
-  - 通用 058 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 08 (青枫资源分享@QFZYFX)
-  - 通用 162 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 24 (青枫资源分享@QFZYFX)
-  - 通用 094 (青枫资源分享@QFZYFX)
-  - 通用 049 (青枫资源分享@QFZYFX)
-  - 通用 108 (青枫资源分享@QFZYFX)
-  - 通用 154 (青枫资源分享@QFZYFX)
-  - 通用 079 (青枫资源分享@QFZYFX)
-  - 通用 113 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 05 (青枫资源分享@QFZYFX)
-  - 通用 066 (青枫资源分享@QFZYFX)
-  - 通用 143 (青枫资源分享@QFZYFX)
-  - 通用 153 (青枫资源分享@QFZYFX)
-  - 通用 052 (青枫资源分享@QFZYFX)
-  - 通用 120 (青枫资源分享@QFZYFX)
-  - 通用 123 (青枫资源分享@QFZYFX)
-  - 通用 138 (青枫资源分享@QFZYFX)
-  - 通用 149 (青枫资源分享@QFZYFX)
-  - 通用 070 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 17 (青枫资源分享@QFZYFX)
-  - 通用 045 (青枫资源分享@QFZYFX)
-  - 🇯🇵 免费-日本2-VER. 01 (青枫资源分享@QFZYFX)
-  - 通用 091 (青枫资源分享@QFZYFX)
-  - 通用 022 (青枫资源分享@QFZYFX)
-  - 通用 036 (青枫资源分享@QFZYFX)
-  - 订阅失效 登录 获取 01 (青枫资源分享@QFZYFX)
-  - 通用 103 (青枫资源分享@QFZYFX)
-  - 通用 176 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 10 (青枫资源分享@QFZYFX)
-  - 通用 145 (青枫资源分享@QFZYFX)
-  - 82.97.252.129 01 (青枫资源分享@QFZYFX)
-  - 通用 076 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 21 (青枫资源分享@QFZYFX)
-  - 通用 144 (青枫资源分享@QFZYFX)
-  - 通用 105 (青枫资源分享@QFZYFX)
-  - 通用 088 (青枫资源分享@QFZYFX)
-  - 通用 005 (青枫资源分享@QFZYFX)
-  - 🇯🇵 免费-日本3-VER. 01 (青枫资源分享@QFZYFX)
-  - 通用 172 (青枫资源分享@QFZYFX)
-  - 🇭🇰 中国香港特别行政区 香港-HK 01 (青枫资源分享@QFZYFX)
-  - 通用 136 (青枫资源分享@QFZYFX)
-  - 通用 100 (青枫资源分享@QFZYFX)
-  - 通用 023 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 13 (青枫资源分享@QFZYFX)
-  - 通用 134 (青枫资源分享@QFZYFX)
-  - 通用 152 (青枫资源分享@QFZYFX)
-  - 列支敦士登 瓦杜兹-LI 01 (青枫资源分享@QFZYFX)
-  - 🇯🇵 日本 东京-JP 01 (青枫资源分享@QFZYFX)
-  - 通用 038 (青枫资源分享@QFZYFX)
-  - 通用 029 (青枫资源分享@QFZYFX)
-  - 通用 039 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 圣何塞-US 01 (青枫资源分享@QFZYFX)
-  - 通用 156 (青枫资源分享@QFZYFX)
-  - 通用 161 (青枫资源分享@QFZYFX)
-  - 通用 014 (青枫资源分享@QFZYFX)
-  - 通用 019 (青枫资源分享@QFZYFX)
-  - 通用 010 (青枫资源分享@QFZYFX)
-  - 通用 009 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 洛杉矶-US 01 (青枫资源分享@QFZYFX)
-  - 通用 065 (青枫资源分享@QFZYFX)
-  - 通用 006 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 12 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 03 (青枫资源分享@QFZYFX)
-  - 通用 169 (青枫资源分享@QFZYFX)
-  - 通用 059 (青枫资源分享@QFZYFX)
-  - 通用 165 (青枫资源分享@QFZYFX)
-  - 通用 163 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 洛杉矶-US 03 (青枫资源分享@QFZYFX)
-  - 通用 077 (青枫资源分享@QFZYFX)
-  - 通用 011 (青枫资源分享@QFZYFX)
-  - 🇩🇪 德国 02 (青枫资源分享@QFZYFX)
-  - 通用 024 (青枫资源分享@QFZYFX)
-  - 通用 141 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 洛杉矶-US 05 (青枫资源分享@QFZYFX)
-  - 通用 053 (青枫资源分享@QFZYFX)
-  - 通用 119 (青枫资源分享@QFZYFX)
-  - 通用 015 (青枫资源分享@QFZYFX)
-  - 通用 183 (青枫资源分享@QFZYFX)
-  - 通用 116 (青枫资源分享@QFZYFX)
-  - 通用 102 (青枫资源分享@QFZYFX)
-  - 通用 033 (青枫资源分享@QFZYFX)
-  - 通用 072 (青枫资源分享@QFZYFX)
-  - 🇯🇵 免费-日本7-VER. 01 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 14 (青枫资源分享@QFZYFX)
-  - 通用 179 (青枫资源分享@QFZYFX)
-  - 通用 078 (青枫资源分享@QFZYFX)
-  - 通用 018 (青枫资源分享@QFZYFX)
-  - 92.63.99.228 01 (青枫资源分享@QFZYFX)
-  - 通用 001 (青枫资源分享@QFZYFX)
-  - 通用 107 (青枫资源分享@QFZYFX)
-  - 通用 170 (青枫资源分享@QFZYFX)
-  - 通用 173 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 16 (青枫资源分享@QFZYFX)
-  - 通用 092 (青枫资源分享@QFZYFX)
-  - 通用 181 (青枫资源分享@QFZYFX)
-  - 通用 178 (青枫资源分享@QFZYFX)
-  - 通用 098 (青枫资源分享@QFZYFX)
-  - 🇭🇰 中国香港特别行政区 香港-HK 03 (青枫资源分享@QFZYFX)
-  - 通用 017 (青枫资源分享@QFZYFX)
-  - 通用 124 (青枫资源分享@QFZYFX)
-  - 通用 064 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 09 (青枫资源分享@QFZYFX)
-  - 通用 003 (青枫资源分享@QFZYFX)
-  - 通用 037 (青枫资源分享@QFZYFX)
-  - 通用 040 (青枫资源分享@QFZYFX)
-  - 通用 062 (青枫资源分享@QFZYFX)
-  - 通用 130 (青枫资源分享@QFZYFX)
-  - 通用 008 (青枫资源分享@QFZYFX)
-  - 通用 004 (青枫资源分享@QFZYFX)
-  - 通用 111 (青枫资源分享@QFZYFX)
-  - 通用 063 (青枫资源分享@QFZYFX)
-  - 通用 137 (青枫资源分享@QFZYFX)
-  - 通用 139 (青枫资源分享@QFZYFX)
-  - 通用 012 (青枫资源分享@QFZYFX)
-  - 通用 160 (青枫资源分享@QFZYFX)
-  - 通用 099 (青枫资源分享@QFZYFX)
-  - 通用 046 (青枫资源分享@QFZYFX)
-  - 通用 142 (青枫资源分享@QFZYFX)
-  - 通用 026 (青枫资源分享@QFZYFX)
-  - 通用 166 (青枫资源分享@QFZYFX)
-  - 通用 150 (青枫资源分享@QFZYFX)
-  - 通用 109 (青枫资源分享@QFZYFX)
-  - 通用 030 (青枫资源分享@QFZYFX)
-  - 通用 067 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 22 (青枫资源分享@QFZYFX)
-  - 通用 034 (青枫资源分享@QFZYFX)
-  - 通用 035 (青枫资源分享@QFZYFX)
-  - 通用 020 (青枫资源分享@QFZYFX)
-  - 通用 089 (青枫资源分享@QFZYFX)
-  - 通用 180 (青枫资源分享@QFZYFX)
-  - 通用 131 (青枫资源分享@QFZYFX)
-  - 通用 168 (青枫资源分享@QFZYFX)
-  - 通用 121 (青枫资源分享@QFZYFX)
-  - 通用 085 (青枫资源分享@QFZYFX)
-  - 通用 069 (青枫资源分享@QFZYFX)
-  - 🇬🇧 英国 02 (青枫资源分享@QFZYFX)
-  - 通用 007 (青枫资源分享@QFZYFX)
-  - 通用 135 (青枫资源分享@QFZYFX)
-  - 通用 048 (青枫资源分享@QFZYFX)
-  - 通用 025 (青枫资源分享@QFZYFX)
-  - 通用 093 (青枫资源分享@QFZYFX)
-- name: 📢 谷歌FCM
-  type: select
-  proxies:
-  - 🚀 节点选择
-  - 🎯 全球直连
-  - ♻️ 自动选择
-  - 通用 082 (青枫资源分享@QFZYFX)
-  - 通用 016 (青枫资源分享@QFZYFX)
-  - 通用 167 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 11 (青枫资源分享@QFZYFX)
-  - 通用 106 (青枫资源分享@QFZYFX)
-  - 通用 032 (青枫资源分享@QFZYFX)
-  - 通用 027 (青枫资源分享@QFZYFX)
-  - 通用 084 (青枫资源分享@QFZYFX)
-  - 通用 112 (青枫资源分享@QFZYFX)
-  - 通用 043 (青枫资源分享@QFZYFX)
-  - 通用 013 (青枫资源分享@QFZYFX)
-  - 通用 096 (青枫资源分享@QFZYFX)
-  - 通用 159 (青枫资源分享@QFZYFX)
-  - 通用 074 (青枫资源分享@QFZYFX)
-  - 通用 118 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 18 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 26 (青枫资源分享@QFZYFX)
-  - 通用 114 (青枫资源分享@QFZYFX)
-  - 通用 021 (青枫资源分享@QFZYFX)
-  - 通用 060 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 27 (青枫资源分享@QFZYFX)
-  - 通用 184 (青枫资源分享@QFZYFX)
-  - 通用 171 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 07 (青枫资源分享@QFZYFX)
-  - 通用 127 (青枫资源分享@QFZYFX)
-  - 通用 095 (青枫资源分享@QFZYFX)
-  - 通用 126 (青枫资源分享@QFZYFX)
-  - 通用 083 (青枫资源分享@QFZYFX)
-  - 通用 044 (青枫资源分享@QFZYFX)
-  - 通用 042 (青枫资源分享@QFZYFX)
-  - 🇷🇺 俄罗斯 01 (青枫资源分享@QFZYFX)
-  - 🇯🇵 免费-日本6-VER. 01 (青枫资源分享@QFZYFX)
-  - 通用 097 (青枫资源分享@QFZYFX)
-  - 通用 101 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 洛杉矶-US 02 (青枫资源分享@QFZYFX)
-  - 通用 175 (青枫资源分享@QFZYFX)
-  - 通用 140 (青枫资源分享@QFZYFX)
-  - 通用 115 (青枫资源分享@QFZYFX)
-  - 通用 061 (青枫资源分享@QFZYFX)
-  - 通用 056 (青枫资源分享@QFZYFX)
-  - 通用 071 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 洛杉矶-US 04 (青枫资源分享@QFZYFX)
-  - 通用 129 (青枫资源分享@QFZYFX)
-  - 通用 110 (青枫资源分享@QFZYFX)
-  - 🇹🇷 土耳其 安卡拉-TR 01 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 20 (青枫资源分享@QFZYFX)
-  - 🇭🇰 中国香港特别行政区 香港-HK 02 (青枫资源分享@QFZYFX)
-  - 通用 151 (青枫资源分享@QFZYFX)
-  - 🇯🇵 免费-日本5-VER. 01 (青枫资源分享@QFZYFX)
-  - 通用 177 (青枫资源分享@QFZYFX)
-  - 通用 090 (青枫资源分享@QFZYFX)
-  - 🇨🇳 台湾 台北-TW 01 (青枫资源分享@QFZYFX)
-  - 通用 081 (青枫资源分享@QFZYFX)
-  - 通用 028 (青枫资源分享@QFZYFX)
-  - 通用 050 (青枫资源分享@QFZYFX)
-  - 通用 055 (青枫资源分享@QFZYFX)
-  - 31.58.50.200 01 (青枫资源分享@QFZYFX)
-  - 通用 155 (青枫资源分享@QFZYFX)
-  - 通用 148 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 04 (青枫资源分享@QFZYFX)
-  - 摩纳哥 摩纳哥城-MC 01 (青枫资源分享@QFZYFX)
-  - 通用 157 (青枫资源分享@QFZYFX)
-  - 通用 147 (青枫资源分享@QFZYFX)
-  - 通用 041 (青枫资源分享@QFZYFX)
-  - 通用 122 (青枫资源分享@QFZYFX)
-  - 通用 125 (青枫资源分享@QFZYFX)
-  - 通用 080 (青枫资源分享@QFZYFX)
-  - 通用 086 (青枫资源分享@QFZYFX)
-  - 通用 075 (青枫资源分享@QFZYFX)
-  - 通用 146 (青枫资源分享@QFZYFX)
-  - 通用 047 (青枫资源分享@QFZYFX)
-  - 通用 182 (青枫资源分享@QFZYFX)
-  - 通用 054 (青枫资源分享@QFZYFX)
-  - 通用 057 (青枫资源分享@QFZYFX)
-  - 🇩🇪 德国 01 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 01 (青枫资源分享@QFZYFX)
-  - 通用 117 (青枫资源分享@QFZYFX)
-  - 通用 031 (青枫资源分享@QFZYFX)
-  - 通用 104 (青枫资源分享@QFZYFX)
-  - 通用 164 (青枫资源分享@QFZYFX)
-  - 通用 073 (青枫资源分享@QFZYFX)
-  - 通用 132 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 02 (青枫资源分享@QFZYFX)
-  - 通用 002 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 23 (青枫资源分享@QFZYFX)
-  - 通用 087 (青枫资源分享@QFZYFX)
-  - 通用 128 (青枫资源分享@QFZYFX)
-  - 🇲🇩 摩尔多瓦 基希讷乌-MD 01 (青枫资源分享@QFZYFX)
-  - 🇯🇵 免费-日本4-VER. 01 (青枫资源分享@QFZYFX)
-  - 通用 068 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 01 (青枫资源分享@QFZYFX)
-  - 🇩🇪 德国 柏林-DE 01 (青枫资源分享@QFZYFX)
-  - 通用 174 (青枫资源分享@QFZYFX)
-  - 通用 158 (青枫资源分享@QFZYFX)
-  - 通用 133 (青枫资源分享@QFZYFX)
-  - 🇯🇵 免费-日本1-VER. 01 (青枫资源分享@QFZYFX)
-  - 通用 051 (青枫资源分享@QFZYFX)
-  - 通用 058 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 08 (青枫资源分享@QFZYFX)
-  - 通用 162 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 24 (青枫资源分享@QFZYFX)
-  - 通用 094 (青枫资源分享@QFZYFX)
-  - 通用 049 (青枫资源分享@QFZYFX)
-  - 通用 108 (青枫资源分享@QFZYFX)
-  - 通用 154 (青枫资源分享@QFZYFX)
-  - 通用 079 (青枫资源分享@QFZYFX)
-  - 通用 113 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 05 (青枫资源分享@QFZYFX)
-  - 通用 066 (青枫资源分享@QFZYFX)
-  - 通用 143 (青枫资源分享@QFZYFX)
-  - 通用 153 (青枫资源分享@QFZYFX)
-  - 通用 052 (青枫资源分享@QFZYFX)
-  - 通用 120 (青枫资源分享@QFZYFX)
-  - 通用 123 (青枫资源分享@QFZYFX)
-  - 通用 138 (青枫资源分享@QFZYFX)
-  - 通用 149 (青枫资源分享@QFZYFX)
-  - 通用 070 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 17 (青枫资源分享@QFZYFX)
-  - 通用 045 (青枫资源分享@QFZYFX)
-  - 🇯🇵 免费-日本2-VER. 01 (青枫资源分享@QFZYFX)
-  - 通用 091 (青枫资源分享@QFZYFX)
-  - 通用 022 (青枫资源分享@QFZYFX)
-  - 通用 036 (青枫资源分享@QFZYFX)
-  - 订阅失效 登录 获取 01 (青枫资源分享@QFZYFX)
-  - 通用 103 (青枫资源分享@QFZYFX)
-  - 通用 176 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 10 (青枫资源分享@QFZYFX)
-  - 通用 145 (青枫资源分享@QFZYFX)
-  - 82.97.252.129 01 (青枫资源分享@QFZYFX)
-  - 通用 076 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 21 (青枫资源分享@QFZYFX)
-  - 通用 144 (青枫资源分享@QFZYFX)
-  - 通用 105 (青枫资源分享@QFZYFX)
-  - 通用 088 (青枫资源分享@QFZYFX)
-  - 通用 005 (青枫资源分享@QFZYFX)
-  - 🇯🇵 免费-日本3-VER. 01 (青枫资源分享@QFZYFX)
-  - 通用 172 (青枫资源分享@QFZYFX)
-  - 🇭🇰 中国香港特别行政区 香港-HK 01 (青枫资源分享@QFZYFX)
-  - 通用 136 (青枫资源分享@QFZYFX)
-  - 通用 100 (青枫资源分享@QFZYFX)
-  - 通用 023 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 13 (青枫资源分享@QFZYFX)
-  - 通用 134 (青枫资源分享@QFZYFX)
-  - 通用 152 (青枫资源分享@QFZYFX)
-  - 列支敦士登 瓦杜兹-LI 01 (青枫资源分享@QFZYFX)
-  - 🇯🇵 日本 东京-JP 01 (青枫资源分享@QFZYFX)
-  - 通用 038 (青枫资源分享@QFZYFX)
-  - 通用 029 (青枫资源分享@QFZYFX)
-  - 通用 039 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 圣何塞-US 01 (青枫资源分享@QFZYFX)
-  - 通用 156 (青枫资源分享@QFZYFX)
-  - 通用 161 (青枫资源分享@QFZYFX)
-  - 通用 014 (青枫资源分享@QFZYFX)
-  - 通用 019 (青枫资源分享@QFZYFX)
-  - 通用 010 (青枫资源分享@QFZYFX)
-  - 通用 009 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 洛杉矶-US 01 (青枫资源分享@QFZYFX)
-  - 通用 065 (青枫资源分享@QFZYFX)
-  - 通用 006 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 12 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 03 (青枫资源分享@QFZYFX)
-  - 通用 169 (青枫资源分享@QFZYFX)
-  - 通用 059 (青枫资源分享@QFZYFX)
-  - 通用 165 (青枫资源分享@QFZYFX)
-  - 通用 163 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 洛杉矶-US 03 (青枫资源分享@QFZYFX)
-  - 通用 077 (青枫资源分享@QFZYFX)
-  - 通用 011 (青枫资源分享@QFZYFX)
-  - 🇩🇪 德国 02 (青枫资源分享@QFZYFX)
-  - 通用 024 (青枫资源分享@QFZYFX)
-  - 通用 141 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 洛杉矶-US 05 (青枫资源分享@QFZYFX)
-  - 通用 053 (青枫资源分享@QFZYFX)
-  - 通用 119 (青枫资源分享@QFZYFX)
-  - 通用 015 (青枫资源分享@QFZYFX)
-  - 通用 183 (青枫资源分享@QFZYFX)
-  - 通用 116 (青枫资源分享@QFZYFX)
-  - 通用 102 (青枫资源分享@QFZYFX)
-  - 通用 033 (青枫资源分享@QFZYFX)
-  - 通用 072 (青枫资源分享@QFZYFX)
-  - 🇯🇵 免费-日本7-VER. 01 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 14 (青枫资源分享@QFZYFX)
-  - 通用 179 (青枫资源分享@QFZYFX)
-  - 通用 078 (青枫资源分享@QFZYFX)
-  - 通用 018 (青枫资源分享@QFZYFX)
-  - 92.63.99.228 01 (青枫资源分享@QFZYFX)
-  - 通用 001 (青枫资源分享@QFZYFX)
-  - 通用 107 (青枫资源分享@QFZYFX)
-  - 通用 170 (青枫资源分享@QFZYFX)
-  - 通用 173 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 16 (青枫资源分享@QFZYFX)
-  - 通用 092 (青枫资源分享@QFZYFX)
-  - 通用 181 (青枫资源分享@QFZYFX)
-  - 通用 178 (青枫资源分享@QFZYFX)
-  - 通用 098 (青枫资源分享@QFZYFX)
-  - 🇭🇰 中国香港特别行政区 香港-HK 03 (青枫资源分享@QFZYFX)
-  - 通用 017 (青枫资源分享@QFZYFX)
-  - 通用 124 (青枫资源分享@QFZYFX)
-  - 通用 064 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 09 (青枫资源分享@QFZYFX)
-  - 通用 003 (青枫资源分享@QFZYFX)
-  - 通用 037 (青枫资源分享@QFZYFX)
-  - 通用 040 (青枫资源分享@QFZYFX)
-  - 通用 062 (青枫资源分享@QFZYFX)
-  - 通用 130 (青枫资源分享@QFZYFX)
-  - 通用 008 (青枫资源分享@QFZYFX)
-  - 通用 004 (青枫资源分享@QFZYFX)
-  - 通用 111 (青枫资源分享@QFZYFX)
-  - 通用 063 (青枫资源分享@QFZYFX)
-  - 通用 137 (青枫资源分享@QFZYFX)
-  - 通用 139 (青枫资源分享@QFZYFX)
-  - 通用 012 (青枫资源分享@QFZYFX)
-  - 通用 160 (青枫资源分享@QFZYFX)
-  - 通用 099 (青枫资源分享@QFZYFX)
-  - 通用 046 (青枫资源分享@QFZYFX)
-  - 通用 142 (青枫资源分享@QFZYFX)
-  - 通用 026 (青枫资源分享@QFZYFX)
-  - 通用 166 (青枫资源分享@QFZYFX)
-  - 通用 150 (青枫资源分享@QFZYFX)
-  - 通用 109 (青枫资源分享@QFZYFX)
-  - 通用 030 (青枫资源分享@QFZYFX)
-  - 通用 067 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 22 (青枫资源分享@QFZYFX)
-  - 通用 034 (青枫资源分享@QFZYFX)
-  - 通用 035 (青枫资源分享@QFZYFX)
-  - 通用 020 (青枫资源分享@QFZYFX)
-  - 通用 089 (青枫资源分享@QFZYFX)
-  - 通用 180 (青枫资源分享@QFZYFX)
-  - 通用 131 (青枫资源分享@QFZYFX)
-  - 通用 168 (青枫资源分享@QFZYFX)
-  - 通用 121 (青枫资源分享@QFZYFX)
-  - 通用 085 (青枫资源分享@QFZYFX)
-  - 通用 069 (青枫资源分享@QFZYFX)
-  - 🇬🇧 英国 02 (青枫资源分享@QFZYFX)
-  - 通用 007 (青枫资源分享@QFZYFX)
-  - 通用 135 (青枫资源分享@QFZYFX)
-  - 通用 048 (青枫资源分享@QFZYFX)
-  - 通用 025 (青枫资源分享@QFZYFX)
-  - 通用 093 (青枫资源分享@QFZYFX)
+  - PROXY
+  - AUTO
+  - AIGC
+  - Telegram
+  - Google
+  - HK AUTO
+  - SG AUTO
+  - JP AUTO
+  - US AUTO
+  - GLOBAL
 - name: 🎯 全球直连
   type: select
   proxies:
@@ -4943,302 +1868,105 @@ proxy-groups:
   proxies:
   - REJECT
   - DIRECT
+  - 🚀 节点选择
+  - ♻️ 自动选择
 - name: 🍃 应用净化
   type: select
   proxies:
   - REJECT
   - DIRECT
+  - 🚀 节点选择
+  - ♻️ 自动选择
 - name: 🐟 漏网之鱼
   type: select
   proxies:
+  - DIRECT
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - 通用 082 (青枫资源分享@QFZYFX)
-  - 通用 016 (青枫资源分享@QFZYFX)
-  - 通用 167 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 11 (青枫资源分享@QFZYFX)
-  - 通用 106 (青枫资源分享@QFZYFX)
-  - 通用 032 (青枫资源分享@QFZYFX)
-  - 通用 027 (青枫资源分享@QFZYFX)
-  - 通用 084 (青枫资源分享@QFZYFX)
-  - 通用 112 (青枫资源分享@QFZYFX)
-  - 通用 043 (青枫资源分享@QFZYFX)
-  - 通用 013 (青枫资源分享@QFZYFX)
-  - 通用 096 (青枫资源分享@QFZYFX)
-  - 通用 159 (青枫资源分享@QFZYFX)
-  - 通用 074 (青枫资源分享@QFZYFX)
-  - 通用 118 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 18 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 26 (青枫资源分享@QFZYFX)
-  - 通用 114 (青枫资源分享@QFZYFX)
-  - 通用 021 (青枫资源分享@QFZYFX)
-  - 通用 060 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 27 (青枫资源分享@QFZYFX)
-  - 通用 184 (青枫资源分享@QFZYFX)
-  - 通用 171 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 07 (青枫资源分享@QFZYFX)
-  - 通用 127 (青枫资源分享@QFZYFX)
-  - 通用 095 (青枫资源分享@QFZYFX)
-  - 通用 126 (青枫资源分享@QFZYFX)
-  - 通用 083 (青枫资源分享@QFZYFX)
-  - 通用 044 (青枫资源分享@QFZYFX)
-  - 通用 042 (青枫资源分享@QFZYFX)
-  - 🇷🇺 俄罗斯 01 (青枫资源分享@QFZYFX)
-  - 🇯🇵 免费-日本6-VER. 01 (青枫资源分享@QFZYFX)
-  - 通用 097 (青枫资源分享@QFZYFX)
-  - 通用 101 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 洛杉矶-US 02 (青枫资源分享@QFZYFX)
-  - 通用 175 (青枫资源分享@QFZYFX)
-  - 通用 140 (青枫资源分享@QFZYFX)
-  - 通用 115 (青枫资源分享@QFZYFX)
-  - 通用 061 (青枫资源分享@QFZYFX)
-  - 通用 056 (青枫资源分享@QFZYFX)
-  - 通用 071 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 洛杉矶-US 04 (青枫资源分享@QFZYFX)
-  - 通用 129 (青枫资源分享@QFZYFX)
-  - 通用 110 (青枫资源分享@QFZYFX)
-  - 🇹🇷 土耳其 安卡拉-TR 01 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 20 (青枫资源分享@QFZYFX)
-  - 🇭🇰 中国香港特别行政区 香港-HK 02 (青枫资源分享@QFZYFX)
-  - 通用 151 (青枫资源分享@QFZYFX)
-  - 🇯🇵 免费-日本5-VER. 01 (青枫资源分享@QFZYFX)
-  - 通用 177 (青枫资源分享@QFZYFX)
-  - 通用 090 (青枫资源分享@QFZYFX)
-  - 🇨🇳 台湾 台北-TW 01 (青枫资源分享@QFZYFX)
-  - 通用 081 (青枫资源分享@QFZYFX)
-  - 通用 028 (青枫资源分享@QFZYFX)
-  - 通用 050 (青枫资源分享@QFZYFX)
-  - 通用 055 (青枫资源分享@QFZYFX)
-  - 31.58.50.200 01 (青枫资源分享@QFZYFX)
-  - 通用 155 (青枫资源分享@QFZYFX)
-  - 通用 148 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 04 (青枫资源分享@QFZYFX)
-  - 摩纳哥 摩纳哥城-MC 01 (青枫资源分享@QFZYFX)
-  - 通用 157 (青枫资源分享@QFZYFX)
-  - 通用 147 (青枫资源分享@QFZYFX)
-  - 通用 041 (青枫资源分享@QFZYFX)
-  - 通用 122 (青枫资源分享@QFZYFX)
-  - 通用 125 (青枫资源分享@QFZYFX)
-  - 通用 080 (青枫资源分享@QFZYFX)
-  - 通用 086 (青枫资源分享@QFZYFX)
-  - 通用 075 (青枫资源分享@QFZYFX)
-  - 通用 146 (青枫资源分享@QFZYFX)
-  - 通用 047 (青枫资源分享@QFZYFX)
-  - 通用 182 (青枫资源分享@QFZYFX)
-  - 通用 054 (青枫资源分享@QFZYFX)
-  - 通用 057 (青枫资源分享@QFZYFX)
-  - 🇩🇪 德国 01 (青枫资源分享@QFZYFX)
-  - 🇰🇷 韩国 01 (青枫资源分享@QFZYFX)
-  - 通用 117 (青枫资源分享@QFZYFX)
-  - 通用 031 (青枫资源分享@QFZYFX)
-  - 通用 104 (青枫资源分享@QFZYFX)
-  - 通用 164 (青枫资源分享@QFZYFX)
-  - 通用 073 (青枫资源分享@QFZYFX)
-  - 通用 132 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 02 (青枫资源分享@QFZYFX)
-  - 通用 002 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 23 (青枫资源分享@QFZYFX)
-  - 通用 087 (青枫资源分享@QFZYFX)
-  - 通用 128 (青枫资源分享@QFZYFX)
-  - 🇲🇩 摩尔多瓦 基希讷乌-MD 01 (青枫资源分享@QFZYFX)
-  - 🇯🇵 免费-日本4-VER. 01 (青枫资源分享@QFZYFX)
-  - 通用 068 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 01 (青枫资源分享@QFZYFX)
-  - 🇩🇪 德国 柏林-DE 01 (青枫资源分享@QFZYFX)
-  - 通用 174 (青枫资源分享@QFZYFX)
-  - 通用 158 (青枫资源分享@QFZYFX)
-  - 通用 133 (青枫资源分享@QFZYFX)
-  - 🇯🇵 免费-日本1-VER. 01 (青枫资源分享@QFZYFX)
-  - 通用 051 (青枫资源分享@QFZYFX)
-  - 通用 058 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 08 (青枫资源分享@QFZYFX)
-  - 通用 162 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 24 (青枫资源分享@QFZYFX)
-  - 通用 094 (青枫资源分享@QFZYFX)
-  - 通用 049 (青枫资源分享@QFZYFX)
-  - 通用 108 (青枫资源分享@QFZYFX)
-  - 通用 154 (青枫资源分享@QFZYFX)
-  - 通用 079 (青枫资源分享@QFZYFX)
-  - 通用 113 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 05 (青枫资源分享@QFZYFX)
-  - 通用 066 (青枫资源分享@QFZYFX)
-  - 通用 143 (青枫资源分享@QFZYFX)
-  - 通用 153 (青枫资源分享@QFZYFX)
-  - 通用 052 (青枫资源分享@QFZYFX)
-  - 通用 120 (青枫资源分享@QFZYFX)
-  - 通用 123 (青枫资源分享@QFZYFX)
-  - 通用 138 (青枫资源分享@QFZYFX)
-  - 通用 149 (青枫资源分享@QFZYFX)
-  - 通用 070 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 17 (青枫资源分享@QFZYFX)
-  - 通用 045 (青枫资源分享@QFZYFX)
-  - 🇯🇵 免费-日本2-VER. 01 (青枫资源分享@QFZYFX)
-  - 通用 091 (青枫资源分享@QFZYFX)
-  - 通用 022 (青枫资源分享@QFZYFX)
-  - 通用 036 (青枫资源分享@QFZYFX)
-  - 订阅失效 登录 获取 01 (青枫资源分享@QFZYFX)
-  - 通用 103 (青枫资源分享@QFZYFX)
-  - 通用 176 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 10 (青枫资源分享@QFZYFX)
-  - 通用 145 (青枫资源分享@QFZYFX)
-  - 82.97.252.129 01 (青枫资源分享@QFZYFX)
-  - 通用 076 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 21 (青枫资源分享@QFZYFX)
-  - 通用 144 (青枫资源分享@QFZYFX)
-  - 通用 105 (青枫资源分享@QFZYFX)
-  - 通用 088 (青枫资源分享@QFZYFX)
-  - 通用 005 (青枫资源分享@QFZYFX)
-  - 🇯🇵 免费-日本3-VER. 01 (青枫资源分享@QFZYFX)
-  - 通用 172 (青枫资源分享@QFZYFX)
-  - 🇭🇰 中国香港特别行政区 香港-HK 01 (青枫资源分享@QFZYFX)
-  - 通用 136 (青枫资源分享@QFZYFX)
-  - 通用 100 (青枫资源分享@QFZYFX)
-  - 通用 023 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 13 (青枫资源分享@QFZYFX)
-  - 通用 134 (青枫资源分享@QFZYFX)
-  - 通用 152 (青枫资源分享@QFZYFX)
-  - 列支敦士登 瓦杜兹-LI 01 (青枫资源分享@QFZYFX)
-  - 🇯🇵 日本 东京-JP 01 (青枫资源分享@QFZYFX)
-  - 通用 038 (青枫资源分享@QFZYFX)
-  - 通用 029 (青枫资源分享@QFZYFX)
-  - 通用 039 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 圣何塞-US 01 (青枫资源分享@QFZYFX)
-  - 通用 156 (青枫资源分享@QFZYFX)
-  - 通用 161 (青枫资源分享@QFZYFX)
-  - 通用 014 (青枫资源分享@QFZYFX)
-  - 通用 019 (青枫资源分享@QFZYFX)
-  - 通用 010 (青枫资源分享@QFZYFX)
-  - 通用 009 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 洛杉矶-US 01 (青枫资源分享@QFZYFX)
-  - 通用 065 (青枫资源分享@QFZYFX)
-  - 通用 006 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 12 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 03 (青枫资源分享@QFZYFX)
-  - 通用 169 (青枫资源分享@QFZYFX)
-  - 通用 059 (青枫资源分享@QFZYFX)
-  - 通用 165 (青枫资源分享@QFZYFX)
-  - 通用 163 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 洛杉矶-US 03 (青枫资源分享@QFZYFX)
-  - 通用 077 (青枫资源分享@QFZYFX)
-  - 通用 011 (青枫资源分享@QFZYFX)
-  - 🇩🇪 德国 02 (青枫资源分享@QFZYFX)
-  - 通用 024 (青枫资源分享@QFZYFX)
-  - 通用 141 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 洛杉矶-US 05 (青枫资源分享@QFZYFX)
-  - 通用 053 (青枫资源分享@QFZYFX)
-  - 通用 119 (青枫资源分享@QFZYFX)
-  - 通用 015 (青枫资源分享@QFZYFX)
-  - 通用 183 (青枫资源分享@QFZYFX)
-  - 通用 116 (青枫资源分享@QFZYFX)
-  - 通用 102 (青枫资源分享@QFZYFX)
-  - 通用 033 (青枫资源分享@QFZYFX)
-  - 通用 072 (青枫资源分享@QFZYFX)
-  - 🇯🇵 免费-日本7-VER. 01 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 14 (青枫资源分享@QFZYFX)
-  - 通用 179 (青枫资源分享@QFZYFX)
-  - 通用 078 (青枫资源分享@QFZYFX)
-  - 通用 018 (青枫资源分享@QFZYFX)
-  - 92.63.99.228 01 (青枫资源分享@QFZYFX)
-  - 通用 001 (青枫资源分享@QFZYFX)
-  - 通用 107 (青枫资源分享@QFZYFX)
-  - 通用 170 (青枫资源分享@QFZYFX)
-  - 通用 173 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 16 (青枫资源分享@QFZYFX)
-  - 通用 092 (青枫资源分享@QFZYFX)
-  - 通用 181 (青枫资源分享@QFZYFX)
-  - 通用 178 (青枫资源分享@QFZYFX)
-  - 通用 098 (青枫资源分享@QFZYFX)
-  - 🇭🇰 中国香港特别行政区 香港-HK 03 (青枫资源分享@QFZYFX)
-  - 通用 017 (青枫资源分享@QFZYFX)
-  - 通用 124 (青枫资源分享@QFZYFX)
-  - 通用 064 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 09 (青枫资源分享@QFZYFX)
-  - 通用 003 (青枫资源分享@QFZYFX)
-  - 通用 037 (青枫资源分享@QFZYFX)
-  - 通用 040 (青枫资源分享@QFZYFX)
-  - 通用 062 (青枫资源分享@QFZYFX)
-  - 通用 130 (青枫资源分享@QFZYFX)
-  - 通用 008 (青枫资源分享@QFZYFX)
-  - 通用 004 (青枫资源分享@QFZYFX)
-  - 通用 111 (青枫资源分享@QFZYFX)
-  - 通用 063 (青枫资源分享@QFZYFX)
-  - 通用 137 (青枫资源分享@QFZYFX)
-  - 通用 139 (青枫资源分享@QFZYFX)
-  - 通用 012 (青枫资源分享@QFZYFX)
-  - 通用 160 (青枫资源分享@QFZYFX)
-  - 通用 099 (青枫资源分享@QFZYFX)
-  - 通用 046 (青枫资源分享@QFZYFX)
-  - 通用 142 (青枫资源分享@QFZYFX)
-  - 通用 026 (青枫资源分享@QFZYFX)
-  - 通用 166 (青枫资源分享@QFZYFX)
-  - 通用 150 (青枫资源分享@QFZYFX)
-  - 通用 109 (青枫资源分享@QFZYFX)
-  - 通用 030 (青枫资源分享@QFZYFX)
-  - 通用 067 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 22 (青枫资源分享@QFZYFX)
-  - 通用 034 (青枫资源分享@QFZYFX)
-  - 通用 035 (青枫资源分享@QFZYFX)
-  - 通用 020 (青枫资源分享@QFZYFX)
-  - 通用 089 (青枫资源分享@QFZYFX)
-  - 通用 180 (青枫资源分享@QFZYFX)
-  - 通用 131 (青枫资源分享@QFZYFX)
-  - 通用 168 (青枫资源分享@QFZYFX)
-  - 通用 121 (青枫资源分享@QFZYFX)
-  - 通用 085 (青枫资源分享@QFZYFX)
-  - 通用 069 (青枫资源分享@QFZYFX)
-  - 🇬🇧 英国 02 (青枫资源分享@QFZYFX)
-  - 通用 007 (青枫资源分享@QFZYFX)
-  - 通用 135 (青枫资源分享@QFZYFX)
-  - 通用 048 (青枫资源分享@QFZYFX)
-  - 通用 025 (青枫资源分享@QFZYFX)
-  - 通用 093 (青枫资源分享@QFZYFX)
-- name: 🇭🇰 香港节点
-  type: load-balance
-  strategy: consistent-hashing
-  url: http://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 50
+- icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Static.png
+  include-all: true
+  exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+  name: PROXY
+  type: select
   proxies:
-  - 🇭🇰 中国香港特别行政区 香港-HK 02 (青枫资源分享@QFZYFX)
-  - 🇭🇰 中国香港特别行政区 香港-HK 01 (青枫资源分享@QFZYFX)
-  - 🇭🇰 中国香港特别行政区 香港-HK 03 (青枫资源分享@QFZYFX)
-- name: 🇺🇲 美国节点
-  type: load-balance
-  strategy: consistent-hashing
-  url: http://www.gstatic.com/generate_204
+  - AUTO
+  - HK AUTO
+  - SG AUTO
+  - JP AUTO
+  - US AUTO
+- icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Urltest.png
+  include-all: true
+  exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+  name: AUTO
+  type: url-test
   interval: 300
-  tolerance: 150
+- icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/OpenAI.png
+  name: AIGC
+  type: select
   proxies:
-  - 🇺🇸 美国 11 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 18 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 26 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 27 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 07 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 洛杉矶-US 02 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 洛杉矶-US 04 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 20 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 04 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 02 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 23 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 01 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 08 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 24 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 05 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 17 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 10 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 21 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 13 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 圣何塞-US 01 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 洛杉矶-US 01 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 12 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 03 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 洛杉矶-US 03 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 洛杉矶-US 05 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 14 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 16 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 09 (青枫资源分享@QFZYFX)
-  - 🇺🇸 美国 22 (青枫资源分享@QFZYFX)
+  - SG AUTO
+  - JP AUTO
+  - US AUTO
+- icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Telegram.png
+  name: Telegram
+  type: select
+  proxies:
+  - HK AUTO
+  - SG AUTO
+  - JP AUTO
+  - US AUTO
+- icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Google.png
+  name: Google
+  type: select
+  proxies:
+  - HK AUTO
+  - SG AUTO
+  - JP AUTO
+  - US AUTO
+- icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/HK.png
+  include-all: true
+  exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+  filter: (?i)香港|Hong Kong|HK|🇭🇰
+  name: HK AUTO
+  type: url-test
+  interval: 300
+- icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/SG.png
+  include-all: true
+  exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+  filter: (?i)新加坡|Singapore|🇸🇬
+  name: SG AUTO
+  type: url-test
+  interval: 300
+- icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/JP.png
+  include-all: true
+  exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+  filter: (?i)日本|Japan|🇯🇵
+  name: JP AUTO
+  type: url-test
+  interval: 300
+- icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/US.png
+  include-all: true
+  exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+  filter: (?i)美国|USA|🇺🇸
+  name: US AUTO
+  type: url-test
+  interval: 300
+- icon: https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Global.png
+  include-all: true
+  exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+  proxies:
+  - PROXY
+  - AUTO
+  - AIGC
+  - Telegram
+  - Google
+  - HK AUTO
+  - SG AUTO
+  - JP AUTO
+  - US AUTO
+  name: GLOBAL
+  type: select
 rule-providers:
   LocalAreaNetwork:
     type: http
@@ -5411,4 +2139,4 @@ rules:
 - DOMAIN-SUFFIX,openai.com,🌍 国外媒体
 - GEOIP,CN,🎯 全球直连
 - MATCH,🐟 漏网之鱼
-# updated: 2026-08-07 09:18:15
+# updated: 2026-08-10 09:57:18
