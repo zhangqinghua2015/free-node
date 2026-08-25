@@ -149,46 +149,96 @@ def extract_from_text(text):
     return None
 
 
-def download_video(video_url, video_path, cookies_file=None):
-    import yt_dlp
-    base_opts = {
-        'outtmpl': str(video_path),
+# YouTube keeps rotating which player clients still return real media formats.
+# When a client only yields storyboards ("Only images are available"), fall back
+# to the next one instead of retrying format selectors on a dead client.
+DOWNLOAD_CLIENT_STRATEGIES = [
+    {"player_client": ["tv"]},
+    {"player_client": ["web_safari"]},
+    {"player_client": ["mweb"]},
+    {"player_client": ["tv_embedded"]},
+    {"player_client": ["web"], "formats": ["missing_pot"]},
+]
+
+FORMAT_ATTEMPTS = [
+    "bestvideo[height<=1080][ext=mp4]+bestaudio[ext=m4a]/best[height<=1080]",
+    "bestvideo[height<=720][ext=mp4]+bestaudio[ext=m4a]/best[height<=720]",
+    "best[ext=mp4]",
+    "best",
+]
+
+
+def _client_strategies():
+    override = os.environ.get("YTDLP_PLAYER_CLIENTS", "").strip()
+    if override:
+        return [{"player_client": [c.strip()]} for c in override.split(",") if c.strip()]
+    return DOWNLOAD_CLIENT_STRATEGIES
+
+
+def _base_download_opts(cookies_file, youtube_args):
+    opts = {
         'quiet': False,
         'no_warnings': False,
         'ignore_no_formats_error': True,
         'merge_output_format': 'mp4',
         'js_runtimes': {'node': {}},
         'remote_components': ['ejs:github'],
-        'extractor_args': {
-            'youtube': {
-                'player_client': ['web'],
-            }
-        }
+        'extractor_args': {'youtube': dict(youtube_args)},
     }
-    _add_cookies(base_opts, cookies_file)
+    _add_cookies(opts, cookies_file)
+    return opts
 
-    format_attempts = [
-        "bestvideo[height<=1080][ext=mp4]+bestaudio[ext=m4a]/best[height<=1080]",
-        "bestvideo[height<=720][ext=mp4]+bestaudio[ext=m4a]/best[height<=720]",
-        "best[ext=mp4]",
-        "best",
-    ]
 
-    for fmt in format_attempts:
-        opts = base_opts.copy()
-        opts['format'] = fmt
+def _has_media_formats(info):
+    """True if the extraction returned anything beyond storyboard images."""
+    if not info:
+        return False
+    for fmt in info.get('formats') or []:
+        if fmt.get('ext') == 'mhtml':
+            continue
+        if fmt.get('vcodec', 'none') != 'none' or fmt.get('acodec', 'none') != 'none':
+            return True
+    return False
+
+
+def download_video(video_url, video_path, cookies_file=None):
+    import yt_dlp
+
+    for youtube_args in _client_strategies():
+        client = ",".join(youtube_args.get("player_client", ["default"]))
+        probe_opts = _base_download_opts(cookies_file, youtube_args)
+        probe_opts.update({'quiet': True, 'no_warnings': True, 'skip_download': True})
         try:
-            ydl = yt_dlp.YoutubeDL(opts)
-            print(f"Attempting download with format: {fmt}")
-            ydl.download([video_url])
-            if video_path.exists() and video_path.stat().st_size > 0:
-                print(f"Success with format: {fmt}")
-                return True
+            with yt_dlp.YoutubeDL(probe_opts) as ydl:
+                info = ydl.extract_info(video_url, download=False)
         except Exception as e:
-            print(f"Format {fmt} failed: {e}")
+            print(f"[DL] client={client} probe failed: {type(e).__name__}: {e}")
             continue
 
+        if not _has_media_formats(info):
+            print(f"[DL] client={client} returned no media formats, trying next client")
+            continue
+
+        print(f"[DL] client={client} has media formats, downloading")
+        for fmt in FORMAT_ATTEMPTS:
+            opts = _base_download_opts(cookies_file, youtube_args)
+            opts['outtmpl'] = str(video_path)
+            opts['format'] = fmt
+            try:
+                print(f"Attempting download with format: {fmt}")
+                with yt_dlp.YoutubeDL(opts) as ydl:
+                    ydl.download([video_url])
+                if video_path.exists() and video_path.stat().st_size > 0:
+                    print(f"Success with client={client} format={fmt}")
+                    return True
+            except Exception as e:
+                print(f"Format {fmt} failed: {e}")
+                continue
+
     print("All format attempts failed.")
+    print("[HINT] YouTube returned only image formats for every player client.")
+    print("[HINT] Try: pip install -U yt-dlp, refresh cookies.txt, "
+          "or set YTDLP_PLAYER_CLIENTS=tv,web_safari,mweb to pick clients manually.")
     return False
 
 
