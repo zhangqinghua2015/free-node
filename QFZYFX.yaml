@@ -2115,6 +2115,7 @@ proxy-groups:
   - JP AUTO
   - US AUTO
   - GLOBAL
+  - ♻️ 自动选择
 - name: Ⓜ️ 微软服务
   type: select
   proxies:
@@ -2130,6 +2131,7 @@ proxy-groups:
   - JP AUTO
   - US AUTO
   - GLOBAL
+  - ♻️ 自动选择
 - name: 🍎 苹果服务
   type: select
   proxies:
@@ -2145,6 +2147,7 @@ proxy-groups:
   - JP AUTO
   - US AUTO
   - GLOBAL
+  - ♻️ 自动选择
 - name: 🎯 全球直连
   type: select
   proxies:
@@ -2255,6 +2258,135 @@ proxy-groups:
   - US AUTO
   name: GLOBAL
   type: select
+- name: ♻️ 自动选择
+  type: url-test
+  proxies:
+  - 青枫资源分享@QFZYFX 🇦🇪AE_1|1023KB/s
+  - 青枫资源分享@QFZYFX 🇦🇪AE_2|1.0MB/s
+  - 青枫资源分享@QFZYFX 🇦🇹AT_1|684KB/s
+  - 青枫资源分享@QFZYFX 🇦🇹AT_2|526KB/s
+  - 青枫资源分享@QFZYFX 🇨🇱CL_1|630KB/s
+  - 青枫资源分享@QFZYFX 🇩🇪DE_1|1.1MB/s
+  - 青枫资源分享@QFZYFX 🇩🇪DE_2|969KB/s
+  - 青枫资源分享@QFZYFX 🇩🇪DE_3|1.7MB/s
+  - 青枫资源分享@QFZYFX 🇩🇪DE_4|694KB/s
+  - 青枫资源分享@QFZYFX 🇩🇪DE_5|820KB/s
+  - 青枫资源分享@QFZYFX 🇩🇪DE_6|805KB/s
+  - 青枫资源分享@QFZYFX 🇩🇪DE_7|799KB/s
+  - 青枫资源分享@QFZYFX 🇩🇪DE_8|1014KB/s
+  - 青枫资源分享@QFZYFX 🇩🇪DE_9|578KB/s
+  - 青枫资源分享@QFZYFX 🇪🇪EE_1|593KB/s
+  - 青枫资源分享@QFZYFX 🇫🇮FI_1|518KB/s
+  - 青枫资源分享@QFZYFX 🇫🇷FR_1|1.0MB/s
+  - 青枫资源分享@QFZYFX 🇬🇧GB_1|1.9MB/s
+  - 青枫资源分享@QFZYFX 🇬🇧GB_2|674KB/s
+  - 青枫资源分享@QFZYFX 🇬🇧GB_3|692KB/s
+  - 青枫资源分享@QFZYFX 🇬🇧GB_4|1.4MB/s
+  - 青枫资源分享@QFZYFX 🇬🇧GB_5|699KB/s
+  - 青枫资源分享@QFZYFX 🇬🇪GE_1|590KB/s
+  - 青枫资源分享@QFZYFX 🇭🇰HK_1|1.1MB/s
+  - 青枫资源分享@QFZYFX 🇭🇰HK_2|607KB/s
+  - 青枫资源分享@QFZYFX 🇭🇰HK_3|1.5MB/s
+  - 青枫资源分享@QFZYFX 🇭🇰HK_4|742KB/s
+  - 青枫资源分享@QFZYFX 🇭🇰HK_5|829KB/s
+  - 青枫资源分享@QFZYFX 🇮🇩ID_1|574KB/s
+  - 青枫资源分享@QFZYFX 🇮🇷IR_1|751KB/s
+  - 青枫资源分享@QFZYFX 🇮🇷IR_2|555KB/s
+  - 青枫资源分享@QFZYFX 🇮🇷IR_3|596KB/s
+  - 青枫资源分享@QFZYFX 🇮🇸IS_1|1.5MB/s
+  - 青枫资源分享@QFZYFX 🇯🇵JP_10|789KB/s
+  - 青枫资源分享@QFZYFX 🇯🇵JP_11|667KB/s
+  - 青枫资源分享@QFZYFX 🇯🇵JP_12|868KB/s
+  - 青枫资源分享@QFZYFX 🇯🇵JP_13|542KB/s
+  - 青枫资源分享@QFZYFX 🇯🇵JP_14|518KB/s
+  - 青枫资源分享@QFZYFX 🇯🇵JP_15|540KB/s
+  - 青枫资源分享@QFZYFX 🇯🇵JP_16|524KB/s
+  - 青枫资源分享@QFZYFX 🇯🇵JP_17|580KB/s
+  - 青枫资源分享@QFZYFX 🇯🇵JP_18|525KB/s
+  - 青枫资源分享@QFZYFX 🇯🇵JP_19|567KB/s
+  - 青枫资源分享@QFZYFX 🇯🇵JP_1|968KB/s
+  - 青枫资源分享@QFZYFX 🇯🇵JP_20|528KB/s
+  - 青枫资源分享@QFZYFX 🇯🇵JP_21|528KB/s
+  - 青枫资源分享@QFZYFX 🇯🇵JP_22|539KB/s
+  - 青枫资源分享@QFZYFX 🇯🇵JP_23|548KB/s
+  - 青枫资源分享@QFZYFX 🇯🇵JP_24|526KB/s
+  - 青枫资源分享@QFZYFX 🇯🇵JP_25|526KB/s
+  - 青枫资源分享@QFZYFX 🇯🇵JP_26|1.1MB/s
+  - 青枫资源分享@QFZYFX 🇯🇵JP_27|980KB/s
+  - 青枫资源分享@QFZYFX 🇯🇵JP_28|1.7MB/s
+  - 青枫资源分享@QFZYFX 🇯🇵JP_29|1.8MB/s
+  - 青枫资源分享@QFZYFX 🇯🇵JP_2|3.4MB/s
+  - 青枫资源分享@QFZYFX 🇯🇵JP_30|1.9MB/s
+  - 青枫资源分享@QFZYFX 🇯🇵JP_31|543KB/s
+  - 青枫资源分享@QFZYFX 🇯🇵JP_32|717KB/s
+  - 青枫资源分享@QFZYFX 🇯🇵JP_33|767KB/s
+  - 青枫资源分享@QFZYFX 🇯🇵JP_34|762KB/s
+  - 青枫资源分享@QFZYFX 🇯🇵JP_35|864KB/s
+  - 青枫资源分享@QFZYFX 🇯🇵JP_36|1.5MB/s
+  - 青枫资源分享@QFZYFX 🇯🇵JP_37|786KB/s
+  - 青枫资源分享@QFZYFX 🇯🇵JP_3|3.4MB/s
+  - 青枫资源分享@QFZYFX 🇯🇵JP_4|4.9MB/s
+  - 青枫资源分享@QFZYFX 🇯🇵JP_5|1.1MB/s
+  - 青枫资源分享@QFZYFX 🇯🇵JP_6|989KB/s
+  - 青枫资源分享@QFZYFX 🇯🇵JP_7|895KB/s
+  - 青枫资源分享@QFZYFX 🇯🇵JP_8|1.1MB/s
+  - 青枫资源分享@QFZYFX 🇯🇵JP_9|682KB/s
+  - 青枫资源分享@QFZYFX 🇰🇷KR_1|526KB/s
+  - 青枫资源分享@QFZYFX 🇰🇷KR_2|956KB/s
+  - 青枫资源分享@QFZYFX 🇰🇷KR_3|878KB/s
+  - 青枫资源分享@QFZYFX 🇱🇹LT_1|675KB/s
+  - 青枫资源分享@QFZYFX 🇲🇴MO_1|618KB/s
+  - 青枫资源分享@QFZYFX 🇲🇾MY_1|528KB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_1|2.1MB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_2|1.7MB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_3|3.3MB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_4|2.6MB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_5|561KB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_6|1.7MB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_7|673KB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_8|554KB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_9|1.1MB/s
+  - 青枫资源分享@QFZYFX 🇳🇴NO_1|737KB/s
+  - 青枫资源分享@QFZYFX 🇷🇴RO_1|521KB/s
+  - 青枫资源分享@QFZYFX 🇷🇴RO_2|578KB/s
+  - 青枫资源分享@QFZYFX 🇷🇴RO_3|525KB/s
+  - 青枫资源分享@QFZYFX 🇸🇬SG_1|573KB/s
+  - 青枫资源分享@QFZYFX 🇸🇬SG_2|1.7MB/s
+  - 青枫资源分享@QFZYFX 🇸🇬SG_3|730KB/s
+  - 青枫资源分享@QFZYFX 🇹🇷TR_1|523KB/s
+  - 青枫资源分享@QFZYFX 🇹🇷TR_2|1.4MB/s
+  - 青枫资源分享@QFZYFX 🇹🇼TW_1|1.0MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_10|5.2MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_11|870KB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_12|905KB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_13|1.1MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_14|1.2MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_15|1014KB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_16|776KB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_17|762KB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_18|767KB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_19|733KB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_1|574KB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_20|579KB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_21|1.2MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_22|976KB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_23|512KB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_24|560KB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_25|639KB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_26|708KB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_27|644KB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_28|1.1MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_2|560KB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_3|514KB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_4|650KB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_5|2.6MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_6|2.6MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_7|1.6MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_8|633KB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_9|532KB/s
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
 rule-providers:
   LocalAreaNetwork:
     type: http
@@ -2427,4 +2559,4 @@ rules:
 - DOMAIN-SUFFIX,openai.com,🌍 国外媒体
 - GEOIP,CN,🎯 全球直连
 - MATCH,🐟 漏网之鱼
-# updated: 2026-08-25 11:29:21
+# updated: 2026-08-25 06:56:12
