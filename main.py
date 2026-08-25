@@ -779,17 +779,13 @@ def _merge_template(template, data):
     template["proxies"] = proxies
 
     proxy_groups = data.get("proxy-groups")
-    if proxy_groups:
-        names_to_remove = {p["name"] for p in proxy_groups}
-        template["proxy-groups"] = [
-            g for g in template["proxy-groups"] if g["name"] not in names_to_remove
-        ]
-        for g in template["proxy-groups"]:
-            if g["name"] in ("🚀 节点选择", "🌍 国外媒体", "📲 电报信息", "Ⓜ️ 微软服务", "🍎 苹果服务"):
-                g["proxies"].extend(p["name"] for p in proxy_groups)
-        template["proxy-groups"].extend(proxy_groups)
-    else:
-        auto_group = {
+    
+    # Determine if we need to create auto-select group
+    need_auto_select = not proxy_groups
+    auto_select_group = None
+    
+    if need_auto_select:
+        auto_select_group = {
             "name": "♻️ 自动选择",
             "type": "url-test",
             "proxies": [p["name"] for p in proxies],
@@ -797,12 +793,31 @@ def _merge_template(template, data):
             "interval": 300,
             "tolerance": 50,
         }
-        template["proxy-groups"].append(auto_group)
+    
+    if proxy_groups:
+        # Remove existing groups with the same names as incoming groups
+        names_to_remove = {p["name"] for p in proxy_groups}
+        template["proxy-groups"] = [
+            g for g in template["proxy-groups"] if g["name"] not in names_to_remove
+        ]
+        # Add proxies from subscription to relevant groups
+        for g in template["proxy-groups"]:
+            if g["name"] in ("🚀 节点选择", "🌍 国外媒体", "📲 电报信息", "Ⓜ️ 微软服务", "🍎 苹果服务"):
+                g["proxies"].extend(p["name"] for p in proxy_groups)
+        template["proxy-groups"].extend(proxy_groups)
+    else:
+        # Add auto-select group to template first
+        if auto_select_group:
+            template["proxy-groups"].append(auto_select_group)
+        
+        # Now reference it in other groups
         for g in template["proxy-groups"]:
             if g["name"] == "🚀 节点选择":
                 g["proxies"].extend(p["name"] for p in proxies)
             if g["name"] in ("🌍 国外媒体", "📲 电报信息", "Ⓜ️ 微软服务", "🍎 苹果服务"):
-                g["proxies"].append("♻️ 自动选择")
+                # Only add auto-select if it exists
+                if auto_select_group and "♻️ 自动选择" not in g["proxies"]:
+                    g["proxies"].append("♻️ 自动选择")
 
     return template
 
