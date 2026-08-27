@@ -64,1924 +64,785 @@ tun:
   inet4-route-exclude-address:
   - 192.168.0.0/16
 proxies:
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   encryption: none
-  flow: xtls-rprx-vision
-  name: 青枫资源分享@QFZYFX 🇦🇪AE_1|1023KB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 0AVsyS7udTbxKRdSyQ2rtFC63icDQOVWq8FvAhhU-WY
-    short-id: '58fbcddfaae3ade9'
-  server: 94.183.157.92
-  tls: true
-  type: vless
-  udp: true
-  uuid: d11613a1-2e1f-4209-a275-aabd986b7ad1
-  xudp: true
-  packet-encoding: xudp
-  servername: s7.objcache.anti-zapret.com
-- client-fingerprint: qq
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 青枫资源分享@QFZYFX 🇦🇪AE_2|1.0MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
-    short-id: '00bca5982f82d083'
-  server: 151.242.160.111
-  tls: true
-  type: vless
-  udp: true
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-  xudp: true
-  packet-encoding: xudp
-  servername: eu-central.cendora.ru
-- client-fingerprint: safari
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 青枫资源分享@QFZYFX 🇦🇹AT_1|684KB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 8C7evg_SSrJbxMTaUqJoylqB9HSNsmBvmUlgs_c5EiU
-    short-id: '88d9dc52ef39c8bd'
-  server: node-fra01.rkitman.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 64774bd8-3116-4eaa-a046-5ea4fc230b81
-  xudp: true
-  packet-encoding: xudp
-  servername: node-fra01.rkitman.ru
-- client-fingerprint: safari
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 青枫资源分享@QFZYFX 🇦🇹AT_2|526KB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 8C7evg_SSrJbxMTaUqJoylqB9HSNsmBvmUlgs_c5EiU
-    short-id: '88d9dc52ef39c8bd'
-  server: node-fra01.rkitman.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 64774bd8-3116-4eaa-a046-5ea4fc230b81
-  xudp: true
-  packet-encoding: xudp
-  servername: node-fra01.rkitman.ru
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 青枫资源分享@QFZYFX 🇨🇱CL_1|630KB/s
+  name: 青枫资源分享@QFZYFX 🇨🇦CA_1|1.5MB/s
   network: ws
-  password: 0fca6e12-4c18-4adb-a6ed-747d3833cb40
-  port: 43273
-  server: 223.107.155.28
-  skip-cert-verify: true
-  sni: vpn-node.internal
-  type: trojan
+  port: 8443
+  server: 207.90.192.164
+  tls: true
+  type: vless
   udp: true
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi Note 5A Build/N2G47H; wv)
-        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile
-        Safari/537.36
-    path: /xVpnTrojanWsSvc7f3a
-- down: ''
-  fingerprint: ''
-  name: 青枫资源分享@QFZYFX 🇩🇪DE_1|1.1MB/s
-  obfs: salamander
-  obfs-password: SalamanderDE2026
-  password: Germany2026hy
-  port: 8443
-  server: 45.128.99.14
+      Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.63 Safari/537.36
+    path: /pg/10086-dfc816f117c49173
+  xudp: true
+  packet-encoding: xudp
+  servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+- name: 青枫资源分享@QFZYFX 🇨🇭CH_1|2.7MB/s|R002-260618
+  port: 9443
+  server: 37.120.213.210
   skip-cert-verify: true
-  sni: de.nobelchat.ru
-  type: hysteria2
-  up: ''
-  udp: true
-- down: ''
-  fingerprint: ''
-  name: 青枫资源分享@QFZYFX 🇩🇪DE_2|969KB/s
-  obfs: ''
-  obfs-password: ''
-  password: 9dfa1d8a-d75d-44d8-80a9-8cb1cbb24caa
-  port: 43523
-  server: de.143259.xyz
-  skip-cert-verify: false
-  sni: de.143259.xyz
-  type: hysteria2
-  up: ''
-  udp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 青枫资源分享@QFZYFX 🇩🇪DE_3|1.7MB/s
-  network: tcp
-  port: 7777
-  reality-opts:
-    public-key: 4iWZChsH0rnqtn89xiB1evDLkFjmgh-3WYjx8cknZC0
-    short-id: 'a8b9c0d1e2f34567'
-  server: 31.76.111.113
+  sub_tag: R002-260618
   tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: 9e09f1ce-45d4-466d-b077-81b0dae00db2
-  xudp: true
-  packet-encoding: xudp
-  servername: console.cloud.yandex.ru
-- client-fingerprint: firefox
-  encryption: none
-  grpc-opts:
-    grpc-service-name: pl-grpc
-  name: 青枫资源分享@QFZYFX 🇩🇪DE_4|694KB/s
-  network: grpc
-  port: 8443
-  reality-opts:
-    public-key: TFdwG8CeXXuQCAjT938e8gJtp84haHJilvGXxB0l6nQ
-    short-id: ''
-  server: pl.node.ghostsyvpn.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 026ee970-e645-4062-899a-383d75767b48
-  xudp: true
-  packet-encoding: xudp
-  servername: pl.node.ghostsyvpn.org
-- client-fingerprint: qq
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 青枫资源分享@QFZYFX 🇩🇪DE_5|820KB/s
-  network: tcp
-  port: 3444
-  reality-opts:
-    public-key: FbVQL4BtNGLa_0gFjedYc1caA7Ouvygbn4VCHj5uSQk
-    short-id: '274c4ebf488820b1'
-  server: 89.39.121.186
-  tls: true
-  type: vless
-  udp: true
-  uuid: 90e12a40-ea12-4951-a0ef-142a1fb164ec
-  xudp: true
-  packet-encoding: xudp
-  servername: www.bing.com
-- client-fingerprint: qq
-  encryption: none
-  grpc-opts:
-    grpc-service-name: vless
-  name: 青枫资源分享@QFZYFX 🇩🇪DE_6|805KB/s
-  network: grpc
-  port: 7443
-  reality-opts:
-    public-key: fYyYNkbi8gAi12cu0bLDPzatCm8taK4dpBG86o6Ggxk
-    short-id: 'a1b2c3d4e5f60708'
-  server: 89.39.121.186
-  tls: true
-  type: vless
-  udp: true
-  uuid: 43f45b5a-a514-423a-b610-7660e62741a9
-  xudp: true
-  packet-encoding: xudp
-  servername: www.bing.com
-- client-fingerprint: qq
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 青枫资源分享@QFZYFX 🇩🇪DE_7|799KB/s
-  network: tcp
-  port: 2087
-  reality-opts:
-    public-key: MbSfYN0EDX7TaqYNUlx4eMfd_ablcmFVHKxW8Oy10iQ
-    short-id: 'a7b8c9d0e1f20d14'
-  server: 89.39.121.186
-  tls: true
-  type: vless
-  udp: true
-  uuid: 90e12a40-ea12-4951-a0ef-142a1fb164ec
-  xudp: true
-  packet-encoding: xudp
-  servername: www.bing.com
-- client-fingerprint: qq
-  encryption: none
-  grpc-opts:
-    grpc-service-name: vless
-  name: 青枫资源分享@QFZYFX 🇩🇪DE_8|1014KB/s
-  network: grpc
-  port: 7443
-  reality-opts:
-    public-key: fYyYNkbi8gAi12cu0bLDPzatCm8taK4dpBG86o6Ggxk
-    short-id: 'a1b2c3d4e5f60708'
-  server: 89.39.121.186
-  tls: true
-  type: vless
-  udp: true
-  uuid: 90e12a40-ea12-4951-a0ef-142a1fb164ec
-  xudp: true
-  packet-encoding: xudp
-  servername: www.bing.com
-- cipher: chacha20-ietf-poly1305
-  name: 青枫资源分享@QFZYFX 🇩🇪DE_9|578KB/s
-  password: MzcxY
-  port: 8388
-  server: 45.95.2.25
-  type: ss
-  udp: true
-- client-fingerprint: qq
-  encryption: none
-  grpc-opts:
-    grpc-service-name: edge.sync.v1
-  name: 青枫资源分享@QFZYFX 🇪🇪EE_1|593KB/s
-  network: grpc
-  port: 443
-  server: eeb.webinarly.fun
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2dd48980-5c2a-4f3b-bc8f-e20a8ae24ab1
-  xudp: true
-  packet-encoding: xudp
-  servername: eeb.webinarly.fun
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 青枫资源分享@QFZYFX 🇫🇮FI_1|518KB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
-    short-id: 'b0c58c398abb6842'
-  server: 45.195.228.100
-  tls: true
-  type: vless
-  udp: true
-  uuid: 219762a7-b918-4e2b-8a3d-d309ef98bb61
-  xudp: true
-  packet-encoding: xudp
-  servername: storage.yandex.net
 - client-fingerprint: chrome
-  name: 青枫资源分享@QFZYFX 🇫🇷FR_1|1.0MB/s
+  encryption: none
+  name: 青枫资源分享@QFZYFX 🇩🇪DE_1|2.1MB/s
+  network: ws
+  port: 8443
+  server: 159.100.19.241
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+  ws-opts:
+    headers:
+      Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
+    path: /pg/10086-dfc816f117c49173
+  xudp: true
+  packet-encoding: xudp
+  servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+- client-fingerprint: chrome
+  encryption: none
+  name: 青枫资源分享@QFZYFX 🇩🇪DE_2|1.2MB/s
+  network: ws
+  port: 443
+  server: 87.251.87.36
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+  ws-opts:
+    headers:
+      Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /pg/10086-dfc816f117c491730| 德国 de | fra | 87.251.87.36:443
+  xudp: true
+  packet-encoding: xudp
+  servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+- client-fingerprint: chrome
+  encryption: none
+  name: 青枫资源分享@QFZYFX 🇩🇪DE_3|1.2MB/s
+  network: ws
+  port: 443
+  server: 185.255.93.189
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+  ws-opts:
+    headers:
+      Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7
+        (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
+    path: /pg/10086-dfc816f117c491730| 烤肉火鸡 | tr | 185.255.93.189:443
+  xudp: true
+  packet-encoding: xudp
+  servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+- auth: cd74c0a406664a5bc0bac098220a2468
+  name: 青枫资源分享@QFZYFX 🇩🇪DE_4|3.2MB/s
+  obfs: salamander
+  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
+  password: cd74c0a406664a5bc0bac098220a2468
+  port: 443
+  server: de1.sferavpn.pro
+  skip-cert-verify: true
+  sni: de1.sferavpn.pro
+  type: hysteria2
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇩🇪DE_5|1.4MB/s|R002-260618
+  port: 11111
+  server: 103.237.102.191
+  sub_tag: R002-260618
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇩🇪DE_6|1.2MB/s|P002-260618
+  password: None
+  port: 11111
+  server: 103.237.102.191
+  sub_tag: P002-260618
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇩🇪DE_7|798KB/s
+  network: ws
+  port: 449
+  server: 159.195.80.233
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: becd3b04-62a8-4b74-be67-be746008b4c2
+  ws-opts:
+    path: /api
+- client-fingerprint: chrome
+  encryption: none
+  name: 青枫资源分享@QFZYFX 🇪🇪EE_1|2.2MB/s
+  network: ws
+  port: 443
+  server: 5.175.178.254
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+  ws-opts:
+    headers:
+      Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+      User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/533.2 (KHTML,
+        like Gecko) Chrome/5.0.342.1 Safari/533.2
+    path: /pg/10086-dfc816f117c49173
+  xudp: true
+  packet-encoding: xudp
+  servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+- client-fingerprint: chrome
+  encryption: none
+  name: 青枫资源分享@QFZYFX 🇪🇪EE_2|1.5MB/s
+  network: ws
+  port: 443
+  server: 5.45.118.220
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+  ws-opts:
+    headers:
+      Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.162 Safari/537.36
+    path: /pg/10086-dfc816f117c491730| 🇪🇪 爱沙尼亚 05 | 5.45.118.220:443
+  xudp: true
+  packet-encoding: xudp
+  servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+- client-fingerprint: chrome
+  encryption: none
+  name: 青枫资源分享@QFZYFX 🇫🇮FI_1|2.2MB/s
+  network: ws
+  port: 443
+  server: 185.26.48.167
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+  ws-opts:
+    headers:
+      Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/58.0.3029.110 Safari/537.36
+    path: /pg/10086-dfc816f117c491730| 🇫🇮 芬兰 03 | 185.26.48.167:443
+  xudp: true
+  packet-encoding: xudp
+  servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+- client-fingerprint: chrome
+  encryption: none
+  name: 青枫资源分享@QFZYFX 🇫🇷FR_1|1.9MB/s
+  network: ws
+  port: 443
+  server: 46.8.225.124
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+  ws-opts:
+    headers:
+      Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /pg/10086-dfc816f117c491730| 每日乳法 | fr | 46.8.225.124:443
+  xudp: true
+  packet-encoding: xudp
+  servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+- client-fingerprint: chrome
+  name: 青枫资源分享@QFZYFX 🇫🇷FR_2|933KB/s
   network: ws
   password: humanity
-  port: 40443
-  server: 2.144.21.112
+  port: 443
+  server: 176.97.66.175
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.89 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1.1; CPH1723 Build/N6F26Q) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
     path: /assignment
-- cipher: chacha20-ietf-poly1305
-  name: 青枫资源分享@QFZYFX 🇬🇧GB_1|1.9MB/s
-  password: dQ328OaMUWViGUHu46nOVoTcSE388B5Q
-  port: 443
-  server: ip3.nfumax.ir
+- cipher: aes-256-cfb
+  name: 青枫资源分享@QFZYFX 🇫🇷FR_3|2.1MB/s
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 95.170.13.47
   type: ss
   udp: true
-- client-fingerprint: firefox
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-  name: 青枫资源分享@QFZYFX 🇬🇧GB_2|674KB/s
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: eNvO4-6_VFngHHC6D5AhcCpCpOdi5gY7-Srimhh-6Xw
-    short-id: ''
-  server: 104.171.128.225
-  tls: true
-  type: vless
-  udp: true
-  uuid: 626c0789-16d1-4815-be8b-bd03959d7d12
-  xudp: true
-  packet-encoding: xudp
-  servername: dl.google.com
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 青枫资源分享@QFZYFX 🇬🇧GB_3|692KB/s
-  network: tcp
-  port: 80
-  reality-opts:
-    public-key: 4iWZChsH0rnqtn89xiB1evDLkFjmgh-3WYjx8cknZC0
-    short-id: 'a8b9c0d1e2f34567'
-  server: 31.76.109.7
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9e09f1ce-45d4-0920-b077-81b0dae00db2
-  xudp: true
-  packet-encoding: xudp
-  servername: console.cloud.yandex.ru
-- cipher: 2022-blake3-chacha20-poly1305
-  name: 青枫资源分享@QFZYFX 🇬🇧GB_4|1.4MB/s
-  password: 0SkAFTdWLHr6UtG5Z6p74/tMfjQulbcACNNaponrCL8=
-  port: 61312
-  server: 129.151.74.114
-  type: ss
-  udp: true
-- cipher: 2022-blake3-chacha20-poly1305
-  name: 青枫资源分享@QFZYFX 🇬🇧GB_5|699KB/s
-  password: 9mVZMzz1Adzern7psYj8M7pNJP/RPWF4nXl639XFOp0=
-  port: 61312
-  server: 144.24.231.79
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 青枫资源分享@QFZYFX 🇬🇪GE_1|590KB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: d1NlaZfnsYjWfxRTqIBk1ldBUmdE-kRTEQ_sWd1JYwI
-    short-id: ''
-  server: bc-ge-hn.ray-balance.space
-  tls: true
-  type: vless
-  udp: true
-  uuid: 710fc22f-06b2-4b6d-bb3e-f57c17b670a6
-  xudp: true
-  packet-encoding: xudp
-  servername: www.ray-balance.space
-- cipher: aes-256-gcm
-  name: 青枫资源分享@QFZYFX 🇭🇰HK_1|1.1MB/s
-  password: Butterfly123@qwe9527
-  port: 10001
-  server: 103.236.66.4
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 青枫资源分享@QFZYFX 🇭🇰HK_2|607KB/s
-  network: ws
-  port: 443
-  server: 193.134.209.123
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 571x2.r4bn.bim.hh.vavava.kdns.fr
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2560
-  xudp: true
-  packet-encoding: xudp
-  servername: 571x2.r4bn.bim.hh.vavava.kdns.fr
-- client-fingerprint: chrome
-  encryption: none
-  name: 青枫资源分享@QFZYFX 🇭🇰HK_3|1.5MB/s
-  network: ws
-  port: 443
-  server: 68.64.182.177
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 571x2.r4bn.bim.hh.vavava.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/48.0.2564.109 Safari/537.36
-    path: /
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2560
-  xudp: true
-  packet-encoding: xudp
-  servername: 571x2.r4bn.bim.hh.vavava.kdns.fr
-- client-fingerprint: chrome
-  encryption: none
-  name: 青枫资源分享@QFZYFX 🇭🇰HK_4|742KB/s
-  network: ws
-  port: 443
-  server: 38.207.185.35
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 571x2.r4bn.bim.hh.vavava.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2560
-  xudp: true
-  packet-encoding: xudp
-  servername: 571x2.r4bn.bim.hh.vavava.kdns.fr
-- client-fingerprint: chrome
-  encryption: none
-  name: 青枫资源分享@QFZYFX 🇭🇰HK_5|829KB/s
-  network: ws
-  port: 443
-  server: 149.104.22.206
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 571x2.r4bn.bim.hh.vavava.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    path: /
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2560
-  xudp: true
-  packet-encoding: xudp
-  servername: 571x2.r4bn.bim.hh.vavava.kdns.fr
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 青枫资源分享@QFZYFX 🇮🇩ID_1|574KB/s
-  network: ws
-  password: e0019b1b-ecbc-4b5f-80c7-0940a8568d65
-  port: 28443
-  server: 172.232.249.14
+- name: 青枫资源分享@QFZYFX 🇬🇧GB_1|2.0MB/s|R002-260618
+  port: 9443
+  server: 37.120.233.34
   skip-cert-verify: true
-  sni: vpn-node.internal
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇬🇧GB_2|2.5MB/s|R002-260618
+  password: x
+  port: 8891
+  server: extension.intern3t.ru
+  sni: extension.intern3t.ru
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  username: 85efca17026d85555ffc9b651149b5b7
+- client-fingerprint: chrome
+  name: 青枫资源分享@QFZYFX 🇭🇰HK_1|1.8MB/s
+  password: BxceQaOe
+  port: 4117
+  server: 54.250.197.209
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /xVpnTrojanWsSvc7f3a
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 青枫资源分享@QFZYFX 🇮🇷IR_1|751KB/s
   network: tcp
+- client-fingerprint: chrome
+  encryption: none
+  name: 青枫资源分享@QFZYFX 🇮🇳IN_1|3.3MB/s
+  network: ws
   port: 443
-  reality-opts:
-    public-key: 0AVsyS7udTbxKRdSyQ2rtFC63icDQOVWq8FvAhhU-WY
-    short-id: '58fbcddfaae3ade9'
-  server: 31.59.125.30
+  server: 20.235.105.146
   tls: true
   type: vless
   udp: true
-  uuid: d11613a1-2e1f-4209-a275-aabd986b7ad1
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+  ws-opts:
+    headers:
+      Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+      User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/533.2 (KHTML,
+        like Gecko) Chrome/5.0.342.1 Safari/533.2
+    path: /pg/10086-dfc816f117c49173
   xudp: true
   packet-encoding: xudp
-  servername: s7.objcache.anti-zapret.com
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 青枫资源分享@QFZYFX 🇮🇷IR_2|555KB/s
+  servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+- client-fingerprint: chrome
+  name: 青枫资源分享@QFZYFX 🇮🇹IT_1|2.1MB/s
+  password: 7e70223b-f331-41d5-9313-02b8d2df2885
+  port: 20065
+  server: kkvlvvq-a.catcat321.com
+  skip-cert-verify: false
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
   network: tcp
-  port: 443
-  reality-opts:
-    public-key: 0AVsyS7udTbxKRdSyQ2rtFC63icDQOVWq8FvAhhU-WY
-    short-id: '58fbcddfaae3ade9'
-  server: s7.objcache.anti-zapret.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d11613a1-2e1f-4209-a275-aabd986b7ad1
-  xudp: true
-  packet-encoding: xudp
-  servername: s7.objcache.anti-zapret.com
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 青枫资源分享@QFZYFX 🇮🇷IR_3|596KB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 0AVsyS7udTbxKRdSyQ2rtFC63icDQOVWq8FvAhhU-WY
-    short-id: '58fbcddfaae3ade9'
-  server: 94.183.157.209
-  tls: true
-  type: vless
-  udp: true
-  uuid: d11613a1-2e1f-4209-a275-aabd986b7ad1
-  xudp: true
-  packet-encoding: xudp
-  servername: s7.objcache.anti-zapret.com
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 青枫资源分享@QFZYFX 🇮🇸IS_1|1.5MB/s
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: 10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc
-    short-id: '43dcff53849b81e6'
-  server: 151.236.24.67
-  tls: true
-  type: vless
-  udp: true
-  uuid: 85cc845e-644c-0045-8288-f0c03c83c1ec
-  xudp: true
-  packet-encoding: xudp
-  servername: auto.quattro-tech.ru
-- client-fingerprint: chrome
-  encryption: none
-  name: 青枫资源分享@QFZYFX 🇯🇵JP_10|789KB/s
-  network: ws
-  port: 443
-  server: cookiebot.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 571x2.r4bn.bim.hh.vavava.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/39.0.2171.95 Safari/537.36
-    path: /
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2560
-  xudp: true
-  packet-encoding: xudp
-  servername: 571x2.r4bn.bim.hh.vavava.kdns.fr
-- client-fingerprint: chrome
-  encryption: none
-  name: 青枫资源分享@QFZYFX 🇯🇵JP_11|667KB/s
-  network: ws
-  port: 443
-  server: 8.35.211.66
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 571x2.r4bn.bim.hh.vavava.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2560
-  xudp: true
-  packet-encoding: xudp
-  servername: 571x2.r4bn.bim.hh.vavava.kdns.fr
-- client-fingerprint: chrome
-  encryption: none
-  name: 青枫资源分享@QFZYFX 🇯🇵JP_12|868KB/s
-  network: ws
-  port: 443
-  server: cf.877774.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 571x2.r4bn.bim.hh.vavava.kdns.fr
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2560
-  xudp: true
-  packet-encoding: xudp
-  servername: 571x2.r4bn.bim.hh.vavava.kdns.fr
-- client-fingerprint: chrome
-  encryption: none
-  name: 青枫资源分享@QFZYFX 🇯🇵JP_13|542KB/s
-  network: ws
-  port: 443
-  server: 172.64.145.160
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 571x2.r4bn.bim.hh.vavava.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.67 Safari/537.36
-    path: /
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2560
-  xudp: true
-  packet-encoding: xudp
-  servername: 571x2.r4bn.bim.hh.vavava.kdns.fr
-- client-fingerprint: chrome
-  encryption: none
-  name: 青枫资源分享@QFZYFX 🇯🇵JP_14|518KB/s
-  network: ws
-  port: 443
-  server: 172.64.153.12
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 571x2.r4bn.bim.hh.vavava.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/68.0.3440.75 Safari/537.36
-    path: /
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2560
-  xudp: true
-  packet-encoding: xudp
-  servername: 571x2.r4bn.bim.hh.vavava.kdns.fr
-- client-fingerprint: chrome
-  encryption: none
-  name: 青枫资源分享@QFZYFX 🇯🇵JP_15|540KB/s
-  network: ws
-  port: 443
-  server: ct.877774.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 571x2.r4bn.bim.hh.vavava.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/49.0.2623.87 Safari/537.36
-    path: /
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2560
-  xudp: true
-  packet-encoding: xudp
-  servername: 571x2.r4bn.bim.hh.vavava.kdns.fr
-- client-fingerprint: chrome
-  encryption: none
-  name: 青枫资源分享@QFZYFX 🇯🇵JP_16|524KB/s
-  network: ws
-  port: 443
-  server: onetrust.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 571x2.r4bn.bim.hh.vavava.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/64.0.3282.186 Safari/537.36
-    path: /
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2560
-  xudp: true
-  packet-encoding: xudp
-  servername: 571x2.r4bn.bim.hh.vavava.kdns.fr
-- client-fingerprint: chrome
-  encryption: none
-  name: 青枫资源分享@QFZYFX 🇯🇵JP_17|580KB/s
-  network: ws
-  port: 443
-  server: 172.64.144.224
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 571x2.r4bn.bim.hh.vavava.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/47.0.2526.106 Safari/537.36
-    path: /
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2560
-  xudp: true
-  packet-encoding: xudp
-  servername: 571x2.r4bn.bim.hh.vavava.kdns.fr
-- client-fingerprint: chrome
-  encryption: none
-  name: 青枫资源分享@QFZYFX 🇯🇵JP_18|525KB/s
-  network: ws
-  port: 443
-  server: www.wilshire.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 571x2.r4bn.bim.hh.vavava.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/65.0.3325.181 Safari/537.36
-    path: /
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2560
-  xudp: true
-  packet-encoding: xudp
-  servername: 571x2.r4bn.bim.hh.vavava.kdns.fr
-- client-fingerprint: chrome
-  encryption: none
-  name: 青枫资源分享@QFZYFX 🇯🇵JP_19|567KB/s
-  network: ws
-  port: 443
-  server: 172.64.146.44
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 571x2.r4bn.bim.hh.vavava.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.181 Safari/537.36
-    path: /
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2560
-  xudp: true
-  packet-encoding: xudp
-  servername: 571x2.r4bn.bim.hh.vavava.kdns.fr
 - cipher: aes-256-gcm
-  name: 青枫资源分享@QFZYFX 🇯🇵JP_1|968KB/s
+  name: 青枫资源分享@QFZYFX 🇯🇵JP_1|1.1MB/s
   password: Butterfly123@qwe9527
   port: 40001
   server: 103.236.66.4
   type: ss
   udp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 青枫资源分享@QFZYFX 🇯🇵JP_20|528KB/s
-  network: ws
-  port: 443
-  server: 172.64.147.37
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 571x2.r4bn.bim.hh.vavava.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/59.0.3071.115 Safari/537.36
-    path: /
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2560
-  xudp: true
-  packet-encoding: xudp
-  servername: 571x2.r4bn.bim.hh.vavava.kdns.fr
-- client-fingerprint: chrome
-  encryption: none
-  name: 青枫资源分享@QFZYFX 🇯🇵JP_21|528KB/s
-  network: ws
-  port: 443
-  server: 162.159.61.183
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 571x2.r4bn.bim.hh.vavava.kdns.fr
-      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/42.0.2311.135 Safari/537.36
-    path: /
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2560
-  xudp: true
-  packet-encoding: xudp
-  servername: 571x2.r4bn.bim.hh.vavava.kdns.fr
-- client-fingerprint: chrome
-  encryption: none
-  name: 青枫资源分享@QFZYFX 🇯🇵JP_22|539KB/s
-  network: ws
-  port: 443
-  server: skk.moe
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 571x2.r4bn.bim.hh.vavava.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2560
-  xudp: true
-  packet-encoding: xudp
-  servername: 571x2.r4bn.bim.hh.vavava.kdns.fr
-- client-fingerprint: chrome
-  encryption: none
-  name: 青枫资源分享@QFZYFX 🇯🇵JP_23|548KB/s
-  network: ws
-  port: 443
-  server: homecare.stryker.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 571x2.r4bn.bim.hh.vavava.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2560
-  xudp: true
-  packet-encoding: xudp
-  servername: 571x2.r4bn.bim.hh.vavava.kdns.fr
-- client-fingerprint: chrome
-  encryption: none
-  name: 青枫资源分享@QFZYFX 🇯🇵JP_24|526KB/s
-  network: ws
-  port: 443
-  server: 172.67.129.26
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 571x2.r4bn.bim.hh.vavava.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2560
-  xudp: true
-  packet-encoding: xudp
-  servername: 571x2.r4bn.bim.hh.vavava.kdns.fr
-- client-fingerprint: chrome
-  encryption: none
-  name: 青枫资源分享@QFZYFX 🇯🇵JP_25|526KB/s
-  network: ws
-  port: 443
-  server: 162.159.58.65
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 571x2.r4bn.bim.hh.vavava.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.67 Safari/537.36
-    path: /
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2560
-  xudp: true
-  packet-encoding: xudp
-  servername: 571x2.r4bn.bim.hh.vavava.kdns.fr
-- client-fingerprint: chrome
-  name: 青枫资源分享@QFZYFX 🇯🇵JP_26|1.1MB/s
-  network: tcp
-  password: 7e70223b-f331-41d5-9313-02b8d2df2885
-  port: 14517
-  server: 218.33.111.30
+- name: 青枫资源分享@QFZYFX 🇯🇵JP_2|961KB/s
+  password: 29204996-a723-4291-8c70-30843b592d40
+  port: 12791
+  server: jpglobal-identity-federation-auth.younai-ytl.shop
   skip-cert-verify: true
-  sni: d.jpj1.cat.bilibili.com
-  type: trojan
+  sni: jp10.pulsarcore.site
+  type: anytls
   udp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 青枫资源分享@QFZYFX 🇯🇵JP_27|980KB/s
-  network: ws
-  port: 443
-  server: cloudflare.dev
+  grpc-opts:
+    grpc-service-name: update
+  name: 青枫资源分享@QFZYFX 🇯🇵JP_3|8.7MB/s
+  network: grpc
+  port: 10034
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '686c0ef0'
+  server: jp4-r.link-t7.com
   tls: true
   type: vless
   udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 571x2.r4bn.bim.hh.vavava.kdns.fr
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-    path: /
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2560
+  uuid: D8ED7FFD-7AA8-4EEB-9020-18A1A38AE6CC
   xudp: true
   packet-encoding: xudp
-  servername: 571x2.r4bn.bim.hh.vavava.kdns.fr
-- client-fingerprint: chrome
-  encryption: none
-  name: 青枫资源分享@QFZYFX 🇯🇵JP_28|1.7MB/s
-  network: ws
-  port: 443
-  server: polestar.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 571x2.r4bn.bim.hh.vavava.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
-    path: /
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2560
-  xudp: true
-  packet-encoding: xudp
-  servername: 571x2.r4bn.bim.hh.vavava.kdns.fr
-- client-fingerprint: chrome
-  encryption: none
-  name: 青枫资源分享@QFZYFX 🇯🇵JP_29|1.8MB/s
-  network: ws
-  port: 443
-  server: 82.22.26.202
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 571x2.r4bn.bim.hh.vavava.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.101 Safari/537.36
-    path: /
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2560
-  xudp: true
-  packet-encoding: xudp
-  servername: 571x2.r4bn.bim.hh.vavava.kdns.fr
-- client-fingerprint: chrome
-  encryption: none
-  name: 青枫资源分享@QFZYFX 🇯🇵JP_2|3.4MB/s
-  network: ws
-  port: 2087
-  server: 188.114.97.110
-  tls: true
-  type: vless
-  udp: true
-  uuid: 73bcd72f-9545-4cb8-8daf-7d004501880d
-  ws-opts:
-    headers:
-      Host: wzknb.pages.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /proxyip=179.255.104.87,179.255.116.198,179.255.101.56,142.248.218.6,142.248.218.4,45.76.79.239,179.255.152.163,208.68.180.240
-  xudp: true
-  packet-encoding: xudp
-  servername: wzknb.pages.dev
-- client-fingerprint: chrome
-  encryption: none
-  name: 青枫资源分享@QFZYFX 🇯🇵JP_30|1.9MB/s
-  network: ws
-  port: 443
-  server: 172.64.229.252
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 571x2.r4bn.bim.hh.vavava.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.113 Safari/537.36
-    path: /
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2560
-  xudp: true
-  packet-encoding: xudp
-  servername: 571x2.r4bn.bim.hh.vavava.kdns.fr
-- client-fingerprint: chrome
-  encryption: none
-  name: 青枫资源分享@QFZYFX 🇯🇵JP_31|543KB/s
-  network: ws
-  port: 443
-  server: da.mfa.gov.ua
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 571x2.r4bn.bim.hh.vavava.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/68.0.3440.75 Safari/537.36
-    path: /
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2560
-  xudp: true
-  packet-encoding: xudp
-  servername: 571x2.r4bn.bim.hh.vavava.kdns.fr
-- client-fingerprint: chrome
-  encryption: none
-  name: 青枫资源分享@QFZYFX 🇯🇵JP_32|717KB/s
-  network: ws
-  port: 443
-  server: china.mfa.gov.ua
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 571x2.r4bn.bim.hh.vavava.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2560
-  xudp: true
-  packet-encoding: xudp
-  servername: 571x2.r4bn.bim.hh.vavava.kdns.fr
-- client-fingerprint: chrome
-  encryption: none
-  name: 青枫资源分享@QFZYFX 🇯🇵JP_33|767KB/s
-  network: ws
-  port: 443
-  server: www.leics.police.uk
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 571x2.r4bn.bim.hh.vavava.kdns.fr
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX2 Build/HUAWEITRT-LX2; wv)
-        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Mobile
-        Safari/537.36
-    path: /
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2560
-  xudp: true
-  packet-encoding: xudp
-  servername: 571x2.r4bn.bim.hh.vavava.kdns.fr
-- client-fingerprint: chrome
-  encryption: none
-  name: 青枫资源分享@QFZYFX 🇯🇵JP_34|762KB/s
-  network: ws
-  port: 443
-  server: www.jimdo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 571x2.r4bn.bim.hh.vavava.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2560
-  xudp: true
-  packet-encoding: xudp
-  servername: 571x2.r4bn.bim.hh.vavava.kdns.fr
-- client-fingerprint: chrome
-  encryption: none
-  name: 青枫资源分享@QFZYFX 🇯🇵JP_35|864KB/s
-  network: ws
-  port: 443
-  server: ringcentral.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 571x2.r4bn.bim.hh.vavava.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.113 Safari/537.36
-    path: /
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2560
-  xudp: true
-  packet-encoding: xudp
-  servername: 571x2.r4bn.bim.hh.vavava.kdns.fr
-- client-fingerprint: chrome
-  encryption: none
-  name: 青枫资源分享@QFZYFX 🇯🇵JP_36|1.5MB/s
-  network: ws
-  port: 443
-  server: 172.67.65.179
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 571x2.r4bn.bim.hh.vavava.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2560
-  xudp: true
-  packet-encoding: xudp
-  servername: 571x2.r4bn.bim.hh.vavava.kdns.fr
-- client-fingerprint: chrome
-  encryption: none
-  name: 青枫资源分享@QFZYFX 🇯🇵JP_37|786KB/s
-  network: ws
-  port: 443
-  server: www.decathlon.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 571x2.r4bn.bim.hh.vavava.kdns.fr
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
-    path: /
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2560
-  xudp: true
-  packet-encoding: xudp
-  servername: 571x2.r4bn.bim.hh.vavava.kdns.fr
-- client-fingerprint: chrome
-  encryption: none
-  name: 青枫资源分享@QFZYFX 🇯🇵JP_3|3.4MB/s
-  network: ws
-  port: 2087
-  server: 104.19.213.131
-  tls: true
-  type: vless
-  udp: true
-  uuid: 73bcd72f-9545-4cb8-8daf-7d004501880d
-  ws-opts:
-    headers:
-      Host: wzknb.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.67 Safari/537.36
-    path: /proxyip=179.255.104.87,179.255.116.198,179.255.101.56,142.248.218.6,142.248.218.4,45.76.79.239,179.255.152.163,208.68.180.240
-  xudp: true
-  packet-encoding: xudp
-  servername: wzknb.pages.dev
-- client-fingerprint: chrome
-  encryption: none
-  name: 青枫资源分享@QFZYFX 🇯🇵JP_4|4.9MB/s
-  network: ws
-  port: 443
-  server: 82.108.155.248
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 571x2.r4bn.bim.hh.vavava.kdns.fr
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2560
-  xudp: true
-  packet-encoding: xudp
-  servername: 571x2.r4bn.bim.hh.vavava.kdns.fr
-- client-fingerprint: chrome
-  encryption: none
-  name: 青枫资源分享@QFZYFX 🇯🇵JP_5|1.1MB/s
-  network: ws
-  port: 443
-  server: 43.163.244.175
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 571x2.r4bn.bim.hh.vavava.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
-    path: /
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2560
-  xudp: true
-  packet-encoding: xudp
-  servername: 571x2.r4bn.bim.hh.vavava.kdns.fr
-- client-fingerprint: chrome
-  encryption: none
-  name: 青枫资源分享@QFZYFX 🇯🇵JP_6|989KB/s
-  network: ws
-  port: 443
-  server: 43.167.224.16
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 571x2.r4bn.bim.hh.vavava.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10
-        (KHTML, like Gecko) Chrome/8.0.552.237 Safari/534.10
-    path: /
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2560
-  xudp: true
-  packet-encoding: xudp
-  servername: 571x2.r4bn.bim.hh.vavava.kdns.fr
-- client-fingerprint: chrome
-  encryption: none
-  name: 青枫资源分享@QFZYFX 🇯🇵JP_7|895KB/s
-  network: ws
-  port: 443
-  server: 43.133.206.45
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 571x2.r4bn.bim.hh.vavava.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2560
-  xudp: true
-  packet-encoding: xudp
-  servername: 571x2.r4bn.bim.hh.vavava.kdns.fr
-- client-fingerprint: chrome
-  encryption: none
-  name: 青枫资源分享@QFZYFX 🇯🇵JP_8|1.1MB/s
-  network: ws
-  port: 443
-  server: 43.167.9.109
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 571x2.r4bn.bim.hh.vavava.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.132 Safari/537.36
-    path: /
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2560
-  xudp: true
-  packet-encoding: xudp
-  servername: 571x2.r4bn.bim.hh.vavava.kdns.fr
-- client-fingerprint: chrome
-  encryption: none
-  name: 青枫资源分享@QFZYFX 🇯🇵JP_9|682KB/s
-  network: ws
-  port: 443
-  server: www.tpg.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 571x2.r4bn.bim.hh.vavava.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.99 Safari/537.36
-    path: /
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2560
-  xudp: true
-  packet-encoding: xudp
-  servername: 571x2.r4bn.bim.hh.vavava.kdns.fr
-- client-fingerprint: chrome
-  encryption: none
-  name: 青枫资源分享@QFZYFX 🇰🇷KR_1|526KB/s
-  network: ws
-  port: 443
-  server: 168.107.14.233
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 571x2.r4bn.bim.hh.vavava.kdns.fr
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3 Build/HUAWEIFIG-LX3)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2560
-  xudp: true
-  packet-encoding: xudp
-  servername: 571x2.r4bn.bim.hh.vavava.kdns.fr
+  servername: s0.awsstatic.com
 - cipher: aes-256-cfb
-  name: 青枫资源分享@QFZYFX 🇰🇷KR_2|956KB/s
+  name: 青枫资源分享@QFZYFX 🇰🇷KR_1|1.9MB/s
   password: 7eadc6dbe2ae
   port: 65443
   server: 121.46.230.138
   type: ss
   udp: true
+- name: 青枫资源分享@QFZYFX 🇰🇷KR_2|822KB/s
+  port: 1090
+  server: 121.169.46.116
+  tls: false
+  type: socks5
+  username: T2clM0QlM0Q6
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇱🇻LV_1|2.9MB/s
+  password: None
+  port: 443
+  server: 109.248.147.66
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 青枫资源分享@QFZYFX 🇰🇷KR_3|878KB/s
+  name: 青枫资源分享@QFZYFX 🇳🇱NL_1|566KB/s
   network: ws
   port: 443
-  server: 211.49.57.134
+  server: 62.60.253.3
   tls: true
   type: vless
   udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
   ws-opts:
     headers:
-      Host: 571x2.r4bn.bim.hh.vavava.kdns.fr
+      Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.110 Safari/537.36
+    path: /pg/10086-dfc816f117c49173
+  xudp: true
+  packet-encoding: xudp
+  servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+- client-fingerprint: chrome
+  encryption: none
+  name: 青枫资源分享@QFZYFX 🇳🇱NL_2|1.1MB/s
+  network: ws
+  port: 443
+  server: 91.223.119.197
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+  ws-opts:
+    headers:
+      Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /pg/10086-dfc816f117c491730| 风车郁金 | nl | 91.223.119.197:443
+  xudp: true
+  packet-encoding: xudp
+  servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+- client-fingerprint: chrome
+  encryption: none
+  name: 青枫资源分享@QFZYFX 🇳🇱NL_3|2.2MB/s
+  network: ws
+  port: 443
+  server: 72.56.106.58
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+  ws-opts:
+    headers:
+      Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/57.0.2987.133 Safari/537.36
+    path: /pg/10086-dfc816f117c491730| 德国 de | ams | 72.56.106.58:443
+  xudp: true
+  packet-encoding: xudp
+  servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+- client-fingerprint: chrome
+  encryption: none
+  name: 青枫资源分享@QFZYFX 🇳🇱NL_4|1.8MB/s
+  network: ws
+  port: 443
+  server: 43.170.17.114
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+  ws-opts:
+    headers:
+      Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.99 Safari/537.36
-    path: /
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2560
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /pg/10086-dfc816f117c491730| 荷兰 nl | ams | 43.170.17.114:443
   xudp: true
   packet-encoding: xudp
-  servername: 571x2.r4bn.bim.hh.vavava.kdns.fr
-- client-fingerprint: firefox
-  encryption: none
-  grpc-opts:
-    grpc-service-name: api.v1.StreamService
-  name: 青枫资源分享@QFZYFX 🇱🇹LT_1|675KB/s
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: 2j9MbL9p_z1tmhfAOg8yJttmipPiG4IobC-RWYHkomM
-    short-id: '57b9dece2c7ebfcf'
-  server: sync.on3ok.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2b15627c-f62b-465f-81d1-0b5f7d4277ba
-  xudp: true
-  packet-encoding: xudp
-  servername: sync.on3ok.com
+  servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
 - client-fingerprint: chrome
-  name: 青枫资源分享@QFZYFX 🇲🇴MO_1|618KB/s
-  network: tcp
-  password: a126f35c-e832-4115-8593-b723ade3f7be
-  port: 20068
-  server: kkvlvvq-a.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-  udp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 青枫资源分享@QFZYFX 🇲🇾MY_1|528KB/s
+  encryption: none
+  name: 青枫资源分享@QFZYFX 🇳🇱NL_5|542KB/s
   network: ws
-  password: 319182a3-9ca5-456e-9acd-54e0df11b0be
-  port: 46262
-  server: 172.237.81.74
-  skip-cert-verify: true
-  sni: vpn-node.internal
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /xVpnTrojanWsSvc7f3a
-- down: ''
-  fingerprint: ''
-  name: 青枫资源分享@QFZYFX 🇳🇱NL_1|2.1MB/s
-  obfs: ''
-  obfs-password: ''
-  password: GSPOBvG-ZwYcBFMr0ekFGO_Zga3wK6v_
   port: 8443
-  server: hy2-netherlands.unlimited-access.ru
-  skip-cert-verify: true
-  sni: hy2-netherlands.unlimited-access.ru
-  type: hysteria2
-  up: ''
-  udp: true
-- alpn:
-  - h2
-  client-fingerprint: firefox
-  encryption: none
-  name: 青枫资源分享@QFZYFX 🇳🇱NL_2|1.7MB/s
-  network: xhttp
-  port: 443
-  server: dey.lnmarketplace.net
+  server: 62.60.254.18
   tls: true
   type: vless
   udp: true
-  uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
-  xhttp-opts:
-    host: dey.lnmarketplace.net
-    mode: stream-one
-    no-grpc-header: true
-    path: /kavir
-    reuse-settings:
-      h-keep-alive-period: 12
-      max-concurrency: '6'
-  xudp: true
-  packet-encoding: xudp
-  servername: dey.lnmarketplace.net
-- client-fingerprint: chrome
-  encryption: none
-  name: 青枫资源分享@QFZYFX 🇳🇱NL_3|3.3MB/s
-  network: ws
-  port: 443
-  server: 199.232.78.159
-  tls: true
-  type: vless
-  udp: true
-  uuid: ff4589d5-8c1b-4cd4-93d1-25db3635735d
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
   ws-opts:
     headers:
-      Host: pane3.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.99 Safari/537.36
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2053
+      Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.106 Safari/537.36
+    path: /pg/10086-dfc816f117c491730| 🇫🇮 芬兰 02 | 62.60.254.18:8443
   xudp: true
   packet-encoding: xudp
-  servername: ssl.fastly.com
-- client-fingerprint: chrome
-  encryption: none
-  name: 青枫资源分享@QFZYFX 🇳🇱NL_4|2.6MB/s
-  network: ws
-  port: 443
-  server: 199.232.78.159
-  tls: true
-  type: vless
-  udp: true
-  uuid: 27315937-5479-49fd-867d-6b2f17246708
-  ws-opts:
-    headers:
-      Host: pan1.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2053
-  xudp: true
-  packet-encoding: xudp
-  servername: ssl.fastly.com
-- encryption: none
-  name: 青枫资源分享@QFZYFX 🇳🇱NL_5|561KB/s
-  network: ws
-  port: 10444
-  server: 45.94.37.7
-  type: vless
-  udp: true
-  uuid: 4005ddae-29bb-431e-a212-7737316d08ea
-  ws-opts:
-    headers:
-      Host: vpnpolar.online
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like
-        Gecko) Chrome/26.0.1410.64 Safari/537.31
-    path: /beeline
-  xudp: true
-  packet-encoding: xudp
-- client-fingerprint: qq
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 青枫资源分享@QFZYFX 🇳🇱NL_6|1.7MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: m6RDw1b8R4lCaRUIzhHpy6TtX2Dhk6nyby8dWzeQqA0
-    short-id: 'dd3ff38418d29d22'
-  server: 87.121.221.253
-  tls: true
-  type: vless
-  udp: true
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-  xudp: true
-  packet-encoding: xudp
-  servername: eu-west.cendora.ru
-- name: 青枫资源分享@QFZYFX 🇳🇱NL_7|673KB/s
-  password: None
-  port: 443
-  server: 5.255.118.82
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-  udp: true
-- client-fingerprint: qq
-  encryption: none
-  grpc-opts:
-    grpc-service-name: edge.sync.v1
-  name: 青枫资源分享@QFZYFX 🇳🇱NL_8|554KB/s
-  network: grpc
-  port: 443
-  server: nla.mythos-wargame.fun
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2dd48980-5c2a-4f3b-bc8f-e20a8ae24ab1
-  xudp: true
-  packet-encoding: xudp
-  servername: nla.mythos-wargame.fun
-- cipher: 2022-blake3-chacha20-poly1305
-  name: 青枫资源分享@QFZYFX 🇳🇱NL_9|1.1MB/s
-  password: j9c/ewZTyaH+6TY/yszYS+Qv4yljvnYafWAhQSrFfT0=
-  port: 45819
-  server: 141.148.232.116
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: 青枫资源分享@QFZYFX 🇳🇴NO_1|737KB/s
-  network: tcp
-  password: a126f35c-e832-4115-8593-b723ade3f7be
-  port: 20085
-  server: kkvlvvq-a.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-  udp: true
-- name: 青枫资源分享@QFZYFX 🇷🇴RO_1|521KB/s
-  password: None
-  port: 9002
-  server: 193.176.84.22
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-  udp: true
-- name: 青枫资源分享@QFZYFX 🇷🇴RO_2|578KB/s
-  password: 'null'
-  port: 9002
-  server: 193.176.84.26
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-  udp: true
-- name: 青枫资源分享@QFZYFX 🇷🇴RO_3|525KB/s
+  servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+- name: 青枫资源分享@QFZYFX 🇳🇱NL_6|2.9MB/s|P002-260618
   password: ''
+  port: 9002
+  server: 84.17.47.146
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: 青枫资源分享@QFZYFX 🇳🇱NL_7|2.8MB/s|R002-260618
+  port: 9002
+  server: 84.17.47.148
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇳🇱NL_8|2.4MB/s|P002-260618
+  password: None
+  port: 9002
+  server: 84.17.47.148
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 青枫资源分享@QFZYFX 🇵🇱PL_1|858KB/s
+  network: ws
+  port: 8443
+  server: 45.144.48.193
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+  ws-opts:
+    headers:
+      Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+    path: /pg/10086-dfc816f117c49173
+  xudp: true
+  packet-encoding: xudp
+  servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_1|639KB/s|P002-260618
   port: 9002
   server: 193.176.84.23
   skip-cert-verify: true
+  sni: www.bing.com
+  sub_tag: P002-260618
   tls: true
   type: http
-  username: ''
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_2|642KB/s|P002-260618
+  port: 9002
+  server: 193.176.84.19
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_3|921KB/s
+  port: 9002
+  server: 193.176.84.20
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
   udp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 青枫资源分享@QFZYFX 🇸🇬SG_1|573KB/s
+  name: 青枫资源分享@QFZYFX 🇸🇪SE_1|1.1MB/s
   network: ws
-  port: 443
-  server: 89.34.227.245
+  port: 2053
+  server: 91.184.243.7
   tls: true
   type: vless
   udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
   ws-opts:
     headers:
-      Host: 571x2.r4bn.bim.hh.vavava.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.132 Safari/537.36
-    path: /
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2560
+      Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.106 Safari/537.36
+    path: /pg/10086-dfc816f117c491730| 🇫🇮 芬兰 16 | 91.184.243.7:2053
   xudp: true
   packet-encoding: xudp
-  servername: 571x2.r4bn.bim.hh.vavava.kdns.fr
-- cipher: 2022-blake3-chacha20-poly1305
-  name: 青枫资源分享@QFZYFX 🇸🇬SG_2|1.7MB/s
-  password: NPImXu1dvdMvgeuFx60flecCExTtkLUfQd7HqXbqJMs=
-  port: 56927
-  server: 161.118.208.57
-  type: ss
-  udp: true
-- cipher: 2022-blake3-chacha20-poly1305
-  name: 青枫资源分享@QFZYFX 🇸🇬SG_3|730KB/s
-  password: y0lUf5WDcD0z4Vm/57XU5GWoPKS+07qwaHOhXiwQekA=
-  port: 56927
-  server: 140.245.117.116
-  type: ss
-  udp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 青枫资源分享@QFZYFX 🇹🇷TR_1|523KB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 0AVsyS7udTbxKRdSyQ2rtFC63icDQOVWq8FvAhhU-WY
-    short-id: '58fbcddfaae3ade9'
-  server: 194.93.61.95
-  tls: true
-  type: vless
-  udp: true
-  uuid: d11613a1-2e1f-4209-a275-aabd986b7ad1
-  xudp: true
-  packet-encoding: xudp
-  servername: cdnjs.com
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 青枫资源分享@QFZYFX 🇹🇷TR_2|1.4MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 0AVsyS7udTbxKRdSyQ2rtFC63icDQOVWq8FvAhhU-WY
-    short-id: '58fbcddfaae3ade9'
-  server: 194.93.61.97
-  tls: true
-  type: vless
-  udp: true
-  uuid: d11613a1-2e1f-4209-a275-aabd986b7ad1
-  xudp: true
-  packet-encoding: xudp
-  servername: cdnjs.com
+  servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
 - client-fingerprint: chrome
-  name: 青枫资源分享@QFZYFX 🇹🇼TW_1|1.0MB/s
+  encryption: none
+  name: 青枫资源分享@QFZYFX 🇸🇪SE_2|1.5MB/s
+  network: ws
+  port: 2053
+  server: 109.206.243.100
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+  ws-opts:
+    headers:
+      Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/42.0.2311.90 Safari/537.36
+    path: /pg/10086-dfc816f117c491730| 🇫🇮 芬兰 15 | 109.206.243.100:2053
+  xudp: true
+  packet-encoding: xudp
+  servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+- client-fingerprint: chrome
+  encryption: none
+  name: 青枫资源分享@QFZYFX 🇸🇰SK_1|2.0MB/s
+  network: ws
+  port: 443
+  server: 37.9.171.189
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+  ws-opts:
+    headers:
+      Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.99 Safari/537.36
+    path: /pg/10086-dfc816f117c491730| 斯洛伐克 sk | bts | 37.9.171.189:443
+  xudp: true
+  packet-encoding: xudp
+  servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+- client-fingerprint: chrome
+  name: 青枫资源分享@QFZYFX 🇺🇦UA_1|2.5MB/s
   network: tcp
   password: a126f35c-e832-4115-8593-b723ade3f7be
-  port: 20115
+  port: 20066
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: hkdcrtc-e.catcat321.com
+  type: trojan
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇺🇦UA_2|2.7MB/s
+  password: a126f35c-e832-4115-8593-b723ade3f7be
+  port: 20066
   server: kkvlvvq-a.catcat321.com
   skip-cert-verify: true
   sni: hk.catxstar.com
   type: trojan
   udp: true
+  network: tcp
+- name: 青枫资源分享@QFZYFX 🇺🇦UA_3|2.6MB/s
+  password: a126f35c-e832-4115-8593-b723ade3f7be
+  port: 20066
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+  network: tcp
 - client-fingerprint: chrome
   encryption: none
-  name: 青枫资源分享@QFZYFX 🇺🇸US_10|5.2MB/s
+  name: 青枫资源分享@QFZYFX 🇺🇸US_10|684KB/s
   network: ws
   port: 443
-  server: auctions.ihg.com.cn
+  server: 104.21.30.48
   tls: true
   type: vless
   udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  uuid: 2e05bfa9-697c-46e9-bfd3-06ecfb23e349
   ws-opts:
     headers:
-      Host: 571x2.r4bn.bim.hh.vavava.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.118 Safari/537.36
-    path: /
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2560
+      Host: 6-M14.B2fC4a82-C083-4474-9690-E5d36d11e760.kdNs.fr
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/46.0.2490.86 Safari/537.36
+    path: /awsDCktnglce5OhBQMBK8JLBwh2V
   xudp: true
   packet-encoding: xudp
-  servername: 571x2.r4bn.bim.hh.vavava.kdns.fr
-- alpn:
-  - h2
-  client-fingerprint: firefox
+  servername: 6-m14.B2fC4A82-c083-4474-9690-e5D36d11e760.KdnS.FR
+- client-fingerprint: firefox
   encryption: none
-  name: 青枫资源分享@QFZYFX 🇺🇸US_11|870KB/s
-  network: xhttp
+  flow: xtls-rprx-vision
+  name: 青枫资源分享@QFZYFX 🇺🇸US_11|553KB/s
+  network: tcp
   port: 443
-  server: us.vmagnum.win
+  reality-opts:
+    public-key: ZXi0bwZwOe9e5CMticA2-bU7qamHgs_sN-2kHygbDyk
+    short-id: 'e91da98020a38be9'
+  server: 31.76.34.203
   tls: true
   type: vless
   udp: true
-  uuid: f230254f-d4cd-4d83-8a2d-e83927ef98ac
-  xhttp-opts:
-    mode: stream-one
-    path: /
+  uuid: 423b1d79-08c4-0003-9d5e-c541f791b55f
   xudp: true
   packet-encoding: xudp
-  servername: f230254f.ferrin.uk
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  encryption: none
-  name: 青枫资源分享@QFZYFX 🇺🇸US_12|905KB/s
-  network: ws
-  port: 8443
-  server: 172.64.229.252
-  tls: true
-  type: vless
+  servername: russia.cendora.ru
+- name: 青枫资源分享@QFZYFX 🇺🇸US_12|1.1MB/s
+  password: 29204996-a723-4291-8c70-30843b592d40
+  port: 28219
+  server: jpglobal-identity-federation-auth.younai-ytl.shop
+  skip-cert-verify: true
+  sni: us05.pulsarcore.site
+  type: anytls
   udp: true
-  uuid: d7b4fa04-dd2d-45ae-8331-f4b490ada85f
-  ws-opts:
-    headers:
-      Host: apkav-1.bosx.net
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.7
-        (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
-    path: /api/connect
-  xudp: true
-  packet-encoding: xudp
-  servername: apkav-1.bosx.net
-- name: 青枫资源分享@QFZYFX 🇺🇸US_13|1.1MB/s
-  password: None
+- client-fingerprint: chrome
+  name: 青枫资源分享@QFZYFX 🇺🇸US_13|3.3MB/s
+  password: BxceQaOe
+  port: 53001
+  server: 95.40.24.249
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+  network: tcp
+- name: 青枫资源分享@QFZYFX 🇺🇸US_14|2.5MB/s
+  password: ''
   port: 9002
-  server: 138.199.35.208
+  server: 138.199.35.205
   skip-cert-verify: true
   tls: true
   type: http
+  udp: true
   username: ''
-  udp: true
-- name: 青枫资源分享@QFZYFX 🇺🇸US_14|1.2MB/s
-  password: 'null'
+- name: 青枫资源分享@QFZYFX 🇺🇸US_15|913KB/s
+  password: ''
   port: 9002
-  server: 138.199.35.214
+  server: 138.199.35.219
   skip-cert-verify: true
   tls: true
   type: http
-  username: 'null'
   udp: true
-- name: 青枫资源分享@QFZYFX 🇺🇸US_15|1014KB/s
-  password: 'null'
+  username: ''
+- name: 青枫资源分享@QFZYFX 🇺🇸US_16|3.3MB/s
+  password: ''
   port: 9002
   server: 138.199.35.217
   skip-cert-verify: true
   tls: true
   type: http
-  username: 'null'
   udp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 青枫资源分享@QFZYFX 🇺🇸US_16|776KB/s
-  network: ws
-  port: 443
-  server: 179.255.116.102
+  username: ''
+- name: 青枫资源分享@QFZYFX 🇺🇸US_17|948KB/s
+  password: ''
+  port: 9002
+  server: 138.199.35.218
+  skip-cert-verify: true
   tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 571x2.r4bn.bim.hh.vavava.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.87 Safari/537.36
-    path: /
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2560
-  xudp: true
-  packet-encoding: xudp
-  servername: 571x2.r4bn.bim.hh.vavava.kdns.fr
-- name: 青枫资源分享@QFZYFX 🇺🇸US_17|762KB/s
+  username: ''
+- name: 青枫资源分享@QFZYFX 🇺🇸US_18|512KB/s
+  password: ''
+  port: 9002
+  server: 138.199.35.203
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: 青枫资源分享@QFZYFX 🇺🇸US_19|2.5MB/s
   password: ''
   port: 9002
   server: 138.199.35.208
   skip-cert-verify: true
   tls: true
   type: http
+  udp: true
+  username: ''
+- name: 青枫资源分享@QFZYFX 🇺🇸US_1|2.6MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.217
+  skip-cert-verify: true
+  tls: true
+  type: http
   username: ''
   udp: true
-- name: 青枫资源分享@QFZYFX 🇺🇸US_18|767KB/s
+- name: 青枫资源分享@QFZYFX 🇺🇸US_20|2.5MB/s
   password: ''
+  port: 9002
+  server: 138.199.35.199
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: 青枫资源分享@QFZYFX 🇺🇸US_21|942KB/s|R002-260618
+  port: 9002
+  server: 138.199.35.200
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇺🇸US_22|1.2MB/s|R002-260618
+  port: 9002
+  server: 138.199.35.197
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇺🇸US_23|1.7MB/s|R002-260618
+  port: 9002
+  server: 138.199.35.211
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇺🇸US_24|2.7MB/s|R002-260618
   port: 9002
   server: 138.199.35.209
   skip-cert-verify: true
+  sub_tag: R002-260618
   tls: true
   type: http
-  username: ''
   udp: true
-- name: 青枫资源分享@QFZYFX 🇺🇸US_19|733KB/s
-  password: ''
-  port: 9002
-  server: 138.199.35.198
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-  udp: true
-- name: 青枫资源分享@QFZYFX 🇺🇸US_1|574KB/s
-  password: 'null'
+- name: 青枫资源分享@QFZYFX 🇺🇸US_25|1.5MB/s|R002-260618
   port: 9002
   server: 138.199.35.215
   skip-cert-verify: true
+  sub_tag: R002-260618
   tls: true
   type: http
-  username: 'null'
   udp: true
-- alpn:
-  - h3
-  client-fingerprint: chrome
-  encryption: none
-  name: 青枫资源分享@QFZYFX 🇺🇸US_20|579KB/s
-  network: ws
-  port: 443
-  server: api-478fc1-35b34a-production.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 23da7d5c-50ac-4ace-af37-358bef75ede7
-  ws-opts:
-    headers:
-      Host: api-478fc1-35b34a-production.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.102 Safari/537.36
-    path: /ws/vless/23da7d5c-50ac-4ace-af37-358bef75ede7
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2048
-  xudp: true
-  packet-encoding: xudp
-  servername: api-478fc1-35b34a-production.up.railway.app
-- name: 青枫资源分享@QFZYFX 🇺🇸US_21|1.2MB/s
-  password: ''
+- name: 青枫资源分享@QFZYFX 🇺🇸US_26|2.0MB/s|R002-260618
   port: 9002
-  server: 138.199.35.214
+  server: 138.199.35.206
   skip-cert-verify: true
+  sub_tag: R002-260618
   tls: true
   type: http
-  username: ''
   udp: true
-- name: 青枫资源分享@QFZYFX 🇺🇸US_22|976KB/s
-  password: ''
+- name: 青枫资源分享@QFZYFX 🇺🇸US_27|656KB/s|R002-260618
   port: 9002
-  server: 138.199.35.196
+  server: 138.199.35.212
   skip-cert-verify: true
+  sub_tag: R002-260618
   tls: true
   type: http
-  username: ''
   udp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 青枫资源分享@QFZYFX 🇺🇸US_23|512KB/s
-  network: ws
-  password: 1b08ff16-ca9c-4500-ba13-9a82a70f8b08
-  port: 45764
-  server: 172.237.28.252
-  skip-cert-verify: true
-  sni: vpn-node.internal
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610F Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
-    path: /xVpnTrojanWsSvc7f3a
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 青枫资源分享@QFZYFX 🇺🇸US_24|560KB/s
-  network: ws
-  password: 8e2d98af-de70-470d-a766-01c883add647
-  port: 28443
-  server: 45.56.108.97
-  skip-cert-verify: true
-  sni: vpn-node.internal
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /xVpnTrojanWsSvc7f3a
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 青枫资源分享@QFZYFX 🇺🇸US_25|639KB/s
-  network: ws
-  password: 2b1f78c0-6111-44fe-b023-b70ae5929d71
-  port: 41187
-  server: 223.107.155.28
-  skip-cert-verify: true
-  sni: vpn-node.internal
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.101 Safari/537.36
-    path: /xVpnTrojanWsSvc7f3a
-- client-fingerprint: chrome
-  encryption: none
-  name: 青枫资源分享@QFZYFX 🇺🇸US_26|708KB/s
-  network: ws
-  port: 443
-  server: 38.95.79.249
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 571x2.r4bn.bim.hh.vavava.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2560
-  xudp: true
-  packet-encoding: xudp
-  servername: 571x2.r4bn.bim.hh.vavava.kdns.fr
-- client-fingerprint: qq
-  encryption: none
-  grpc-opts:
-    grpc-service-name: edge.sync.v1
-  name: 青枫资源分享@QFZYFX 🇺🇸US_27|644KB/s
-  network: grpc
-  port: 443
-  server: dea.mythos-wargame.fun
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2dd48980-5c2a-4f3b-bc8f-e20a8ae24ab1
-  xudp: true
-  packet-encoding: xudp
-  servername: dea.mythos-wargame.fun
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 青枫资源分享@QFZYFX 🇺🇸US_28|1.1MB/s
-  network: tcp
-  port: 15311
-  server: 107.173.254.27
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: ad78d02b-873f-4cff-8d4a-673f53d6ce0f
-  xudp: true
-  packet-encoding: xudp
-- name: 青枫资源分享@QFZYFX 🇺🇸US_2|560KB/s
-  password: None
+- name: 青枫资源分享@QFZYFX 🇺🇸US_28|1.2MB/s|R002-260618
   port: 9002
-  server: 138.199.35.217
+  server: 138.199.35.207
   skip-cert-verify: true
+  sub_tag: R002-260618
   tls: true
   type: http
-  username: ''
   udp: true
-- name: 青枫资源分享@QFZYFX 🇺🇸US_3|514KB/s
+- name: 青枫资源分享@QFZYFX 🇺🇸US_29|2.5MB/s|R002-260618
+  port: 9002
+  server: 138.199.35.198
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇺🇸US_2|646KB/s
   password: ''
   port: 9002
   server: 138.199.35.216
@@ -1990,7 +851,99 @@ proxies:
   type: http
   username: ''
   udp: true
-- name: 青枫资源分享@QFZYFX 🇺🇸US_4|650KB/s
+- name: 青枫资源分享@QFZYFX 🇺🇸US_30|2.5MB/s|R002-260618
+  port: 9002
+  server: 138.199.35.220
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇺🇸US_31|2.4MB/s|R002-260618
+  password: 'null'
+  port: 9002
+  server: 138.199.35.199
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- name: 青枫资源分享@QFZYFX 🇺🇸US_32|2.5MB/s|P002-260618
+  password: 'null'
+  port: 9002
+  server: 138.199.35.195
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- name: 青枫资源分享@QFZYFX 🇺🇸US_33|1.4MB/s|P002-260618
+  password: None
+  port: 9002
+  server: 138.199.35.219
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇺🇸US_34|2.6MB/s|P002-260618
+  password: 'null'
+  port: 9002
+  server: 138.199.35.207
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- name: 青枫资源分享@QFZYFX 🇺🇸US_35|864KB/s|P002-260618
+  password: ''
+  port: 9002
+  server: 138.199.35.210
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: 青枫资源分享@QFZYFX 🇺🇸US_36|1.3MB/s|R002-260618
+  port: 9002
+  server: 138.199.35.204
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇺🇸US_37|2.5MB/s|R002-260618
+  port: 9002
+  server: 138.199.35.202
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇺🇸US_38|2.5MB/s|R002-260618
+  password: ''
+  port: 9002
+  server: 138.199.35.201
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: 青枫资源分享@QFZYFX 🇺🇸US_39|2.5MB/s|P002-260618
+  password: None
+  port: 9002
+  server: 138.199.35.206
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇺🇸US_3|1.0MB/s
   password: None
   port: 9002
   server: 138.199.35.215
@@ -1999,16 +952,7 @@ proxies:
   type: http
   username: ''
   udp: true
-- name: 青枫资源分享@QFZYFX 🇺🇸US_5|2.6MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.204
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-  udp: true
-- name: 青枫资源分享@QFZYFX 🇺🇸US_6|2.6MB/s
+- name: 青枫资源分享@QFZYFX 🇺🇸US_4|2.0MB/s
   password: 'null'
   port: 9002
   server: 138.199.35.210
@@ -2017,58 +961,61 @@ proxies:
   type: http
   username: 'null'
   udp: true
+- name: 青枫资源分享@QFZYFX 🇺🇸US_5|704KB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.214
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇺🇸US_6|3.2MB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.217
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇺🇸US_7|978KB/s
+  password: ''
+  port: 9002
+  server: 138.199.35.214
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇺🇸US_8|1.1MB/s
+  password: ''
+  port: 9002
+  server: 138.199.35.196
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+  udp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 青枫资源分享@QFZYFX 🇺🇸US_7|1.6MB/s
+  name: 青枫资源分享@QFZYFX 🇺🇸US_9|3.2MB/s
   network: ws
   port: 443
-  server: web-production-da3d.up.railway.app
+  server: 213.183.51.211
   tls: true
   type: vless
   udp: true
-  uuid: 8c3f62a0-1d7e-4891-9437-74a0a7137a1a
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
   ws-opts:
     headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /vl-ws
+      Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.99 Safari/537.36
+    path: /pg/10086-dfc816f117c49173
   xudp: true
   packet-encoding: xudp
-  servername: web-production-da3d.up.railway.app
-- client-fingerprint: firefox
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-  name: 青枫资源分享@QFZYFX 🇺🇸US_8|633KB/s
-  network: grpc
-  port: 9892
-  reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-    short-id: 'aa'
-  server: 176.109.108.196
-  tls: true
-  type: vless
-  udp: true
-  uuid: 14777bd9-56a5-46f6-a94f-826b4800dc05
-  xudp: true
-  packet-encoding: xudp
-  servername: dl.google.com
-- client-fingerprint: qq
-  encryption: none
-  grpc-opts:
-    grpc-service-name: edge.sync.v1
-  name: 青枫资源分享@QFZYFX 🇺🇸US_9|532KB/s
-  network: grpc
-  port: 443
-  server: usa.mythos-wargame.fun
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2dd48980-5c2a-4f3b-bc8f-e20a8ae24ab1
-  xudp: true
-  packet-encoding: xudp
-  servername: usa.mythos-wargame.fun
+  servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -2261,129 +1208,89 @@ proxy-groups:
 - name: ♻️ 自动选择
   type: url-test
   proxies:
-  - 青枫资源分享@QFZYFX 🇦🇪AE_1|1023KB/s
-  - 青枫资源分享@QFZYFX 🇦🇪AE_2|1.0MB/s
-  - 青枫资源分享@QFZYFX 🇦🇹AT_1|684KB/s
-  - 青枫资源分享@QFZYFX 🇦🇹AT_2|526KB/s
-  - 青枫资源分享@QFZYFX 🇨🇱CL_1|630KB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_1|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_2|969KB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_3|1.7MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_4|694KB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_5|820KB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_6|805KB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_7|799KB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_8|1014KB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_9|578KB/s
-  - 青枫资源分享@QFZYFX 🇪🇪EE_1|593KB/s
-  - 青枫资源分享@QFZYFX 🇫🇮FI_1|518KB/s
-  - 青枫资源分享@QFZYFX 🇫🇷FR_1|1.0MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_1|1.9MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_2|674KB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_3|692KB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_4|1.4MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_5|699KB/s
-  - 青枫资源分享@QFZYFX 🇬🇪GE_1|590KB/s
-  - 青枫资源分享@QFZYFX 🇭🇰HK_1|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇭🇰HK_2|607KB/s
-  - 青枫资源分享@QFZYFX 🇭🇰HK_3|1.5MB/s
-  - 青枫资源分享@QFZYFX 🇭🇰HK_4|742KB/s
-  - 青枫资源分享@QFZYFX 🇭🇰HK_5|829KB/s
-  - 青枫资源分享@QFZYFX 🇮🇩ID_1|574KB/s
-  - 青枫资源分享@QFZYFX 🇮🇷IR_1|751KB/s
-  - 青枫资源分享@QFZYFX 🇮🇷IR_2|555KB/s
-  - 青枫资源分享@QFZYFX 🇮🇷IR_3|596KB/s
-  - 青枫资源分享@QFZYFX 🇮🇸IS_1|1.5MB/s
-  - 青枫资源分享@QFZYFX 🇯🇵JP_10|789KB/s
-  - 青枫资源分享@QFZYFX 🇯🇵JP_11|667KB/s
-  - 青枫资源分享@QFZYFX 🇯🇵JP_12|868KB/s
-  - 青枫资源分享@QFZYFX 🇯🇵JP_13|542KB/s
-  - 青枫资源分享@QFZYFX 🇯🇵JP_14|518KB/s
-  - 青枫资源分享@QFZYFX 🇯🇵JP_15|540KB/s
-  - 青枫资源分享@QFZYFX 🇯🇵JP_16|524KB/s
-  - 青枫资源分享@QFZYFX 🇯🇵JP_17|580KB/s
-  - 青枫资源分享@QFZYFX 🇯🇵JP_18|525KB/s
-  - 青枫资源分享@QFZYFX 🇯🇵JP_19|567KB/s
-  - 青枫资源分享@QFZYFX 🇯🇵JP_1|968KB/s
-  - 青枫资源分享@QFZYFX 🇯🇵JP_20|528KB/s
-  - 青枫资源分享@QFZYFX 🇯🇵JP_21|528KB/s
-  - 青枫资源分享@QFZYFX 🇯🇵JP_22|539KB/s
-  - 青枫资源分享@QFZYFX 🇯🇵JP_23|548KB/s
-  - 青枫资源分享@QFZYFX 🇯🇵JP_24|526KB/s
-  - 青枫资源分享@QFZYFX 🇯🇵JP_25|526KB/s
-  - 青枫资源分享@QFZYFX 🇯🇵JP_26|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇯🇵JP_27|980KB/s
-  - 青枫资源分享@QFZYFX 🇯🇵JP_28|1.7MB/s
-  - 青枫资源分享@QFZYFX 🇯🇵JP_29|1.8MB/s
-  - 青枫资源分享@QFZYFX 🇯🇵JP_2|3.4MB/s
-  - 青枫资源分享@QFZYFX 🇯🇵JP_30|1.9MB/s
-  - 青枫资源分享@QFZYFX 🇯🇵JP_31|543KB/s
-  - 青枫资源分享@QFZYFX 🇯🇵JP_32|717KB/s
-  - 青枫资源分享@QFZYFX 🇯🇵JP_33|767KB/s
-  - 青枫资源分享@QFZYFX 🇯🇵JP_34|762KB/s
-  - 青枫资源分享@QFZYFX 🇯🇵JP_35|864KB/s
-  - 青枫资源分享@QFZYFX 🇯🇵JP_36|1.5MB/s
-  - 青枫资源分享@QFZYFX 🇯🇵JP_37|786KB/s
-  - 青枫资源分享@QFZYFX 🇯🇵JP_3|3.4MB/s
-  - 青枫资源分享@QFZYFX 🇯🇵JP_4|4.9MB/s
-  - 青枫资源分享@QFZYFX 🇯🇵JP_5|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇯🇵JP_6|989KB/s
-  - 青枫资源分享@QFZYFX 🇯🇵JP_7|895KB/s
-  - 青枫资源分享@QFZYFX 🇯🇵JP_8|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇯🇵JP_9|682KB/s
-  - 青枫资源分享@QFZYFX 🇰🇷KR_1|526KB/s
-  - 青枫资源分享@QFZYFX 🇰🇷KR_2|956KB/s
-  - 青枫资源分享@QFZYFX 🇰🇷KR_3|878KB/s
-  - 青枫资源分享@QFZYFX 🇱🇹LT_1|675KB/s
-  - 青枫资源分享@QFZYFX 🇲🇴MO_1|618KB/s
-  - 青枫资源分享@QFZYFX 🇲🇾MY_1|528KB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_1|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_2|1.7MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_3|3.3MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_4|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_5|561KB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_6|1.7MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_7|673KB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_8|554KB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_9|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇳🇴NO_1|737KB/s
-  - 青枫资源分享@QFZYFX 🇷🇴RO_1|521KB/s
-  - 青枫资源分享@QFZYFX 🇷🇴RO_2|578KB/s
-  - 青枫资源分享@QFZYFX 🇷🇴RO_3|525KB/s
-  - 青枫资源分享@QFZYFX 🇸🇬SG_1|573KB/s
-  - 青枫资源分享@QFZYFX 🇸🇬SG_2|1.7MB/s
-  - 青枫资源分享@QFZYFX 🇸🇬SG_3|730KB/s
-  - 青枫资源分享@QFZYFX 🇹🇷TR_1|523KB/s
-  - 青枫资源分享@QFZYFX 🇹🇷TR_2|1.4MB/s
-  - 青枫资源分享@QFZYFX 🇹🇼TW_1|1.0MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_10|5.2MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_11|870KB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_12|905KB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_13|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_14|1.2MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_15|1014KB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_16|776KB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_17|762KB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_18|767KB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_19|733KB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_1|574KB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_20|579KB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_21|1.2MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_22|976KB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_23|512KB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_24|560KB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_25|639KB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_26|708KB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_27|644KB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_28|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_2|560KB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_3|514KB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_4|650KB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_5|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_6|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_7|1.6MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_8|633KB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_9|532KB/s
+  - 青枫资源分享@QFZYFX 🇨🇦CA_1|1.5MB/s
+  - 青枫资源分享@QFZYFX 🇨🇭CH_1|2.7MB/s|R002-260618
+  - 青枫资源分享@QFZYFX 🇩🇪DE_1|2.1MB/s
+  - 青枫资源分享@QFZYFX 🇩🇪DE_2|1.2MB/s
+  - 青枫资源分享@QFZYFX 🇩🇪DE_3|1.2MB/s
+  - 青枫资源分享@QFZYFX 🇩🇪DE_4|3.2MB/s
+  - 青枫资源分享@QFZYFX 🇩🇪DE_5|1.4MB/s|R002-260618
+  - 青枫资源分享@QFZYFX 🇩🇪DE_6|1.2MB/s|P002-260618
+  - 青枫资源分享@QFZYFX 🇩🇪DE_7|798KB/s
+  - 青枫资源分享@QFZYFX 🇪🇪EE_1|2.2MB/s
+  - 青枫资源分享@QFZYFX 🇪🇪EE_2|1.5MB/s
+  - 青枫资源分享@QFZYFX 🇫🇮FI_1|2.2MB/s
+  - 青枫资源分享@QFZYFX 🇫🇷FR_1|1.9MB/s
+  - 青枫资源分享@QFZYFX 🇫🇷FR_2|933KB/s
+  - 青枫资源分享@QFZYFX 🇫🇷FR_3|2.1MB/s
+  - 青枫资源分享@QFZYFX 🇬🇧GB_1|2.0MB/s|R002-260618
+  - 青枫资源分享@QFZYFX 🇬🇧GB_2|2.5MB/s|R002-260618
+  - 青枫资源分享@QFZYFX 🇭🇰HK_1|1.8MB/s
+  - 青枫资源分享@QFZYFX 🇮🇳IN_1|3.3MB/s
+  - 青枫资源分享@QFZYFX 🇮🇹IT_1|2.1MB/s
+  - 青枫资源分享@QFZYFX 🇯🇵JP_1|1.1MB/s
+  - 青枫资源分享@QFZYFX 🇯🇵JP_2|961KB/s
+  - 青枫资源分享@QFZYFX 🇯🇵JP_3|8.7MB/s
+  - 青枫资源分享@QFZYFX 🇰🇷KR_1|1.9MB/s
+  - 青枫资源分享@QFZYFX 🇰🇷KR_2|822KB/s
+  - 青枫资源分享@QFZYFX 🇱🇻LV_1|2.9MB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_1|566KB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_2|1.1MB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_3|2.2MB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_4|1.8MB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_5|542KB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_6|2.9MB/s|P002-260618
+  - 青枫资源分享@QFZYFX 🇳🇱NL_7|2.8MB/s|R002-260618
+  - 青枫资源分享@QFZYFX 🇳🇱NL_8|2.4MB/s|P002-260618
+  - 青枫资源分享@QFZYFX 🇵🇱PL_1|858KB/s
+  - 青枫资源分享@QFZYFX 🇷🇴RO_1|639KB/s|P002-260618
+  - 青枫资源分享@QFZYFX 🇷🇴RO_2|642KB/s|P002-260618
+  - 青枫资源分享@QFZYFX 🇷🇴RO_3|921KB/s
+  - 青枫资源分享@QFZYFX 🇸🇪SE_1|1.1MB/s
+  - 青枫资源分享@QFZYFX 🇸🇪SE_2|1.5MB/s
+  - 青枫资源分享@QFZYFX 🇸🇰SK_1|2.0MB/s
+  - 青枫资源分享@QFZYFX 🇺🇦UA_1|2.5MB/s
+  - 青枫资源分享@QFZYFX 🇺🇦UA_2|2.7MB/s
+  - 青枫资源分享@QFZYFX 🇺🇦UA_3|2.6MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_10|684KB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_11|553KB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_12|1.1MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_13|3.3MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_14|2.5MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_15|913KB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_16|3.3MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_17|948KB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_18|512KB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_19|2.5MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_1|2.6MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_20|2.5MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_21|942KB/s|R002-260618
+  - 青枫资源分享@QFZYFX 🇺🇸US_22|1.2MB/s|R002-260618
+  - 青枫资源分享@QFZYFX 🇺🇸US_23|1.7MB/s|R002-260618
+  - 青枫资源分享@QFZYFX 🇺🇸US_24|2.7MB/s|R002-260618
+  - 青枫资源分享@QFZYFX 🇺🇸US_25|1.5MB/s|R002-260618
+  - 青枫资源分享@QFZYFX 🇺🇸US_26|2.0MB/s|R002-260618
+  - 青枫资源分享@QFZYFX 🇺🇸US_27|656KB/s|R002-260618
+  - 青枫资源分享@QFZYFX 🇺🇸US_28|1.2MB/s|R002-260618
+  - 青枫资源分享@QFZYFX 🇺🇸US_29|2.5MB/s|R002-260618
+  - 青枫资源分享@QFZYFX 🇺🇸US_2|646KB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_30|2.5MB/s|R002-260618
+  - 青枫资源分享@QFZYFX 🇺🇸US_31|2.4MB/s|R002-260618
+  - 青枫资源分享@QFZYFX 🇺🇸US_32|2.5MB/s|P002-260618
+  - 青枫资源分享@QFZYFX 🇺🇸US_33|1.4MB/s|P002-260618
+  - 青枫资源分享@QFZYFX 🇺🇸US_34|2.6MB/s|P002-260618
+  - 青枫资源分享@QFZYFX 🇺🇸US_35|864KB/s|P002-260618
+  - 青枫资源分享@QFZYFX 🇺🇸US_36|1.3MB/s|R002-260618
+  - 青枫资源分享@QFZYFX 🇺🇸US_37|2.5MB/s|R002-260618
+  - 青枫资源分享@QFZYFX 🇺🇸US_38|2.5MB/s|R002-260618
+  - 青枫资源分享@QFZYFX 🇺🇸US_39|2.5MB/s|P002-260618
+  - 青枫资源分享@QFZYFX 🇺🇸US_3|1.0MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_4|2.0MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_5|704KB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_6|3.2MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_7|978KB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_8|1.1MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_9|3.2MB/s
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
@@ -2559,4 +1466,4 @@ rules:
 - DOMAIN-SUFFIX,openai.com,🌍 国外媒体
 - GEOIP,CN,🎯 全球直连
 - MATCH,🐟 漏网之鱼
-# updated: 2026-08-26 14:01:12
+# updated: 2026-08-27 10:21:50
