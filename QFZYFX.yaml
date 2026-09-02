@@ -64,45 +64,67 @@ tun:
   inet4-route-exclude-address:
   - 192.168.0.0/16
 proxies:
-- auth: f87376e17da040ed04c9665ce8972930
-  name: 青枫资源分享@QFZYFX ❓Other_1|441KB/s
-  password: f87376e17da040ed04c9665ce8972930
-  port: 50160
-  server: 138.2.73.238
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  udp: true
-- name: 青枫资源分享@QFZYFX ❓Other_2|2.2MB/s|R002-260618
-  port: 443
-  server: 149.50.216.65
+- name: 青枫资源分享@QFZYFX ❓Other_1|2.6MB/s|R002-260618
+  port: 9002
+  server: 138.199.35.209
   skip-cert-verify: true
   sub_tag: R002-260618
   tls: true
   type: http
   udp: true
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 青枫资源分享@QFZYFX ❓Other_3|776KB/s
-  port: 5001
-  reality-opts:
-    public-key: HNjZe5pYUhcuE8sASYVVrVSMW_jFfekgLnrnO4xXIyQ
-    short-id: 'a1b2c3d4'
-  server: 31.76.4.128
+- name: 青枫资源分享@QFZYFX ❓Other_2|2.7MB/s|R002-260618
+  port: 9002
+  server: 138.199.35.195
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX ❓Other_3|205KB/s
+  port: 999
+  server: 190.14.231.137
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX ❓Other_4|150KB/s
+  password: ''
+  port: 8090
+  server: 209.148.53.153
   skip-cert-verify: true
   tls: true
-  type: vless
+  type: http
+  username: ''
   udp: true
-  uuid: 5a92a9d2-3067-49cd-bfc5-989bbdfc5d52
-  network: tcp
-  servername: fi.aeternavpn.space
-- name: 青枫资源分享@QFZYFX ❓Other_4|175KB/s
-  port: 3133
-  server: 89.46.78.17
+- auth: a34f3990b69f44bfa0d32385
+  name: 青枫资源分享@QFZYFX 🇦🇺AU_1|509KB/s
+  obfs: salamander
+  obfs-password: a34f3990b69f44bfa0d32385
+  password: a34f3990b69f44bfa0d32385
+  port: 20000
+  ports: 20000-30000
+  server: 149.118.70.185
+  skip-cert-verify: true
+  sni: rmgyvpn.rest
+  type: hysteria2
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇦🇺AU_2|2.1MB/s|P002-260618
+  password: None
+  port: 443
+  server: 103.62.50.130
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇧🇪BE_1|2.6MB/s|R002-260618
+  port: 443
+  server: 146.70.176.242
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
   type: http
   udp: true
 - client-fingerprint: firefox
-  name: 青枫资源分享@QFZYFX 🇧🇷BR_1|1.2MB/s
+  name: 青枫资源分享@QFZYFX 🇧🇷BR_1|2.0MB/s
   network: xhttp
   port: 8445
   reality-opts:
@@ -119,12 +141,25 @@ proxies:
     x-padding-bytes: 50-150
     x-padding-obfs-mode: false
   servername: strm.yandex.net
-- name: 青枫资源分享@QFZYFX 🇧🇷BR_2|1.7MB/s
+- name: 青枫资源分享@QFZYFX 🇧🇷BR_2|197KB/s
   port: 61234
   server: 187.103.125.104
   type: http
   udp: true
-- name: 青枫资源分享@QFZYFX 🇨🇭CH_1|2.0MB/s|R002-260618
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 青枫资源分享@QFZYFX 🇨🇦CA_1|494KB/s
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: SfFw8nx4WUjN5xs-4-al4coSfu31GWgWTpTJiwse420
+  server: 155.248.229.115
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5c9b8a5f-0863-4cfa-9c1d-aa1a5b7415df
+  servername: tesla.com
+- name: 青枫资源分享@QFZYFX 🇨🇭CH_1|292KB/s|R002-260618
   port: 9443
   server: 37.120.213.210
   skip-cert-verify: true
@@ -132,47 +167,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 青枫资源分享@QFZYFX 🇨🇭CH_2|2.6MB/s
-  port: 443
-  reality-opts:
-    public-key: IAdOYYmEMPFAhpVUhqfML58AVtYPdAb71R_HAPf0N0k
-  server: de48.tranzit-net.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: be3c103d-2c93-4f8e-adb9-2631537f80eb
-  network: tcp
-  servername: d.tranzit-net.ru
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 青枫资源分享@QFZYFX 🇨🇭CH_3|3.2MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: IAdOYYmEMPFAhpVUhqfML58AVtYPdAb71R_HAPf0N0k
-    short-id: ''
-  server: 159.200.230.117
-  tls: true
-  type: vless
-  udp: true
-  uuid: be3c103d-2c93-4f8e-adb9-2631537f80eb
-  xudp: true
-  packet-encoding: xudp
-  servername: d.tranzit-net.ru
-- name: 青枫资源分享@QFZYFX 🇨🇴CO_1|170KB/s
-  network: tcp
-  port: 62145
-  server: 157.137.233.220
-  type: vless
-  udp: true
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-  xudp: true
-  packet-encoding: xudp
-- name: 青枫资源分享@QFZYFX 🇨🇿CZ_1|1.3MB/s|P002-260618
+- name: 青枫资源分享@QFZYFX 🇨🇿CZ_1|377KB/s|P002-260618
   password: None
   port: 443
   server: 185.216.35.130
@@ -182,94 +177,86 @@ proxies:
   type: http
   udp: true
 - encryption: none
-  name: 青枫资源分享@QFZYFX 🇩🇪DE_10|189KB/s
-  network: tcp
-  port: 56076
-  server: ser.astershop.ir
+  http-opts:
+    headers:
+      Host:
+      - amp-api-edge.apps.apple.com
+    path:
+    - /
+  name: 青枫资源分享@QFZYFX 🇩🇪DE_10|2.6MB/s
+  network: http
+  port: 8443
+  server: tp.paydar.site
   type: vless
   udp: true
-  uuid: efabf259-6e31-4fb3-aa96-fa29287fca66
+  uuid: a544b3c6-8397-48b8-a12c-187106f65e3b
   xudp: true
   packet-encoding: xudp
-- name: 青枫资源分享@QFZYFX 🇩🇪DE_1|814KB/s|R002-260618
+- encryption: mlkem768x25519plus.random.0rtt.swY_aKEuuHUHKO0BHVV2uot-UFbtrXpLWr7g8uZk0xk
+  http-opts:
+    headers:
+      Host:
+      - www.unscramblerer.com
+    path:
+    - /
+  name: 青枫资源分享@QFZYFX 🇩🇪DE_11|2.5MB/s
+  network: http
+  port: 56539
+  server: 5.75.201.211
+  type: vless
+  udp: true
+  uuid: 77984ae0-58cb-4bf3-9fe4-346043bf71b2
+  xudp: true
+  packet-encoding: xudp
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 青枫资源分享@QFZYFX 🇩🇪DE_12|2.5MB/s
+  network: tcp
+  port: 40792
+  reality-opts:
+    public-key: CkuULNczLmaVd-vabRfj3UpPd__M7BlrXivZ728Toyg
+    short-id: '546b264aac9b6fed'
+  server: 5.75.201.211
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4cb63132-e084-4676-ac67-1ed6b60be05a
+  xudp: true
+  packet-encoding: xudp
+  servername: amp-api-edge.apps.apple.com
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 青枫资源分享@QFZYFX 🇩🇪DE_13|3.2MB/s
+  network: ws
+  port: 443
+  server: 199.232.78.160
+  tls: true
+  type: vless
+  udp: true
+  uuid: XpnTeam-44
+  ws-opts:
+    headers:
+      Host: Appxdn.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
+    path: /
+  xudp: true
+  packet-encoding: xudp
+  servername: ssl.fastly.com
+- name: 青枫资源分享@QFZYFX 🇩🇪DE_1|1.6MB/s|R002-260618
   port: 11111
   server: 103.237.102.191
   sub_tag: R002-260618
   type: http
   udp: true
-- name: 青枫资源分享@QFZYFX 🇩🇪DE_2|3.0MB/s|R002-260618
-  port: 9443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-- name: 青枫资源分享@QFZYFX 🇩🇪DE_3|249KB/s
-  port: 80
-  server: 193.37.70.182
-  type: http
-  udp: true
-- cipher: 2022-blake3-chacha20-poly1305
-  name: 青枫资源分享@QFZYFX 🇩🇪DE_4|2.5MB/s
-  password: 1XTdzbvLts9QsSGsu6VgI1Vu65EFYaQurcuu3vlt/ak=
-  port: 59924
-  server: 138.2.161.254
-  type: ss
-  udp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 青枫资源分享@QFZYFX 🇩🇪DE_5|1.5MB/s
-  network: ws
-  port: 443
-  server: 8.6.112.0
-  tls: true
-  type: vless
-  udp: true
-  uuid: 03c48eca-e0aa-4e18-998c-1f53f1de293c
-  ws-opts:
-    headers:
-      Host: cf6.rumedia-cdn.com
-    path: /cdn/v3/live
-  servername: cf6.rumedia-cdn.com
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 青枫资源分享@QFZYFX 🇩🇪DE_6|857KB/s
-  network: ws
-  port: 443
-  server: 140.248.186.45
-  tls: true
-  type: vless
-  udp: true
-  uuid: XpnTeam-40
-  ws-opts:
-    headers:
-      Host: Appxdn.global.ssl.fastly.net
-    path: /
-  servername: ssl.fastly.com
-- client-fingerprint: firefox
-  name: 青枫资源分享@QFZYFX 🇩🇪DE_7|603KB/s
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: 2P7D_IkxXWre3YziEe2tkF9L_gUbdZE_WCu9_SQq4hE
-    short-id: '2b5b1ffa8a6a1a68'
-  server: 178.236.254.76
-  tls: true
-  type: vless
-  udp: true
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-  xhttp-opts:
-    host: ya.ru
-    path: /web/cdn/v2/assets
-  servername: ya.ru
 - client-fingerprint: firefox
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: grpc-tunnel
-  name: 青枫资源分享@QFZYFX 🇩🇪DE_8|3.0MB/s
+  name: 青枫资源分享@QFZYFX 🇩🇪DE_2|3.6MB/s
   network: grpc
   port: 2054
   reality-opts:
@@ -280,70 +267,302 @@ proxies:
   udp: true
   uuid: 75079a7f-75b5-418b-8a65-f7b2f438cd4a
   servername: www.ibm.com
+- cipher: 2022-blake3-chacha20-poly1305
+  name: 青枫资源分享@QFZYFX 🇩🇪DE_3|3.2MB/s
+  password: 6F+3jwawToOgQmPxWIG7YQ/7cCagnmEmgwrXfIkK3qE=
+  port: 59924
+  server: 130.162.59.150
+  type: ss
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇩🇪DE_4|828KB/s
+  network: ws
+  port: 2087
+  server: 188.220.67.140
+  tls: false
+  type: vless
+  udp: true
+  uuid: 90da514d-8888-4a53-912e-ac2981c8c6ee
+  ws-opts:
+    path: /8f2690e2d016
+- encryption: none
+  name: 青枫资源分享@QFZYFX 🇩🇪DE_5|677KB/s
+  network: ws
+  port: 2087
+  server: 163.8.195.241
+  type: vless
+  udp: true
+  uuid: 56ba5d34-ef22-4ba6-8090-4188b807df54
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/46.0.2490.86 Safari/537.36
+    path: /29c8fed7ca22
+  xudp: true
+  packet-encoding: xudp
+- name: 青枫资源分享@QFZYFX 🇩🇪DE_6|740KB/s
+  network: ws
+  port: 2087
+  server: 188.220.67.198
+  type: vless
+  udp: true
+  uuid: 90da514d-8888-4a53-912e-ac2981c8c6ee
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /8f2690e2d016
+  xudp: true
+  packet-encoding: xudp
 - client-fingerprint: chrome
-  name: 青枫资源分享@QFZYFX 🇩🇪DE_9|1.7MB/s
-  network: xhttp
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 青枫资源分享@QFZYFX 🇩🇪DE_7|646KB/s
+  network: tcp
   port: 443
-  server: www.speedtest.net
+  reality-opts:
+    public-key: u51rZT5vJj8nO80QBBHVW2-WA5OzzQ1eL6euvszWLQI
+    short-id: '09ef88a6'
+  server: 88.216.190.206
   tls: true
   type: vless
   udp: true
-  uuid: XpnTeam-41
+  uuid: 2f600710-9f4e-4eab-8de1-89f60a878e55
+  xudp: true
+  packet-encoding: xudp
+  servername: app4.goonars.com
+- client-fingerprint: chrome
+  encryption: none
+  name: 青枫资源分享@QFZYFX 🇩🇪DE_8|413KB/s
+  network: xhttp
+  port: 443
+  server: 188.114.97.2
+  tls: true
+  type: vless
+  udp: true
+  uuid: XpnTeam-45
   xhttp-opts:
     host: edge-dgskj2v37hkd82n-sslhost.aliyOstd.sitE.
     mode: auto
     path: /
     x-padding-bytes: 100-1000
+  xudp: true
+  packet-encoding: xudp
   servername: e9abdf3df549b59f-gr2.aliyoStd.sitE.
-- client-fingerprint: firefox
+- client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
-  name: 青枫资源分享@QFZYFX 🇫🇮FI_1|2.4MB/s
+  name: 青枫资源分享@QFZYFX 🇩🇪DE_9|428KB/s
   network: tcp
   port: 443
   reality-opts:
-    public-key: IAdOYYmEMPFAhpVUhqfML58AVtYPdAb71R_HAPf0N0k
-  server: de48.tranzit-net.ru
+    public-key: u51rZT5vJj8nO80QBBHVW2-WA5OzzQ1eL6euvszWLQI
+    short-id: '09ef88a6'
+  server: app4.goonars.com
   tls: true
   type: vless
   udp: true
-  uuid: be3c103d-2c93-4f8e-adb9-2631537f80eb
-  servername: d.tranzit-net.ru
-- down: ''
-  fingerprint: ''
-  name: 青枫资源分享@QFZYFX 🇫🇮FI_2|236KB/s
-  obfs: ''
-  obfs-password: ''
-  password: 1206bad5-dcc9-410e-9595-d9fe9ee54085
-  port: 5002
-  server: 31.76.4.128
-  skip-cert-verify: false
-  sni: fi.aeternavpn.space
-  type: hysteria2
-  up: ''
-  udp: true
-- client-fingerprint: qq
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 青枫资源分享@QFZYFX 🇫🇮FI_3|1.6MB/s
-  network: tcp
-  port: 5001
-  reality-opts:
-    public-key: HNjZe5pYUhcuE8sASYVVrVSMW_jFfekgLnrnO4xXIyQ
-    short-id: 'a1b2c3d4'
-  server: 31.76.4.128
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5a92a9d2-3067-49cd-bfc5-989bbdfc5d52
+  uuid: 2f600710-9f4e-4eab-8de1-89f60a878e55
   xudp: true
   packet-encoding: xudp
-  servername: fi.aeternavpn.space
+  servername: app4.goonars.com
 - client-fingerprint: chrome
-  name: 青枫资源分享@QFZYFX 🇫🇷FR_10|168KB/s|B007-260618
+  encryption: none
+  grpc-opts:
+    grpc-service-name: br-grpc
+  name: 青枫资源分享@QFZYFX 🇪🇪EE_1|3.1MB/s
+  network: grpc
+  port: 8443
+  reality-opts:
+    public-key: dsebO3X7JFKSr58cyBgvWp6oBjcbU2j8UQeQNNZWRB8
+    short-id: ''
+  server: 144.31.107.115
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1d3c852f-3ad0-46b0-b698-7ec999655cfa
+  xudp: true
+  packet-encoding: xudp
+  servername: ru2.ghostyconnect.org
+- encryption: none
+  name: 青枫资源分享@QFZYFX 🇫🇮FI_1|2.1MB/s
+  network: ws
+  port: 80
+  server: 146.75.119.82
+  type: vless
+  udp: true
+  uuid: 5cb4898f-a691-4499-aa35-78e09efd51c2
+  ws-opts:
+    headers:
+      Host: rb24.ir
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1713 Build/MRA58K) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
+    path: /ws/?ed=2048/@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz/?2048
+  xudp: true
+  packet-encoding: xudp
+- name: 青枫资源分享@QFZYFX 🇫🇷FR_10|1.6MB/s
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 60111
+  server: 62.210.7.139
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria2
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇫🇷FR_11|303KB/s
+  port: 1088
+  server: 51.178.49.241
+  type: socks5
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 青枫资源分享@QFZYFX 🇫🇷FR_12|244KB/s
+  network: tcp
+  port: 8444
+  reality-opts:
+    public-key: U2BHsyRo3bF289dW-3sDOyBxgAicl2AgoMjLpyIjNRo
+  server: 158.178.198.63
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5c9b8a5f-0863-4cfa-9c1d-aa1a5b7415df
+  servername: tesla.com
+- name: 青枫资源分享@QFZYFX 🇫🇷FR_13|180KB/s
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 51133
+  server: ip4.934618.xyz
+  skip-cert-verify: true
+  sni: ip4.934618.xyz
+  type: anytls
+  udp: true
+- encryption: none
+  name: 青枫资源分享@QFZYFX 🇫🇷FR_14|203KB/s
+  network: tcp
+  port: 37710
+  server: 136.244.112.46
+  type: vless
+  udp: true
+  uuid: 4283865b-7145-44d3-9855-96298c47424d
+  xudp: true
+  packet-encoding: xudp
+- client-fingerprint: chrome
+  name: 青枫资源分享@QFZYFX 🇫🇷FR_15|602KB/s
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.133
+  server: 172.67.149.60
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 青枫资源分享@QFZYFX 🇫🇷FR_16|1.7MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.121
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 青枫资源分享@QFZYFX 🇫🇷FR_17|472KB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.246
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/46.0.2490.86 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 青枫资源分享@QFZYFX 🇫🇷FR_18|1.0MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.19.229.21
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.87 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 青枫资源分享@QFZYFX 🇫🇷FR_19|406KB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.36
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
+    path: /assignment
+- cipher: aes-256-cfb
+  name: 青枫资源分享@QFZYFX 🇫🇷FR_1|685KB/s
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 95.170.13.47
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: 青枫资源分享@QFZYFX 🇫🇷FR_20|1.1MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.219
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; SM-G7102 Build/KOT49H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 青枫资源分享@QFZYFX 🇫🇷FR_21|923KB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.77
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 青枫资源分享@QFZYFX 🇫🇷FR_22|763KB/s|B007-260618
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.225
   skip-cert-verify: false
   sni: www.ignitelimit.com
   sub_tag: B007-260618
@@ -351,46 +570,67 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/52.0.2743.116 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: 青枫资源分享@QFZYFX 🇫🇷FR_11|140KB/s|A001-260618
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.14
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  sub_tag: A001-260618
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.181 Safari/537.36
+        like Gecko) Chrome/62.0.3202.94 Safari/537.36
     path: /assignment
-- client-fingerprint: chrome
-  name: 青枫资源分享@QFZYFX 🇫🇷FR_12|270KB/s
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: ios
+  name: 青枫资源分享@QFZYFX 🇫🇷FR_23|2.1MB/s|B007-260618
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.143
+  server: 45.130.125.158
   skip-cert-verify: false
   sni: www.ignitelimit.com
+  sub_tag: B007-260618
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.132 Safari/537.36
     path: /assignment
 - client-fingerprint: chrome
-  name: 青枫资源分享@QFZYFX 🇫🇷FR_13|139KB/s|C002-260622
+  name: 青枫资源分享@QFZYFX 🇫🇷FR_24|180KB/s|C002-260622
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.73
+  server: 104.16.174.46
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 青枫资源分享@QFZYFX 🇫🇷FR_25|392KB/s|C002-260622
+  network: ws
+  password: humanity
+  port: 443
+  server: 45.130.125.160
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 青枫资源分享@QFZYFX 🇫🇷FR_26|182KB/s|C002-260622
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.72
   skip-cert-verify: false
   sni: www.ignitelimit.com
   sub_tag: C002-260622
@@ -399,132 +639,208 @@ proxies:
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
     path: /assignment
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 青枫资源分享@QFZYFX 🇫🇷FR_14|131KB/s
-  port: 443
-  reality-opts:
-    public-key: rCkSHJ7goy7ZvSlau4LfXF-QLloOJMNeMxpeeQtwtVs
-    short-id: '4fa44664f6a566d3'
-  server: germany.superbuba.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: d4cae7df-50a1-428c-bd62-881c8f3bbd90
-  network: tcp
-  servername: germany.superbuba.top
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 青枫资源分享@QFZYFX 🇫🇷FR_15|159KB/s
-  port: 443
-  reality-opts:
-    public-key: rCkSHJ7goy7ZvSlau4LfXF-QLloOJMNeMxpeeQtwtVs
-    short-id: '4fa44664f6a566d3'
-  server: 45.95.96.225
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: d4cae7df-50a1-428c-bd62-881c8f3bbd90
-  network: tcp
-  servername: germany.superbuba.top
-- name: 青枫资源分享@QFZYFX 🇫🇷FR_16|146KB/s
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 60111
-  server: 62.210.7.139
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
-  udp: true
-- name: 青枫资源分享@QFZYFX 🇫🇷FR_17|736KB/s
-  port: 1088
-  server: 51.178.49.241
-  type: socks5
-  udp: true
-- cipher: aes-256-cfb
-  name: 青枫资源分享@QFZYFX 🇫🇷FR_1|752KB/s
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 95.170.13.47
-  type: ss
-  udp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 青枫资源分享@QFZYFX 🇫🇷FR_2|240KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: rCkSHJ7goy7ZvSlau4LfXF-QLloOJMNeMxpeeQtwtVs
-    short-id: '4fa44664f6a566d3'
-  server: germany.superbuba.top
-  tls: true
-  type: vless
-  uuid: d4cae7df-50a1-428c-bd62-881c8f3bbd90
-  udp: true
-  servername: germany.superbuba.top
 - client-fingerprint: chrome
-  encryption: none
-  name: 青枫资源分享@QFZYFX 🇫🇷FR_3|196KB/s
-  network: xhttp
-  port: 65513
-  reality-opts:
-    public-key: tQeEamJmYVUUfjRLX7ETvMnPj4DrHzRhR5TI684oYgg
-    short-id: '21569dd6'
-  server: 2001:bc8:32d7:302::10
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2567e2e0-8d4c-4c51-aee9-5d1f36024472
-  xhttp-opts:
-    path: /6eg3r4an
-  xudp: true
-  packet-encoding: xudp
-  servername: www.yahoo.com
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 青枫资源分享@QFZYFX 🇫🇷FR_4|1.3MB/s
-  network: tcp
+  name: 青枫资源分享@QFZYFX 🇫🇷FR_27|147KB/s|C002-260622
+  network: ws
+  password: humanity
   port: 443
-  reality-opts:
-    public-key: rCkSHJ7goy7ZvSlau4LfXF-QLloOJMNeMxpeeQtwtVs
-    short-id: '4fa44664f6a566d3'
-  server: 45.95.96.225
-  tls: true
-  type: vless
+  server: 104.16.73.213
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  sub_tag: C002-260622
+  type: trojan
   udp: true
-  uuid: d4cae7df-50a1-428c-bd62-881c8f3bbd90
-  servername: germany.superbuba.top
-- name: 青枫资源分享@QFZYFX 🇫🇷FR_5|255KB/s
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.79 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 青枫资源分享@QFZYFX 🇫🇷FR_28|132KB/s|C002-260622
+  network: ws
+  password: humanity
+  port: 443
+  server: 8.6.112.0
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.117 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 青枫资源分享@QFZYFX 🇫🇷FR_29|170KB/s|C002-260622
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.175
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.139 Safari/537.36
+    path: /assignment
+- name: 青枫资源分享@QFZYFX 🇫🇷FR_2|131KB/s
   port: 8888
   server: 37.59.125.131
   type: http
   udp: true
+- client-fingerprint: chrome
+  name: 青枫资源分享@QFZYFX 🇫🇷FR_30|350KB/s|C002-260622
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.7.70
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 青枫资源分享@QFZYFX 🇫🇷FR_31|239KB/s|C002-260622
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.210
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 青枫资源分享@QFZYFX 🇫🇷FR_32|251KB/s|C002-260622
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.12.149
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 青枫资源分享@QFZYFX 🇫🇷FR_33|397KB/s|C002-260622
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.50
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 青枫资源分享@QFZYFX 🇫🇷FR_34|341KB/s|B007-260618
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.152
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  sub_tag: B007-260618
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 青枫资源分享@QFZYFX 🇫🇷FR_35|681KB/s|B007-260618
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.208
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  sub_tag: B007-260618
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; CPH1607 Build/MMB29M; wv) AppleWebKit/537.36
+        (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36
+    path: /assignment
+- name: 青枫资源分享@QFZYFX 🇫🇷FR_36|2.6MB/s|R002-260618
+  port: 443
+  server: 103.82.101.43
+  skip-cert-verify: true
+  sni: 76d1d3ecadca44efa2339867d7dfc9a1-8e928736d0f8dbdc.apache-iv.com
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
 - alpn:
   - h3
+  - h2
+  - http/1.1
   client-fingerprint: chrome
-  encryption: none
-  name: 青枫资源分享@QFZYFX 🇫🇷FR_6|2.0MB/s
-  network: xhttp
+  name: 青枫资源分享@QFZYFX 🇫🇷FR_37|717KB/s|S001-260618
+  network: ws
+  password: humanity
   port: 443
-  server: 104.21.10.161
-  tls: true
-  type: vless
+  server: join-telegram-channel-tirexnet.trex.kdns.fr
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  sub_tag: S001-260618
+  type: trojan
   udp: true
-  uuid: 40f9da4e-8267-48e5-8416-b35c37cf8ea8
-  xhttp-opts:
-    host: 145.baklajann.ru
-    mode: packet-up
-    path: /
-  xudp: true
-  packet-encoding: xudp
-  servername: 145.baklajann.ru
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /assignment
+- name: 青枫资源分享@QFZYFX 🇫🇷FR_38|2.2MB/s
+  port: 1443
+  server: 85.208.51.228
+  type: http
+  udp: true
 - client-fingerprint: chrome
-  name: 青枫资源分享@QFZYFX 🇫🇷FR_7|139KB/s
+  name: 青枫资源分享@QFZYFX 🇫🇷FR_39|203KB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: www.ignitelimit.com
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/49.0.2623.87 Safari/537.36
+    path: /assignment
+  sni: www.ignitelimit.com
+- client-fingerprint: chrome
+  name: 青枫资源分享@QFZYFX 🇫🇷FR_3|608KB/s
   network: ws
   password: humanity
   port: 443
@@ -539,7 +855,7 @@ proxies:
         Gecko) Chrome/48.0.2564.109 Safari/537.36
     path: /assignment
 - client-fingerprint: chrome
-  name: 青枫资源分享@QFZYFX 🇫🇷FR_8|132KB/s|B007-260618
+  name: 青枫资源分享@QFZYFX 🇫🇷FR_4|1.0MB/s|B007-260618
   network: ws
   password: humanity
   port: 443
@@ -555,7 +871,7 @@ proxies:
         Chrome/67.0.3396.99 Safari/537.36
     path: /assignment
 - client-fingerprint: chrome
-  name: 青枫资源分享@QFZYFX 🇫🇷FR_9|140KB/s|C002-260622
+  name: 青枫资源分享@QFZYFX 🇫🇷FR_5|746KB/s|C002-260622
   network: ws
   password: humanity
   port: 443
@@ -570,7 +886,70 @@ proxies:
       User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
         Chrome/12.0.742.100 Safari/534.30
     path: /assignment
-- name: 青枫资源分享@QFZYFX 🇬🇧GB_1|2.1MB/s|P002-260618
+- client-fingerprint: chrome
+  name: 青枫资源分享@QFZYFX 🇫🇷FR_6|1.1MB/s|B007-260618
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.133
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  sub_tag: B007-260618
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/52.0.2743.116 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 青枫资源分享@QFZYFX 🇫🇷FR_7|1.0MB/s|A001-260618
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.14
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  sub_tag: A001-260618
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.181 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 青枫资源分享@QFZYFX 🇫🇷FR_8|491KB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.143
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 青枫资源分享@QFZYFX 🇫🇷FR_9|765KB/s|C002-260622
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.73
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /assignment
+- name: 青枫资源分享@QFZYFX 🇬🇧GB_1|2.4MB/s|P002-260618
   password: None
   port: 9443
   server: 37.120.233.34
@@ -579,31 +958,55 @@ proxies:
   tls: true
   type: http
   udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 青枫资源分享@QFZYFX 🇬🇧GB_2|2.6MB/s
-  network: tcp
-  port: 49120
-  reality-opts:
-    public-key: 1h6RALL3XxV1ycc0Fs-9UWoxscumAUYkakszZMOrz1Q
-    short-id: 'd3a6bfdaa8c732'
-  server: clrpbqwolexxn.cfooov.xyz
-  tls: true
-  type: vless
-  uuid: 0234cdd9-35ee-40a5-b698-9820f09a04f5
-  udp: true
-  servername: www.lamer.com.hk
 - cipher: aes-256-cfb
-  country: 🇬🇧GB
-  delay: 656
-  name: 青枫资源分享@QFZYFX 🇬🇧GB_3|938KB/s
+  name: 青枫资源分享@QFZYFX 🇬🇧GB_2|2.6MB/s
   password: amazonskr05
   port: 443
-  server: 18.133.240.229
+  server: 18.132.203.206
   type: ss
   udp: true
 - client-fingerprint: chrome
-  name: 青枫资源分享@QFZYFX 🇭🇰HK_1|2.0MB/s
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 青枫资源分享@QFZYFX 🇬🇧GB_3|792KB/s
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
+    short-id: 'a7f3c91b2e6d84c0'
+  server: 31.76.70.112
+  tls: true
+  type: vless
+  udp: true
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+  xudp: true
+  packet-encoding: xudp
+  servername: auto.cendora.ru
+- encryption: none
+  http-opts:
+    headers:
+      Host:
+      - amp-api-edge.apps.apple.com
+    path:
+    - /
+  name: 青枫资源分享@QFZYFX 🇬🇧GB_4|2.8MB/s
+  network: http
+  port: 9090
+  server: 82.40.62.178
+  type: vless
+  udp: true
+  uuid: 'Telegramjoin:TurboConfigs '
+  xudp: true
+  packet-encoding: xudp
+- name: 青枫资源分享@QFZYFX 🇬🇧GB_5|2.2MB/s
+  port: 443
+  server: 37.120.233.50
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  name: 青枫资源分享@QFZYFX 🇭🇰HK_1|648KB/s
   network: ws
   port: 443
   server: hk.mkdir.kdns.fr
@@ -616,143 +1019,224 @@ proxies:
       Host: pwdern.pages.dev
     path: /
   servername: pwdern.pages.dev
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 青枫资源分享@QFZYFX 🇭🇰HK_2|185KB/s
-  network: tcp
-  port: 46899
-  reality-opts:
-    public-key: nbIa7R7_-I8T24U2C1Q3-wuiQVUmAahxdSo33AjKYiA
-    short-id: '63bdbd0662a3da'
-  server: schkyydshktbgwxx.cfooov.xyz
-  tls: true
-  type: vless
-  uuid: 0234cdd9-35ee-40a5-b698-9820f09a04f5
-  udp: true
-  servername: www.apple.com
-- name: 青枫资源分享@QFZYFX 🇭🇰HK_3|3.2MB/s
-  password: 50af1ef7-d2da-48ff-b86d-25ae89cf2a91
-  port: 60001
-  server: v4.awssg.tetocloud.store
-  skip-cert-verify: true
-  sni: v1-dy.ixigua.com
-  type: anytls
-  udp: true
-- name: 青枫资源分享@QFZYFX 🇮🇪IE_1|1.4MB/s
-  password: None
-  port: 443
-  server: 149.88.96.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- cipher: aes-256-cfb
-  name: 青枫资源分享@QFZYFX 🇰🇷KR_1|488KB/s
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.138
-  type: ss
-  udp: true
-- name: 青枫资源分享@QFZYFX 🇰🇷KR_2|279KB/s
-  port: 1090
-  server: 121.169.46.116
-  tls: false
-  type: socks5
-  username: T2clM0QlM0Q6
-  udp: true
-- name: 青枫资源分享@QFZYFX 🇳🇱NL_10|2.1MB/s|P002-260618
-  password: None
-  port: 23856
-  server: 51.159.225.196
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-- name: 青枫资源分享@QFZYFX 🇳🇱NL_11|400KB/s|R002-260618
-  port: 443
-  server: 185.140.209.235
-  skip-cert-verify: true
-  sni: 482c8436a1f7c908b48a1757abb5dd79-ce85c45206570905.apache-iv.com
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-- name: 青枫资源分享@QFZYFX 🇳🇱NL_12|320KB/s|R002-260618
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 82.196.9.7
-  sni: 52c40907.acsnet.co
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  username: testuser1
-- client-fingerprint: chrome
-  name: 青枫资源分享@QFZYFX 🇳🇱NL_13|253KB/s
+- alterId: 0
+  cipher: auto
+  name: 青枫资源分享@QFZYFX 🇭🇰HK_2|3.3MB/s
   network: ws
-  port: 443
-  server: 151.101.56.7
-  tls: true
-  type: vless
+  port: 16632
+  server: m.cnmjin.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
-  uuid: 363c62f2-3f2e-4b20-87eb-78765a67df25
+  uuid: 56174c24-a84b-4caf-b033-739728cc2773
   ws-opts:
     headers:
-      Host: pane2.global.ssl.fastly.net
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2053
-  servername: ssl.fastly.com
+      Host: af47ea9d24759da2ccb4dbdb6c4bb073.mobgslb.tbcache.com
+    path: /
+  xudp: true
+  packet-encoding: xudp
+- alterId: 0
+  cipher: auto
+  name: 青枫资源分享@QFZYFX 🇭🇰HK_3|4.2MB/s
+  network: ws
+  port: 16632
+  server: planb.mojcn.com.linuxlh.xin
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6605fd88-f41c-4c2a-90ee-6777ac0a32a2
+  ws-opts:
+    headers:
+      Host: 052977cd32d141678a739f13963d57ac.mobgslb.tbcache.com
+    path: /
+  xudp: true
+  packet-encoding: xudp
+- name: 青枫资源分享@QFZYFX 🇭🇰HK_4|171KB/s|R002-260618
+  port: 443
+  server: fan.240104.xyz
+  skip-cert-verify: true
+  sni: fan.240104.xyz
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: 青枫资源分享@QFZYFX 🇭🇰HK_5|571KB/s|R002-260618
+  network: ws
+  port: 443
+  server: cf.130519.xyz
+  skip-cert-verify: false
+  sub_tag: R002-260618
+  tls: true
+  type: vless
+  udp: true
+  uuid: 30610baf-4645-4c7b-9a22-0d0a0a79eab5
+  ws-opts:
+    headers:
+      Host: mao.kipfel.kdns.fr
+    path: /glasspanel/guest000_0_5de14443985f/
+  servername: mao.kipfel.kdns.fr
+- alterId: 0
+  cipher: auto
+  name: 青枫资源分享@QFZYFX 🇮🇳IN_1|3.4MB/s
+  network: ws
+  port: 16626
+  server: planb.mojcn.com.linuxlh.xin
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2498a366-dd3c-4f0b-832c-f2df12f7ee27
+  ws-opts:
+    headers:
+      Host: 791f9b5b1318471268a2dc21098376cc.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 青枫资源分享@QFZYFX 🇮🇳IN_2|3.2MB/s
+  network: ws
+  port: 16626
+  server: planb.mojcn.com.linuxlh.xin
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4a9bbf17-5684-452c-9b84-ba3743a5b819
+  ws-opts:
+    headers:
+      Host: f2a1fd8cc931919f1ada44cdfa8310e9.mobgslb.tbcache.com
+    path: /
+  xudp: true
+  packet-encoding: xudp
 - client-fingerprint: chrome
   encryption: none
-  name: 青枫资源分享@QFZYFX 🇳🇱NL_14|1.1MB/s
+  name: 青枫资源分享@QFZYFX 🇯🇵JP_1|294KB/s
+  network: ws
+  port: 52226
+  server: 720200.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 46f0c575-37ca-48fc-bde0-2efaa9708d17
+  ws-opts:
+    headers:
+      Host: 720200.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
+    path: /ws
+  xudp: true
+  packet-encoding: xudp
+  servername: 720200.org
+- client-fingerprint: chrome
+  name: 青枫资源分享@QFZYFX 🇲🇩MD_1|1.7MB/s
+  network: ws
+  port: 443
+  server: 193.36.38.17
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
+  ws-opts:
+    headers:
+      Host: eded-52n.pages.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/69.0.3497.100 Safari/537.36
+    path: /
+  xudp: true
+  packet-encoding: xudp
+  servername: eded-52n.pages.dev
+- auth: hysteria2_fastlane_eoa3x0r8k:6GudDh3lTuhL0Ma2RlGP1MOcHTPASzK4
+  name: 青枫资源分享@QFZYFX 🇳🇱NL_10|2.1MB/s
+  password: hysteria2_fastlane_eoa3x0r8k:6GudDh3lTuhL0Ma2RlGP1MOcHTPASzK4
+  port: 1935
+  server: 144.31.135.204
+  skip-cert-verify: true
+  sni: nl2.h.fastlanehosting.ru
+  type: hysteria2
+  udp: true
+- delay: 1052
+  name: 青枫资源分享@QFZYFX 🇳🇱NL_11|2.4MB/s
+  password: None
+  port: 9002
+  server: 84.17.47.146
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 青枫资源分享@QFZYFX 🇳🇱NL_12|2.0MB/s
+  network: ws
+  port: 8443
+  server: 5.129.214.249
+  tls: true
+  type: vless
+  udp: true
+  uuid: a3f59a62-b4ad-4f02-bfce-ef68e63ab6f7
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/59.0.3071.115 Safari/537.36
+    path: /api/user
+  xudp: true
+  packet-encoding: xudp
+  servername: nlxy.korgivps.ru
+- client-fingerprint: chrome
+  encryption: none
+  name: 青枫资源分享@QFZYFX 🇳🇱NL_13|3.5MB/s
   network: ws
   port: 443
   server: 199.232.78.159
   tls: true
   type: vless
   udp: true
-  uuid: a1ee277e-93b7-4aa9-86a2-c7ef85a2adb0
+  uuid: 330847c8-123e-4f1e-aea4-f22ae1abaec4
   ws-opts:
     headers:
-      Host: pane3.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+      Host: pane2.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/36.0.1985.143 Safari/537.36
     path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER
     early-data-header-name: Sec-WebSocket-Protocol
     max-early-data: 2053
   xudp: true
   packet-encoding: xudp
   servername: ssl.fastly.com
-- name: 青枫资源分享@QFZYFX 🇳🇱NL_15|2.9MB/s
-  network: tcp
-  port: 62145
-  server: 158.178.145.2
-  type: vless
+- cipher: chacha20-ietf-poly1305
+  name: 青枫资源分享@QFZYFX 🇳🇱NL_14|1.4MB/s
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 443
+  server: 82.38.31.35
+  type: ss
   udp: true
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-  xudp: true
-  packet-encoding: xudp
-- name: 青枫资源分享@QFZYFX 🇳🇱NL_16|183KB/s|P002-260618
-  password: None
-  port: 9002
-  server: 84.17.47.125
+- name: 青枫资源分享@QFZYFX 🇳🇱NL_15|185KB/s|R002-260618
+  port: 443
+  server: 185.246.153.28
   skip-cert-verify: true
-  sub_tag: P002-260618
+  sni: 4a8c2906c96058315dffbc2b0e7ff19b-0c66a58858a795df.apache-iv.com
+  sub_tag: R002-260618
   tls: true
   type: http
   udp: true
-- delay: 1792
-  name: 青枫资源分享@QFZYFX 🇳🇱NL_1|405KB/s
-  port: 9002
-  server: 84.17.47.125
+- name: 青枫资源分享@QFZYFX 🇳🇱NL_16|684KB/s|R002-260618
+  port: 443
+  server: 185.246.153.42
   skip-cert-verify: true
+  sni: 482c8436a1f7c908b48a1757abb5dd79-3791fb4df2db250b.apache-iv.com
+  sub_tag: R002-260618
   tls: true
   type: http
   udp: true
 - delay: 1452
-  name: 青枫资源分享@QFZYFX 🇳🇱NL_2|722KB/s
+  name: 青枫资源分享@QFZYFX 🇳🇱NL_1|2.3MB/s
   port: 9002
   server: 84.17.47.150
   skip-cert-verify: true
@@ -760,7 +1244,7 @@ proxies:
   type: http
   udp: true
 - delay: 2615
-  name: 青枫资源分享@QFZYFX 🇳🇱NL_3|722KB/s
+  name: 青枫资源分享@QFZYFX 🇳🇱NL_2|348KB/s
   port: 9002
   server: 84.17.47.148
   skip-cert-verify: true
@@ -768,14 +1252,14 @@ proxies:
   type: http
   udp: true
 - delay: 1345
-  name: 青枫资源分享@QFZYFX 🇳🇱NL_4|801KB/s
+  name: 青枫资源分享@QFZYFX 🇳🇱NL_3|888KB/s
   port: 9002
   server: 84.17.47.149
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 青枫资源分享@QFZYFX 🇳🇱NL_5|392KB/s
+- name: 青枫资源分享@QFZYFX 🇳🇱NL_4|2.4MB/s
   password: ''
   port: 9002
   server: 84.17.47.147
@@ -788,7 +1272,7 @@ proxies:
   - h2
   client-fingerprint: firefox
   encryption: none
-  name: 青枫资源分享@QFZYFX 🇳🇱NL_6|2.6MB/s
+  name: 青枫资源分享@QFZYFX 🇳🇱NL_5|2.5MB/s
   network: xhttp
   port: 443
   server: dey.lnmarketplace.net
@@ -808,7 +1292,7 @@ proxies:
   packet-encoding: xudp
   servername: dey.lnmarketplace.net
 - delay: 1037
-  name: 青枫资源分享@QFZYFX 🇳🇱NL_7|481KB/s
+  name: 青枫资源分享@QFZYFX 🇳🇱NL_6|2.5MB/s
   password: None
   port: 9002
   server: 84.17.47.148
@@ -820,7 +1304,7 @@ proxies:
   - h2
   client-fingerprint: chrome
   encryption: none
-  name: 青枫资源分享@QFZYFX 🇳🇱NL_8|1.6MB/s
+  name: 青枫资源分享@QFZYFX 🇳🇱NL_7|1.5MB/s
   network: xhttp
   port: 443
   server: 2a14:3f87:f001:46::a
@@ -835,32 +1319,26 @@ proxies:
   xudp: true
   packet-encoding: xudp
   servername: dey.lnmarketplace.net
-- name: 青枫资源分享@QFZYFX 🇳🇱NL_9|264KB/s|R002-260618
-  port: 23856
-  server: 51.159.225.196
-  skip-cert-verify: true
+- name: 青枫资源分享@QFZYFX 🇳🇱NL_8|593KB/s|R002-260618
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 82.196.9.7
+  sni: 52c40907.acsnet.co
   sub_tag: R002-260618
   tls: true
   type: http
   udp: true
-- client-fingerprint: qq
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 青枫资源分享@QFZYFX 🇵🇱PL_1|2.1MB/s
-  network: tcp
-  port: 5012
-  reality-opts:
-    public-key: S-hF71pRzH9xT1zd3spq6RGlXCrpzyWpTmVKHbdTERg
-    short-id: 'a1b2c3d4'
-  server: 62.113.106.165
+  username: testuser1
+- name: 青枫资源分享@QFZYFX 🇳🇱NL_9|2.5MB/s|P002-260618
+  password: None
+  port: 9002
+  server: 84.17.47.125
+  skip-cert-verify: true
+  sub_tag: P002-260618
   tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: 1206bad5-dcc9-410e-9595-d9fe9ee54085
-  xudp: true
-  packet-encoding: xudp
-  servername: pl.aeternavpn.space
-- name: 青枫资源分享@QFZYFX 🇷🇴RO_10|223KB/s|P002-260618
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_10|306KB/s|P002-260618
   port: 9002
   server: 193.176.84.36
   skip-cert-verify: true
@@ -869,7 +1347,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 青枫资源分享@QFZYFX 🇷🇴RO_11|159KB/s
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_11|536KB/s
   port: 9002
   server: 193.176.84.24
   skip-cert-verify: true
@@ -877,14 +1355,14 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 青枫资源分享@QFZYFX 🇷🇴RO_12|183KB/s
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_12|473KB/s
   port: 9002
   server: 193.176.84.20
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 青枫资源分享@QFZYFX 🇷🇴RO_13|934KB/s|P002-260618
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_13|147KB/s|P002-260618
   password: None
   port: 9002
   server: 193.176.84.32
@@ -893,22 +1371,8 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 青枫资源分享@QFZYFX 🇷🇴RO_14|341KB/s|P002-260618
-  password: None
-  port: 9002
-  server: 193.176.84.29
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-- name: 青枫资源分享@QFZYFX 🇷🇴RO_15|461KB/s
-  port: 54321
-  server: 94.53.24.61
-  type: http
-  udp: true
 - delay: 1438
-  name: 青枫资源分享@QFZYFX 🇷🇴RO_16|303KB/s
+  name: 青枫资源分享@QFZYFX 🇷🇴RO_14|214KB/s
   password: None
   port: 9002
   server: 193.176.84.31
@@ -916,7 +1380,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 青枫资源分享@QFZYFX 🇷🇴RO_17|212KB/s
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_15|229KB/s
   port: 9002
   server: 193.176.84.39
   skip-cert-verify: true
@@ -924,32 +1388,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 青枫资源分享@QFZYFX 🇷🇴RO_18|583KB/s
-  port: 9002
-  server: 193.176.84.17
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-  udp: true
-- name: 青枫资源分享@QFZYFX 🇷🇴RO_19|618KB/s|P002-260618
-  port: 9002
-  server: 193.176.84.36
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-- name: 青枫资源分享@QFZYFX 🇷🇴RO_1|320KB/s|R002-260618
-  port: 9002
-  server: 193.176.84.26
-  skip-cert-verify: true
-  sni: www.bing.com
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-- name: 青枫资源分享@QFZYFX 🇷🇴RO_20|302KB/s|Z001-260618
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_16|453KB/s|Z001-260618
   port: 9002
   server: 193.176.84.40
   skip-cert-verify: true
@@ -957,16 +1396,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 青枫资源分享@QFZYFX 🇷🇴RO_21|998KB/s|P002-260618
-  password: None
-  port: 9002
-  server: 193.176.84.38
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-- name: 青枫资源分享@QFZYFX 🇷🇴RO_22|201KB/s|R002-260618
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_17|215KB/s|R002-260618
   port: 9002
   server: 193.176.84.29
   skip-cert-verify: true
@@ -974,7 +1404,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 青枫资源分享@QFZYFX 🇷🇴RO_23|181KB/s
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_18|285KB/s
   port: 9002
   server: 193.176.84.20
   skip-cert-verify: true
@@ -982,7 +1412,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 青枫资源分享@QFZYFX 🇷🇴RO_24|240KB/s|P002-260618
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_19|268KB/s|P002-260618
   password: None
   port: 9002
   server: 193.176.84.30
@@ -991,7 +1421,16 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 青枫资源分享@QFZYFX 🇷🇴RO_25|134KB/s|P002-260618
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_1|330KB/s|R002-260618
+  port: 9002
+  server: 193.176.84.26
+  skip-cert-verify: true
+  sni: www.bing.com
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_20|1.4MB/s|P002-260618
   password: None
   port: 9002
   server: 193.176.84.20
@@ -1000,24 +1439,15 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 青枫资源分享@QFZYFX 🇷🇴RO_26|239KB/s|P002-260618
-  password: None
-  port: 9002
-  server: 193.176.84.27
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
 - delay: 1820
-  name: 青枫资源分享@QFZYFX 🇷🇴RO_27|447KB/s
+  name: 青枫资源分享@QFZYFX 🇷🇴RO_21|164KB/s
   port: 9002
   server: 193.176.84.35
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 青枫资源分享@QFZYFX 🇷🇴RO_28|230KB/s|R002-260618
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_22|369KB/s|R002-260618
   port: 9002
   server: 193.176.84.37
   skip-cert-verify: true
@@ -1026,7 +1456,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 青枫资源分享@QFZYFX 🇷🇴RO_29|348KB/s
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_23|1.8MB/s
   port: 9002
   server: 193.176.84.22
   skip-cert-verify: true
@@ -1034,15 +1464,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 青枫资源分享@QFZYFX 🇷🇴RO_2|589KB/s|R002-260618
-  port: 9002
-  server: 193.176.84.25
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-- name: 青枫资源分享@QFZYFX 🇷🇴RO_30|160KB/s|R002-260618
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_24|938KB/s|R002-260618
   port: 9002
   server: 193.176.84.27
   skip-cert-verify: true
@@ -1051,7 +1473,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 青枫资源分享@QFZYFX 🇷🇴RO_31|322KB/s|Z001-260618
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_25|249KB/s|Z001-260618
   port: 9002
   server: 193.176.84.33
   skip-cert-verify: true
@@ -1059,7 +1481,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 青枫资源分享@QFZYFX 🇷🇴RO_32|156KB/s|P002-260618
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_26|633KB/s|P002-260618
   password: None
   port: 9002
   server: 193.176.84.23
@@ -1068,7 +1490,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 青枫资源分享@QFZYFX 🇷🇴RO_33|2.1MB/s|R002-260618
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_27|698KB/s|R002-260618
   password: None
   port: 9002
   server: 193.176.84.25
@@ -1077,7 +1499,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 青枫资源分享@QFZYFX 🇷🇴RO_34|633KB/s|P002-260618
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_28|608KB/s|P002-260618
   password: None
   port: 9002
   server: 193.176.84.34
@@ -1086,7 +1508,109 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 青枫资源分享@QFZYFX 🇷🇴RO_3|693KB/s
+- delay: 1252
+  name: 青枫资源分享@QFZYFX 🇷🇴RO_29|2.4MB/s
+  port: 9002
+  server: 193.176.84.24
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_2|236KB/s|R002-260618
+  port: 9002
+  server: 193.176.84.25
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- delay: 1482
+  name: 青枫资源分享@QFZYFX 🇷🇴RO_30|626KB/s
+  port: 9002
+  server: 193.176.84.27
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- delay: 1314
+  name: 青枫资源分享@QFZYFX 🇷🇴RO_31|482KB/s
+  port: 9002
+  server: 193.176.84.32
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_32|762KB/s|P002-260618
+  port: 9002
+  server: 193.176.84.19
+  skip-cert-verify: true
+  sni: www.bing.com
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_33|2.1MB/s|P002-260618
+  port: 9002
+  server: 193.176.84.23
+  skip-cert-verify: true
+  sni: www.bing.com
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_34|277KB/s|P002-260618
+  port: 9002
+  server: 193.176.84.37
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_35|259KB/s|R002-260618
+  port: 9002
+  server: 193.176.84.32
+  skip-cert-verify: true
+  sni: www.bing.com
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_36|562KB/s|R002-260618
+  port: 9002
+  server: 193.176.84.31
+  skip-cert-verify: true
+  sni: www.bing.com
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_37|816KB/s
+  port: 9002
+  server: 193.176.84.34
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_38|2.4MB/s|P002-260618
+  password: ''
+  port: 9002
+  server: 193.176.84.17
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_39|2.1MB/s|P002-260618
+  port: 9002
+  server: 193.176.84.26
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_3|338KB/s
   port: 9002
   server: 193.176.84.38
   skip-cert-verify: true
@@ -1094,7 +1618,81 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 青枫资源分享@QFZYFX 🇷🇴RO_4|656KB/s
+- delay: 1801
+  name: 青枫资源分享@QFZYFX 🇷🇴RO_40|292KB/s|G001-260618
+  port: 9002
+  server: 193.176.84.31
+  skip-cert-verify: true
+  sub_tag: G001-260618
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_41|2.4MB/s|R002-260618
+  port: 9002
+  server: 193.176.84.30
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_42|992KB/s|P002-260618
+  password: None
+  port: 9002
+  server: 193.176.84.17
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_43|2.0MB/s|P002-260618
+  password: None
+  port: 9002
+  server: 193.176.84.26
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_44|2.0MB/s|P002-260618
+  password: ''
+  port: 9002
+  server: 193.176.84.38
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_45|1.2MB/s|P002-260618
+  password: None
+  port: 9002
+  server: 193.176.84.39
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_46|1.5MB/s|R002-260618
+  password: 'null'
+  port: 9002
+  server: 193.176.84.39
+  skip-cert-verify: true
+  sni: 193.176.84.39
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_47|2.5MB/s|P002-260618
+  password: None
+  port: 9002
+  server: 193.176.84.37
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_4|318KB/s
   port: 9002
   server: 193.176.84.35
   skip-cert-verify: true
@@ -1102,7 +1700,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 青枫资源分享@QFZYFX 🇷🇴RO_5|436KB/s|R002-260618
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_5|453KB/s|R002-260618
   port: 9002
   server: 193.176.84.39
   skip-cert-verify: true
@@ -1110,7 +1708,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 青枫资源分享@QFZYFX 🇷🇴RO_6|336KB/s|Z001-260618
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_6|176KB/s|Z001-260618
   port: 9002
   server: 193.176.84.21
   skip-cert-verify: true
@@ -1118,7 +1716,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 青枫资源分享@QFZYFX 🇷🇴RO_7|446KB/s|R002-260618
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_7|2.5MB/s|R002-260618
   port: 9002
   server: 193.176.84.23
   skip-cert-verify: true
@@ -1126,7 +1724,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 青枫资源分享@QFZYFX 🇷🇴RO_8|490KB/s|R002-260618
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_8|472KB/s|R002-260618
   port: 9002
   server: 193.176.84.22
   skip-cert-verify: true
@@ -1134,7 +1732,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 青枫资源分享@QFZYFX 🇷🇴RO_9|605KB/s|R002-260618
+- name: 青枫资源分享@QFZYFX 🇷🇴RO_9|300KB/s|R002-260618
   password: 'null'
   port: 9002
   server: 193.176.84.40
@@ -1144,68 +1742,77 @@ proxies:
   type: http
   udp: true
   username: 'null'
-- client-fingerprint: random
-  encryption: none
-  name: 青枫资源分享@QFZYFX 🇸🇪SE_1|2.0MB/s
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-    short-id: 'f79448a30d'
-  server: se-xh01.tcp-reset-club.net
-  tls: true
-  type: vless
+- cipher: aes-256-gcm
+  name: 青枫资源分享@QFZYFX 🇷🇺RU_1|2.6MB/s
+  password: 8ad9d72a5571df86
+  port: 20101
+  server: 194.87.196.208
+  type: ss
   udp: true
-  uuid: 0678ed07-980a-49c1-9066-05caec654967
-  xhttp-opts:
-    mode: packet-up
-    path: /assets/v2/pkg
-  xudp: true
-  packet-encoding: xudp
-  servername: s3.netavex.com
 - client-fingerprint: chrome
-  encryption: none
-  name: 青枫资源分享@QFZYFX 🇸🇬SG_1|1.7MB/s
+  flow: xtls-rprx-vision
+  name: 青枫资源分享@QFZYFX 🇷🇺RU_2|2.5MB/s
   network: tcp
-  port: 8526
+  port: 40443
   reality-opts:
-    public-key: -zNDEqKkScKvMWB7spEper78GE_u-nR4jDHZ3DpOoxM
-    short-id: '62ad184af31fc8cf'
-  server: hokm-a8.igatel.com
+    public-key: ZSzB9TQPGNcCiC0WLmciF5Jc8doJDvdRgbqTi8SCoEM
+    short-id: 'a1b2c3d4e5f6789a'
+  server: z0211mq18-z3rk.ru-a1.y-tun.com
   tls: true
   type: vless
   udp: true
-  uuid: 1ebdb8ff-1217-4a94-b69d-d0f84b25fea9
+  uuid: 3499f741-a304-4212-8bb9-4d809e154e28
   xudp: true
   packet-encoding: xudp
-  servername: amp-api-edge.apps.apple.com
-- name: 青枫资源分享@QFZYFX 🇸🇬SG_2|3.7MB/s|R002-260618
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 146.70.29.45
-  sni: 92461d2d.acsnet.co
-  sub_tag: R002-260618
-  tls: true
-  type: http
+  servername: api-maps.yandex.ru
+- auth: 19f72087-4591-4d72-930b-2697078ec2be
+  name: 青枫资源分享@QFZYFX 🇸🇬SG_1|264KB/s
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  port: 1933
+  server: sg1.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: sg1.xiaoliyu.cyou
+  type: hysteria2
   udp: true
-  username: testuser1
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 青枫资源分享@QFZYFX 🇸🇬SG_2|3.5MB/s
+  network: tcp
+  port: 8444
+  reality-opts:
+    public-key: OYHRKufAg09vpdsYBQB_vjikJ9DyE1KurtHQZRRLeWQ
+  server: 140.245.109.76
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5c9b8a5f-0863-4cfa-9c1d-aa1a5b7415df
+  servername: tesla.com
 - cipher: aes-256-cfb
-  name: 青枫资源分享@QFZYFX 🇹🇭TH_1|1.2MB/s
+  name: 青枫资源分享@QFZYFX 🇹🇭TH_1|2.8MB/s
   password: 7eadc6dbe2ae
   port: 65443
   server: 103.169.67.34
   type: ss
   udp: true
-- name: 青枫资源分享@QFZYFX 🇹🇼TW_1|196KB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
-  sni: twmoon1-cdn-route.couldflare-cdn.com
+- client-fingerprint: chrome
+  name: 青枫资源分享@QFZYFX 🇺🇦UA_1|2.1MB/s
+  network: ws
+  port: 8443
+  server: 213.111.149.58
   tls: true
-  type: http
+  type: vless
   udp: true
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: 青枫资源分享@QFZYFX 🇺🇸US_10|506KB/s|R002-260618
+  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
+  ws-opts:
+    headers:
+      Host: eded-52n.pages.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/49.0.2623.112 Safari/537.36
+    path: /
+  xudp: true
+  packet-encoding: xudp
+  servername: eded-52n.pages.dev
+- name: 青枫资源分享@QFZYFX 🇺🇸US_10|796KB/s|R002-260618
   port: 9002
   server: 138.199.35.211
   skip-cert-verify: true
@@ -1213,7 +1820,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 青枫资源分享@QFZYFX 🇺🇸US_11|1.4MB/s|R002-260618
+- name: 青枫资源分享@QFZYFX 🇺🇸US_11|310KB/s|R002-260618
   port: 9002
   server: 138.199.35.204
   skip-cert-verify: true
@@ -1221,7 +1828,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 青枫资源分享@QFZYFX 🇺🇸US_12|2.5MB/s|R002-260618
+- name: 青枫资源分享@QFZYFX 🇺🇸US_12|443KB/s|R002-260618
   port: 9002
   server: 138.199.35.206
   skip-cert-verify: true
@@ -1229,7 +1836,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 青枫资源分享@QFZYFX 🇺🇸US_13|1.2MB/s|P002-260618
+- name: 青枫资源分享@QFZYFX 🇺🇸US_13|445KB/s|P002-260618
   password: 'null'
   port: 9002
   server: 138.199.35.195
@@ -1239,7 +1846,7 @@ proxies:
   type: http
   udp: true
   username: 'null'
-- name: 青枫资源分享@QFZYFX 🇺🇸US_14|2.4MB/s|P002-260618
+- name: 青枫资源分享@QFZYFX 🇺🇸US_14|1.5MB/s|P002-260618
   password: 'null'
   port: 9002
   server: 138.199.35.207
@@ -1249,7 +1856,7 @@ proxies:
   type: http
   udp: true
   username: 'null'
-- name: 青枫资源分享@QFZYFX 🇺🇸US_15|1.5MB/s|P002-260618
+- name: 青枫资源分享@QFZYFX 🇺🇸US_15|261KB/s|P002-260618
   password: None
   port: 9002
   server: 138.199.35.209
@@ -1258,7 +1865,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 青枫资源分享@QFZYFX 🇺🇸US_16|1.1MB/s|R002-260618
+- name: 青枫资源分享@QFZYFX 🇺🇸US_16|2.4MB/s|R002-260618
   password: 'null'
   port: 9002
   server: 138.199.35.205
@@ -1268,7 +1875,7 @@ proxies:
   type: http
   udp: true
   username: 'null'
-- name: 青枫资源分享@QFZYFX 🇺🇸US_17|2.0MB/s|R002-260618
+- name: 青枫资源分享@QFZYFX 🇺🇸US_17|553KB/s|R002-260618
   port: 9002
   server: 138.199.35.200
   skip-cert-verify: true
@@ -1276,7 +1883,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 青枫资源分享@QFZYFX 🇺🇸US_18|436KB/s
+- name: 青枫资源分享@QFZYFX 🇺🇸US_18|275KB/s
   password: ''
   port: 9002
   server: 138.199.35.219
@@ -1285,7 +1892,7 @@ proxies:
   type: http
   udp: true
   username: ''
-- name: 青枫资源分享@QFZYFX 🇺🇸US_19|619KB/s|P002-260618
+- name: 青枫资源分享@QFZYFX 🇺🇸US_19|2.0MB/s|P002-260618
   password: None
   port: 9002
   server: 138.199.35.196
@@ -1295,7 +1902,7 @@ proxies:
   type: http
   udp: true
 - delay: 2242
-  name: 青枫资源分享@QFZYFX 🇺🇸US_1|587KB/s
+  name: 青枫资源分享@QFZYFX 🇺🇸US_1|613KB/s
   password: 'null'
   port: 9002
   server: 138.199.35.216
@@ -1304,7 +1911,7 @@ proxies:
   type: http
   udp: true
   username: 'null'
-- name: 青枫资源分享@QFZYFX 🇺🇸US_20|750KB/s|R002-260618
+- name: 青枫资源分享@QFZYFX 🇺🇸US_20|432KB/s|R002-260618
   password: 'null'
   port: 9002
   server: 138.199.35.210
@@ -1314,7 +1921,7 @@ proxies:
   type: http
   udp: true
   username: 'null'
-- name: 青枫资源分享@QFZYFX 🇺🇸US_21|1.6MB/s|P002-260618
+- name: 青枫资源分享@QFZYFX 🇺🇸US_21|210KB/s|P002-260618
   password: 'null'
   port: 9002
   server: 138.199.35.211
@@ -1324,18 +1931,7 @@ proxies:
   type: http
   udp: true
   username: 'null'
-- alpn:
-  - h3
-  auth: C91FbOXGY9XRymrcEebtax9R1Nj62UizoT8S6kCb7xwey8IE
-  name: 青枫资源分享@QFZYFX 🇺🇸US_22|2.7MB/s
-  password: C91FbOXGY9XRymrcEebtax9R1Nj62UizoT8S6kCb7xwey8IE
-  port: 443
-  server: start.wwwinternetvideo.click
-  skip-cert-verify: true
-  sni: fast.wwwinternetvideo.click
-  type: hysteria2
-  udp: true
-- name: 青枫资源分享@QFZYFX 🇺🇸US_23|222KB/s
+- name: 青枫资源分享@QFZYFX 🇺🇸US_22|582KB/s
   network: ws
   port: 8080
   server: 172.67.153.109
@@ -1350,7 +1946,7 @@ proxies:
     early-data-header-name: Sec-WebSocket-Protocol
     max-early-data: 2560
 - auth: d19b459e-fcc3-4f2a-8f2e-77e8701cd1d8
-  name: 青枫资源分享@QFZYFX 🇺🇸US_24|1.8MB/s
+  name: 青枫资源分享@QFZYFX 🇺🇸US_23|2.6MB/s
   password: d19b459e-fcc3-4f2a-8f2e-77e8701cd1d8
   port: 443
   server: ush2.shazamri.xyz
@@ -1358,30 +1954,8 @@ proxies:
   sni: ush2.shazamri.xyz
   type: hysteria2
   udp: true
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 青枫资源分享@QFZYFX 🇺🇸US_25|153KB/s
-  network: tcp
-  port: 58794
-  reality-opts:
-    public-key: 0IxTq_C91a5fqrKYtqEI9TQvRWO4rHQHapIXFATSB24
-    short-id: '67640a39'
-  server: dsfds-dfgwr-sad.dfhhse.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: accb2535-87db-4a6c-8417-0c504b7646ca
-  servername: www.walmart.com
-- delay: 845
-  name: 青枫资源分享@QFZYFX 🇺🇸US_26|203KB/s
-  port: 443
-  server: 38.28.193.188
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - delay: 933
-  name: 青枫资源分享@QFZYFX 🇺🇸US_27|2.3MB/s
+  name: 青枫资源分享@QFZYFX 🇺🇸US_24|2.0MB/s
   password: 'null'
   port: 9002
   server: 138.199.35.217
@@ -1390,89 +1964,7 @@ proxies:
   type: http
   udp: true
   username: 'null'
-- alpn:
-  - http/1.1
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  name: 青枫资源分享@QFZYFX 🇺🇸US_28|1.4MB/s
-  network: xhttp
-  port: 2087
-  server: www.speedtest.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: a491b1c4-1141-4f59-9731-e0621f6e452f
-  xhttp-opts:
-    host: zahra2011.tr
-    mode: auto
-    path: /@mahdi_383ir
-    x-padding-bytes: 100-1000
-  xudp: true
-  packet-encoding: xudp
-  servername: zahra2011.tr
-- alpn:
-  - http/1.1
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  name: 青枫资源分享@QFZYFX 🇺🇸US_29|164KB/s
-  network: xhttp
-  port: 8443
-  server: www.speedtest.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: a491b1c4-1141-4f59-9731-e0621f6e452f
-  xhttp-opts:
-    host: zahra2011.tr
-    mode: auto
-    path: /@mahdi_383ir
-    x-padding-bytes: 100-1000
-  xudp: true
-  packet-encoding: xudp
-  servername: zahra2011.tr
-- delay: 1006
-  name: 青枫资源分享@QFZYFX 🇺🇸US_2|553KB/s
-  port: 9002
-  server: 138.199.35.198
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- encryption: none
-  name: 青枫资源分享@QFZYFX 🇺🇸US_30|2.7MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 8880
-  server: 104.17.178.154
-  type: vless
-  udp: true
-  uuid: c3f4ee0c-3c64-466d-ae14-9bcf685e1efd
-  ws-opts:
-    headers:
-      Host: shiny-waterfall-fa51.300-c6f.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.99 Safari/537.36
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-  xudp: true
-- name: 青枫资源分享@QFZYFX 🇺🇸US_31|1.9MB/s|C002-260622
-  network: ws
-  packet-encoding: xudp
-  port: 8880
-  server: 104.27.82.154
-  sub_tag: C002-260622
-  type: vless
-  udp: true
-  uuid: 50c91104-c1fc-471e-914f-3ad252a0a34c
-  ws-opts:
-    headers:
-      Host: quiet-snowflake-e1dd.374-ac3.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /pyip=ProxyIP.US.CMLiussss.net
-  xudp: true
-- name: 青枫资源分享@QFZYFX 🇺🇸US_32|3.1MB/s|R002-260618
+- name: 青枫资源分享@QFZYFX 🇺🇸US_25|2.0MB/s|R002-260618
   port: 9002
   server: 138.199.35.207
   skip-cert-verify: true
@@ -1480,7 +1972,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 青枫资源分享@QFZYFX 🇺🇸US_33|2.5MB/s|P002-260618
+- name: 青枫资源分享@QFZYFX 🇺🇸US_26|278KB/s|P002-260618
   password: None
   port: 9002
   server: 138.199.35.205
@@ -1489,7 +1981,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 青枫资源分享@QFZYFX 🇺🇸US_34|2.6MB/s|P002-260618
+- name: 青枫资源分享@QFZYFX 🇺🇸US_27|241KB/s|P002-260618
   password: None
   port: 9002
   server: 138.199.35.219
@@ -1498,7 +1990,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 青枫资源分享@QFZYFX 🇺🇸US_35|2.6MB/s|P002-260618
+- name: 青枫资源分享@QFZYFX 🇺🇸US_28|2.6MB/s|P002-260618
   password: None
   port: 9002
   server: 138.199.35.204
@@ -1507,7 +1999,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 青枫资源分享@QFZYFX 🇺🇸US_36|2.2MB/s|R002-260618
+- name: 青枫资源分享@QFZYFX 🇺🇸US_29|2.5MB/s|R002-260618
   password: 'null'
   port: 9002
   server: 138.199.35.199
@@ -1517,7 +2009,15 @@ proxies:
   type: http
   udp: true
   username: 'null'
-- name: 青枫资源分享@QFZYFX 🇺🇸US_37|2.4MB/s|P002-260618
+- delay: 1006
+  name: 青枫资源分享@QFZYFX 🇺🇸US_2|538KB/s
+  port: 9002
+  server: 138.199.35.198
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇺🇸US_30|942KB/s|P002-260618
   password: None
   port: 9002
   server: 138.199.35.207
@@ -1527,7 +2027,7 @@ proxies:
   type: http
   udp: true
 - client-fingerprint: qq
-  name: 青枫资源分享@QFZYFX 🇺🇸US_38|201KB/s
+  name: 青枫资源分享@QFZYFX 🇺🇸US_31|183KB/s
   network: ws
   port: 2087
   server: fu.baiproxy.us.ci
@@ -1546,85 +2046,9 @@ proxies:
   xudp: true
   packet-encoding: xudp
   servername: fu.baiproxy.us.ci
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 青枫资源分享@QFZYFX 🇺🇸US_39|185KB/s
-  port: 5000
-  reality-opts:
-    public-key: cpoZcpYNYSvFXGGB21tByHUoNd7-FYrJ0UP7ZDfSFCs
-    short-id: 'a1b2c3d4'
-  server: 31.77.183.88
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1206bad5-dcc9-410e-9595-d9fe9ee54085
-  network: tcp
-  servername: max.ru
-- name: 青枫资源分享@QFZYFX 🇺🇸US_3|3.1MB/s
-  password: ''
-  port: 9002
-  server: 138.199.35.203
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- name: 青枫资源分享@QFZYFX 🇺🇸US_40|189KB/s
-  network: ws
-  port: 443
-  server: 172.67.138.232
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: a1a6a3be-2bf9-46a2-bc24-328306e49ab7
-  ws-opts:
-    headers:
-      Host: 4-m17.KazAkhSTAN-LinK.KdnS.FR
-    path: /fVs1qv0xm8dxmnwuaPwokxgY4XlP
-  servername: 4-M17.KaZakHSTAn-LiNk.kDNs.FR
-- client-fingerprint: qq
-  encryption: none
-  name: 青枫资源分享@QFZYFX 🇺🇸US_41|865KB/s
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8
-    short-id: '812609fa663c57fb'
-  server: 80.76.44.135
-  tls: true
-  type: vless
-  udp: true
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-  xhttp-opts:
-    host: net.savesafe.run
-    path: /
-  xudp: true
-  packet-encoding: xudp
-  servername: note.savesafe.run
-- client-fingerprint: firefox
-  encryption: none
-  name: 青枫资源分享@QFZYFX 🇺🇸US_42|507KB/s
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8
-    short-id: '812609fa663c57fb'
-  server: 80.76.44.181
-  tls: true
-  type: vless
-  udp: true
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-  xhttp-opts:
-    host: net.savesafe.run
-    path: /
-  xudp: true
-  packet-encoding: xudp
-  servername: note.savesafe.run
 - client-fingerprint: chrome
   encryption: none
-  name: 青枫资源分享@QFZYFX 🇺🇸US_43|133KB/s
+  name: 青枫资源分享@QFZYFX 🇺🇸US_32|2.0MB/s
   network: ws
   port: 443
   server: 104.21.78.105
@@ -1641,7 +2065,245 @@ proxies:
   xudp: true
   packet-encoding: xudp
   servername: 6-m17.KUWaiT.kdNs.fR
-- name: 青枫资源分享@QFZYFX 🇺🇸US_4|522KB/s
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 青枫资源分享@QFZYFX 🇺🇸US_33|730KB/s
+  network: tcp
+  port: 5000
+  reality-opts:
+    public-key: cpoZcpYNYSvFXGGB21tByHUoNd7-FYrJ0UP7ZDfSFCs
+    short-id: 'a1b2c3d4'
+  server: 31.77.183.88
+  tls: true
+  type: vless
+  udp: true
+  uuid: 74f73fb2-49cc-4744-bd37-97c5f83963ab
+  servername: max.ru
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 青枫资源分享@QFZYFX 🇺🇸US_34|300KB/s
+  network: tcp
+  port: 5001
+  reality-opts:
+    public-key: D-G2rTpSUTAF6Rj0C6Gxnk-uzsaGzM6MSbJX3jCyBBk
+    short-id: 'a1b2c3d4'
+  server: 31.77.183.88
+  tls: true
+  type: vless
+  udp: true
+  uuid: 74f73fb2-49cc-4744-bd37-97c5f83963ab
+  servername: max.ru
+- cipher: aes-256-cfb
+  name: 青枫资源分享@QFZYFX 🇺🇸US_35|210KB/s
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.233
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  delay: 342
+  name: 青枫资源分享@QFZYFX 🇺🇸US_36|128KB/s
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.232
+  type: ss
+  udp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 青枫资源分享@QFZYFX 🇺🇸US_37|149KB/s
+  network: ws
+  password: MITIVPN
+  port: 443
+  server: 104.18.152.225
+  skip-cert-verify: true
+  sni: Dee---7-MiTiVPN----o.aPp-cLoud.IR
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.76 Safari/537.36
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 青枫资源分享@QFZYFX 🇺🇸US_38|151KB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: mHlSdLyCi4y4Bit5YrV9SpNI4RxoC08gyxUJPDy2Ylg
+    short-id: 'a17b41ba'
+  server: 72.56.81.75
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2f600710-9f4e-4eab-8de1-89f60a878e55
+  xudp: true
+  packet-encoding: xudp
+  servername: app3.goonars.com
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 青枫资源分享@QFZYFX 🇺🇸US_39|2.1MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 2e9dGid5D-e4demAVGqU71uEeusuBhviikchaJ96E3o
+    short-id: '8ece2039'
+  server: app47.jarvestip.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: d3815c21-ef06-43e2-82e1-ca313962b489
+  xudp: true
+  packet-encoding: xudp
+  servername: app47.jarvestip.ru
+- name: 青枫资源分享@QFZYFX 🇺🇸US_3|1.8MB/s
+  password: ''
+  port: 9002
+  server: 138.199.35.203
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- alterId: 2
+  cipher: auto
+  name: 青枫资源分享@QFZYFX 🇺🇸US_40|132KB/s
+  network: tcp
+  port: 30829
+  server: v29.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
+  packet-encoding: xudp
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 青枫资源分享@QFZYFX 🇺🇸US_41|2.7MB/s
+  network: ws
+  port: 443
+  server: 151.101.1.242
+  tls: true
+  type: vless
+  udp: true
+  uuid: b0cf4078-96b8-4e11-80a8-0f9352565a16
+  ws-opts:
+    headers:
+      Host: minimize-evenness.cdn-content.com
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.99 Safari/537.36
+    path: /ws
+  xudp: true
+  packet-encoding: xudp
+  servername: minimize-evenness.cdn-content.com
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 青枫资源分享@QFZYFX 🇺🇸US_42|2.1MB/s
+  network: ws
+  port: 443
+  server: 199.232.173.242
+  tls: true
+  type: vless
+  udp: true
+  uuid: b0cf4078-96b8-4e11-80a8-0f9352565a16
+  ws-opts:
+    headers:
+      Host: piracy-android.video-streams.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /ws
+  xudp: true
+  packet-encoding: xudp
+  servername: piracy-android.video-streams.org
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 青枫资源分享@QFZYFX 🇺🇸US_43|192KB/s
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 104.18.32.47
+  skip-cert-verify: true
+  sni: fls-bbg--MiTiVPN---MiTiVPN-u.aPp-cLoud.IR
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.99 Safari/537.36
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/F-ls
+- client-fingerprint: chrome
+  name: 青枫资源分享@QFZYFX 🇺🇸US_44|3.2MB/s
+  network: ws
+  port: 8443
+  server: 188.164.248.123
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  ws-opts:
+    headers:
+      Host: vp21.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /
+  servername: vp21.cc.cd
+- name: 青枫资源分享@QFZYFX 🇺🇸US_45|236KB/s|R002-260618
+  password: gs4BXwT6SW
+  port: 10988
+  server: 154.26.192.123
+  sub_tag: R002-260618
+  tls: false
+  type: http
+  udp: true
+  username: fQ67Dpe5dU
+- name: 青枫资源分享@QFZYFX 🇺🇸US_46|2.4MB/s|R002-260618
+  password: ''
+  port: 9002
+  server: 138.199.35.201
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: 青枫资源分享@QFZYFX 🇺🇸US_47|2.5MB/s|P002-260618
+  password: None
+  port: 9002
+  server: 138.199.35.198
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇺🇸US_48|1.9MB/s|P002-260618
+  password: None
+  port: 9002
+  server: 138.199.35.208
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 青枫资源分享@QFZYFX 🇺🇸US_49|297KB/s|R002-260618
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 162.243.146.243
+  sni: a2f392f3.acsnet.co
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  username: testuser1
+- name: 青枫资源分享@QFZYFX 🇺🇸US_4|1.1MB/s
   password: ''
   port: 9002
   server: 138.199.35.208
@@ -1650,7 +2312,174 @@ proxies:
   type: http
   udp: true
   username: ''
-- name: 青枫资源分享@QFZYFX 🇺🇸US_5|1.0MB/s|R002-260618
+- name: 青枫资源分享@QFZYFX 🇺🇸US_50|2.5MB/s
+  password: ''
+  port: 9002
+  server: 138.199.35.196
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: 青枫资源分享@QFZYFX 🇺🇸US_51|401KB/s
+  port: 12344
+  server: 154.21.89.32
+  type: http
+  udp: true
+- down: ''
+  fingerprint: ''
+  name: 青枫资源分享@QFZYFX 🇺🇸US_52|3.0MB/s
+  obfs: ''
+  obfs-password: ''
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-us-003.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-us-003.fastervpn.world
+  type: hysteria2
+  up: ''
+  udp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 青枫资源分享@QFZYFX 🇺🇸US_53|3.2MB/s
+  network: ws
+  port: 443
+  server: bounded-crammed.video-streams.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: d51b3246-21fe-47fb-b600-a7b7b9b6182d
+  ws-opts:
+    headers:
+      Host: bounded-crammed.video-streams.org
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /ws
+  xudp: true
+  packet-encoding: xudp
+  servername: bounded-crammed.video-streams.org
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 青枫资源分享@QFZYFX 🇺🇸US_54|3.2MB/s
+  network: ws
+  port: 443
+  server: piracy-android.video-streams.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 81a12262-81a7-45dc-8157-a6abc0c0cda3
+  ws-opts:
+    headers:
+      Host: piracy-android.video-streams.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.63 Safari/537.36
+    path: /ws
+  xudp: true
+  packet-encoding: xudp
+  servername: piracy-android.video-streams.org
+- client-fingerprint: chrome
+  encryption: none
+  name: 青枫资源分享@QFZYFX 🇺🇸US_55|3.2MB/s
+  network: ws
+  port: 443
+  server: adheres-scruple.quick-cdn.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 51a8d623-0d6d-4018-82f4-84b76d5bd015
+  ws-opts:
+    headers:
+      Host: adheres-scruple.quick-cdn.net
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+    path: /ws
+  xudp: true
+  packet-encoding: xudp
+  servername: adheres-scruple.quick-cdn.net
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 青枫资源分享@QFZYFX 🇺🇸US_56|3.1MB/s
+  network: ws
+  port: 443
+  server: piracy-android.video-streams.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 186940c7-a3be-4ace-9742-ae98a44d8af4
+  ws-opts:
+    headers:
+      Host: piracy-android.video-streams.org
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J700M Build/MMB29K) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /ws
+  xudp: true
+  packet-encoding: xudp
+  servername: piracy-android.video-streams.org
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 青枫资源分享@QFZYFX 🇺🇸US_57|3.2MB/s
+  network: ws
+  port: 443
+  server: minimize-evenness.cdn-content.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 186940c7-a3be-4ace-9742-ae98a44d8af4
+  ws-opts:
+    headers:
+      Host: minimize-evenness.cdn-content.com
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.100 Safari/537.36
+    path: /ws
+  xudp: true
+  packet-encoding: xudp
+  servername: minimize-evenness.cdn-content.com
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 青枫资源分享@QFZYFX 🇺🇸US_58|3.1MB/s
+  network: ws
+  port: 443
+  server: adheres-scruple.quick-cdn.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: b2aa6d03-4d3e-478d-98aa-2447f09d4cb1
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36
+    path: /ws
+  xudp: true
+  packet-encoding: xudp
+  servername: adheres-scruple.quick-cdn.net
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 青枫资源分享@QFZYFX 🇺🇸US_59|2.6MB/s
+  network: ws
+  port: 443
+  server: piracy-android.video-streams.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: b2aa6d03-4d3e-478d-98aa-2447f09d4cb1
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/53.0.2785.143 Safari/537.36
+    path: /ws
+  xudp: true
+  packet-encoding: xudp
+  servername: piracy-android.video-streams.org
+- name: 青枫资源分享@QFZYFX 🇺🇸US_5|1.2MB/s|R002-260618
   port: 9002
   server: 138.199.35.197
   skip-cert-verify: true
@@ -1658,7 +2487,125 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 青枫资源分享@QFZYFX 🇺🇸US_6|605KB/s|R002-260618
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 青枫资源分享@QFZYFX 🇺🇸US_60|2.6MB/s
+  network: ws
+  port: 443
+  server: ghosts-spasm.quick-cdn.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 018a6ab7-f54c-4a1c-bfc5-d6b04e6545d1
+  ws-opts:
+    headers:
+      Host: ghosts-spasm.quick-cdn.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/34.0.1847.131 Safari/537.36
+    path: /ws
+  xudp: true
+  packet-encoding: xudp
+  servername: ghosts-spasm.quick-cdn.net
+- client-fingerprint: chrome
+  encryption: none
+  name: 青枫资源分享@QFZYFX 🇺🇸US_61|1.6MB/s
+  network: ws
+  port: 443
+  server: 172.67.173.191
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
+  ws-opts:
+    headers:
+      Host: 4-m20.e00e.ccwu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.63 Safari/537.36
+    path: /8qMLgNapWf6SBxo8fhQlVPYO
+  xudp: true
+  packet-encoding: xudp
+  servername: 4-m20.e00e.ccwu.cc
+- client-fingerprint: qq
+  encryption: none
+  name: 青枫资源分享@QFZYFX 🇺🇸US_62|192KB/s
+  network: ws
+  port: 2087
+  server: fu.baiproxy.us.ci
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
+  ws-opts:
+    headers:
+      Host: fu.baiproxy.us.ci
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/42.0.2311.90 Safari/537.36
+    path: /
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2560
+  xudp: true
+  packet-encoding: xudp
+  servername: fu.baiproxy.us.ci
+- client-fingerprint: chrome
+  encryption: none
+  name: 青枫资源分享@QFZYFX 🇺🇸US_63|1.9MB/s
+  network: ws
+  port: 443
+  server: 172.67.195.150
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
+  ws-opts:
+    headers:
+      Host: 1-m20.dbfb5a2a-81c7-481a-b0cc-0f51aa86cc51.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /8qMLgNapWf6SBxo8fhQlVPYO
+  xudp: true
+  packet-encoding: xudp
+  servername: 1-m20.dbfb5a2a-81c7-481a-b0cc-0f51aa86cc51.kdns.fr
+- client-fingerprint: chrome
+  encryption: none
+  name: 青枫资源分享@QFZYFX 🇺🇸US_64|2.0MB/s
+  network: ws
+  port: 443
+  server: 172.67.173.191
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
+  ws-opts:
+    headers:
+      Host: 3-m20.e00e.ccwu.cc
+      User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
+        Chrome/12.0.742.100 Safari/534.30
+    path: /8qMLgNapWf6SBxo8fhQlVPYO
+  xudp: true
+  packet-encoding: xudp
+  servername: 3-m20.e00e.ccwu.cc
+- client-fingerprint: chrome
+  encryption: none
+  name: 青枫资源分享@QFZYFX 🇺🇸US_65|2.0MB/s
+  network: ws
+  port: 443
+  server: 172.67.195.150
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
+  ws-opts:
+    headers:
+      Host: 9-m20.dbfb5a2a-81c7-481a-b0cc-0f51aa86cc51.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /8qMLgNapWf6SBxo8fhQlVPYO
+  xudp: true
+  packet-encoding: xudp
+  servername: 9-m20.dbfb5a2a-81c7-481a-b0cc-0f51aa86cc51.kdns.fr
+- name: 青枫资源分享@QFZYFX 🇺🇸US_6|465KB/s|R002-260618
   port: 9002
   server: 138.199.35.216
   skip-cert-verify: true
@@ -1666,7 +2613,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 青枫资源分享@QFZYFX 🇺🇸US_7|1.9MB/s|R002-260618
+- name: 青枫资源分享@QFZYFX 🇺🇸US_7|662KB/s|R002-260618
   port: 9002
   server: 138.199.35.202
   skip-cert-verify: true
@@ -1674,7 +2621,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 青枫资源分享@QFZYFX 🇺🇸US_8|608KB/s|P002-260618
+- name: 青枫资源分享@QFZYFX 🇺🇸US_8|541KB/s|P002-260618
   password: None
   port: 9002
   server: 138.199.35.213
@@ -1683,7 +2630,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 青枫资源分享@QFZYFX 🇺🇸US_9|456KB/s|P002-260618
+- name: 青枫资源分享@QFZYFX 🇺🇸US_9|642KB/s|P002-260618
   password: None
   port: 9002
   server: 138.199.35.211
@@ -1884,155 +2831,220 @@ proxy-groups:
 - name: ♻️ 自动选择
   type: url-test
   proxies:
-  - 青枫资源分享@QFZYFX ❓Other_1|441KB/s
-  - 青枫资源分享@QFZYFX ❓Other_2|2.2MB/s|R002-260618
-  - 青枫资源分享@QFZYFX ❓Other_3|776KB/s
-  - 青枫资源分享@QFZYFX ❓Other_4|175KB/s
-  - 青枫资源分享@QFZYFX 🇧🇷BR_1|1.2MB/s
-  - 青枫资源分享@QFZYFX 🇧🇷BR_2|1.7MB/s
-  - 青枫资源分享@QFZYFX 🇨🇭CH_1|2.0MB/s|R002-260618
-  - 青枫资源分享@QFZYFX 🇨🇭CH_2|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇨🇭CH_3|3.2MB/s
-  - 青枫资源分享@QFZYFX 🇨🇴CO_1|170KB/s
-  - 青枫资源分享@QFZYFX 🇨🇿CZ_1|1.3MB/s|P002-260618
-  - 青枫资源分享@QFZYFX 🇩🇪DE_10|189KB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_1|814KB/s|R002-260618
-  - 青枫资源分享@QFZYFX 🇩🇪DE_2|3.0MB/s|R002-260618
-  - 青枫资源分享@QFZYFX 🇩🇪DE_3|249KB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_4|2.5MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_5|1.5MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_6|857KB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_7|603KB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_8|3.0MB/s
-  - 青枫资源分享@QFZYFX 🇩🇪DE_9|1.7MB/s
-  - 青枫资源分享@QFZYFX 🇫🇮FI_1|2.4MB/s
-  - 青枫资源分享@QFZYFX 🇫🇮FI_2|236KB/s
-  - 青枫资源分享@QFZYFX 🇫🇮FI_3|1.6MB/s
-  - 青枫资源分享@QFZYFX 🇫🇷FR_10|168KB/s|B007-260618
-  - 青枫资源分享@QFZYFX 🇫🇷FR_11|140KB/s|A001-260618
-  - 青枫资源分享@QFZYFX 🇫🇷FR_12|270KB/s
-  - 青枫资源分享@QFZYFX 🇫🇷FR_13|139KB/s|C002-260622
-  - 青枫资源分享@QFZYFX 🇫🇷FR_14|131KB/s
-  - 青枫资源分享@QFZYFX 🇫🇷FR_15|159KB/s
-  - 青枫资源分享@QFZYFX 🇫🇷FR_16|146KB/s
-  - 青枫资源分享@QFZYFX 🇫🇷FR_17|736KB/s
-  - 青枫资源分享@QFZYFX 🇫🇷FR_1|752KB/s
-  - 青枫资源分享@QFZYFX 🇫🇷FR_2|240KB/s
-  - 青枫资源分享@QFZYFX 🇫🇷FR_3|196KB/s
-  - 青枫资源分享@QFZYFX 🇫🇷FR_4|1.3MB/s
-  - 青枫资源分享@QFZYFX 🇫🇷FR_5|255KB/s
-  - 青枫资源分享@QFZYFX 🇫🇷FR_6|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇫🇷FR_7|139KB/s
-  - 青枫资源分享@QFZYFX 🇫🇷FR_8|132KB/s|B007-260618
-  - 青枫资源分享@QFZYFX 🇫🇷FR_9|140KB/s|C002-260622
-  - 青枫资源分享@QFZYFX 🇬🇧GB_1|2.1MB/s|P002-260618
+  - 青枫资源分享@QFZYFX ❓Other_1|2.6MB/s|R002-260618
+  - 青枫资源分享@QFZYFX ❓Other_2|2.7MB/s|R002-260618
+  - 青枫资源分享@QFZYFX ❓Other_3|205KB/s
+  - 青枫资源分享@QFZYFX ❓Other_4|150KB/s
+  - 青枫资源分享@QFZYFX 🇦🇺AU_1|509KB/s
+  - 青枫资源分享@QFZYFX 🇦🇺AU_2|2.1MB/s|P002-260618
+  - 青枫资源分享@QFZYFX 🇧🇪BE_1|2.6MB/s|R002-260618
+  - 青枫资源分享@QFZYFX 🇧🇷BR_1|2.0MB/s
+  - 青枫资源分享@QFZYFX 🇧🇷BR_2|197KB/s
+  - 青枫资源分享@QFZYFX 🇨🇦CA_1|494KB/s
+  - 青枫资源分享@QFZYFX 🇨🇭CH_1|292KB/s|R002-260618
+  - 青枫资源分享@QFZYFX 🇨🇿CZ_1|377KB/s|P002-260618
+  - 青枫资源分享@QFZYFX 🇩🇪DE_10|2.6MB/s
+  - 青枫资源分享@QFZYFX 🇩🇪DE_11|2.5MB/s
+  - 青枫资源分享@QFZYFX 🇩🇪DE_12|2.5MB/s
+  - 青枫资源分享@QFZYFX 🇩🇪DE_13|3.2MB/s
+  - 青枫资源分享@QFZYFX 🇩🇪DE_1|1.6MB/s|R002-260618
+  - 青枫资源分享@QFZYFX 🇩🇪DE_2|3.6MB/s
+  - 青枫资源分享@QFZYFX 🇩🇪DE_3|3.2MB/s
+  - 青枫资源分享@QFZYFX 🇩🇪DE_4|828KB/s
+  - 青枫资源分享@QFZYFX 🇩🇪DE_5|677KB/s
+  - 青枫资源分享@QFZYFX 🇩🇪DE_6|740KB/s
+  - 青枫资源分享@QFZYFX 🇩🇪DE_7|646KB/s
+  - 青枫资源分享@QFZYFX 🇩🇪DE_8|413KB/s
+  - 青枫资源分享@QFZYFX 🇩🇪DE_9|428KB/s
+  - 青枫资源分享@QFZYFX 🇪🇪EE_1|3.1MB/s
+  - 青枫资源分享@QFZYFX 🇫🇮FI_1|2.1MB/s
+  - 青枫资源分享@QFZYFX 🇫🇷FR_10|1.6MB/s
+  - 青枫资源分享@QFZYFX 🇫🇷FR_11|303KB/s
+  - 青枫资源分享@QFZYFX 🇫🇷FR_12|244KB/s
+  - 青枫资源分享@QFZYFX 🇫🇷FR_13|180KB/s
+  - 青枫资源分享@QFZYFX 🇫🇷FR_14|203KB/s
+  - 青枫资源分享@QFZYFX 🇫🇷FR_15|602KB/s
+  - 青枫资源分享@QFZYFX 🇫🇷FR_16|1.7MB/s
+  - 青枫资源分享@QFZYFX 🇫🇷FR_17|472KB/s
+  - 青枫资源分享@QFZYFX 🇫🇷FR_18|1.0MB/s
+  - 青枫资源分享@QFZYFX 🇫🇷FR_19|406KB/s
+  - 青枫资源分享@QFZYFX 🇫🇷FR_1|685KB/s
+  - 青枫资源分享@QFZYFX 🇫🇷FR_20|1.1MB/s
+  - 青枫资源分享@QFZYFX 🇫🇷FR_21|923KB/s
+  - 青枫资源分享@QFZYFX 🇫🇷FR_22|763KB/s|B007-260618
+  - 青枫资源分享@QFZYFX 🇫🇷FR_23|2.1MB/s|B007-260618
+  - 青枫资源分享@QFZYFX 🇫🇷FR_24|180KB/s|C002-260622
+  - 青枫资源分享@QFZYFX 🇫🇷FR_25|392KB/s|C002-260622
+  - 青枫资源分享@QFZYFX 🇫🇷FR_26|182KB/s|C002-260622
+  - 青枫资源分享@QFZYFX 🇫🇷FR_27|147KB/s|C002-260622
+  - 青枫资源分享@QFZYFX 🇫🇷FR_28|132KB/s|C002-260622
+  - 青枫资源分享@QFZYFX 🇫🇷FR_29|170KB/s|C002-260622
+  - 青枫资源分享@QFZYFX 🇫🇷FR_2|131KB/s
+  - 青枫资源分享@QFZYFX 🇫🇷FR_30|350KB/s|C002-260622
+  - 青枫资源分享@QFZYFX 🇫🇷FR_31|239KB/s|C002-260622
+  - 青枫资源分享@QFZYFX 🇫🇷FR_32|251KB/s|C002-260622
+  - 青枫资源分享@QFZYFX 🇫🇷FR_33|397KB/s|C002-260622
+  - 青枫资源分享@QFZYFX 🇫🇷FR_34|341KB/s|B007-260618
+  - 青枫资源分享@QFZYFX 🇫🇷FR_35|681KB/s|B007-260618
+  - 青枫资源分享@QFZYFX 🇫🇷FR_36|2.6MB/s|R002-260618
+  - 青枫资源分享@QFZYFX 🇫🇷FR_37|717KB/s|S001-260618
+  - 青枫资源分享@QFZYFX 🇫🇷FR_38|2.2MB/s
+  - 青枫资源分享@QFZYFX 🇫🇷FR_39|203KB/s
+  - 青枫资源分享@QFZYFX 🇫🇷FR_3|608KB/s
+  - 青枫资源分享@QFZYFX 🇫🇷FR_4|1.0MB/s|B007-260618
+  - 青枫资源分享@QFZYFX 🇫🇷FR_5|746KB/s|C002-260622
+  - 青枫资源分享@QFZYFX 🇫🇷FR_6|1.1MB/s|B007-260618
+  - 青枫资源分享@QFZYFX 🇫🇷FR_7|1.0MB/s|A001-260618
+  - 青枫资源分享@QFZYFX 🇫🇷FR_8|491KB/s
+  - 青枫资源分享@QFZYFX 🇫🇷FR_9|765KB/s|C002-260622
+  - 青枫资源分享@QFZYFX 🇬🇧GB_1|2.4MB/s|P002-260618
   - 青枫资源分享@QFZYFX 🇬🇧GB_2|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇬🇧GB_3|938KB/s
-  - 青枫资源分享@QFZYFX 🇭🇰HK_1|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇭🇰HK_2|185KB/s
-  - 青枫资源分享@QFZYFX 🇭🇰HK_3|3.2MB/s
-  - 青枫资源分享@QFZYFX 🇮🇪IE_1|1.4MB/s
-  - 青枫资源分享@QFZYFX 🇰🇷KR_1|488KB/s
-  - 青枫资源分享@QFZYFX 🇰🇷KR_2|279KB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_10|2.1MB/s|P002-260618
-  - 青枫资源分享@QFZYFX 🇳🇱NL_11|400KB/s|R002-260618
-  - 青枫资源分享@QFZYFX 🇳🇱NL_12|320KB/s|R002-260618
-  - 青枫资源分享@QFZYFX 🇳🇱NL_13|253KB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_14|1.1MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_15|2.9MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_16|183KB/s|P002-260618
-  - 青枫资源分享@QFZYFX 🇳🇱NL_1|405KB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_2|722KB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_3|722KB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_4|801KB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_5|392KB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_6|2.6MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_7|481KB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_8|1.6MB/s
-  - 青枫资源分享@QFZYFX 🇳🇱NL_9|264KB/s|R002-260618
-  - 青枫资源分享@QFZYFX 🇵🇱PL_1|2.1MB/s
-  - 青枫资源分享@QFZYFX 🇷🇴RO_10|223KB/s|P002-260618
-  - 青枫资源分享@QFZYFX 🇷🇴RO_11|159KB/s
-  - 青枫资源分享@QFZYFX 🇷🇴RO_12|183KB/s
-  - 青枫资源分享@QFZYFX 🇷🇴RO_13|934KB/s|P002-260618
-  - 青枫资源分享@QFZYFX 🇷🇴RO_14|341KB/s|P002-260618
-  - 青枫资源分享@QFZYFX 🇷🇴RO_15|461KB/s
-  - 青枫资源分享@QFZYFX 🇷🇴RO_16|303KB/s
-  - 青枫资源分享@QFZYFX 🇷🇴RO_17|212KB/s
-  - 青枫资源分享@QFZYFX 🇷🇴RO_18|583KB/s
-  - 青枫资源分享@QFZYFX 🇷🇴RO_19|618KB/s|P002-260618
-  - 青枫资源分享@QFZYFX 🇷🇴RO_1|320KB/s|R002-260618
-  - 青枫资源分享@QFZYFX 🇷🇴RO_20|302KB/s|Z001-260618
-  - 青枫资源分享@QFZYFX 🇷🇴RO_21|998KB/s|P002-260618
-  - 青枫资源分享@QFZYFX 🇷🇴RO_22|201KB/s|R002-260618
-  - 青枫资源分享@QFZYFX 🇷🇴RO_23|181KB/s
-  - 青枫资源分享@QFZYFX 🇷🇴RO_24|240KB/s|P002-260618
-  - 青枫资源分享@QFZYFX 🇷🇴RO_25|134KB/s|P002-260618
-  - 青枫资源分享@QFZYFX 🇷🇴RO_26|239KB/s|P002-260618
-  - 青枫资源分享@QFZYFX 🇷🇴RO_27|447KB/s
-  - 青枫资源分享@QFZYFX 🇷🇴RO_28|230KB/s|R002-260618
-  - 青枫资源分享@QFZYFX 🇷🇴RO_29|348KB/s
-  - 青枫资源分享@QFZYFX 🇷🇴RO_2|589KB/s|R002-260618
-  - 青枫资源分享@QFZYFX 🇷🇴RO_30|160KB/s|R002-260618
-  - 青枫资源分享@QFZYFX 🇷🇴RO_31|322KB/s|Z001-260618
-  - 青枫资源分享@QFZYFX 🇷🇴RO_32|156KB/s|P002-260618
-  - 青枫资源分享@QFZYFX 🇷🇴RO_33|2.1MB/s|R002-260618
-  - 青枫资源分享@QFZYFX 🇷🇴RO_34|633KB/s|P002-260618
-  - 青枫资源分享@QFZYFX 🇷🇴RO_3|693KB/s
-  - 青枫资源分享@QFZYFX 🇷🇴RO_4|656KB/s
-  - 青枫资源分享@QFZYFX 🇷🇴RO_5|436KB/s|R002-260618
-  - 青枫资源分享@QFZYFX 🇷🇴RO_6|336KB/s|Z001-260618
-  - 青枫资源分享@QFZYFX 🇷🇴RO_7|446KB/s|R002-260618
-  - 青枫资源分享@QFZYFX 🇷🇴RO_8|490KB/s|R002-260618
-  - 青枫资源分享@QFZYFX 🇷🇴RO_9|605KB/s|R002-260618
-  - 青枫资源分享@QFZYFX 🇸🇪SE_1|2.0MB/s
-  - 青枫资源分享@QFZYFX 🇸🇬SG_1|1.7MB/s
-  - 青枫资源分享@QFZYFX 🇸🇬SG_2|3.7MB/s|R002-260618
-  - 青枫资源分享@QFZYFX 🇹🇭TH_1|1.2MB/s
-  - 青枫资源分享@QFZYFX 🇹🇼TW_1|196KB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_10|506KB/s|R002-260618
-  - 青枫资源分享@QFZYFX 🇺🇸US_11|1.4MB/s|R002-260618
-  - 青枫资源分享@QFZYFX 🇺🇸US_12|2.5MB/s|R002-260618
-  - 青枫资源分享@QFZYFX 🇺🇸US_13|1.2MB/s|P002-260618
-  - 青枫资源分享@QFZYFX 🇺🇸US_14|2.4MB/s|P002-260618
-  - 青枫资源分享@QFZYFX 🇺🇸US_15|1.5MB/s|P002-260618
-  - 青枫资源分享@QFZYFX 🇺🇸US_16|1.1MB/s|R002-260618
-  - 青枫资源分享@QFZYFX 🇺🇸US_17|2.0MB/s|R002-260618
-  - 青枫资源分享@QFZYFX 🇺🇸US_18|436KB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_19|619KB/s|P002-260618
-  - 青枫资源分享@QFZYFX 🇺🇸US_1|587KB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_20|750KB/s|R002-260618
-  - 青枫资源分享@QFZYFX 🇺🇸US_21|1.6MB/s|P002-260618
-  - 青枫资源分享@QFZYFX 🇺🇸US_22|2.7MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_23|222KB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_24|1.8MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_25|153KB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_26|203KB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_27|2.3MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_28|1.4MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_29|164KB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_2|553KB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_30|2.7MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_31|1.9MB/s|C002-260622
-  - 青枫资源分享@QFZYFX 🇺🇸US_32|3.1MB/s|R002-260618
-  - 青枫资源分享@QFZYFX 🇺🇸US_33|2.5MB/s|P002-260618
-  - 青枫资源分享@QFZYFX 🇺🇸US_34|2.6MB/s|P002-260618
-  - 青枫资源分享@QFZYFX 🇺🇸US_35|2.6MB/s|P002-260618
-  - 青枫资源分享@QFZYFX 🇺🇸US_36|2.2MB/s|R002-260618
-  - 青枫资源分享@QFZYFX 🇺🇸US_37|2.4MB/s|P002-260618
-  - 青枫资源分享@QFZYFX 🇺🇸US_38|201KB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_39|185KB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_3|3.1MB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_40|189KB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_41|865KB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_42|507KB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_43|133KB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_4|522KB/s
-  - 青枫资源分享@QFZYFX 🇺🇸US_5|1.0MB/s|R002-260618
-  - 青枫资源分享@QFZYFX 🇺🇸US_6|605KB/s|R002-260618
-  - 青枫资源分享@QFZYFX 🇺🇸US_7|1.9MB/s|R002-260618
-  - 青枫资源分享@QFZYFX 🇺🇸US_8|608KB/s|P002-260618
-  - 青枫资源分享@QFZYFX 🇺🇸US_9|456KB/s|P002-260618
+  - 青枫资源分享@QFZYFX 🇬🇧GB_3|792KB/s
+  - 青枫资源分享@QFZYFX 🇬🇧GB_4|2.8MB/s
+  - 青枫资源分享@QFZYFX 🇬🇧GB_5|2.2MB/s
+  - 青枫资源分享@QFZYFX 🇭🇰HK_1|648KB/s
+  - 青枫资源分享@QFZYFX 🇭🇰HK_2|3.3MB/s
+  - 青枫资源分享@QFZYFX 🇭🇰HK_3|4.2MB/s
+  - 青枫资源分享@QFZYFX 🇭🇰HK_4|171KB/s|R002-260618
+  - 青枫资源分享@QFZYFX 🇭🇰HK_5|571KB/s|R002-260618
+  - 青枫资源分享@QFZYFX 🇮🇳IN_1|3.4MB/s
+  - 青枫资源分享@QFZYFX 🇮🇳IN_2|3.2MB/s
+  - 青枫资源分享@QFZYFX 🇯🇵JP_1|294KB/s
+  - 青枫资源分享@QFZYFX 🇲🇩MD_1|1.7MB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_10|2.1MB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_11|2.4MB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_12|2.0MB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_13|3.5MB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_14|1.4MB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_15|185KB/s|R002-260618
+  - 青枫资源分享@QFZYFX 🇳🇱NL_16|684KB/s|R002-260618
+  - 青枫资源分享@QFZYFX 🇳🇱NL_1|2.3MB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_2|348KB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_3|888KB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_4|2.4MB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_5|2.5MB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_6|2.5MB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_7|1.5MB/s
+  - 青枫资源分享@QFZYFX 🇳🇱NL_8|593KB/s|R002-260618
+  - 青枫资源分享@QFZYFX 🇳🇱NL_9|2.5MB/s|P002-260618
+  - 青枫资源分享@QFZYFX 🇷🇴RO_10|306KB/s|P002-260618
+  - 青枫资源分享@QFZYFX 🇷🇴RO_11|536KB/s
+  - 青枫资源分享@QFZYFX 🇷🇴RO_12|473KB/s
+  - 青枫资源分享@QFZYFX 🇷🇴RO_13|147KB/s|P002-260618
+  - 青枫资源分享@QFZYFX 🇷🇴RO_14|214KB/s
+  - 青枫资源分享@QFZYFX 🇷🇴RO_15|229KB/s
+  - 青枫资源分享@QFZYFX 🇷🇴RO_16|453KB/s|Z001-260618
+  - 青枫资源分享@QFZYFX 🇷🇴RO_17|215KB/s|R002-260618
+  - 青枫资源分享@QFZYFX 🇷🇴RO_18|285KB/s
+  - 青枫资源分享@QFZYFX 🇷🇴RO_19|268KB/s|P002-260618
+  - 青枫资源分享@QFZYFX 🇷🇴RO_1|330KB/s|R002-260618
+  - 青枫资源分享@QFZYFX 🇷🇴RO_20|1.4MB/s|P002-260618
+  - 青枫资源分享@QFZYFX 🇷🇴RO_21|164KB/s
+  - 青枫资源分享@QFZYFX 🇷🇴RO_22|369KB/s|R002-260618
+  - 青枫资源分享@QFZYFX 🇷🇴RO_23|1.8MB/s
+  - 青枫资源分享@QFZYFX 🇷🇴RO_24|938KB/s|R002-260618
+  - 青枫资源分享@QFZYFX 🇷🇴RO_25|249KB/s|Z001-260618
+  - 青枫资源分享@QFZYFX 🇷🇴RO_26|633KB/s|P002-260618
+  - 青枫资源分享@QFZYFX 🇷🇴RO_27|698KB/s|R002-260618
+  - 青枫资源分享@QFZYFX 🇷🇴RO_28|608KB/s|P002-260618
+  - 青枫资源分享@QFZYFX 🇷🇴RO_29|2.4MB/s
+  - 青枫资源分享@QFZYFX 🇷🇴RO_2|236KB/s|R002-260618
+  - 青枫资源分享@QFZYFX 🇷🇴RO_30|626KB/s
+  - 青枫资源分享@QFZYFX 🇷🇴RO_31|482KB/s
+  - 青枫资源分享@QFZYFX 🇷🇴RO_32|762KB/s|P002-260618
+  - 青枫资源分享@QFZYFX 🇷🇴RO_33|2.1MB/s|P002-260618
+  - 青枫资源分享@QFZYFX 🇷🇴RO_34|277KB/s|P002-260618
+  - 青枫资源分享@QFZYFX 🇷🇴RO_35|259KB/s|R002-260618
+  - 青枫资源分享@QFZYFX 🇷🇴RO_36|562KB/s|R002-260618
+  - 青枫资源分享@QFZYFX 🇷🇴RO_37|816KB/s
+  - 青枫资源分享@QFZYFX 🇷🇴RO_38|2.4MB/s|P002-260618
+  - 青枫资源分享@QFZYFX 🇷🇴RO_39|2.1MB/s|P002-260618
+  - 青枫资源分享@QFZYFX 🇷🇴RO_3|338KB/s
+  - 青枫资源分享@QFZYFX 🇷🇴RO_40|292KB/s|G001-260618
+  - 青枫资源分享@QFZYFX 🇷🇴RO_41|2.4MB/s|R002-260618
+  - 青枫资源分享@QFZYFX 🇷🇴RO_42|992KB/s|P002-260618
+  - 青枫资源分享@QFZYFX 🇷🇴RO_43|2.0MB/s|P002-260618
+  - 青枫资源分享@QFZYFX 🇷🇴RO_44|2.0MB/s|P002-260618
+  - 青枫资源分享@QFZYFX 🇷🇴RO_45|1.2MB/s|P002-260618
+  - 青枫资源分享@QFZYFX 🇷🇴RO_46|1.5MB/s|R002-260618
+  - 青枫资源分享@QFZYFX 🇷🇴RO_47|2.5MB/s|P002-260618
+  - 青枫资源分享@QFZYFX 🇷🇴RO_4|318KB/s
+  - 青枫资源分享@QFZYFX 🇷🇴RO_5|453KB/s|R002-260618
+  - 青枫资源分享@QFZYFX 🇷🇴RO_6|176KB/s|Z001-260618
+  - 青枫资源分享@QFZYFX 🇷🇴RO_7|2.5MB/s|R002-260618
+  - 青枫资源分享@QFZYFX 🇷🇴RO_8|472KB/s|R002-260618
+  - 青枫资源分享@QFZYFX 🇷🇴RO_9|300KB/s|R002-260618
+  - 青枫资源分享@QFZYFX 🇷🇺RU_1|2.6MB/s
+  - 青枫资源分享@QFZYFX 🇷🇺RU_2|2.5MB/s
+  - 青枫资源分享@QFZYFX 🇸🇬SG_1|264KB/s
+  - 青枫资源分享@QFZYFX 🇸🇬SG_2|3.5MB/s
+  - 青枫资源分享@QFZYFX 🇹🇭TH_1|2.8MB/s
+  - 青枫资源分享@QFZYFX 🇺🇦UA_1|2.1MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_10|796KB/s|R002-260618
+  - 青枫资源分享@QFZYFX 🇺🇸US_11|310KB/s|R002-260618
+  - 青枫资源分享@QFZYFX 🇺🇸US_12|443KB/s|R002-260618
+  - 青枫资源分享@QFZYFX 🇺🇸US_13|445KB/s|P002-260618
+  - 青枫资源分享@QFZYFX 🇺🇸US_14|1.5MB/s|P002-260618
+  - 青枫资源分享@QFZYFX 🇺🇸US_15|261KB/s|P002-260618
+  - 青枫资源分享@QFZYFX 🇺🇸US_16|2.4MB/s|R002-260618
+  - 青枫资源分享@QFZYFX 🇺🇸US_17|553KB/s|R002-260618
+  - 青枫资源分享@QFZYFX 🇺🇸US_18|275KB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_19|2.0MB/s|P002-260618
+  - 青枫资源分享@QFZYFX 🇺🇸US_1|613KB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_20|432KB/s|R002-260618
+  - 青枫资源分享@QFZYFX 🇺🇸US_21|210KB/s|P002-260618
+  - 青枫资源分享@QFZYFX 🇺🇸US_22|582KB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_23|2.6MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_24|2.0MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_25|2.0MB/s|R002-260618
+  - 青枫资源分享@QFZYFX 🇺🇸US_26|278KB/s|P002-260618
+  - 青枫资源分享@QFZYFX 🇺🇸US_27|241KB/s|P002-260618
+  - 青枫资源分享@QFZYFX 🇺🇸US_28|2.6MB/s|P002-260618
+  - 青枫资源分享@QFZYFX 🇺🇸US_29|2.5MB/s|R002-260618
+  - 青枫资源分享@QFZYFX 🇺🇸US_2|538KB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_30|942KB/s|P002-260618
+  - 青枫资源分享@QFZYFX 🇺🇸US_31|183KB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_32|2.0MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_33|730KB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_34|300KB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_35|210KB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_36|128KB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_37|149KB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_38|151KB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_39|2.1MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_3|1.8MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_40|132KB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_41|2.7MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_42|2.1MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_43|192KB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_44|3.2MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_45|236KB/s|R002-260618
+  - 青枫资源分享@QFZYFX 🇺🇸US_46|2.4MB/s|R002-260618
+  - 青枫资源分享@QFZYFX 🇺🇸US_47|2.5MB/s|P002-260618
+  - 青枫资源分享@QFZYFX 🇺🇸US_48|1.9MB/s|P002-260618
+  - 青枫资源分享@QFZYFX 🇺🇸US_49|297KB/s|R002-260618
+  - 青枫资源分享@QFZYFX 🇺🇸US_4|1.1MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_50|2.5MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_51|401KB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_52|3.0MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_53|3.2MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_54|3.2MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_55|3.2MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_56|3.1MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_57|3.2MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_58|3.1MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_59|2.6MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_5|1.2MB/s|R002-260618
+  - 青枫资源分享@QFZYFX 🇺🇸US_60|2.6MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_61|1.6MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_62|192KB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_63|1.9MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_64|2.0MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_65|2.0MB/s
+  - 青枫资源分享@QFZYFX 🇺🇸US_6|465KB/s|R002-260618
+  - 青枫资源分享@QFZYFX 🇺🇸US_7|662KB/s|R002-260618
+  - 青枫资源分享@QFZYFX 🇺🇸US_8|541KB/s|P002-260618
+  - 青枫资源分享@QFZYFX 🇺🇸US_9|642KB/s|P002-260618
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
@@ -2208,4 +3220,4 @@ rules:
 - DOMAIN-SUFFIX,openai.com,🌍 国外媒体
 - GEOIP,CN,🎯 全球直连
 - MATCH,🐟 漏网之鱼
-# updated: 2026-09-01 09:44:10
+# updated: 2026-09-02 09:32:51
