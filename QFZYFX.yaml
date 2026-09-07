@@ -3031,4 +3031,4 @@ rules:
 - DOMAIN-SUFFIX,openai.com,🌍 国外媒体
 - GEOIP,CN,🎯 全球直连
 - MATCH,🐟 漏网之鱼
-# updated: 2026-09-06 18:07:17
+# updated: 2026-09-07 11:22:31
