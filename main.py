@@ -331,7 +331,7 @@ def ocr_password_from_video(video_url, temp_dir, cookies_file=None, channel=None
     if segment_env and "-" in segment_env:
         scan_start, scan_end = max(0, int(segment_env.split("-")[0])), min(duration, int(segment_env.split("-")[1]))
     else:
-        scan_start = 70
+        scan_start = 60
         scan_end = min(140, duration)
 
     fps = CHANNEL_OCR_FPS.get(channel, 1.0)
