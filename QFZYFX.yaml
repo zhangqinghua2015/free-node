@@ -6369,4 +6369,4 @@ rules:
 - DOMAIN-SUFFIX,openai.com,🌍 国外媒体
 - GEOIP,CN,🎯 全球直连
 - MATCH,🐟 漏网之鱼
-# updated: 2026-10-12 06:47:59
+# updated: 2026-10-12 06:59:55
