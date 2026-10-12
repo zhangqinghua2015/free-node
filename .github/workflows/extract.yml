@@ -64,6 +64,7 @@ jobs:
             echo "Converting channel: $INPUT_CHANNEL"
             python main.py --convert-only "$INPUT_CHANNEL"
           else
+            export CHANGED_FILES=$(git diff --name-only HEAD~1 HEAD || true)
             for ch in $CHANNELS; do
               echo "Converting channel: $ch"
               python main.py --convert-only "$ch"

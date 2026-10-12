@@ -507,6 +507,31 @@ def _commit_paths(*paths):
     git_commit_and_push(unique)
 
 
+# The jcnode gate page posts the password to a path relative to itself, so a
+# pending record holding either the endpoint or the page resolves the same way.
+_VERIFY_ENDPOINT_RE = re.compile(r"""fetch\(\s*['"]([^'"]*api[^'"]*)['"]""", re.IGNORECASE)
+
+
+def _jcnode_verify_endpoint(source_url):
+    """Return the URL a jcnode password has to be POSTed to."""
+    from urllib.parse import urljoin, urlparse
+    if not source_url:
+        return JCNODE_VERIFY_URL
+    if "/api/" in urlparse(source_url).path:
+        return source_url
+
+    html = _http_get_text(source_url)
+    if html:
+        match = _VERIFY_ENDPOINT_RE.search(html)
+        if match:
+            endpoint = urljoin(source_url, match.group(1))
+            print(f"[FETCH] jcnode verify endpoint from page: {endpoint}")
+            return endpoint
+    endpoint = urljoin(source_url, "/api/verify")
+    print(f"[WARN] No verify endpoint found on {source_url}; trying {endpoint}")
+    return endpoint
+
+
 def fetch_jcnode_subscription(password, url=JCNODE_VERIFY_URL):
     """Fetch subscription links from jcnode using the password."""
     print(f"[FETCH] Submitting password to jcnode: {password}")
@@ -1246,7 +1271,7 @@ def extract_clash_url(channel, data):
 def _resolve_clash_url_from_record(channel, source_url, password):
     """Resolve the Clash URL from a pending record's source URL and password."""
     if channel == "jcnode":
-        links = fetch_jcnode_subscription(password, url=source_url)
+        links = fetch_jcnode_subscription(password, url=_jcnode_verify_endpoint(source_url))
         if not links:
             return None
         print_subscription_links(links)
@@ -1261,34 +1286,50 @@ def _resolve_clash_url_from_record(channel, source_url, password):
     return extract_clash_url(channel, content)
 
 
+def _changed_files():
+    """Filenames changed by the push that triggered this run, when known."""
+    raw = os.environ.get("CHANGED_FILES", "")
+    return {Path(line.strip()).name for line in raw.splitlines() if line.strip()}
+
+
 def convert_from_txt(channel):
     """Resolve the Clash URL for a channel, convert it to YAML, commit and push.
 
-    Prefers the pending record written by a local run (source URL + password and,
-    when available, the Clash URL itself) and falls back to the legacy plain
-    {channel}.txt holding a bare subscription URL.
+    Inputs are the pending record written by a local run (source URL + password,
+    plus the Clash URL once resolved) and the plain {channel}.txt holding a bare
+    subscription URL. Precedence:
+
+      1. a Clash URL stored in the record, because it was resolved for this run;
+      2. {channel}.txt when this push changed it, since that is a deliberate
+         staging and must not be shadowed by a record left over from before;
+      3. the record's source URL and password;
+      4. {channel}.txt as-is.
     """
     record = _read_pending_record(channel)
-    if record is not None:
-        source_url, password, clash_url = record
-        if clash_url:
-            print(f"[CONVERT] Using Clash URL recorded in {_pending_path(channel).name}")
-        else:
-            print(f"[CONVERT] Resolving pending record (source={source_url})")
-            clash_url = _resolve_clash_url_from_record(channel, source_url, password)
-            if not clash_url:
-                print("[ERROR] Failed to resolve Clash subscription URL")
-                return False
-    else:
-        txt_file = Path.cwd() / f"{channel}.txt"
-        if not txt_file.exists():
-            print(f"[ERROR] No pending record and {txt_file} not found")
-            return False
-        clash_url = txt_file.read_text(encoding="utf-8").strip()
+    legacy_file = Path.cwd() / f"{channel}.txt"
+    legacy_url = ""
+    if legacy_file.exists():
+        legacy_url = legacy_file.read_text(encoding="utf-8").strip()
+
+    if record is not None and record[2]:
+        clash_url = record[2]
+        print(f"[CONVERT] Using Clash URL recorded in {_pending_path(channel).name}")
+    elif legacy_url and legacy_file.name in _changed_files():
+        clash_url = legacy_url
+        print(f"[CONVERT] Using {legacy_file.name}, which this push changed")
+    elif record is not None:
+        source_url, password, _ = record
+        print(f"[CONVERT] Resolving pending record (source={source_url})")
+        clash_url = _resolve_clash_url_from_record(channel, source_url, password)
         if not clash_url:
-            print(f"[ERROR] {txt_file} is empty")
+            print("[ERROR] Failed to resolve Clash subscription URL")
             return False
-        print(f"[CONVERT] Using legacy URL from {txt_file.name}")
+    elif legacy_url:
+        clash_url = legacy_url
+        print(f"[CONVERT] Using URL from {legacy_file.name}")
+    else:
+        print(f"[ERROR] No pending record and no URL in {legacy_file.name}")
+        return False
     print(f"[CONVERT] Channel={channel}, Clash URL={clash_url}")
     yaml_content = convert_clash_url(clash_url)
     if not yaml_content:
