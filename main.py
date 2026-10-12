@@ -418,10 +418,99 @@ def _http_get_json(url, retries=3):
     return None
 
 
-def fetch_jcnode_subscription(password):
+def _http_get_text(url, retries=3):
+    """GET a page and return its text with retry and SSL fallback."""
+    import urllib3
+    urllib3.disable_warnings()
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+                      "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml",
+    }
+    for attempt in range(retries):
+        try:
+            resp = requests.get(url, headers=headers, timeout=20)
+            resp.raise_for_status()
+            return resp.text
+        except requests.exceptions.SSLError:
+            try:
+                resp = requests.get(url, headers=headers, timeout=20, verify=False)
+                resp.raise_for_status()
+                return resp.text
+            except Exception as e:
+                print(f"[WARN] Attempt {attempt+1}/{retries} SSL fallback failed: {e}")
+        except requests.RequestException as e:
+            print(f"[WARN] Attempt {attempt+1}/{retries} failed: {e}")
+    return None
+
+
+# ---------------------------------------------------------------------------
+# Pending records
+#
+# When a channel cannot be resolved or downloaded on this machine, whatever we
+# did manage to parse is persisted so the GitHub Action can finish the job from
+# a different network. Both channels use the same three-line shape:
+#
+#     <source URL>   where the password has to be submitted
+#     <password>
+#     <clash URL>    optional, present once the subscription link is known
+#
+# Stage 1 writes the first two lines as soon as the password and the source are
+# known; stage 2 fills in the Clash URL when extraction succeeded but the
+# download or the YAML conversion did not.
+# ---------------------------------------------------------------------------
+
+
+def _pending_path(channel):
+    """Pending record path for a channel."""
+    name = "QFZYFX_P.txt" if channel == "QFZYFX" else f"{channel or 'unknown'}_P.txt"
+    return Path.cwd() / name
+
+
+def _write_pending_record(channel, source_url, password, clash_url=None):
+    """Write (or rewrite) the pending record for a channel."""
+    lines = [source_url.strip(), password.strip()]
+    if clash_url:
+        lines.append(clash_url.strip())
+    p_file = _pending_path(channel)
+    p_file.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    print(f"[SAVE] Pending record saved to {p_file}")
+    return p_file
+
+
+def _read_pending_record(channel):
+    """Return (source_url, password, clash_url) or None when unusable."""
+    p_file = _pending_path(channel)
+    if not p_file.exists():
+        return None
+    lines = [line.strip() for line in p_file.read_text(encoding="utf-8").splitlines()]
+    lines = [line for line in lines if line]
+    if len(lines) < 2:
+        print(f"[WARN] {p_file} is not a usable pending record")
+        return None
+    return lines[0], lines[1], lines[2] if len(lines) > 2 else None
+
+
+def _record_pending_clash_url(channel, clash_url):
+    """Stage 2: fill in the Clash URL of the record written at stage 1."""
+    record = _read_pending_record(channel)
+    if record is None:
+        print(f"[SAVE] No pending record for {channel}; skipping Clash URL record")
+        return None
+    source_url, password, _ = record
+    return _write_pending_record(channel, source_url, password, clash_url)
+
+
+def _commit_paths(*paths):
+    """Commit the given paths, de-duplicated."""
+    unique = list(dict.fromkeys(str(path) for path in paths if path))
+    git_commit_and_push(unique)
+
+
+def fetch_jcnode_subscription(password, url=JCNODE_VERIFY_URL):
     """Fetch subscription links from jcnode using the password."""
     print(f"[FETCH] Submitting password to jcnode: {password}")
-    data = _http_post_json(JCNODE_VERIFY_URL, {"code": password})
+    data = _http_post_json(url, {"code": password})
     if data is None:
         print("[ERROR] jcnode API request failed after retries")
         return None
@@ -565,23 +654,156 @@ def _privatebin_decrypt(paste_url, password):
     return plaintext.decode('utf-8')
 
 
+# ---------------------------------------------------------------------------
+# qfnode.dpdns.org article pages (QFZYFX node download page)
+#
+# The landing page lists one <article class="post-entry"> per day and the first
+# one is the newest article. That article holds the subscription links behind a
+# password gate that is evaluated in the page's own JavaScript, so the links are
+# served in the HTML inside hidden <span class="node-url"> elements.
+# ---------------------------------------------------------------------------
+
+_QFZYFX_POST_ENTRY_RE = re.compile(
+    r'<article[^>]*class="[^"]*\bpost-entry\b[^"]*"[^>]*>.*?'
+    r'<a[^>]*class="[^"]*\bentry-link\b[^"]*"[^>]*href="([^"]+)"',
+    re.IGNORECASE | re.DOTALL,
+)
+_QFZYFX_POSTS_HREF_RE = re.compile(r'href="([^"]*/posts/[^"]+/?)"', re.IGNORECASE)
+_QFZYFX_NODE_LINK_RE = re.compile(
+    r'<strong[^>]*>\s*([^<]{0,40}?)\s*</strong>\s*'
+    r'<span[^>]*class="[^"]*\bnode-url\b[^"]*"[^>]*>\s*(https?://[^<\s]+?)\s*</span>',
+    re.IGNORECASE | re.DOTALL,
+)
+_QFZYFX_NODE_URL_RE = re.compile(
+    r'<span[^>]*class="[^"]*\bnode-url\b[^"]*"[^>]*>\s*(https?://[^<\s]+?)\s*</span>',
+    re.IGNORECASE | re.DOTALL,
+)
+# Fallback that only needs the ASCII protocol name, so it still works when the
+# page is decoded with the wrong charset and the Chinese label turns to mojibake.
+_QFZYFX_PROTOCOL_LINK_RE = re.compile(
+    r'([^<>]{0,30}?(?:clash|v2ray|sing-?box)[^<>]{0,30}?)\s*<'
+    r'.*?<span[^>]*class="[^"]*\bnode-url\b[^"]*"[^>]*>\s*(https?://[^<\s]+?)\s*</span>',
+    re.IGNORECASE | re.DOTALL,
+)
+_QFZYFX_GATE_RE = re.compile(r"""pwd\s*===\s*['"]([^'"]*)['"]""")
+
+_QFZYFX_LABELS = (
+    ("clash", "Clash订阅"),
+    ("sing", "SingBox订阅"),
+    ("v2ray", "V2Ray订阅"),
+)
+
+
 def _extract_subscription_url(description):
-    """Extract subscription URL from video description (after '订阅地址：' or '订阅地址:')."""
+    """Extract subscription URL from video description."""
     if not description:
         return None
     print(f"{description}")
-    pattern = r'(订阅地址|\(Nodes Link\))[：:]\s.*?\[?(https?://[^\s　（）\[\]]+)'
+    pattern = r'(订阅地址|节点下载专属页面|\(Nodes Link\))[：:]\s.*?\[?(https?://[^\s　（）\[\]]+)'
     match = re.search(pattern, description)
     if match:
         return match.group(2)
     return None
 
 
+def _is_post_url(url):
+    """True if the URL already points at an individual article."""
+    from urllib.parse import urlparse
+    return bool(re.search(r'/posts/[^/]+/?$', urlparse(url).path))
+
+
+def _is_privatebin_url(url):
+    """True if the URL looks like a PrivateBin paste (query id + fragment key)."""
+    from urllib.parse import urlparse
+    parsed = urlparse(url)
+    return bool(parsed.fragment) and bool(parsed.query)
+
+
+def _resolve_first_post_url(page_url):
+    """Return the newest article URL listed on a node download page."""
+    html = _http_get_text(page_url)
+    if not html:
+        print(f"[ERROR] Failed to fetch QFZYFX node page: {page_url}")
+        return None
+    from urllib.parse import urljoin
+    for regex in (_QFZYFX_POST_ENTRY_RE, _QFZYFX_POSTS_HREF_RE):
+        match = regex.search(html)
+        if match:
+            post_url = urljoin(page_url, match.group(1))
+            print(f"[FETCH] Newest article on QFZYFX node page: {post_url}")
+            return post_url
+    print(f"[ERROR] No article link found on QFZYFX node page: {page_url}")
+    return None
+
+
+def _extract_node_links(html):
+    """Pull (label, url) subscription entries out of an article page."""
+    pairs = _QFZYFX_NODE_LINK_RE.findall(html)
+    if not pairs:
+        pairs = _QFZYFX_PROTOCOL_LINK_RE.findall(html)
+    if not pairs:
+        pairs = [(None, url) for url in _QFZYFX_NODE_URL_RE.findall(html)]
+    return [
+        (_normalize_node_label(label, idx), url)
+        for idx, (label, url) in enumerate(pairs)
+    ]
+
+
+def _normalize_node_label(label, idx):
+    """Canonicalize a page label to a stable ASCII protocol name."""
+    lowered = (label or "").lower()
+    for key, canonical in _QFZYFX_LABELS:
+        if key in lowered:
+            return canonical
+    cleaned = (label or "").strip().rstrip("：:")
+    return cleaned or f"订阅链接{idx + 1}"
+
+
+def _resolve_qfzyfx_target(sub_url):
+    """Resolve the URL that actually holds the subscription content.
+
+    Older descriptions linked a PrivateBin paste directly; current ones link the
+    node download page, where the newest article holds the content.
+    """
+    if _is_privatebin_url(sub_url) or _is_post_url(sub_url):
+        return sub_url
+    return _resolve_first_post_url(sub_url)
+
+
+def _fetch_qfzyfx_content(target_url, password):
+    """Fetch subscription content from a PrivateBin paste or an article page."""
+    if _is_privatebin_url(target_url):
+        return _privatebin_decrypt(target_url, password)
+
+    html = _http_get_text(target_url)
+    if not html:
+        print(f"[ERROR] Failed to fetch article page: {target_url}")
+        return None
+
+    gate = _QFZYFX_GATE_RE.search(html)
+    if gate is None:
+        print("[WARN] No inline password gate found on article page")
+    elif gate.group(1) != password.strip():
+        print(f"[WARN] OCR password '{password}' does not match page gate "
+              f"'{gate.group(1)}'; using the links served by the page")
+    else:
+        print("[FETCH] Password matches page gate")
+
+    links = _extract_node_links(html)
+    if not links:
+        print("[ERROR] No node links found on article page")
+        return None
+
+    for label, url in links:
+        print(f"[FETCH] {label}: {url}")
+    return "\n".join(f"{label}： {url}" for label, url in links)
+
+
 def fetch_qfzyfx_subscription(description, password):
     """Fetch subscription content from QFZYFX channel.
 
-    Extracts the PrivateBin URL from the video description, then decrypts
-    the paste using the OCR-extracted password.
+    Extracts the node download page from the video description, follows it to
+    the newest article, and reads the subscription links from that page.
     """
     sub_url = _extract_subscription_url(description)
     if not sub_url:
@@ -589,11 +811,18 @@ def fetch_qfzyfx_subscription(description, password):
         return None
 
     print(f"[FETCH] Subscription URL: {sub_url}")
-    sub_file = Path.cwd() / "QFZYFX_P.txt"
-    sub_file.write_text(f"{sub_url}\n{password}", encoding="utf-8")
-    print(f"[SAVE] Subscription URL + password saved to {sub_file}")
-    plaintext = _privatebin_decrypt(sub_url, password)
-    return plaintext
+    # Saved before resolving: if the landing page, the article page or the YAML
+    # conversion fails, QFZYFX_P.txt is still changed and main() hands the work
+    # over to GitHub Actions instead of dropping it.
+    _write_pending_record("QFZYFX", sub_url, password)
+
+    target_url = _resolve_qfzyfx_target(sub_url)
+    if not target_url:
+        return None
+
+    if target_url != sub_url:
+        _write_pending_record("QFZYFX", target_url, password)
+    return _fetch_qfzyfx_content(target_url, password)
 
 
 def print_subscription_content(content):
@@ -943,8 +1172,12 @@ def git_commit_and_push(files):
         if result.returncode == 0:
             print("[GIT] No changes to commit")
             return
+        staged = subprocess.run(
+            ["git", "diff", "--cached", "--name-only"],
+            capture_output=True, text=True,
+        ).stdout.split()
         today = datetime.date.today().isoformat()
-        msg = f"Update {', '.join(files_to_add)} [{today}]"
+        msg = f"Update {', '.join(staged or files_to_add)} [{today}]"
         subprocess.run(["git", "commit", "-m", msg], check=True, capture_output=True)
         print(f"[GIT] Committed: {msg}")
         result = subprocess.run(
@@ -961,9 +1194,17 @@ def git_commit_and_push(files):
 
 
 def git_checkout_file(filepath):
-    """Restore a file to its last committed state."""
-    subprocess.run(["git", "checkout", "HEAD", "--", filepath], capture_output=True)
-    print(f"[GIT] Restored {filepath}")
+    """Restore a file to its last committed state (drop it if untracked)."""
+    tracked = subprocess.run(
+        ["git", "ls-files", "--error-unmatch", str(filepath)],
+        capture_output=True,
+    ).returncode == 0
+    if tracked:
+        subprocess.run(["git", "checkout", "HEAD", "--", str(filepath)], capture_output=True)
+        print(f"[GIT] Restored {filepath}")
+    else:
+        Path(filepath).unlink(missing_ok=True)
+        print(f"[GIT] Removed untracked {filepath}")
 
 
 def extract_clash_url(channel, data):
@@ -990,8 +1231,8 @@ def extract_clash_url(channel, data):
             text = obj.get("paste", text)
         except (json_mod.JSONDecodeError, AttributeError):
             pass
-        # Match patterns like "Clash、Mate订阅链接：\nhttps://..."
-        match = re.search(r'Clash[、,，].*?订阅链接[：:]\s*\n?(https?://\S+)', text)
+        # Match "Clash、Mate订阅链接：\nhttps://..." and "Clash订阅： https://..."
+        match = re.search(r'Clash[^\n]{0,20}?订阅(?:链接)?\s*[：:]\s*\n?(https?://\S+)', text)
         if match:
             return match.group(1)
         # Fallback: any URL with "clash" in query/path
@@ -1002,37 +1243,53 @@ def extract_clash_url(channel, data):
     return None
 
 
+def _resolve_clash_url_from_record(channel, source_url, password):
+    """Resolve the Clash URL from a pending record's source URL and password."""
+    if channel == "jcnode":
+        links = fetch_jcnode_subscription(password, url=source_url)
+        if not links:
+            return None
+        print_subscription_links(links)
+        return extract_clash_url(channel, links)
+
+    target_url = _resolve_qfzyfx_target(source_url)
+    if not target_url:
+        return None
+    content = _fetch_qfzyfx_content(target_url, password)
+    if not content:
+        return None
+    return extract_clash_url(channel, content)
+
+
 def convert_from_txt(channel):
-    """Read URL from {channel}.txt (or QFZYFX_P.txt for QFZYFX), convert to Clash YAML, commit and push."""
-    if channel == "QFZYFX":
-        p_file = Path.cwd() / "QFZYFX_P.txt"
-        if not p_file.exists():
-            print(f"[ERROR] {p_file} not found")
-            return False
-        lines = p_file.read_text(encoding="utf-8").strip().splitlines()
-        if len(lines) < 2:
-            print(f"[ERROR] {p_file} must contain URL and password on separate lines")
-            return False
-        sub_url, password = lines[0].strip(), lines[1].strip()
-        print(f"[CONVERT] QFZYFX PrivateBin URL: {sub_url}")
-        content = _privatebin_decrypt(sub_url, password)
-        if not content:
-            print("[ERROR] Failed to decrypt PrivateBin paste")
-            return False
-        clash_url = extract_clash_url(channel, content)
+    """Resolve the Clash URL for a channel, convert it to YAML, commit and push.
+
+    Prefers the pending record written by a local run (source URL + password and,
+    when available, the Clash URL itself) and falls back to the legacy plain
+    {channel}.txt holding a bare subscription URL.
+    """
+    record = _read_pending_record(channel)
+    if record is not None:
+        source_url, password, clash_url = record
+        if clash_url:
+            print(f"[CONVERT] Using Clash URL recorded in {_pending_path(channel).name}")
+        else:
+            print(f"[CONVERT] Resolving pending record (source={source_url})")
+            clash_url = _resolve_clash_url_from_record(channel, source_url, password)
+            if not clash_url:
+                print("[ERROR] Failed to resolve Clash subscription URL")
+                return False
     else:
         txt_file = Path.cwd() / f"{channel}.txt"
         if not txt_file.exists():
-            print(f"[ERROR] {txt_file} not found")
+            print(f"[ERROR] No pending record and {txt_file} not found")
             return False
         clash_url = txt_file.read_text(encoding="utf-8").strip()
         if not clash_url:
             print(f"[ERROR] {txt_file} is empty")
             return False
+        print(f"[CONVERT] Using legacy URL from {txt_file.name}")
     print(f"[CONVERT] Channel={channel}, Clash URL={clash_url}")
-    if not clash_url:
-        print("[ERROR] Failed to extract Clash subscription URL")
-        return False
     yaml_content = convert_clash_url(clash_url)
     if not yaml_content:
         print("[ERROR] Failed to convert subscription URL")
@@ -1094,12 +1351,17 @@ def main():
             print(f"password={password}")
             clash_url = None
             txt_file = Path.cwd() / ("QFZYFX_P.txt" if channel == "QFZYFX" else f"{channel or 'unknown'}.txt")
+            pending_file = _pending_path(channel)
             if channel == "jcnode" and not args.no_fetch:
+                # Stage 1: record the password before the verify call, so a failed
+                # API request still leaves something for the Action to retry with.
+                _write_pending_record(channel, JCNODE_VERIFY_URL, password)
                 links = fetch_jcnode_subscription(password)
                 if links:
                     print_subscription_links(links)
                     clash_url = extract_clash_url(channel, links)
             elif channel == "QFZYFX" and not args.no_fetch:
+                # fetch_qfzyfx_subscription writes the stage 1 record itself.
                 if not description:
                     description = get_video_description(video_url, COOKIES_FILE)
                 content = fetch_qfzyfx_subscription(description, password)
@@ -1110,18 +1372,21 @@ def main():
                 print(f"clash_url={clash_url}")
                 yaml_content = convert_clash_url(clash_url)
                 if yaml_content:
-                    git_checkout_file(txt_file)
+                    for path in dict.fromkeys([txt_file, pending_file]):
+                        git_checkout_file(path)
                     save_name = channel or "clash"
                     save_clash_yaml(yaml_content, save_name)
                     git_commit_and_push(f"{save_name}.yaml")
                 else:
+                    # Stage 2: keep the Clash URL itself, so the Action only has to
+                    # download and convert it instead of resolving the links again.
                     if channel != "QFZYFX":
                         txt_file.write_text(clash_url, encoding="utf-8")
                         print(f"[SAVE] Clash URL saved to {txt_file}")
-                    git_commit_and_push(txt_file)
+                    _record_pending_clash_url(channel, clash_url)
+                    _commit_paths(pending_file, txt_file)
             else:
-                if txt_file.exists():
-                    git_commit_and_push(txt_file)
+                _commit_paths(pending_file, txt_file)
         else:
             print("password=")
             sys.exit(1)
