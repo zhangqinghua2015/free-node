@@ -6185,4 +6185,4 @@ rules:
 - DOMAIN-SUFFIX,openai.com,🌍 国外媒体
 - GEOIP,CN,🎯 全球直连
 - MATCH,🐟 漏网之鱼
-# updated: 2026-10-19 06:01:28
+# updated: 2026-10-19 06:03:54
